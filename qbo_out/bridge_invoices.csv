@@ -1,0 +1,1 @@
+customer,invoice_id,invoice_number,invoice_date,ship_date,ship_via,item,item_original,qty,uom,unit_price,line_amount,invoice_total,invoice_balance,pdf_path
