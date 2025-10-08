@@ -1,5 +1,5 @@
-limit_req_zone $binary_remote_addr zone=cb:5m rate=10r/m;
-limit_req_zone $binary_remote_addr zone=peek:5m rate=60r/m;
+limit_req_zone $binary_remote_addr zone=cb:5m   rate=10r/s;  
+limit_req_zone $binary_remote_addr zone=peek:5m rate=2r/s;   
 map $http_x_forwarded_proto $origin_proto { default https; }
 
 server {
