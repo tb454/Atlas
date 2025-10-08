@@ -1,0 +1,27 @@
+# 1) Create/append ignore rules
+@'
+# --- secrets & env files ---
+.env
+.env.*
+*.env
+.env.local
+.env.production
+.env.development
+.env.test
+# keys/certs just in case
+*.pem
+*.key
+*.pfx
+'@ | Add-Content .gitignore
+
+@'
+# Ensure env/secrets never go to the image build context
+.env
+.env.*
+*.env
+'@ | Add-Content .dockerignore
+
+# 2) If .env was ever added, untrack it (keeps the file on disk)
+#git rm --cached .env 2>$null
+#git commit -m "chore: ignore .env and secrets" 2>$null
+#git push 2>$null

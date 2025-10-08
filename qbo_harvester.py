@@ -38,10 +38,18 @@ UNMAPPED_LOG     = OUT_DIR / "unmapped_materials.csv"
 # ===== QuickBooks OAuth/API (.env) =====
 CLIENT_ID     = os.getenv("QBO_CLIENT_ID")
 CLIENT_SECRET = os.getenv("QBO_CLIENT_SECRET")
-REDIRECT_URI  = os.getenv("QBO_REDIRECT_URI", "http://localhost:5055/callback")
+REDIRECT_URI  = os.getenv("QBO_REDIRECT_URI")
+if not REDIRECT_URI:
+    raise SystemExit("Missing QBO_REDIRECT_URI in .env")
 SCOPES        = "com.intuit.quickbooks.accounting"
 AUTH_URL      = "https://appcenter.intuit.com/connect/oauth2"
 TOKEN_URL     = "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer"
+
+# --- Relay (prod) ---
+RELAY_BASE = os.getenv("QBO_RELAY_BASE")          
+RELAY_AUTH = os.getenv("QBO_RELAY_AUTH")          
+RELAY_PEEK = f"{RELAY_BASE}/admin/qbo/peek" if RELAY_BASE else None
+
 # choose host by env (sandbox vs prod)
 QBO_ENV = (os.getenv("QBO_ENV") or "production").lower()
 if QBO_ENV.startswith("sand"):
@@ -214,6 +222,57 @@ def oauth_flow():
     TOK_PATH.write_text(json.dumps(tokens, indent=2))
     return tokens
 
+def oauth_flow_via_relay():
+    """
+    Production OAuth using the hosted relay:
+      1) open Intuit auth to REDIRECT_URI at your relay (/qbo/callback)
+      2) poll RELAY_PEEK?state=... with X-Relay-Auth
+      3) exchange code->tokens locally; save to qbo_out/qbo_tokens.json
+    """
+    if not (RELAY_BASE and RELAY_AUTH and REDIRECT_URI and REDIRECT_URI.startswith("https://")):
+        raise SystemExit("Relay not configured: set QBO_RELAY_BASE, QBO_RELAY_AUTH, and a https REDIRECT_URI")
+
+    global EXPECTED_STATE
+    EXPECTED_STATE = secrets.token_urlsafe(32)
+
+    params = {
+        "client_id": CLIENT_ID,
+        "scope": SCOPES,
+        "redirect_uri": REDIRECT_URI,
+        "response_type": "code",
+        "state": EXPECTED_STATE,
+    }
+    auth_url = f"{AUTH_URL}?{urlencode(params)}"
+    print("Open this in a browser if it doesn't launch automatically:\n", auth_url)
+    webbrowser.open_new_tab(auth_url)
+
+    # Poll the relay for code/realmId (small backoff)
+    for _ in range(120):  # ~2 minutes
+        try:
+            r = requests.get(RELAY_PEEK, params={"state": EXPECTED_STATE},
+                             headers={"X-Relay-Auth": RELAY_AUTH}, timeout=6)
+            if r.status_code == 200:
+                payload = r.json()
+                code     = payload["code"]
+                realm_id = payload["realmId"]
+                data = {"grant_type": "authorization_code", "code": code, "redirect_uri": REDIRECT_URI}
+                tr = requests.post(TOKEN_URL, headers=_basic_auth_header(), data=data, timeout=30)
+                tr.raise_for_status()
+                tokens = tr.json()
+                tokens["realmId"] = realm_id
+                TOK_PATH.write_text(json.dumps(tokens, indent=2))
+                return tokens
+        except Exception:
+            pass
+        _t = 0.5
+        try:
+            import time as _time
+            _time.sleep(_t)
+        except Exception:
+            pass
+
+    raise SystemExit("OAuth timed out waiting for relay; re-run and approve quickly.")
+
 def _refresh_tokens(toks):
     data = {"grant_type":"refresh_token", "refresh_token": toks["refresh_token"]}
     r = requests.post(TOKEN_URL, headers=_basic_auth_header(), data=data, timeout=30)
@@ -230,6 +289,9 @@ def get_tokens():
         except Exception:
             pass
     print("No valid token file found. Starting OAuth flow...")
+    # Use relay if configured (prod), else local callback server (sandbox/dev)
+    if RELAY_BASE and RELAY_AUTH and REDIRECT_URI.startswith("https://"):
+        return oauth_flow_via_relay()
     return oauth_flow()
 
 # ===== QBO query & PDF =====
@@ -241,13 +303,18 @@ def pdf_headers(access_token):
 
 def qbo_query(toks, query):
     url = f"{API_BASE}/{toks['realmId']}/query"
-    r = requests.get(url, headers=api_headers(toks["access_token"]),
-                     params={"query": query, "minorversion": "73"})
+    params = {"query": query, "minorversion": "73"}
+    r = requests.get(url, headers=api_headers(toks["access_token"]), params=params)
     if r.status_code == 401:
         toks = _refresh_tokens(toks)
-        r = requests.get(url, headers=api_headers(toks["access_token"]),
-                         params={"query": query, "minorversion":"73"})
-    r.raise_for_status()
+        r = requests.get(url, headers=api_headers(toks["access_token"]), params=params)
+
+    if r.status_code >= 400:
+        tid = r.headers.get("intuit_tid")
+        msg = r.text[:2000]
+        print(f"[QBO ERROR] {r.status_code} tid={tid} body={msg}")
+        r.raise_for_status()
+
     return r.json(), toks
 
 def get_invoices_for_customer(toks, cust_id, start_date, end_date):
@@ -267,14 +334,39 @@ def get_invoices_for_customer(toks, cust_id, start_date, end_date):
     return all_invs, toks
 
 def download_invoice_pdf(toks, invoice_id, out_path: pathlib.Path):
+    """
+    Downloads a QBO invoice PDF with 401 refresh retry and robust error logging.
+    Writes to `out_path` atomically.
+    """
     url = f"{API_BASE}/{toks['realmId']}/invoice/{invoice_id}/pdf"
-    r = requests.get(url, headers=pdf_headers(toks["access_token"]), stream=True)
+
+    def _do_get(toks_):
+        return requests.get(
+            url,
+            headers=pdf_headers(toks_["access_token"]),
+            stream=True,
+            timeout=30,
+        )
+
+    r = _do_get(toks)
     if r.status_code == 401:
         toks = _refresh_tokens(toks)
-        r = requests.get(url, headers=pdf_headers(toks["access_token"]), stream=True)
-    r.raise_for_status()
-    with open(out_path, "wb") as f:
-        for chunk in r.iter_content(8192): f.write(chunk)
+        r = _do_get(toks)
+
+    if r.status_code >= 400:
+        tid = r.headers.get("intuit_tid")
+        # Print a short, support-friendly line; then raise
+        print(f"[QBO PDF ERROR] {r.status_code} tid={tid} invoice_id={invoice_id} body={r.text[:500]}")
+        r.raise_for_status()
+
+    # Success: stream to a temp file then move into place
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = out_path.with_suffix(out_path.suffix + ".part")
+    with open(tmp_path, "wb") as f:
+        for chunk in r.iter_content(chunk_size=8192):
+            if chunk:
+                f.write(chunk)
+    tmp_path.replace(out_path)
     return toks
 
 # ===== BRidge client =====
