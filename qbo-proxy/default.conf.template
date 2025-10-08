@@ -1,34 +1,35 @@
-map $http_x_forwarded_proto $origin_proto { default https; }
-
 limit_req_zone $binary_remote_addr zone=cb:5m rate=10r/m;
 limit_req_zone $binary_remote_addr zone=peek:5m rate=60r/m;
+map $http_x_forwarded_proto $origin_proto { default https; }
 
 server {
   listen 80;
   server_name _;
 
-  # PUBLIC: Intuit lands here (code+state)
+  proxy_http_version 1.1;
+  proxy_buffering off;
+  proxy_connect_timeout 5s;
+  proxy_send_timeout 15s;
+  proxy_read_timeout 15s;
+
   location /qbo/callback {
     limit_req zone=cb burst=10 nodelay;
     proxy_pass https://bridge.scrapfutures.com;
     proxy_set_header Host bridge.scrapfutures.com;
     proxy_set_header X-Forwarded-Proto $origin_proto;
     proxy_set_header X-Forwarded-For $remote_addr;
+    proxy_set_header X-Forwarded-Host $host;
   }
 
-  # PRIVATE: your harvester polls with secret header
   location /admin/qbo/peek {
     limit_req zone=peek burst=20 nodelay;
-
-    # optional extra lock:
-    # allow 12.34.56.78;  # your office/home IP
-    # deny all;
-
-    proxy_set_header X-Relay-Auth "$QBO_RELAY_AUTH";  # set via Fly secret
+    # allow 1.2.3.4; deny all;   # (optional extra IP lock)
+    proxy_set_header X-Relay-Auth "${QBO_RELAY_AUTH}";
     proxy_pass https://bridge.scrapfutures.com;
     proxy_set_header Host bridge.scrapfutures.com;
     proxy_set_header X-Forwarded-Proto $origin_proto;
     proxy_set_header X-Forwarded-For $remote_addr;
+    proxy_set_header X-Forwarded-Host $host;
   }
 
   location / { return 404; }
