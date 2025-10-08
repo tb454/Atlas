@@ -1,11 +1,11 @@
 FROM nginx:alpine
 
-# keep image up to date and remove default site
-RUN apk update && apk upgrade --no-cache \
+# install envsubst (from gettext) and remove default site
+RUN apk add --no-cache gettext \
   && rm -f /etc/nginx/conf.d/default.conf
 
-# add the nginx template (we'll render it at runtime)
+# copy the template; we'll render it on startup
 COPY default.conf.template /etc/nginx/templates/default.conf.template
 
-# render the template with env vars, then start nginx in foreground
+# render template with env vars -> live config, then start nginx
 CMD ["/bin/sh", "-c", "envsubst < /etc/nginx/templates/default.conf.template > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'"]
