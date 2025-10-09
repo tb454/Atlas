@@ -1,6 +1,8 @@
-limit_req_zone $binary_remote_addr zone=cb:5m   rate=10r/s;  
-limit_req_zone $binary_remote_addr zone=peek:5m rate=2r/s;   
-map $http_x_forwarded_proto $origin_proto { default https; }
+#default.conf.template
+limit_req_zone $$binary_remote_addr zone=cb:5m   rate=10r/s;
+limit_req_zone $$binary_remote_addr zone=peek:5m rate=2r/s;
+
+map $$http_x_forwarded_proto $$origin_proto { default https; }
 
 server {
   listen 80;
@@ -16,20 +18,23 @@ server {
     limit_req zone=cb burst=10 nodelay;
     proxy_pass https://bridge.scrapfutures.com;
     proxy_set_header Host bridge.scrapfutures.com;
-    proxy_set_header X-Forwarded-Proto $origin_proto;
-    proxy_set_header X-Forwarded-For $remote_addr;
-    proxy_set_header X-Forwarded-Host $host;
+    proxy_set_header X-Forwarded-Proto $$origin_proto;
+    proxy_set_header X-Forwarded-For $$remote_addr;
+    proxy_set_header X-Forwarded-Host $$host;
   }
 
   location /admin/qbo/peek {
     limit_req zone=peek burst=20 nodelay;
-    # allow 1.2.3.4; deny all;   # (optional extra IP lock)
+    # allow 1.2.3.4; deny all;   # optional IP lock
+
+    # this one stays for substitution:
     proxy_set_header X-Relay-Auth "${QBO_RELAY_AUTH}";
+
     proxy_pass https://bridge.scrapfutures.com;
     proxy_set_header Host bridge.scrapfutures.com;
-    proxy_set_header X-Forwarded-Proto $origin_proto;
-    proxy_set_header X-Forwarded-For $remote_addr;
-    proxy_set_header X-Forwarded-Host $host;
+    proxy_set_header X-Forwarded-Proto $$origin_proto;
+    proxy_set_header X-Forwarded-For $$remote_addr;
+    proxy_set_header X-Forwarded-Host $$host;
   }
 
   location / { return 404; }
