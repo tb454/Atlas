@@ -23,9 +23,6 @@ server {
 
   location /admin/qbo/peek {
     limit_req zone=peek burst=20 nodelay;
-    # allow 1.2.3.4; deny all;   # (optional IP lock)
-
-    # <<< replace this token at runtime >>>
     proxy_set_header X-Relay-Auth "__RELAY_AUTH__";
 
     proxy_pass https://bridge.scrapfutures.com;
