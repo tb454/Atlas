@@ -1,5 +1,8 @@
 FROM nginx:alpine
 
+# Update all packages to their latest versions to reduce vulnerabilities
+RUN apk update && apk upgrade
+
 # install envsubst (from gettext) and remove default site
 RUN apk add --no-cache gettext \
   && rm -f /etc/nginx/conf.d/default.conf
