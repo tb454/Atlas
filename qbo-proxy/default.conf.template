@@ -29,8 +29,8 @@ server {
     proxy_ssl_name bridge.scrapfutures.com;
 
     proxy_set_header X-Forwarded-Proto $origin_proto;
-    proxy_set_header X-Forwarded-For $remote_addr;
-    proxy_set_header X-Forwarded-Host $host;
+    proxy_set_header X-Forwarded-For   $remote_addr;
+    proxy_set_header X-Forwarded-Host  $host;
   }
 
   # ---------------------------------
@@ -50,8 +50,8 @@ server {
     proxy_ssl_name bridge.scrapfutures.com;
 
     proxy_set_header X-Forwarded-Proto $origin_proto;
-    proxy_set_header X-Forwarded-For $remote_addr;
-    proxy_set_header X-Forwarded-Host $host;
+    proxy_set_header X-Forwarded-For   $remote_addr;
+    proxy_set_header X-Forwarded-Host  $host;
   }
 
   # closed by default
