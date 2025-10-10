@@ -1,3 +1,4 @@
+# default.conf.template
 limit_req_zone $binary_remote_addr zone=cb:5m   rate=10r/s;
 limit_req_zone $binary_remote_addr zone=peek:5m rate=2r/s;
 map $http_x_forwarded_proto $origin_proto { default https; }
@@ -6,31 +7,53 @@ server {
   listen 80;
   server_name _;
 
+  # sensible proxy defaults
   proxy_http_version 1.1;
   proxy_buffering off;
-  proxy_connect_timeout 5s;
-  proxy_send_timeout 15s;
-  proxy_read_timeout 15s;
+  proxy_connect_timeout 10s;
+  proxy_send_timeout 30s;
+  proxy_read_timeout 30s;
+  proxy_next_upstream error timeout http_502 http_504;
 
+  # ----------------------
+  # QBO OAuth callback →
+  # ----------------------
   location /qbo/callback {
     limit_req zone=cb burst=10 nodelay;
+
     proxy_pass https://bridge.scrapfutures.com;
     proxy_set_header Host bridge.scrapfutures.com;
+
+    # SNI for TLS upstream
+    proxy_ssl_server_name on;
+    proxy_ssl_name bridge.scrapfutures.com;
+
     proxy_set_header X-Forwarded-Proto $origin_proto;
     proxy_set_header X-Forwarded-For $remote_addr;
     proxy_set_header X-Forwarded-Host $host;
   }
 
+  # ---------------------------------
+  # Harvester relay peek (private) →
+  # ---------------------------------
   location /admin/qbo/peek {
     limit_req zone=peek burst=20 nodelay;
+
+    # injected by Dockerfile (sed), do NOT change the token here
     proxy_set_header X-Relay-Auth "__RELAY_AUTH__";
 
     proxy_pass https://bridge.scrapfutures.com;
     proxy_set_header Host bridge.scrapfutures.com;
+
+    # SNI for TLS upstream
+    proxy_ssl_server_name on;
+    proxy_ssl_name bridge.scrapfutures.com;
+
     proxy_set_header X-Forwarded-Proto $origin_proto;
     proxy_set_header X-Forwarded-For $remote_addr;
     proxy_set_header X-Forwarded-Host $host;
   }
 
+  # closed by default
   location / { return 404; }
 }
