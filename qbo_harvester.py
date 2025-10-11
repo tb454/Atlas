@@ -298,18 +298,6 @@ def _refresh_tokens(toks):
     TOK_PATH.write_text(json.dumps(new_tokens, indent=2))
     return new_tokens
 
-def get_tokens():
-    if TOK_PATH.exists():
-        try:
-            return json.loads(TOK_PATH.read_text())
-        except Exception:
-            pass
-    print("No valid token file found. Starting OAuth flow...")
-    # Use relay if configured (prod), else local callback server (sandbox/dev)
-    if RELAY_BASE and RELAY_AUTH and REDIRECT_URI.startswith("https://"):
-        return oauth_flow_via_relay()
-    return oauth_flow()
-
 # ===== QBO query & PDF =====
 def api_headers(access_token):
     return {"Authorization": f"Bearer {access_token}", "Accept": "application/json"}
