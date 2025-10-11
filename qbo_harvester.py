@@ -60,11 +60,27 @@ else:
 print("QBO_ENV =", QBO_ENV, "| API_BASE =", API_BASE)
 
 # ===== BRidge config =====
-BRIDGE_BASE   = os.getenv("BRIDGE_BASE", "http://127.0.0.1:8000")
-BRIDGE_USER   = os.getenv("BRIDGE_USER")   # leave blank if /contracts is public
-BRIDGE_PASS   = os.getenv("BRIDGE_PASS")
-BRIDGE_SELLER = os.getenv("BRIDGE_SELLER", "Winski Brothers")
-POST_TO_BRIDGE = True
+BRIDGE_BUYER_BASE  = os.getenv("BRIDGE_BUYER_BASE", "https://bridge-buyer.onrender.com")
+BRIDGE_SELLER_BASE = os.getenv("BRIDGE_SELLER_BASE", "https://scrapfutures.com")
+BRIDGE_POST_TARGET = os.getenv("BRIDGE_POST_TARGET", "seller").lower()
+BRIDGE_USER        = os.getenv("BRIDGE_USER")
+BRIDGE_PASS        = os.getenv("BRIDGE_PASS")
+BRIDGE_SELLER      = os.getenv("BRIDGE_SELLER", "Winski Brothers")
+POST_TO_BRIDGE     = os.getenv("POST_TO_BRIDGE", "true").lower() in ("1","true","yes")
+
+ENV = os.getenv("ENV", "production").lower()
+HARVESTER_DISABLED = os.getenv("HARVESTER_DISABLED", "0") == "1"
+
+def _bridge_base_for_doc(doc_type: str | None = None):
+    if BRIDGE_POST_TARGET == "buyer":
+        return BRIDGE_BUYER_BASE
+    if BRIDGE_POST_TARGET == "seller":
+        return BRIDGE_SELLER_BASE
+    # fallback: auto-route based on document type
+    if doc_type and doc_type.lower() in {"invoice", "payment", "bill"}:
+        return BRIDGE_SELLER_BASE
+    return BRIDGE_BUYER_BASE
+# ----- Bridge config -----
 
 # ===== Material normalization =====
 BASE_MATERIAL_MAP = {
@@ -421,10 +437,13 @@ def post_contract_to_bridge(session: requests.Session, row: dict, seller_name: s
     if os.getenv("BRIDGE_IMPORT_MODE", "historical").lower() == "historical":
         headers["X-Import-Mode"] = "historical"
 
-    r = session.post(f"{BRIDGE_BASE}/contracts", json=payload, timeout=25, headers=headers)
-    if r.status_code not in (200, 201):
-        print(f"[bridge] POST /contracts failed [{r.status_code}] {r.text[:200]}")
-    return r
+        if ENV in {"ci", "test"} or HARVESTER_DISABLED:
+            print("[bridge] Skipped (CI/test mode)")
+            return {"ok": True, "stub": True}
+
+        base = _bridge_base_for_doc("invoice")
+        url  = f"{base.rstrip('/')}/contracts"
+        r = session.post(url, json=payload, timeout=25, headers=headers)
 
 # --- Dump all customers for visibility -------------------------------------------------
 def dump_customers_csv(toks, out_path="qbo_out/customers.csv"):
