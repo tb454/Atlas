@@ -46,8 +46,8 @@ AUTH_URL      = "https://appcenter.intuit.com/connect/oauth2"
 TOKEN_URL     = "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer"
 
 # --- Relay (prod) ---
-RELAY_BASE = os.getenv("QBO_RELAY_BASE")          
-RELAY_AUTH = os.getenv("QBO_RELAY_AUTH")          
+RELAY_BASE = os.getenv("QBO_RELAY_BASE")
+RELAY_AUTH = os.getenv("QBO_RELAY_AUTH")
 RELAY_PEEK = f"{RELAY_BASE}/admin/qbo/peek" if RELAY_BASE else None
 
 # choose host by env (sandbox vs prod)
@@ -426,7 +426,7 @@ def post_contract_to_bridge(session: requests.Session, row: dict, seller_name: s
     if os.getenv("BRIDGE_IMPORT_MODE", "historical").lower() == "historical":
         headers["X-Import-Mode"] = "historical"
 
-      # Back-date created_at for historical imports using the QBO invoice date
+        # Back-date created_at for historical imports using the QBO invoice date
         inv_date = row.get("invoice_date")
         if headers.get("X-Import-Mode") == "historical" and inv_date:
             if isinstance(inv_date, str):
@@ -548,14 +548,19 @@ def get_tokens():
 def main():
     toks = get_tokens()
 
-    # NEW: dump all customers (helps pick exact names later)
+    # Dump all customers (helps pick exact names later)
     toks = dump_customers_csv(toks)
 
     rows = []
     sess = requests.Session()
-    # If you truly don’t want to post to BRidge, make sure POST_TO_BRIDGE=False up top.
+    try:
+        bridge_login(sess)
+    except Exception as e:
+        print(f"[bridge] login skipped/failed: {e}")
 
     matched_any = False
+
+    # ---- Per-customer loop (unchanged) ----
     for name in CUSTOMER_NAMES:
         cust_id, toks = get_customer_id_by_name(toks, name)
         if not cust_id:
@@ -580,62 +585,63 @@ def main():
             if not pdf_path.exists():
                 toks = download_invoice_pdf(toks, inv_id, pdf_path)
 
-    for idx, L in enumerate(inv.get("Line", [])):
-        if L.get("DetailType") != "SalesItemLineDetail":
-            continue
-        d = L.get("SalesItemLineDetail", {})
+            for idx, L in enumerate(inv.get("Line", [])):
+                if L.get("DetailType") != "SalesItemLineDetail":
+                    continue
+                d = L.get("SalesItemLineDetail", {})
 
-        # Pull both the Item name ("Ferrous Sale") and the line Description ("Shred")
-        item_name   = (d.get("ItemRef") or {}).get("name")
-        line_desc   = L.get("Description")  # <-- often the true material text
-        svc_date    = d.get("ServiceDate")  # optional; fallback to invoice date later
-        qty         = d.get("Qty")
-        unitprice   = d.get("UnitPrice")
-        amount      = L.get("Amount")
-        uom         = d.get("UnitOfMeasure")
+                item_name   = (d.get("ItemRef") or {}).get("name")
+                line_desc   = L.get("Description")  # <-- often the true material text
+                svc_date    = d.get("ServiceDate")  # optional; fallback to invoice date later
+                qty         = d.get("Qty")
+                unitprice   = d.get("UnitPrice")
+                amount      = L.get("Amount")
+                uom         = d.get("UnitOfMeasure")
+                # Prefer Description for material normalization; fallback to Item name
+                source_for_material = line_desc or item_name or ""
+                material_canon = normalize_material(
+                    source_for_material,
+                    customer_name=(inv.get("CustomerRef") or {}).get("name")
+                )
 
-        # Prefer Description for material normalization; fallback to Item name
-        source_for_material = line_desc or item_name or ""
-        material_canon = normalize_material(
-            source_for_material,
-            customer_name=(inv.get("CustomerRef") or {}).get("name")
-        )
+                row = {
+                    "customer": (inv.get("CustomerRef") or {}).get("name") or name if 'name' in locals() else (inv.get("CustomerRef") or {}).get("name"),
+                    "invoice_id": inv_id,
+                    "invoice_number": doc_no,
+                    "invoice_date": inv_date,
+                    "service_date": svc_date or inv_date,            # Not always present
+                    "product_service": item_name,                    # QBO item
+                    "description": line_desc,                        # “Shred” text
+                    "ship_date": ship_dt,
+                    "ship_via": ship_m,
+                    "item": material_canon,
+                    "item_original": item_name,
+                    "qty": qty,
+                    "uom": uom,
+                    "unit_price": unitprice,                         # aka Rate
+                    "line_amount": amount,                           # Amount
+                    "invoice_total": total,
+                    "invoice_balance": balance,
+                    "pdf_path": str(pdf_path),
+                    "_line_index": idx,
+                }
+                rows.append(row)
 
-        row = {
-            "customer": (inv.get("CustomerRef") or {}).get("name") or name if 'name' in locals() else (inv.get("CustomerRef") or {}).get("name"),
-            "invoice_id": inv_id,
-            "invoice_number": doc_no,
-            "invoice_date": inv_date,
-            "service_date": svc_date or inv_date,            # Not always present   
-            "product_service": item_name,                    # QBO item
-            "description": line_desc,                        # “Shred” text
-            "ship_date": ship_dt,
-            "ship_via": ship_m,
-            "item": material_canon,
-            "item_original": item_name,
-            "qty": qty,
-            "uom": uom,
-            "unit_price": unitprice,                         # aka Rate
-            "line_amount": amount,                           # Amount
-            "invoice_total": total,
-            "invoice_balance": balance,
-            "pdf_path": str(pdf_path),
-            "_line_index": idx,
-        }
-        rows.append(row)
+                if POST_TO_BRIDGE:
+                    try:
+                        post_contract_to_bridge(sess, row, seller_name=BRIDGE_SELLER)
+                    except Exception as e:
+                        print(f"[bridge] post error: {e}")
 
-        if POST_TO_BRIDGE:
-            try:
-                post_contract_to_bridge(sess, row, seller_name=BRIDGE_SELLER)
-            except Exception as e:
-                print(f"[bridge] post error: {e}")
-
-    # Fallback: no customer matched → pull everything to prove pipeline
+    # ---- Fallback: now correctly OUTSIDE the per-customer loop ----
     if not matched_any:
         print("[fallback] No CUSTOMER_NAMES matched. Pulling ALL invoices in date window…")
         invs, toks = get_invoices_all(toks, START.isoformat(), END.isoformat())
         print(f"[ALL CUSTOMERS] {len(invs)} invoices")
-        cdir = PDFS_DIR / "_ALL"; cdir.mkdir(parents=True, exist_ok=True)
+
+        cdir = PDFS_DIR / "_ALL"
+        cdir.mkdir(parents=True, exist_ok=True)
+
         for inv in invs:
             inv_id   = inv["Id"]
             doc_no   = inv.get("DocNumber")
@@ -650,66 +656,72 @@ def main():
             if not pdf_path.exists():
                 toks = download_invoice_pdf(toks, inv_id, pdf_path)
 
-    for idx, L in enumerate(inv.get("Line", [])):
-        if L.get("DetailType") != "SalesItemLineDetail":
-            continue
-        d = L.get("SalesItemLineDetail", {})
+            # line items for this invoice (fallback path)
+            for idx, L in enumerate(inv.get("Line", [])):
+                if L.get("DetailType") != "SalesItemLineDetail":
+                    continue
+                d = L.get("SalesItemLineDetail", {})
 
-        # Pull both the Item name ("Ferrous Sale") and the line Description ("Shred")
-        item_name   = (d.get("ItemRef") or {}).get("name")
-        line_desc   = L.get("Description")  # <-- often the true material text
-        svc_date    = d.get("ServiceDate")  # optional; fallback to invoice date later
-        qty         = d.get("Qty")
-        unitprice   = d.get("UnitPrice")
-        amount      = L.get("Amount")
-        uom         = d.get("UnitOfMeasure")
+                item_name = (d.get("ItemRef") or {}).get("name")
+                line_desc = L.get("Description")
+                svc_date  = d.get("ServiceDate")
+                qty       = d.get("Qty")
+                unitprice = d.get("UnitPrice")
+                amount    = L.get("Amount")
+                uom       = d.get("UnitOfMeasure")
 
-        # Prefer Description for material normalization; fallback to Item name
-        source_for_material = line_desc or item_name or ""
-        material_canon = normalize_material(
-            source_for_material,
-            customer_name=(inv.get("CustomerRef") or {}).get("name")
-        )
+                source_for_material = line_desc or item_name or ""
+                material_canon = normalize_material(
+                    source_for_material,
+                    customer_name=custname
+                )
 
-        row = {
-            "customer": (inv.get("CustomerRef") or {}).get("name") or name if 'name' in locals() else (inv.get("CustomerRef") or {}).get("name"),
-            "invoice_id": inv_id,
-            "invoice_number": doc_no,
-            "invoice_date": inv_date,
-            "service_date": svc_date or inv_date,            # Not always present
-            "product_service": item_name,                    # QBO item
-            "description": line_desc,                        # “Shred” text
-            "ship_date": ship_dt,
-            "ship_via": ship_m,
-            "item": material_canon,
-            "item_original": item_name,
-            "qty": qty,
-            "uom": uom,
-            "unit_price": unitprice,                         # aka Rate
-            "line_amount": amount,                           # Amount
-            "invoice_total": total,
-            "invoice_balance": balance,
-            "pdf_path": str(pdf_path),
-            "_line_index": idx,
-        }
-        rows.append(row)
+                row = {
+                    "customer": custname,
+                    "invoice_id": inv_id,
+                    "invoice_number": doc_no,
+                    "invoice_date": inv_date,
+                    "service_date": svc_date or inv_date,
+                    "product_service": item_name,
+                    "description": line_desc,
+                    "ship_date": ship_dt,
+                    "ship_via": ship_m,
+                    "item": material_canon,
+                    "item_original": item_name,
+                    "qty": qty,
+                    "uom": uom,
+                    "unit_price": unitprice,
+                    "line_amount": amount,
+                    "invoice_total": total,
+                    "invoice_balance": balance,
+                    "pdf_path": str(pdf_path),
+                    "_line_index": idx,
+                }
+                rows.append(row)
 
-        if POST_TO_BRIDGE:
-            try:
-                post_contract_to_bridge(sess, row, seller_name=BRIDGE_SELLER)
-            except Exception as e:
-                print(f"[bridge] post error: {e}")
+                if POST_TO_BRIDGE:
+                    try:
+                        post_contract_to_bridge(sess, row, seller_name=BRIDGE_SELLER)
+                    except Exception as e:
+                        print(f"[bridge] post error: {e}")
 
+    # ---- Final CSV write (base indent of main) ----
     headers = [
-    "customer","invoice_id","invoice_number","invoice_date","service_date",   
-    "product_service","description",                                          
-    "ship_date","ship_via",
-    "item","item_original","qty","uom","unit_price","line_amount","invoice_total",
-    "invoice_balance","pdf_path"
-]
+        "customer","invoice_id","invoice_number","invoice_date","service_date",
+        "product_service","description",
+        "ship_date","ship_via",
+        "item","item_original","qty","uom","unit_price","line_amount","invoice_total",
+        "invoice_balance","pdf_path"
+    ]
+
+    # Drop internal field before writing
+    for r in rows:
+        r.pop("_line_index", None)
+
     with open(CSV_PATH, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=headers)
-        w.writeheader(); w.writerows(rows)
+        w.writeheader()
+        w.writerows(rows)
 
     print(f"Done → {CSV_PATH}  | PDFs under {PDFS_DIR}")
 
