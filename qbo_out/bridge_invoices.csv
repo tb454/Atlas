@@ -1,1 +1,361 @@
 customer,invoice_id,invoice_number,invoice_date,service_date,product_service,description,ship_date,ship_via,item,item_original,qty,uom,unit_price,line_amount,invoice_total,invoice_balance,pdf_path
+Mervis,47,1003,2021-08-28,2021-08-28,FE:5ft P&S,,,,P&S,FE:5ft P&S,39120,,0.1919642,7509.64,12482.14,0,qbo_out\qbo_pdfs\Mervis\INV-47.pdf
+Mervis,47,1003,2021-08-28,2021-08-28,FE:Clips,BALING CLIPS/#1 BUNDLES,,,Clips,FE:Clips,21840,,0.2276785,4972.5,12482.14,0,qbo_out\qbo_pdfs\Mervis\INV-47.pdf
+Mervis,178,1010,2021-09-01,2021-09-01,FE:Heavy Melt,,,,HMS,FE:Heavy Melt,42640,,0.1785714,7614.28,7614.28,0,qbo_out\qbo_pdfs\Mervis\INV-178.pdf
+Mervis,227,1015,2021-09-03,2021-09-03,FE:Heavy Melt,,,,HMS,FE:Heavy Melt,43480,,0.1674105,7279.01,7279.01,0,qbo_out\qbo_pdfs\Mervis\INV-227.pdf
+Mervis,228,1016,2021-09-21,2021-09-21,FE:Clips,BALING CLIPS/#1 BUNDLES,,,Clips,FE:Clips,24820,,0.2053571,5096.96,5096.96,0,qbo_out\qbo_pdfs\Mervis\INV-228.pdf
+Mervis,245,1019,2021-09-29,2021-09-29,FE:Heavy Melt,,,,HMS,FE:Heavy Melt,37460,,0.1674107,6271.2,6271.2,0,qbo_out\qbo_pdfs\Mervis\INV-245.pdf
+Mervis,244,1018,2021-09-29,2021-09-29,FE:5ft P&S,,,,P&S,FE:5ft P&S,36240,,0.1808038,6552.33,6552.33,0,qbo_out\qbo_pdfs\Mervis\INV-244.pdf
+Mervis,252,1020,2021-10-01,2021-10-01,FE:Clips,BALING CLIPS/#1 BUNDLES,,,Clips,FE:Clips,37040,,0.2053569,7606.42,7606.42,0,qbo_out\qbo_pdfs\Mervis\INV-252.pdf
+Mervis,373,1024,2021-10-27,2021-10-27,FE:Heavy Melt,,,,HMS,FE:Heavy Melt,40280,,0.1673275,6739.95,6739.95,0,qbo_out\qbo_pdfs\Mervis\INV-373.pdf
+Mervis,399,1027,2021-11-15,2021-11-15,FE:Clips,BALING CLIPS/#1 BUNDLES,,,Clips,FE:Clips,36800,,0.2053571,7557.14,7557.14,0,qbo_out\qbo_pdfs\Mervis\INV-399.pdf
+Mervis,528,1060,2021-11-23,2021-11-23,FE:Heavy Melt,,,,HMS,FE:Heavy Melt,38600,,0.1897316,7323.64,7323.64,0,qbo_out\qbo_pdfs\Mervis\INV-528.pdf
+Mervis,747,1130,2021-12-23,2021-12-23,FE:Heavy Melt,,,,HMS,FE:Heavy Melt,38980,,0.1897324,7395.77,7395.77,0,qbo_out\qbo_pdfs\Mervis\INV-747.pdf
+Mervis,744,1127,2021-12-23,2021-12-23,FE:Heavy Melt,,,,HMS,FE:Heavy Melt,39520,,0.1897325,7498.23,7498.23,0,qbo_out\qbo_pdfs\Mervis\INV-744.pdf
+Mervis,982,1196,2022-02-01,2022-02-01,FE:Clips,Mixed Clips,,,Clips,FE:Clips,28370,,0.2078181,5895.8,5895.8,0,qbo_out\qbo_pdfs\Mervis\INV-982.pdf
+Mervis,1677,1248,2022-03-01,2022-03-01,FE:Clips,,,,Clips,FE:Clips,38300,,0.2544642,9745.98,9745.98,0,qbo_out\qbo_pdfs\Mervis\INV-1677.pdf
+Mervis,1746,1264,2022-03-11,2022-03-11,FE:Clips,,,,Clips,FE:Clips,26200,,0.2556298,6697.5,6697.5,0,qbo_out\qbo_pdfs\Mervis\INV-1746.pdf
+Mervis,1845,1301,2022-03-26,2022-03-25,FE:Clips,,,,Clips,FE:Clips,26840,,0.2544642,6829.82,6829.82,0,qbo_out\qbo_pdfs\Mervis\INV-1845.pdf
+Mervis,2114,1381,2022-04-25,2022-04-25,Ferrous Sale,steel clips,,,Clips,Ferrous Sale,32600,,0.2767856,9023.21,9023.21,0,qbo_out\qbo_pdfs\Mervis\INV-2114.pdf
+Mervis,2405,1479,2022-05-27,2022-05-27,Ferrous Sale,Steel Clips,,,Clips,Ferrous Sale,20000,,0.2433045,4866.09,4866.09,0,qbo_out\qbo_pdfs\Mervis\INV-2405.pdf
+Mervis,2449,1495,2022-06-01,2022-06-01,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,32480,,0.2098214,6815.0,6815.0,0,qbo_out\qbo_pdfs\Mervis\INV-2449.pdf
+Mervis,2589,1535,2022-06-21,2022-06-21,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,23860,,0.2098215,5006.34,5006.34,0,qbo_out\qbo_pdfs\Mervis\INV-2589.pdf
+Mervis,2735,1574,2022-07-11,2022-07-11,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,28460,,0.142857,4065.71,4065.71,0,qbo_out\qbo_pdfs\Mervis\INV-2735.pdf
+Mervis,2822,1610,2022-07-22,2022-07-22,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,32300,,0.1428567,4614.27,4614.27,0,qbo_out\qbo_pdfs\Mervis\INV-2822.pdf
+Mervis,2872,1629,2022-07-29,2022-07-29,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,23100,,0.1428571,3300.0,3300.0,0,qbo_out\qbo_pdfs\Mervis\INV-2872.pdf
+Mervis,3010,1675,2022-08-12,2022-08-12,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,25680,,0.1205358,3095.36,3095.36,0,qbo_out\qbo_pdfs\Mervis\INV-3010.pdf
+Mervis,3093,1700,2022-08-25,2022-08-25,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,27460,,0.1205357,3309.91,3309.91,0,qbo_out\qbo_pdfs\Mervis\INV-3093.pdf
+Mervis,3206,1736,2022-09-08,2022-09-08,Ferrous Sale,Mixed clips,,,Clips,Ferrous Sale,32020,,0.1160715,3716.61,3716.61,0,qbo_out\qbo_pdfs\Mervis\INV-3206.pdf
+Mervis,3252,1746,2022-09-15,2022-09-15,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,35040,,0.1160713,4067.14,4067.14,0,qbo_out\qbo_pdfs\Mervis\INV-3252.pdf
+Mervis,3288,1758,2022-09-19,2022-09-19,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,22280,,0.1160714,2586.07,2586.07,0,qbo_out\qbo_pdfs\Mervis\INV-3288.pdf
+Mervis,3408,1789,2022-09-29,2022-09-29,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,27440,,0.1160714,3185.0,3185.0,0,qbo_out\qbo_pdfs\Mervis\INV-3408.pdf
+Mervis,3499,1812,2022-10-07,2022-10-07,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,29060,,0.1071428,3113.57,3113.57,0,qbo_out\qbo_pdfs\Mervis\INV-3499.pdf
+Mervis,3543,1821,2022-10-13,2022-10-13,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,22880,,0.1071429,2451.43,2451.43,0,qbo_out\qbo_pdfs\Mervis\INV-3543.pdf
+Mervis,3670,1855,2022-10-28,2022-10-28,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,27860,,0.1071429,2985.0,2985.0,0,qbo_out\qbo_pdfs\Mervis\INV-3670.pdf
+Mervis,3714,1867,2022-11-04,2022-11-04,Ferrous Sale,Mixed clips,,,Clips,Ferrous Sale,29780,,0.0982142,2924.82,2924.82,0,qbo_out\qbo_pdfs\Mervis\INV-3714.pdf
+Mervis,3802,1893,2022-11-14,2022-11-14,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,26040,,0.0982143,2557.5,2557.5,0,qbo_out\qbo_pdfs\Mervis\INV-3802.pdf
+Mervis,3878,1910,2022-11-22,2022-11-22,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,27900,,0.0982143,2740.18,2740.18,0,qbo_out\qbo_pdfs\Mervis\INV-3878.pdf
+Mervis,4271,1979,2023-01-03,2023-01-03,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,30340,,0.1116071,3386.16,3386.16,0,qbo_out\qbo_pdfs\Mervis\INV-4271.pdf
+Mervis,4309,1992,2023-01-06,2023-01-06,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,30920,,0.1339288,4141.08,4141.08,0,qbo_out\qbo_pdfs\Mervis\INV-4309.pdf
+Mervis,4398,2004,2023-01-17,2023-01-17,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,34020,,0.1339286,4556.25,4556.25,0,qbo_out\qbo_pdfs\Mervis\INV-4398.pdf
+Mervis,4566,2057,2023-02-08,2023-02-08,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,30760,,0.1473215,4531.61,4531.61,0,qbo_out\qbo_pdfs\Mervis\INV-4566.pdf
+Mervis,4661,2082,2023-02-22,2023-02-22,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,25260,,0.1473215,3721.34,3721.34,0,qbo_out\qbo_pdfs\Mervis\INV-4661.pdf
+Mervis,4726,2111,2023-03-02,2023-03-02,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,25600,,0.1785715,4571.43,4571.43,0,qbo_out\qbo_pdfs\Mervis\INV-4726.pdf
+Mervis,4795,2131,2023-03-13,2023-03-13,Ferrous Sale,Clips,,,Clips,Ferrous Sale,28420,,0.1785714,5075.0,5075.0,0,qbo_out\qbo_pdfs\Mervis\INV-4795.pdf
+Mervis,4860,2155,2023-03-22,2023-03-22,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,30420,,0.1785713,5432.14,5432.14,0,qbo_out\qbo_pdfs\Mervis\INV-4860.pdf
+Mervis,4914,2168,2023-03-29,2023-03-29,Ferrous Sale,Clips,,,Clips,Ferrous Sale,31300,,0.1785712,5589.28,5589.28,0,qbo_out\qbo_pdfs\Mervis\INV-4914.pdf
+Mervis,4967,2190,2023-04-04,2023-04-04,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,24680,,0.1339287,3305.36,3305.36,0,qbo_out\qbo_pdfs\Mervis\INV-4967.pdf
+Mervis,4979,2195,2023-04-05,2023-04-05,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,19600,,0.1339286,2625.0,2625.0,0,qbo_out\qbo_pdfs\Mervis\INV-4979.pdf
+Mervis,5006,2200,2023-04-07,2023-04-07,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,23840,,0.1339287,3192.86,3192.86,0,qbo_out\qbo_pdfs\Mervis\INV-5006.pdf
+Mervis,5017,2207,2023-04-10,2023-04-10,Ferrous Sale,Clips,,,Clips,Ferrous Sale,26840,,0.1339285,3594.64,3594.64,0,qbo_out\qbo_pdfs\Mervis\INV-5017.pdf
+Mervis,5065,2220,2023-04-12,2023-04-12,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,20180,,0.1339286,2702.68,2702.68,0,qbo_out\qbo_pdfs\Mervis\INV-5065.pdf
+Mervis,5084,2230,2023-04-17,2023-04-17,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,27720,,0.1339286,3712.5,3712.5,0,qbo_out\qbo_pdfs\Mervis\INV-5084.pdf
+Mervis,5119,2244,2023-04-20,2023-04-20,Ferrous Sale,Clips,,,Clips,Ferrous Sale,26800,,0.1339287,3589.29,3589.29,0,qbo_out\qbo_pdfs\Mervis\INV-5119.pdf
+Mervis,5160,2250,2023-04-25,2023-04-25,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,22400,,0.1339286,3000.0,3000.0,0,qbo_out\qbo_pdfs\Mervis\INV-5160.pdf
+Mervis,5171,2257,2023-04-26,2023-04-26,Non-Ferrous Sale,#3 copper,,,#3 copper,Non-Ferrous Sale,358,,3.49,1249.42,4246.58,0,qbo_out\qbo_pdfs\Mervis\INV-5171.pdf
+Mervis,5171,2257,2023-04-26,2023-04-26,Non-Ferrous Sale,Truck rims,,,Truck rims,Non-Ferrous Sale,320,,0.62,198.4,4246.58,0,qbo_out\qbo_pdfs\Mervis\INV-5171.pdf
+Mervis,5171,2257,2023-04-26,2023-04-26,Non-Ferrous Sale,UBCs,,,UBCs,Non-Ferrous Sale,1707,,0.68,1160.76,4246.58,0,qbo_out\qbo_pdfs\Mervis\INV-5171.pdf
+Mervis,5171,2257,2023-04-26,2023-04-26,Non-Ferrous Sale,Pallets,,,Pallets,Non-Ferrous Sale,296,,5,1480.0,4246.58,0,qbo_out\qbo_pdfs\Mervis\INV-5171.pdf
+Mervis,5171,2257,2023-04-26,2023-04-26,Non-Ferrous Sale,B grade pallets,,,B grade pallets,Non-Ferrous Sale,79,,2,158.0,4246.58,0,qbo_out\qbo_pdfs\Mervis\INV-5171.pdf
+Mervis,5181,2264,2023-04-27,2023-04-27,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,33740,,0.1339286,4518.75,4518.75,0,qbo_out\qbo_pdfs\Mervis\INV-5181.pdf
+Mervis,5231,2278,2023-05-02,2023-05-02,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,30300,,0.1147323,3476.39,3476.39,0,qbo_out\qbo_pdfs\Mervis\INV-5231.pdf
+Mervis,5237,2282,2023-05-03,2023-05-03,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,24260,,0.1830359,4440.45,4440.45,0,qbo_out\qbo_pdfs\Mervis\INV-5237.pdf
+Mervis,5399,2328,2023-05-23,2023-05-23,Ferrous Sale,Clips - Ostler Farm,,,Clips,Ferrous Sale,4900,,0.1830367,896.88,896.88,0,qbo_out\qbo_pdfs\Mervis\INV-5399.pdf
+Mervis,5397,2327,2023-05-23,2023-05-23,Ferrous Sale,Clips,,,Clips,Ferrous Sale,36500,,0.039114,1427.66,1427.66,0,qbo_out\qbo_pdfs\Mervis\INV-5397.pdf
+Mervis,5442,2344,2023-05-30,2023-04-28,Ferrous Sale,Price correction for April,,,Price correction for April,Ferrous Sale,1,,13104.47,13104.47,13104.47,0,qbo_out\qbo_pdfs\Mervis\INV-5442.pdf
+Mervis,5525,2369,2023-06-06,2023-06-05,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,11680,,0.1629469,1903.22,1903.22,0,qbo_out\qbo_pdfs\Mervis\INV-5525.pdf
+Mervis,5540,2374,2023-06-07,2023-06-07,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,11260,,0.1629467,1834.78,1834.78,0,qbo_out\qbo_pdfs\Mervis\INV-5540.pdf
+Mervis,5538,2373,2023-06-07,2023-06-07,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,11720,,0.1629454,1909.72,1909.72,0,qbo_out\qbo_pdfs\Mervis\INV-5538.pdf
+Mervis,5536,2372,2023-06-07,2023-06-07,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,12580,,0.1629475,2049.88,2049.88,0,qbo_out\qbo_pdfs\Mervis\INV-5536.pdf
+Mervis,5541,2375,2023-06-08,2023-06-08,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,12560,,0.1629451,2046.59,2046.59,0,qbo_out\qbo_pdfs\Mervis\INV-5541.pdf
+Mervis,5555,2381,2023-06-09,2023-06-09,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,11420,,0.1629457,1860.84,1860.84,0,qbo_out\qbo_pdfs\Mervis\INV-5555.pdf
+Mervis,5550,2378,2023-06-09,2023-06-09,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,12580,,0.1629475,2049.88,2049.88,0,qbo_out\qbo_pdfs\Mervis\INV-5550.pdf
+Mervis,5546,2377,2023-06-09,2023-06-09,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,12660,,0.1629471,2062.91,2062.91,0,qbo_out\qbo_pdfs\Mervis\INV-5546.pdf
+Mervis,5615,2398,2023-06-21,2023-06-21,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,30700,,0.1607143,4933.93,4933.93,0,qbo_out\qbo_pdfs\Mervis\INV-5615.pdf
+Mervis,5674,2416,2023-06-27,2023-06-27,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,31480,,0.1607144,5059.29,5059.29,0,qbo_out\qbo_pdfs\Mervis\INV-5674.pdf
+Mervis,5698,2434,2023-06-29,2023-06-29,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,11060,,0.1629467,1802.19,1802.19,0,qbo_out\qbo_pdfs\Mervis\INV-5698.pdf
+Mervis,5781,2453,2023-07-07,2023-07-07,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,17980,,0.1450895,2608.71,2608.71,0,qbo_out\qbo_pdfs\Mervis\INV-5781.pdf
+Mervis,5787,2455,2023-07-10,2023-07-10,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,32900,,0.1450894,4773.44,4773.44,0,qbo_out\qbo_pdfs\Mervis\INV-5787.pdf
+Mervis,5868,2478,2023-07-20,2023-07-21,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,27180,,0.1450894,3943.53,3943.53,0,qbo_out\qbo_pdfs\Mervis\INV-5868.pdf
+Mervis,5866,2476,2023-07-20,2023-07-20,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,15240,,0.1035722,1578.44,1578.44,0,qbo_out\qbo_pdfs\Mervis\INV-5866.pdf
+Mervis,5879,2482,2023-07-21,2023-07-20,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,15240,,0.0549108,836.84,836.84,0,qbo_out\qbo_pdfs\Mervis\INV-5879.pdf
+Mervis,5908,2495,2023-07-28,2023-07-28,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,19260,,0.1450893,2794.42,2794.42,0,qbo_out\qbo_pdfs\Mervis\INV-5908.pdf
+Mervis,5999,2524,2023-08-04,2023-08-04,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,32820,,0.1450893,4761.83,4761.83,0,qbo_out\qbo_pdfs\Mervis\INV-5999.pdf
+Mervis,6143,2573,2023-08-25,2023-08-25,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,36960,,0.1450893,5362.5,5362.5,0,qbo_out\qbo_pdfs\Mervis\INV-6143.pdf
+Mervis,6194,2586,2023-08-29,2023-08-29,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,26540,,0.1450893,3850.67,3850.67,0,qbo_out\qbo_pdfs\Mervis\INV-6194.pdf
+Mervis,6266,2612,2023-09-06,2023-09-06,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,20700,,0.1272324,2633.71,2633.71,0,qbo_out\qbo_pdfs\Mervis\INV-6266.pdf
+Mervis,6291,2623,2023-09-08,2023-09-08,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,6580,,0.1272325,837.19,837.19,0,qbo_out\qbo_pdfs\Mervis\INV-6291.pdf
+Mervis,6354,2634,2023-09-18,2023-09-18,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,14420,,0.1294646,1866.88,1866.88,0,qbo_out\qbo_pdfs\Mervis\INV-6354.pdf
+Mervis,6361,2638,2023-09-19,2023-09-19,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,13000,,0.1294646,1683.04,1683.04,0,qbo_out\qbo_pdfs\Mervis\INV-6361.pdf
+Mervis,6373,2644,2023-09-22,2023-09-22,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,15760,,0.145,2285.2,2285.2,0,qbo_out\qbo_pdfs\Mervis\INV-6373.pdf
+Mervis,6420,2660,2023-09-27,2023-09-27,Ferrous Sale,Delivered to Crawfordsville,,,Delivered to Crawfordsville,Ferrous Sale,14400,,0.1294646,1864.29,1864.29,0,qbo_out\qbo_pdfs\Mervis\INV-6420.pdf
+Mervis,6458,2677,2023-10-03,2023-10-03,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,14560,,0.1294646,1885.0,1885.0,0,qbo_out\qbo_pdfs\Mervis\INV-6458.pdf
+Mervis,6537,2693,2023-10-12,2023-10-12,Ferrous Sale,5' P&S,,,P&S,Ferrous Sale,27740,,0.1607138,4458.2,4458.2,0,qbo_out\qbo_pdfs\Mervis\INV-6537.pdf
+Mervis,6546,2696,2023-10-13,2023-10-13,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,22720,,0.127232,2890.71,2890.71,0,qbo_out\qbo_pdfs\Mervis\INV-6546.pdf
+Mervis,6554,2701,2023-10-16,2023-10-16,Ferrous Sale,5' P&S,,,P&S,Ferrous Sale,29980,,0.1607138,4818.2,4818.2,0,qbo_out\qbo_pdfs\Mervis\INV-6554.pdf
+Mervis,6573,2711,2023-10-17,2023-10-17,Ferrous Sale,Unprepared HMS,,,HMS,Ferrous Sale,43940,,0.1049108,4609.78,4609.78,0,qbo_out\qbo_pdfs\Mervis\INV-6573.pdf
+Mervis,6566,2705,2023-10-17,2023-10-17,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,39360,,0.1562497,6149.99,6149.99,0,qbo_out\qbo_pdfs\Mervis\INV-6566.pdf
+Mervis,6580,2713,2023-10-18,2023-10-18,Ferrous Sale,Unprepared HMS,,,HMS,Ferrous Sale,35460,,0.1049109,3720.14,3720.14,0,qbo_out\qbo_pdfs\Mervis\INV-6580.pdf
+Mervis,6588,2717,2023-10-20,2023-10-20,Ferrous Sale,5' PNS,,,5' PNS,Ferrous Sale,29960,,0.15625,4681.25,4681.25,0,qbo_out\qbo_pdfs\Mervis\INV-6588.pdf
+Mervis,6655,2730,2023-10-27,2023-10-27,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,34240,,0.1444763,4946.87,4946.87,0,qbo_out\qbo_pdfs\Mervis\INV-6655.pdf
+Mervis,6685,2741,2023-10-31,2023-10-31,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,17900,,0.1294648,2317.42,2317.42,0,qbo_out\qbo_pdfs\Mervis\INV-6685.pdf
+Mervis,6710,2754,2023-11-01,2023-11-01,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,46180,,0.1696431,7834.12,7834.12,0,qbo_out\qbo_pdfs\Mervis\INV-6710.pdf
+Mervis,6720,2757,2023-11-03,2023-11-03,Ferrous Sale,Pricing Correction,,,Pricing Correction,Ferrous Sale,1,,309.46,309.46,309.46,0,qbo_out\qbo_pdfs\Mervis\INV-6720.pdf
+Mervis,6765,2767,2023-11-07,2023-11-08,Ferrous Sale,Steel clips,,,Clips,Ferrous Sale,19120,,0.140625,2688.75,2688.75,0,qbo_out\qbo_pdfs\Mervis\INV-6765.pdf
+Mervis,6840,2777,2023-11-10,2023-10-27,Ferrous Sale,5' P&S (Price Correction),,,P&S,Ferrous Sale,1,,141.33,141.33,141.33,0,qbo_out\qbo_pdfs\Mervis\INV-6840.pdf
+Mervis,6859,2786,2023-11-14,2023-11-14,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,16660,,0.1406248,2342.81,2342.81,0,qbo_out\qbo_pdfs\Mervis\INV-6859.pdf
+Mervis,6863,2788,2023-11-15,2023-11-15,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,25080,,0.1696423,4254.63,4254.63,0,qbo_out\qbo_pdfs\Mervis\INV-6863.pdf
+Mervis,6873,2791,2023-11-16,2023-11-16,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,16140,,0.1428581,2305.73,2305.73,0,qbo_out\qbo_pdfs\Mervis\INV-6873.pdf
+Mervis,7146,2859,2023-12-12,2023-12-12,Ferrous Sale,HMS,,,HMS,Ferrous Sale,36880,,0.1517858,5597.86,5597.86,0,qbo_out\qbo_pdfs\Mervis\INV-7146.pdf
+Mervis,7273,2863,2023-12-14,2023-12-14,Ferrous Sale,HMS,,,HMS,Ferrous Sale,39820,,0.1517858,6044.11,6044.11,0,qbo_out\qbo_pdfs\Mervis\INV-7273.pdf
+Mervis,7337,2875,2023-12-26,2023-12-26,Ferrous Sale,HMS,,,HMS,Ferrous Sale,29980,,0.1830354,5487.4,5487.4,0,qbo_out\qbo_pdfs\Mervis\INV-7337.pdf
+Mervis,7347,2878,2023-12-27,2023-12-28,Ferrous Sale,"5"" PNS",,,"5"" PNS",Ferrous Sale,15760,,0.1753896,2764.14,2764.14,0,qbo_out\qbo_pdfs\Mervis\INV-7347.pdf
+Mervis,7539,2925,2024-01-17,2024-01-17,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,33860,,0.1457366,4934.64,4934.64,0,qbo_out\qbo_pdfs\Mervis\INV-7539.pdf
+Mervis,7545,2929,2024-01-18,2024-01-18,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,28540,,0.1830361,5223.85,5223.85,0,qbo_out\qbo_pdfs\Mervis\INV-7545.pdf
+Mervis,7561,2932,2024-01-22,2024-01-22,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,20220,,0.1517859,3069.11,3069.11,0,qbo_out\qbo_pdfs\Mervis\INV-7561.pdf
+Mervis,7566,2933,2024-01-23,2024-01-23,Ferrous Sale,UN HMS,,,HMS,Ferrous Sale,42400,,0.1227682,5205.37,5205.37,0,qbo_out\qbo_pdfs\Mervis\INV-7566.pdf
+Mervis,7740,2984,2024-02-12,2024-02-12,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,26580,,0.1562506,4153.14,4153.14,0,qbo_out\qbo_pdfs\Mervis\INV-7740.pdf
+Mervis,7815,3006,2024-02-26,2024-02-26,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,23920,,0.1562504,3737.51,3737.51,0,qbo_out\qbo_pdfs\Mervis\INV-7815.pdf
+Mervis,7893,3043,2024-03-07,2024-03-07,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,10360,,0.1071429,1110.0,1110.0,0,qbo_out\qbo_pdfs\Mervis\INV-7893.pdf
+Mervis,7904,3050,2024-03-08,2024-03-08,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,9960,,0.1071426,1067.14,1067.14,0,qbo_out\qbo_pdfs\Mervis\INV-7904.pdf
+Mervis,7940,3057,2024-03-12,2024-03-12,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,11780,,0.1071429,1262.14,1262.14,0,qbo_out\qbo_pdfs\Mervis\INV-7940.pdf
+Mervis,7939,3056,2024-03-12,2024-03-12,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,16560,,0.1071437,1774.3,1774.3,0,qbo_out\qbo_pdfs\Mervis\INV-7939.pdf
+Mervis,7949,3064,2024-03-14,2024-03-14,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,9740,,0.1071429,1043.57,1043.57,0,qbo_out\qbo_pdfs\Mervis\INV-7949.pdf
+Mervis,7958,3068,2024-03-15,2024-03-15,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,14160,,0.1071429,1517.14,1517.14,0,qbo_out\qbo_pdfs\Mervis\INV-7958.pdf
+Mervis,7956,3067,2024-03-15,2024-03-15,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,16220,,0.1071429,1737.86,1737.86,0,qbo_out\qbo_pdfs\Mervis\INV-7956.pdf
+Mervis,7954,3066,2024-03-15,2024-03-15,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,16180,,0.1071429,1733.57,1733.57,0,qbo_out\qbo_pdfs\Mervis\INV-7954.pdf
+Mervis,7986,3077,2024-03-19,2024-03-19,Ferrous Sale,HMS,,,HMS,Ferrous Sale,31780,,0.1227678,3901.56,3901.56,0,qbo_out\qbo_pdfs\Mervis\INV-7986.pdf
+Mervis,7983,3076,2024-03-19,2024-03-19,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,13620,,0.1071439,1459.3,1459.3,0,qbo_out\qbo_pdfs\Mervis\INV-7983.pdf
+Mervis,7995,3081,2024-03-20,2024-03-20,Ferrous Sale,HMS,,,HMS,Ferrous Sale,35100,,0.1227675,4309.14,4309.14,0,qbo_out\qbo_pdfs\Mervis\INV-7995.pdf
+Mervis,8005,3086,2024-03-21,2024-03-21,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,19400,,0.1071428,2078.57,2078.57,0,qbo_out\qbo_pdfs\Mervis\INV-8005.pdf
+Mervis,8055,3096,2024-03-26,2024-03-26,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,15660,,0.1071428,1677.86,1677.86,0,qbo_out\qbo_pdfs\Mervis\INV-8055.pdf
+Mervis,8075,3104,2024-03-28,2024-03-28,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,20700,,0.1383932,2864.74,2864.74,0,qbo_out\qbo_pdfs\Mervis\INV-8075.pdf
+Mervis,8078,3106,2024-03-29,2024-03-29,Ferrous Sale,5' PNS,,,5' PNS,Ferrous Sale,25740,,0.1383932,3562.24,3562.24,0,qbo_out\qbo_pdfs\Mervis\INV-8078.pdf
+Mervis,8137,3122,2024-04-03,2024-04-03,Ferrous Sale,5' PNS,,,5' PNS,Ferrous Sale,32340,,0.138393,4475.63,4475.63,0,qbo_out\qbo_pdfs\Mervis\INV-8137.pdf
+Mervis,8280,3161,2024-04-23,2024-04-23,Ferrous Sale,mixed clip,,,Clips,Ferrous Sale,13220,,0.107143,1416.43,1416.43,0,qbo_out\qbo_pdfs\Mervis\INV-8280.pdf
+Mervis,8325,3180,2024-04-30,2024-04-30,Ferrous Sale,mixed clip,,,Clips,Ferrous Sale,13820,,0.1071418,1480.7,1480.7,0,qbo_out\qbo_pdfs\Mervis\INV-8325.pdf
+Mervis,8350,3196,2024-05-02,2024-05-02,Ferrous Sale,5' PNS,,,5' PNS,Ferrous Sale,35820,,0.1294643,4637.41,4637.41,0,qbo_out\qbo_pdfs\Mervis\INV-8350.pdf
+Mervis,8406,3202,2024-05-07,2024-05-07,Ferrous Sale,mixed clip,,,Clips,Ferrous Sale,13220,,0.107143,1416.43,1416.43,0,qbo_out\qbo_pdfs\Mervis\INV-8406.pdf
+Mervis,8445,3221,2024-05-14,2024-05-14,Ferrous Sale,Mixed Clips,2024-05-14,,Clips,Ferrous Sale,25040,,0.1049109,2626.97,2626.97,0,qbo_out\qbo_pdfs\Mervis\INV-8445.pdf
+Mervis,8450,3224,2024-05-15,2024-05-15,Ferrous Sale,Mixed Clips,2024-05-15,,Clips,Ferrous Sale,28120,,0.1049111,2950.1,2950.1,0,qbo_out\qbo_pdfs\Mervis\INV-8450.pdf
+Mervis,8449,3223,2024-05-15,2024-05-15,Ferrous Sale,Mixed Clips,2024-05-15,,Clips,Ferrous Sale,20000,,0.107143,2142.86,2142.86,0,qbo_out\qbo_pdfs\Mervis\INV-8449.pdf
+Mervis,8496,3238,2024-05-21,2024-05-21,Ferrous Sale,Mixed Clips,2024-05-21,,Clips,Ferrous Sale,22140,,0.1049115,2322.74,2322.74,0,qbo_out\qbo_pdfs\Mervis\INV-8496.pdf
+Mervis,8570,3267,2024-06-03,2024-06-03,Ferrous Sale,HMS,2024-06-03,24,HMS,Ferrous Sale,34860,,0.1093749,3812.81,3812.81,0,qbo_out\qbo_pdfs\Mervis\INV-8570.pdf
+Mervis,8600,3277,2024-06-04,2024-06-04,Ferrous Sale,HMS,2024-06-04,,HMS,Ferrous Sale,38540,,0.1093752,4215.32,4215.32,0,qbo_out\qbo_pdfs\Mervis\INV-8600.pdf
+Mervis,8627,3295,2024-06-06,2024-06-06,Ferrous Sale,Mixed Clips,2024-06-06,,Clips,Ferrous Sale,16960,,0.089286,1514.29,1514.29,0,qbo_out\qbo_pdfs\Mervis\INV-8627.pdf
+Mervis,8895,3383,2024-07-10,2024-07-10,Ferrous Sale,PPD - HMS,2024-07-10,,HMS,Ferrous Sale,28280,,0.1093752,3093.13,3093.13,0,qbo_out\qbo_pdfs\Mervis\INV-8895.pdf
+Mervis,8965,3407,2024-07-18,2024-07-18,Ferrous Sale,5' PNS,2024-07-18,Mervis,5' PNS,Ferrous Sale,40360,,0.1138392,4594.55,4594.55,0,qbo_out\qbo_pdfs\Mervis\INV-8965.pdf
+Mervis,8973,3414,2024-07-19,2024-07-19,Ferrous Sale,Mixed Clips,2024-07-19,Mervis,Clips,Ferrous Sale,27340,,0.089286,2441.08,2441.08,0,qbo_out\qbo_pdfs\Mervis\INV-8973.pdf
+Mervis,9850,3633,2024-10-14,2024-10-14,Ferrous Sale,5' PNS,2024-10-14,Winski 24,5' PNS,Ferrous Sale,26140,,0.1160712,3034.1,3034.1,0,qbo_out\qbo_pdfs\Mervis\INV-9850.pdf
+Mervis,10074,3714,2024-11-15,2024-11-15,Ferrous Sale,5' PNS,2024-11-15,Winski 01,5' PNS,Ferrous Sale,31100,,0.13,4043.0,4043.0,0,qbo_out\qbo_pdfs\Mervis\INV-10074.pdf
+Mervis,10120,3722,2024-11-25,2024-11-25,Ferrous Sale,5' PNS,2024-11-25,Winski 01,5' PNS,Ferrous Sale,41360,,0.1160716,4800.72,4800.72,0,qbo_out\qbo_pdfs\Mervis\INV-10120.pdf
+Mervis,11977,4269,2025-07-17,2025-07-22,Non-Ferrous Sale,Baled UBCs,2025-07-22,,Baled UBCs,Non-Ferrous Sale,6479,,0.75,4859.25,16771.28,0,qbo_out\qbo_pdfs\Mervis\INV-11977.pdf
+Mervis,11977,4269,2025-07-17,2025-07-22,Non-Ferrous Sale,BB Cu,2025-07-22,,BB Cu,Non-Ferrous Sale,1453,,4.28,6218.84,16771.28,0,qbo_out\qbo_pdfs\Mervis\INV-11977.pdf
+Mervis,11977,4269,2025-07-17,2025-07-22,Non-Ferrous Sale,#1 Cu,2025-07-22,,#1 Cu,Non-Ferrous Sale,587,,4.03,2365.61,16771.28,0,qbo_out\qbo_pdfs\Mervis\INV-11977.pdf
+Mervis,11977,4269,2025-07-17,2025-07-22,Non-Ferrous Sale,#2 Cu,2025-07-22,,#2 Cu,Non-Ferrous Sale,581,,3.81,2213.61,16771.28,0,qbo_out\qbo_pdfs\Mervis\INV-11977.pdf
+Mervis,11977,4269,2025-07-17,2025-07-24,Non-Ferrous Sale,304 SS,2025-07-22,,304 SS,Non-Ferrous Sale,2717,,0.41,1113.97,16771.28,0,qbo_out\qbo_pdfs\Mervis\INV-11977.pdf
+Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,Baled UBCs,2025-08-08,Mervis,Baled UBCs,Non-Ferrous Sale,5267,,0.75,3950.25,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
+Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,BB,2025-08-08,Mervis,BB,Non-Ferrous Sale,2148,,3.89,8355.72,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
+Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,a/c RADS,2025-08-08,Mervis,a/c RADS,Non-Ferrous Sale,1573,,2.21,3476.33,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
+Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,Ptd ext,2025-08-08,Mervis,Ptd ext,Non-Ferrous Sale,925,,1.15,1063.75,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
+Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,#2 Cu tips,2025-08-08,Mervis,#2 Cu tips,Non-Ferrous Sale,644,,3.67,2363.48,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
+Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,#2 Cu,2025-08-08,Mervis,#2 Cu,Non-Ferrous Sale,534,,3.67,1959.78,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
+Mervis,12182,4348,2025-08-15,2025-08-15,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,27160,,0.1324429,3597.15,3597.15,0,qbo_out\qbo_pdfs\Mervis\INV-12182.pdf
+Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,Baled UBCs,2025-08-19,,Baled UBCs,Non-Ferrous Sale,2218,,0.75,1663.5,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
+Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,Ptd ext,2025-08-19,,Ptd ext,Non-Ferrous Sale,407,,1.17,476.19,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
+Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,ptd ext,2025-08-19,,ptd ext,Non-Ferrous Sale,387,,1.17,452.79,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
+Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,ptd ext,2025-08-19,,ptd ext,Non-Ferrous Sale,426,,1.17,498.42,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
+Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,ptd ext,2025-08-19,,ptd ext,Non-Ferrous Sale,282,,1.17,329.94,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
+Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,ptd ext,2025-08-19,,ptd ext,Non-Ferrous Sale,387,,1.17,452.79,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
+Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,bare ext,2025-08-19,,bare ext,Non-Ferrous Sale,434,,1.27,551.18,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
+Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,bare ext,2025-08-19,,bare ext,Non-Ferrous Sale,738,,1.27,937.26,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
+Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,#1 Cu,2025-08-19,,#1 Cu,Non-Ferrous Sale,953,,4,3812.0,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
+Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,A/C rads,2025-08-19,,A/C rads,Non-Ferrous Sale,647,,2.02,1306.94,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
+Mervis,12196,4354,2025-08-18,2025-08-18,Ferrous Sale,Mixed Clips,2025-08-18,Ireland Trucking 1979,Clips,Ferrous Sale,23920,,0.1303156,3117.15,3117.15,0,qbo_out\qbo_pdfs\Mervis\INV-12196.pdf
+Mervis,12279,4372,2025-08-25,2025-08-25,Ferrous Sale,Torching,,,Torching,Ferrous Sale,51820,,0.0834963,4326.78,4326.78,0,qbo_out\qbo_pdfs\Mervis\INV-12279.pdf
+Mervis,12310,4383,2025-08-28,2025-08-28,Ferrous Sale,Torching,2025-08-28,Ireland Trucking 98,Torching,Ferrous Sale,42440,,0.0820066,3480.36,3480.36,0,qbo_out\qbo_pdfs\Mervis\INV-12310.pdf
+Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,Baled UBCs,2025-09-03,,Baled UBCs,Non-Ferrous Sale,6446,,0.75,4834.5,16882.92,0,qbo_out\qbo_pdfs\Mervis\INV-12353.pdf
+Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,URD wire,2025-09-03,,URD wire,Non-Ferrous Sale,441,,0.6,264.6,16882.92,0,qbo_out\qbo_pdfs\Mervis\INV-12353.pdf
+Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,Al car wqheels,2025-09-03,,Al car wqheels,Non-Ferrous Sale,4971,,1.11,5517.81,16882.92,0,qbo_out\qbo_pdfs\Mervis\INV-12353.pdf
+Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,BB Cu,2025-09-03,,BB Cu,Non-Ferrous Sale,1008,,4.05,4082.4,16882.92,0,qbo_out\qbo_pdfs\Mervis\INV-12353.pdf
+Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,#2 Cu,2025-09-03,,#2 Cu,Non-Ferrous Sale,455,,3.83,1742.65,16882.92,0,qbo_out\qbo_pdfs\Mervis\INV-12353.pdf
+Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,AC rads,2025-09-03,,AC rads,Non-Ferrous Sale,689,,0.64,440.96,16882.92,0,qbo_out\qbo_pdfs\Mervis\INV-12353.pdf
+Mervis,12402,4409,2025-09-09,2025-09-09,Ferrous Sale,Clips,2025-09-09,Ireland Trucking 80,Clips,Ferrous Sale,24920,,0.12189,3037.5,3037.5,0,qbo_out\qbo_pdfs\Mervis\INV-12402.pdf
+Mervis,12399,4407,2025-09-09,2025-09-09,Ferrous Sale,Clips,2025-09-09,Ireland Trucking 80,Clips,Ferrous Sale,24900,,0.1600663,3985.65,3985.65,0,qbo_out\qbo_pdfs\Mervis\INV-12399.pdf
+Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,Baled UBCs,,,Baled UBCs,Non-Ferrous Sale,5748,,0.74,4253.52,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
+Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,Bare Ext,,,Bare Ext,Non-Ferrous Sale,611,,1.28,782.08,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
+Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,Ptd ext,,,Ptd ext,Non-Ferrous Sale,603,,1.18,711.54,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
+Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,Ptd ext,,,Ptd ext,Non-Ferrous Sale,548,,1.18,646.64,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
+Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,BB Cu,,,BB Cu,Non-Ferrous Sale,622,,4.21,2618.62,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
+Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,#1 Cu,,,#1 Cu,Non-Ferrous Sale,558,,4.11,2293.38,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
+Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,Wheels,,,Wheels,Non-Ferrous Sale,1417,,1.11,1572.87,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
+Mervis,12532,4446,2025-10-01,2025-10-01,Ferrous Sale,Clips,2025-10-01,Bibbs 1979,Clips,Ferrous Sale,28840,,0.12189,3515.31,3515.31,3515.31,qbo_out\qbo_pdfs\Mervis\INV-12532.pdf
+Mervis,12541,4450,2025-10-02,2025-10-02,Ferrous Sale,Clips,2025-10-02,Mervis 1121,Clips,Ferrous Sale,29060,,0.12189,3542.12,3542.12,3542.12,qbo_out\qbo_pdfs\Mervis\INV-12541.pdf
+Oscar Winski Company,197,1013,2021-09-23,2021-09-23,FE:Busheling,BUSHELING,,,BUSHELING,FE:Busheling,24120,,0.2500008,6030.02,6030.02,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-197.pdf
+Oscar Winski Company,464,1038,2021-11-16,2021-11-16,FE:Busheling,BUSHELING,,,BUSHELING,FE:Busheling,23200,,0.2410703,5592.83,5592.83,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-464.pdf
+Oscar Winski Company,896,1173,2022-01-18,2022-01-18,FE:Busheling,,,,FE:Busheling,FE:Busheling,28340,,0.2232147,6325.9,6325.9,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-896.pdf
+Oscar Winski Company,1235,1215,2022-02-16,2022-02-16,FE:Busheling,,,,FE:Busheling,FE:Busheling,25140,,0.209821,5274.9,5274.9,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-1235.pdf
+Oscar Winski Company,1587,1223,2022-02-22,2022-02-22,FE:Busheling,Delivered Price,,,Delivered Price,FE:Busheling,29980,,0.2142852,6424.27,6424.27,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-1587.pdf
+Oscar Winski Company,1784,1279,2022-03-16,2022-03-16,FE:Busheling,,,,FE:Busheling,FE:Busheling,36480,,0.2946425,10748.56,10748.56,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-1784.pdf
+Oscar Winski Company,2053,1360,2022-04-15,2022-04-15,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,29360,,0.328124,9633.72,9633.72,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2053.pdf
+Oscar Winski Company,2221,1418,2022-05-04,2022-05-04,Ferrous Sale,Trial Load of Busheling,,,Trial Load of Busheling,Ferrous Sale,32780,,0.287946,9438.87,9438.87,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2221.pdf
+Oscar Winski Company,2323,1454,2022-05-17,2022-05-17,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,28420,,0.2879465,8183.44,8183.44,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2323.pdf
+Oscar Winski Company,2343,1460,2022-05-19,2022-05-19,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,30600,,0.2879458,8811.14,8811.14,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2343.pdf
+Oscar Winski Company,2562,1530,2022-06-17,2022-06-17,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,26280,,0.2544635,6687.3,6687.3,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2562.pdf
+Oscar Winski Company,2627,1545,2022-06-28,2022-06-28,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,27680,,0.2544635,7043.55,7043.55,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2627.pdf
+Oscar Winski Company,2815,1607,2022-07-22,2022-07-21,Ferrous Sale,Compressor from Purdue,,,Compressor from Purdue,Ferrous Sale,12020,,0.0892862,1073.22,1073.22,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2815.pdf
+Oscar Winski Company,2814,1606,2022-07-22,2022-07-21,Ferrous Sale,Compressors from Purdue,,,Compressors from Purdue,Ferrous Sale,14800,,0.0892851,1321.42,1321.42,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2814.pdf
+Oscar Winski Company,2857,1625,2022-07-27,2022-07-27,Ferrous Sale,Unprepared from Purdue,,,Unprepared from Purdue,Ferrous Sale,13360,,0.0892859,1192.86,1192.86,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2857.pdf
+Oscar Winski Company,2972,1663,2022-08-09,2022-08-09,Ferrous Sale,Purdue for Solotken,,,Purdue for Solotken,Ferrous Sale,14840,,0.0803571,1192.5,1192.5,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2972.pdf
+Oscar Winski Company,2971,1662,2022-08-09,2022-08-09,Ferrous Sale,Purdue for Solotken,,,Purdue for Solotken,Ferrous Sale,14620,,0.080357,1174.82,1174.82,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2971.pdf
+Oscar Winski Company,3004,1674,2022-08-11,2022-08-11,Ferrous Sale,Purdue Scrap,,,Purdue Scrap,Ferrous Sale,18920,,0.0803568,1520.35,1520.35,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3004.pdf
+Oscar Winski Company,2997,1670,2022-08-11,2022-08-11,Ferrous Sale,Full Rail,,,Full Rail,Ferrous Sale,20860,,0.1473217,3073.13,3073.13,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2997.pdf
+Oscar Winski Company,2991,1669,2022-08-11,2022-08-11,Ferrous Sale,Full Rail Load #1,,,Full Rail Load #1,Ferrous Sale,26660,,0.1473215,3927.59,3927.59,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-2991.pdf
+Oscar Winski Company,3049,1684,2022-08-17,2022-08-17,Ferrous Sale,Purdue Scrap,,,Purdue Scrap,Ferrous Sale,21080,,0.0803572,1693.93,1693.93,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3049.pdf
+Oscar Winski Company,3057,1688,2022-08-18,2022-08-18,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,26060,,0.1629459,4246.37,4246.37,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3057.pdf
+Oscar Winski Company,3067,1692,2022-08-19,2022-08-19,Ferrous Sale,Purdue Scrap,,,Purdue Scrap,Ferrous Sale,20280,,0.0803575,1629.65,1629.65,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3067.pdf
+Oscar Winski Company,3106,1705,2022-08-26,2022-08-26,Ferrous Sale,Purdue Iron for Solotken,,,Purdue Iron for Solotken,Ferrous Sale,18100,,0.0806238,1459.29,1459.29,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3106.pdf
+Oscar Winski Company,3235,1741,2022-09-12,2022-09-12,Ferrous Sale,Purdue project for Solotken - last load,,,Purdue project for Solotken - last load,Ferrous Sale,13200,,0.069197,913.4,913.4,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3235.pdf
+Oscar Winski Company,3245,1745,2022-09-13,2022-09-13,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,23460,,0.1540175,3613.25,3613.25,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3245.pdf
+Oscar Winski Company,3399,1783,2022-09-28,2022-09-28,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,19980,,0.154017,3077.26,3077.26,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3399.pdf
+Oscar Winski Company,3548,1822,2022-10-14,2022-10-13,Ferrous Sale,busheling,,,busheling,Ferrous Sale,29160,,0.1406255,4100.64,4100.64,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3548.pdf
+Oscar Winski Company,3587,1837,2022-10-21,2022-10-21,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,31760,,0.1406253,4466.26,4466.26,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3587.pdf
+Oscar Winski Company,3785,1884,2022-11-10,2022-11-10,Ferrous Sale,,,,Ferrous Sale,Ferrous Sale,27840,,0.1272324,3542.15,3542.15,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3785.pdf
+Oscar Winski Company,4102,1944,2022-12-09,2022-12-09,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,15440,,0.1406256,2171.26,2171.26,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-4102.pdf
+Oscar Winski Company,4341,1998,2023-01-11,2023-01-11,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,18500,,0.1674103,3097.09,3097.09,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-4341.pdf
+Oscar Winski Company,4444,2024,2023-01-23,2023-01-23,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,29560,,0.1674104,4948.65,4948.65,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-4444.pdf
+Oscar Winski Company,4586,2063,2023-02-10,2023-02-10,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,21240,,0.1763385,3745.43,3745.43,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-4586.pdf
+Oscar Winski Company,4695,2094,2023-02-27,2023-02-27,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,26020,,0.1763397,4588.36,4588.36,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-4695.pdf
+Oscar Winski Company,4720,2107,2023-02-28,2023-02-28,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,29440,,0.17634,5191.45,5191.45,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-4720.pdf
+Oscar Winski Company,4789,2128,2023-03-10,2023-03-13,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,17000,,0.2209824,3756.7,3756.7,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-4789.pdf
+Oscar Winski Company,4854,2150,2023-03-21,2023-03-21,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,17080,,0.2209824,3774.38,3774.38,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-4854.pdf
+Oscar Winski Company,4869,2160,2023-03-23,2023-03-23,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,20400,,0.2209809,4508.01,4508.01,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-4869.pdf
+Oscar Winski Company,5016,2206,2023-04-07,2023-04-07,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,37260,,0.2209817,8233.78,8233.78,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5016.pdf
+Oscar Winski Company,5007,2201,2023-04-07,2023-04-07,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,24380,,0.2209815,5387.53,5387.53,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5007.pdf
+Oscar Winski Company,5052,2212,2023-04-11,2023-04-11,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,39000,,0.2209821,8618.3,8618.3,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5052.pdf
+Oscar Winski Company,5080,2227,2023-04-17,2023-04-14,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,22200,,0.220982,4905.8,4905.8,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5080.pdf
+Oscar Winski Company,5206,2275,2023-04-28,2023-04-28,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,17140,,0.2209819,3787.63,3787.63,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5206.pdf
+Oscar Winski Company,5238,2283,2023-05-03,2023-05-03,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,40240,,0.2120537,8533.04,8533.04,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5238.pdf
+Oscar Winski Company,5530,2370,2023-06-06,2023-06-06,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,23580,,0.1919644,4526.52,4526.52,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5530.pdf
+Oscar Winski Company,5556,2382,2023-06-09,2023-06-09,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,17080,,0.1919643,3278.75,3278.75,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5556.pdf
+Oscar Winski Company,5579,2388,2023-06-14,2023-06-14,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,14280,,0.1875,2677.5,2677.5,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5579.pdf
+Oscar Winski Company,5659,2414,2023-06-23,2023-06-23,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,30380,,0.1875,5696.25,5696.25,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5659.pdf
+Oscar Winski Company,5676,2418,2023-06-27,2023-06-27,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,29960,,0.1875,5617.5,5617.5,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5676.pdf
+Oscar Winski Company,5687,2425,2023-06-28,2023-06-28,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,34280,,0.1875003,6427.51,6427.51,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5687.pdf
+Oscar Winski Company,5906,2493,2023-07-28,2023-07-27,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,30000,,0.1676077,5028.23,5028.23,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5906.pdf
+Oscar Winski Company,5978,2516,2023-08-02,2023-08-02,Non-Ferrous Sale,Busheling,,,Busheling,Non-Ferrous Sale,22620,,0.174107,3938.3,3938.3,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-5978.pdf
+Oscar Winski Company,6016,2528,2023-08-08,2023-08-08,Non-Ferrous Sale,Busheling,,,Busheling,Non-Ferrous Sale,19420,,0.1741061,3381.14,3381.14,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6016.pdf
+Oscar Winski Company,6106,2559,2023-08-21,2023-08-21,Non-Ferrous Sale,Busheling,,,Busheling,Non-Ferrous Sale,18700,,0.174107,3255.8,3255.8,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6106.pdf
+Oscar Winski Company,6103,2557,2023-08-21,2023-08-21,Non-Ferrous Sale,Busheling,,,Busheling,Non-Ferrous Sale,16820,,0.1741064,2928.47,2928.47,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6103.pdf
+Oscar Winski Company,6125,2567,2023-08-24,2023-08-24,Non-Ferrous Sale,Busheling,,,Busheling,Non-Ferrous Sale,28600,,0.1741077,4979.48,4979.48,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6125.pdf
+Oscar Winski Company,6203,2591,2023-08-30,2023-08-30,Non-Ferrous Sale,Busheling,,,Busheling,Non-Ferrous Sale,15960,,0.1741071,2778.75,2778.75,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6203.pdf
+Oscar Winski Company,6273,2616,2023-09-06,2023-09-06,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,6900,,0.1562522,1078.14,1078.14,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6273.pdf
+Oscar Winski Company,6270,2613,2023-09-06,2023-09-06,Ferrous Sale,Busheling from NHK #3 Nissan scrap,,,Busheling from NHK #3 Nissan scrap,Ferrous Sale,8740,,0.1562506,1365.63,1365.63,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6270.pdf
+Oscar Winski Company,6355,2635,2023-09-18,2023-09-18,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,13580,,0.1562504,2121.88,2121.88,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6355.pdf
+Oscar Winski Company,6414,2656,2023-09-26,2023-09-26,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,17920,,0.15625,2800.0,2800.0,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6414.pdf
+Oscar Winski Company,6468,2680,2023-10-03,2023-10-03,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,36120,,0.1817724,6565.62,6565.62,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6468.pdf
+Oscar Winski Company,6527,2691,2023-10-10,2023-10-03,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,18360,,0.1562495,2868.74,2868.74,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6527.pdf
+Oscar Winski Company,6564,2704,2023-10-16,2023-10-16,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,21100,,0.1517848,3202.66,3202.66,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6564.pdf
+Oscar Winski Company,6738,2760,2023-11-06,2023-10-05,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,7520,,0.1562473,1174.98,1174.98,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6738.pdf
+Oscar Winski Company,6845,2780,2023-11-10,2023-11-10,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,34660,,0.1696428,5879.82,5879.82,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6845.pdf
+Oscar Winski Company,6864,2789,2023-11-15,2023-11-15,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,20840,,0.1087975,2267.34,2267.34,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-6864.pdf
+Oscar Winski Company,7060,2832,2023-12-04,2023-12-04,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,18600,,0.2008935,3736.62,3736.62,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-7060.pdf
+Oscar Winski Company,7118,2855,2023-12-11,2023-12-11,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,26640,,0.2008938,5351.81,5351.81,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-7118.pdf
+Oscar Winski Company,7278,2864,2023-12-15,2023-12-15,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,23060,,0.200892,4632.57,4632.57,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-7278.pdf
+Oscar Winski Company,7480,2910,2024-01-10,2024-01-10,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,24360,,0.2008929,4893.75,4893.75,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-7480.pdf
+Oscar Winski Company,7496,2916,2024-01-11,2024-01-11,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,15460,,0.2008933,3105.81,3105.81,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-7496.pdf
+Oscar Winski Company,7678,2966,2024-02-05,2024-02-05,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,12200,,0.1874992,2287.49,2287.49,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-7678.pdf
+Oscar Winski Company,7711,2978,2024-02-09,2024-02-09,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,37260,,0.1874997,6986.24,6986.24,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-7711.pdf
+Oscar Winski Company,7889,3040,2024-03-06,2024-03-06,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,22980,,0.165178,3795.79,3795.79,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-7889.pdf
+Oscar Winski Company,7905,3051,2024-03-08,2024-03-08,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,26980,,0.1651779,4456.5,4456.5,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-7905.pdf
+Oscar Winski Company,7944,3059,2024-03-13,2024-03-13,Ferrous Sale,Unppd Rail,,,Unppd Rail,Ferrous Sale,35380,,0.1272318,4501.46,4501.46,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-7944.pdf
+Oscar Winski Company,8022,3090,2024-03-22,2024-03-22,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,14160,,0.165178,2338.92,2338.92,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8022.pdf
+Oscar Winski Company,8063,3100,2024-03-26,2024-03-26,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,25460,,0.1651791,4205.46,4205.46,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8063.pdf
+Oscar Winski Company,8074,3103,2024-03-27,2024-03-27,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,10460,,0.1651769,1727.75,1727.75,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8074.pdf
+Oscar Winski Company,8073,3102,2024-03-27,2024-03-27,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,19120,,0.1651783,3158.21,3158.21,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8073.pdf
+Oscar Winski Company,8186,3130,2024-04-11,2024-04-11,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,20760,,0.1651797,3429.13,3429.13,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8186.pdf
+Oscar Winski Company,8227,3147,2024-04-17,2024-04-17,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,36220,,0.1651781,5982.75,5982.75,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8227.pdf
+Oscar Winski Company,8284,3163,2024-04-23,2024-04-23,Ferrous Sale,Busheling from NHK #1,,,Busheling from NHK #1,Ferrous Sale,8820,,0.1651791,1456.88,1456.88,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8284.pdf
+Oscar Winski Company,8302,3170,2024-04-25,2024-04-25,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,9900,,0.1651768,1635.25,1635.25,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8302.pdf
+Oscar Winski Company,8318,3178,2024-04-29,2024-04-25,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,10180,,0.1651768,1681.5,1681.5,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8318.pdf
+Oscar Winski Company,8412,3207,2024-05-08,2024-05-08,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,9220,,0.16518,1522.96,1522.96,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8412.pdf
+Oscar Winski Company,8477,3233,2024-05-20,2024-05-20,Ferrous Sale,busheling,2024-05-20,,busheling,Ferrous Sale,30320,,0.1651784,5008.21,5008.21,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8477.pdf
+Oscar Winski Company,8493,3235,2024-05-21,2024-05-21,Ferrous Sale,busheling,2024-05-21,,busheling,Ferrous Sale,9260,,0.1651771,1529.54,1529.54,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8493.pdf
+Oscar Winski Company,8500,3240,2024-05-22,2024-05-22,Ferrous Sale,From NHK #1,2024-05-22,,From NHK #1,Ferrous Sale,6360,,0.1651792,1050.54,1050.54,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8500.pdf
+Oscar Winski Company,8607,3283,2024-06-04,2024-06-04,Ferrous Sale,busheling,2024-06-04,,busheling,Ferrous Sale,12840,,0.1473201,1891.59,1891.59,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8607.pdf
+Oscar Winski Company,8629,3296,2024-06-06,2024-06-06,Ferrous Sale,busheling,2024-06-06,,busheling,Ferrous Sale,11600,,0.1473224,1708.94,1708.94,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8629.pdf
+Oscar Winski Company,8621,3292,2024-06-06,2024-06-06,Ferrous Sale,busheling,2024-06-06,,busheling,Ferrous Sale,30800,,0.1473214,4537.5,4537.5,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8621.pdf
+Oscar Winski Company,8652,3300,2024-06-10,2024-06-10,Ferrous Sale,Clips,2024-06-10,,Clips,Ferrous Sale,12280,,0.1383917,1699.45,1699.45,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8652.pdf
+Oscar Winski Company,8765,3344,2024-06-25,2024-06-25,Ferrous Sale,busheling,2024-06-25,,busheling,Ferrous Sale,14860,,0.1428567,2122.85,2122.85,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8765.pdf
+Oscar Winski Company,8877,3373,2024-07-08,2024-07-08,Ferrous Sale,busheling,2024-07-08,,busheling,Ferrous Sale,22700,,0.1428567,3242.85,3242.85,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8877.pdf
+Oscar Winski Company,8961,3404,2024-07-17,2024-07-17,Ferrous Sale,busheling,2024-07-17,,busheling,Ferrous Sale,15560,,0.1428567,2222.85,2222.85,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8961.pdf
+Oscar Winski Company,8978,3417,2024-07-19,2024-07-19,Ferrous Sale,busheling,2024-07-19,,busheling,Ferrous Sale,13360,,0.1428578,1908.58,1908.58,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8978.pdf
+Oscar Winski Company,8997,3430,2024-07-24,2024-07-24,Ferrous Sale,busheling,2024-07-24,,busheling,Ferrous Sale,24460,,0.1428567,3494.27,3494.27,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8997.pdf
+Oscar Winski Company,9020,3439,2024-07-25,2024-07-25,Non-Ferrous Sale,Bare bright Cu,2024-07-25,,Bare bright Cu,Non-Ferrous Sale,1326,,3.79,5025.54,6705.22,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9020.pdf
+Oscar Winski Company,9020,3439,2024-07-25,2024-07-25,Non-Ferrous Sale,#1 Cu,2024-07-25,,#1 Cu,Non-Ferrous Sale,464,,3.62,1679.68,6705.22,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9020.pdf
+Oscar Winski Company,9091,3461,2024-08-01,2024-08-01,Ferrous Sale,busheling,2024-08-01,,busheling,Ferrous Sale,14020,,0.1428567,2002.85,2002.85,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9091.pdf
+Oscar Winski Company,9200,3498,2024-08-15,2024-08-16,Non-Ferrous Sale,#2 copper,2024-08-16,,#2 copper,Non-Ferrous Sale,873,,3.46,3020.58,3020.58,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9200.pdf
+Oscar Winski Company,9192,3493,2024-08-15,2024-08-15,Non-Ferrous Sale,Bare brite copper,2024-08-15,,Bare brite copper,Non-Ferrous Sale,2221,,3.78,8395.38,8395.38,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9192.pdf
+Oscar Winski Company,9256,3517,2024-08-22,2024-08-22,Non-Ferrous Sale,Bare prite Cu,2024-08-22,,Bare prite Cu,Non-Ferrous Sale,2500,,3.93,9825.0,9825.0,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9256.pdf
+Oscar Winski Company,9674,3587,2024-09-20,2024-09-20,Ferrous Sale,busheling,2024-09-20,Winski 24,busheling,Ferrous Sale,28620,,0.1473215,4216.34,4216.34,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9674.pdf
+Oscar Winski Company,9670,3586,2024-09-24,2024-09-24,Ferrous Sale,busheling,2024-09-24,OW T-95,busheling,Ferrous Sale,17480,,0.1428576,2497.15,2497.15,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9670.pdf
+Oscar Winski Company,9851,3634,2024-10-14,2024-10-14,Ferrous Sale,busheling,2024-10-14,OW #97,busheling,Ferrous Sale,15820,,0.1428571,2260.0,2260.0,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9851.pdf
+Oscar Winski Company,10124,3723,2024-11-20,2024-11-20,Ferrous Sale,busheling,2024-11-20,Winski 01,busheling,Ferrous Sale,14640,,0.147321,2156.78,2156.78,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-10124.pdf
+Oscar Winski Company,10352,3783,2024-12-18,2024-12-18,Ferrous Sale,busheling,2024-12-18,Winski 24,busheling,Ferrous Sale,19360,,0.1473223,2852.16,2852.16,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-10352.pdf
+Oscar Winski Company,10527,3829,2025-01-13,2025-01-13,Ferrous Sale,busheling,2025-01-13,Winski 24,busheling,Ferrous Sale,39300,,0.1562496,6140.61,6140.61,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-10527.pdf
+Oscar Winski Company,11711,4177,2025-06-11,2025-06-11,Ferrous Sale,busheling,2025-06-11,OW 1056,busheling,Ferrous Sale,24260,,0.1651789,4007.24,4007.24,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11711.pdf
+Oscar Winski Company,11716,4180,2025-06-12,2025-06-12,Ferrous Sale,busheling,2025-06-11,OW 1056,busheling,Ferrous Sale,28060,,0.1651789,4634.92,4634.92,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11716.pdf
+Oscar Winski Company,11762,4191,2025-06-17,2025-06-17,Ferrous Sale,busheling,2025-06-17,OW 242075,busheling,Ferrous Sale,29920,,0.1651781,4942.13,4942.13,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11762.pdf
+Oscar Winski Company,11894,4243,2025-07-08,2025-07-08,Ferrous Sale,busheling,2025-07-08,OW 182014,busheling,Ferrous Sale,20800,,0.1651784,3435.71,3435.71,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11894.pdf
+Oscar Winski Company,11919,4254,2025-07-11,2025-07-11,Ferrous Sale,busheling,2025-07-11,OW 182014,busheling,Ferrous Sale,24920,,0.1651786,4116.25,4116.25,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11919.pdf
+Oscar Winski Company,12071,4296,2025-07-29,2025-07-29,Ferrous Sale,busheling,2025-07-29,OW 242075,busheling,Ferrous Sale,22540,,0.1651788,3723.13,3723.13,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12071.pdf
+Oscar Winski Company,12161,4336,2025-08-12,2025-08-12,Ferrous Sale,busheling,2025-08-12,OW T95,busheling,Ferrous Sale,17040,,0.1651778,2814.63,2814.63,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12161.pdf
+Oscar Winski Company,12177,4345,2025-08-14,2025-08-14,Ferrous Sale,busheling,2025-08-14,OW 1056,busheling,Ferrous Sale,30500,,0.165179,5037.96,5037.96,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12177.pdf
+Oscar Winski Company,12186,4351,2025-08-15,2025-08-15,Ferrous Sale,busheling,2025-08-15,OW 97,busheling,Ferrous Sale,26940,,0.1651789,4449.92,4449.92,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12186.pdf
+Oscar Winski Company,12245,4371,2025-08-22,2025-08-22,Ferrous Sale,busheling,2025-08-22,OW T95,busheling,Ferrous Sale,12360,,0.1651788,2041.61,2041.61,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12245.pdf
+Oscar Winski Company,12411,4412,2025-09-10,2025-09-10,Ferrous Sale,busheling,2025-09-10,OW T95,busheling,Ferrous Sale,28740,,0.1562505,4490.64,4490.64,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12411.pdf
+Oscar Winski Company,12436,4420,2025-09-12,2025-09-12,Ferrous Sale,busheling,2025-09-12,OW T97,busheling,Ferrous Sale,22720,,0.1562509,3550.02,3550.02,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12436.pdf
+Oscar Winski Company,12531,4445,2025-10-01,2025-10-01,Ferrous Sale,busheling,2025-10-01,OW T97,busheling,Ferrous Sale,21200,,0.1651788,3501.79,3501.79,3501.79,qbo_out\qbo_pdfs\Oscar_Winski\INV-12531.pdf
+Oscar Winski Company,12557,4454,2025-10-03,2025-10-03,Ferrous Sale,busheling,2025-10-03,OW T97,busheling,Ferrous Sale,24380,,0.1651788,4027.06,4027.06,4027.06,qbo_out\qbo_pdfs\Oscar_Winski\INV-12557.pdf
+Oscar Winski Company,12614,4476,2025-10-09,2025-10-09,Ferrous Sale,busheling,2025-10-09,Winski 24,busheling,Ferrous Sale,15480,,0.1651788,2556.97,2556.97,2556.97,qbo_out\qbo_pdfs\Oscar_Winski\INV-12614.pdf
+Lewis Salvage,12077,4300,2025-07-30,2025-07-30,Ferrous Sale,Shred,2025-07-30,RIM 03-01,Shred,Ferrous Sale,27300,,0.1075,2934.75,2934.75,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12077.pdf
+Lewis Salvage,12082,4304,2025-07-31,2025-07-31,Ferrous Sale,Clean sheet,2025-07-31,,Clean sheet,Ferrous Sale,22520,,0.115,2589.8,2589.8,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12082.pdf
+Lewis Salvage,12081,4303,2025-07-31,2025-07-31,Non-Ferrous Sale,304 SS,2025-07-31,16-02,304 SS,Non-Ferrous Sale,11480,,0.4,4592.0,4592.0,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12081.pdf
+Lewis Salvage,12080,4302,2025-07-31,2025-07-31,Ferrous Sale,Sheet iron,2025-07-31,Tinsman,Sheet iron,Ferrous Sale,39650,,0.1075,4262.38,4262.38,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12080.pdf
+Lewis Salvage,12084,4305,2025-08-01,2025-08-01,Ferrous Sale,car bodies with motors,2025-08-01,Tinsman,car bodies with motors,Ferrous Sale,15080,,0.1075,1621.1,1621.1,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12084.pdf
+Lewis Salvage,12125,4323,2025-08-07,2025-08-07,Ferrous Sale,shred,2025-08-07,RIM 15-08,Shred,Ferrous Sale,33300,,0.1075,3579.75,3579.75,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12125.pdf
+Lewis Salvage,12124,4322,2025-08-07,2025-08-07,Ferrous Sale,shred,2025-08-07,Tinsman 77,Shred,Ferrous Sale,24820,,0.1075,2668.15,2668.15,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12124.pdf
+Lewis Salvage,12139,4325,2025-08-08,2025-08-08,Ferrous Sale,Shred,2025-08-08,Tinsman 77,Shred,Ferrous Sale,45080,,0.1075,4846.1,4846.1,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12139.pdf
+Lewis Salvage,12164,4338,2025-08-12,2025-08-12,Ferrous Sale,Shred,2025-08-12,Tinsman 77,Shred,Ferrous Sale,35860,,0.1075,3854.95,3854.95,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12164.pdf
+Lewis Salvage,12154,4333,2025-08-12,2025-08-12,Ferrous Sale,Shred,2025-08-12,Tinsman 77,Shred,Ferrous Sale,26400,,0.1075,2838.0,2838.0,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12154.pdf
+Lewis Salvage,12171,4341,2025-08-13,2025-08-13,Ferrous Sale,Shred,2025-08-13,Tinsman 77,Shred,Ferrous Sale,31420,,0.1075,3377.65,3377.65,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12171.pdf
+Lewis Salvage,12168,4339,2025-08-13,2025-08-13,Ferrous Sale,Shred,2025-08-13,Tinsman 77,Shred,Ferrous Sale,31200,,0.1075,3354.0,3354.0,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12168.pdf
+Lewis Salvage,12175,4343,2025-08-14,2025-08-14,Ferrous Sale,Shred,2025-08-14,Tinsman 77,Shred,Ferrous Sale,31400,,0.1075,3375.5,3375.5,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12175.pdf
+Lewis Salvage,12179,4347,2025-08-15,2025-08-15,Ferrous Sale,Shred,2025-08-15,Tinsman 77,Shred,Ferrous Sale,26880,,0.1075,2889.6,2889.6,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12179.pdf
+Lewis Salvage,12193,4353,2025-08-18,2025-08-18,Ferrous Sale,Shred,2025-08-18,Tinsman 77,Shred,Ferrous Sale,31960,,0.1075,3435.7,3435.7,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12193.pdf
+Lewis Salvage,12226,4362,2025-08-19,2025-08-19,Ferrous Sale,Shred,2025-08-19,Tinsman 77,Shred,Ferrous Sale,34280,,0.1075,3685.1,3685.1,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12226.pdf
+Lewis Salvage,12208,4359,2025-08-19,2025-08-19,Ferrous Sale,Shred,2025-08-19,Tinsman 77,Shred,Ferrous Sale,29060,,0.1075,3123.95,3123.95,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12208.pdf
+Lewis Salvage,12235,4365,2025-08-21,2025-08-21,Ferrous Sale,carbodies,2025-08-21,Tinsman 77,carbodies,Ferrous Sale,29120,,0.1075,3130.4,3130.4,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12235.pdf
+Lewis Salvage,12244,4370,2025-08-22,2025-08-22,Ferrous Sale,Shred,2025-08-22,Tinsman 77,Shred,Ferrous Sale,31120,,0.1075,3345.4,3345.4,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12244.pdf
+Lewis Salvage,12292,4376,2025-08-26,2025-08-26,Ferrous Sale,Shred,2025-08-26,Tinsman 77,Shred,Ferrous Sale,36220,,0.1075,3893.65,3893.65,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12292.pdf
+Lewis Salvage,12308,4381,2025-08-28,2025-08-28,Ferrous Sale,Shred,2025-08-28,Tinsman 77,Shred,Ferrous Sale,30600,,0.1075,3289.5,3289.5,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12308.pdf
+Lewis Salvage,12325,4386,2025-08-29,2025-08-29,Ferrous Sale,SHRED,2025-08-29,Tinsman 77,Shred,Ferrous Sale,32620,,0.1075,3506.65,3506.65,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12325.pdf
+Lewis Salvage,12336,4390,2025-09-02,2025-09-02,Ferrous Sale,SHRED,2025-09-02,RIM 04-02,Shred,Ferrous Sale,25900,,0.1075,2784.25,2784.25,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12336.pdf
+Lewis Salvage,12350,4396,2025-09-03,2025-09-03,Ferrous Sale,Shred,2025-09-03,Tinsman 77,Shred,Ferrous Sale,31820,,0.1075,3420.65,3420.65,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12350.pdf
+Lewis Salvage,12392,4405,2025-09-08,2025-09-08,Ferrous Sale,shred,2025-09-08,,Shred,Ferrous Sale,28780,,0.1075,3093.85,3093.85,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12392.pdf
+Lewis Salvage,12391,4404,2025-09-08,2025-09-08,Ferrous Sale,Shred,,Tinsman,Shred,Ferrous Sale,38000,,0.1075,4085.0,4085.0,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12391.pdf
+Lewis Salvage,12412,4413,2025-09-10,2025-09-10,Ferrous Sale,shred,2025-09-10,Tinsman,Shred,Ferrous Sale,33900,,0.1075,3644.25,3644.25,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12412.pdf
+Lewis Salvage,12409,4410,2025-09-10,2025-09-10,Ferrous Sale,shred,2025-09-10,Tinsman,Shred,Ferrous Sale,28880,,0.1075,3104.6,3104.6,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12409.pdf
+Lewis Salvage,12479,4428,2025-09-22,2025-09-22,Ferrous Sale,SHRED,2025-09-22,Tinsman 97,Shred,Ferrous Sale,26620,,0.1075,2861.65,2861.65,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12479.pdf
+Lewis Salvage,12487,4430,2025-09-23,2025-09-23,Ferrous Sale,SHRED,2025-09-23,Tinsman 97,Shred,Ferrous Sale,27040,,0.1075,2906.8,2906.8,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12487.pdf
+Lewis Salvage,12492,4431,2025-09-24,2025-09-24,Ferrous Sale,Shred,2025-09-24,Tinsman 97,Shred,Ferrous Sale,22880,,0.1075,2459.6,2459.6,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12492.pdf
+Lewis Salvage,12530,4444,2025-10-01,2025-10-01,Ferrous Sale,Shred,2025-10-01,RIM 10-01,Shred,Ferrous Sale,23800,,0.1075,2558.5,2558.5,2558.5,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12530.pdf
+Lewis Salvage,12538,4449,2025-10-02,2025-10-02,Ferrous Sale,Shred,2025-10-02,Tinsman 77,Shred,Ferrous Sale,34100,,0.1075,3665.75,3665.75,3665.75,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12538.pdf
+Lewis Salvage,12585,4457,2025-10-06,2025-10-06,Ferrous Sale,Shred,2025-10-06,Tinsman 77,Shred,Ferrous Sale,28340,,0.1075,3046.55,3046.55,3046.55,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12585.pdf
+Lewis Salvage,12595,4463,2025-10-07,2025-10-07,Ferrous Sale,Shred,2025-10-07,Tinsman 77,Shred,Ferrous Sale,32080,,0.1075,3448.6,3448.6,3448.6,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12595.pdf
+Lewis Salvage,12592,4461,2025-10-07,2025-10-07,Ferrous Sale,Car Bodies ,2025-10-07,Tinsman 77,Car Bodies ,Ferrous Sale,17020,,0.1075,1829.65,1829.65,1829.65,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12592.pdf
+Lewis Salvage,12602,4468,2025-10-08,2025-10-08,Ferrous Sale,Car Bodies ,2025-10-08,Tinsman 77,Car Bodies ,Ferrous Sale,20900,,0.1075,2246.75,2246.75,2246.75,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12602.pdf
+Lewis Salvage,12599,4466,2025-10-08,2025-10-08,Ferrous Sale,Car Bodies ,2025-10-08,Tinsman 77,Car Bodies ,Ferrous Sale,15940,,0.1075,1713.55,1713.55,1713.55,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12599.pdf
+Lewis Salvage,12613,4475,2025-10-09,2025-10-09,Ferrous Sale,Shred,,Tinsman 77,Shred,Ferrous Sale,29860,,0.1075,3209.95,3209.95,3209.95,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12613.pdf
+Lewis Salvage,12607,4472,2025-10-09,2025-10-09,Ferrous Sale,autos,,,autos,Ferrous Sale,14780,,0.0975,1441.05,1441.05,1441.05,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12607.pdf
+Lewis Salvage,12625,4479,2025-10-10,2025-10-10,Ferrous Sale,Shred,2025-10-10,Tinsman 77,Shred,Ferrous Sale,29860,,0.1075,3209.95,3209.95,3209.95,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12625.pdf

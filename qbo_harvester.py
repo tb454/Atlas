@@ -24,9 +24,28 @@ else:
 print("QBO_ENV =", QBO_ENV, "| API_BASE =", API_BASE)
 
 # ====== CONFIG ======
-CUSTOMER_NAMES = ["Mervis", "Oscar Winski", "Lewis Salvage"]  # edit or move to .env later
+CUSTOMER_NAMES = [
+    "Mervis",
+    "Oscar Winski",
+    "Lewis Salvage",
+    "Josh Padnos",
+    "Frymans Recycling #1",
+    "Rochester Iron & Metal",
+    "48forty Solutions",
+    "Alloys Tech",
+    "C&Y Global (Pro Metal Recycling)",
+    "Farnsworth Metal Recycling",
+    "J. Solotken & Company",
+    "MDK ZeroLandfill",
+    "Newco Metal",
+    "Nucor (DJJ or David Joseph)",
+    "SDI (Steel Dynamics)",
+    "Stainless Steel Midwest",
+    "Storage Solutions",
+    "Werner & Son",
+]
 END   = date.today()
-START = END - timedelta(days=5*365)
+START = END - timedelta(days=100*365)
 
 OUT_DIR   = pathlib.Path("qbo_out"); OUT_DIR.mkdir(exist_ok=True)
 PDFS_DIR  = OUT_DIR / "qbo_pdfs"; PDFS_DIR.mkdir(exist_ok=True)
