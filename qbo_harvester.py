@@ -263,7 +263,7 @@ def oauth_flow_via_relay():
     webbrowser.open_new_tab(auth_url)
 
     # Poll the relay for code/realmId (small backoff)
-    for _ in range(120):  # ~2 minutes
+    for _ in range(240):  # ~4 minutes
         try:
             r = requests.get(RELAY_PEEK, params={"state": EXPECTED_STATE},
                              headers={"X-Relay-Auth": RELAY_AUTH}, timeout=6)
