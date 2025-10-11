@@ -523,6 +523,8 @@ def get_tokens():
         except Exception:
             pass
     print("No valid token file found. Starting OAuth flow...")
+    if RELAY_BASE and RELAY_AUTH and REDIRECT_URI and REDIRECT_URI.startswith("https://"):
+        return oauth_flow_via_relay()
     return oauth_flow()
 
 def main():
