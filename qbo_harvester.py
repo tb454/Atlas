@@ -438,13 +438,16 @@ def post_contract_to_bridge(session: requests.Session, row: dict, seller_name: s
     if os.getenv("BRIDGE_IMPORT_MODE", "historical").lower() == "historical":
         headers["X-Import-Mode"] = "historical"
 
-        if ENV in {"ci", "test"} or HARVESTER_DISABLED:
-            print("[bridge] Skipped (CI/test mode)")
-            return {"ok": True, "stub": True}
+    if ENV in {"ci", "test"} or HARVESTER_DISABLED:
+        print("[bridge] Skipped (CI/test mode)")
+        return {"ok": True, "stub": True}
 
-        base = _bridge_base_for_doc("invoice")
-        url  = f"{base.rstrip('/')}/contracts"
-        r = session.post(url, json=payload, timeout=25, headers=headers)
+    base = _bridge_base_for_doc("invoice")
+    url  = f"{base.rstrip('/')}/contracts"
+    r = session.post(url, json=payload, timeout=25, headers=headers)
+    if r.status_code not in (200, 201):
+        print(f"[bridge] POST /contracts failed [{r.status_code}] {r.text[:200]}")
+    return r
 
 # --- Dump all customers for visibility -------------------------------------------------
 def dump_customers_csv(toks, out_path="qbo_out/customers.csv"):
