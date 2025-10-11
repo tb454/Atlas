@@ -389,7 +389,8 @@ def download_invoice_pdf(toks, invoice_id, out_path: pathlib.Path):
 def bridge_login(session: requests.Session) -> None:
     if not (BRIDGE_USER and BRIDGE_PASS):
         return
-    r = session.post(f"{BRIDGE_BASE}/login",
+    base = _bridge_base_for_doc()
+    r = session.post(f"{base}/login",
                      json={"username": BRIDGE_USER, "password": BRIDGE_PASS},
                      timeout=15)
     if r.status_code != 200:
