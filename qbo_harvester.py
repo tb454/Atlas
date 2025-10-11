@@ -426,6 +426,24 @@ def post_contract_to_bridge(session: requests.Session, row: dict, seller_name: s
     if os.getenv("BRIDGE_IMPORT_MODE", "historical").lower() == "historical":
         headers["X-Import-Mode"] = "historical"
 
+      # Back-date created_at for historical imports using the QBO invoice date
+        inv_date = row.get("invoice_date")
+        if headers.get("X-Import-Mode") == "historical" and inv_date:
+            if isinstance(inv_date, str):
+                # 'YYYY-MM-DD' → add midnight UTC
+                if len(inv_date) == 10 and inv_date[4] == "-" and inv_date[7] == "-":
+                    headers["X-Import-Created-At"] = inv_date + "T00:00:00Z"
+                else:
+                    # already ISO-ish; backend will normalize
+                    headers["X-Import-Created-At"] = inv_date
+            else:
+                try:
+                    from datetime import datetime, timezone
+                    if isinstance(inv_date, datetime):
+                        headers["X-Import-Created-At"] = inv_date.astimezone(timezone.utc).isoformat()
+                except Exception:
+                    pass
+                   
     if ENV in {"ci", "test"} or HARVESTER_DISABLED:
         print("[bridge] Skipped (CI/test mode)")
         return {"ok": True, "stub": True}
