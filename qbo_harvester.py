@@ -102,8 +102,7 @@ def _bridge_base_for_doc(doc_type: str | None = None):
 # ----- Bridge config -----
 
 # ===== Material normalization =====
-BASE_MATERIAL_MAP = {
-    # Ferrous
+BASE_MATERIAL_MAP = {   
     "ferrous sale clips": "Clips",
     "clips": "Clips",
     "hms": "HMS",
@@ -115,7 +114,25 @@ BASE_MATERIAL_MAP = {
     "p&s 5'": "P&S 5'",
     "shred": "Shred",
     "shred steel": "Shred",
-    # Aluminum examples
+    "busheling": "Busheling",
+    "old sheet": "Old Sheet",
+    "old sheet aluminum": "Old Sheet Aluminum",
+    "low grade sheet iron": "Shred",
+    "drums and rotors": "Drums & Rotors",
+    "unprepared": " Unprepared HMS",
+    "unprepared fe": "HMS",
+    "unprepared pipe": "Unprepared HMS",
+    "pipe from solar farm": "Unprepared HMS",
+    "pipe from solar farm project": "Unprepared HMS",
+    "rebar": "Rebar",
+    "bolts & nuts": "Bolts & Nuts",
+    "substation boxes": "Shred",
+    "old sheet dumpster": "Old Sheet Aluminum",
+    "old sheet alum dumpster": "Old Sheet Aluminum",
+    "stainless steel": "Stainless",
+    "ss bkg": "Stainless Breakage",
+    "al bkg": "Al Breakage",
+    "busheling/prime": "Busheling",
     "5052 clip": "Clips 5052 Al",
     "6061 clip": "Clips 6061 Al",
     "3003 clip": "Clips 3003 Al",
@@ -124,6 +141,8 @@ BASE_MATERIAL_MAP = {
     "aluminum car wheels": "Al Car Wheels",
     "alum breakage": "Al Breakage",
     "new bare extrusion prepared": "Al Extrusion (Bare)",
+    "alum Cans": "Alum Cans",
+    "aluminum cans": "Alum Cans",
 }
 KEYWORD_RULES = [
     (re.compile(r"\bshred( steel)?\b", re.I), "Shred"),
