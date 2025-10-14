@@ -287,6 +287,220 @@ Al/Cu rads dirty,,Al/Cu Radiators (Dirty)
 auto rads,,Radiators (Auto, Mixed)
 Auto rads,,Radiators (Auto, Mixed)
 
+Torching,Mervis,Unprepared HMS (Torch Cut)
+BUSHELING,Oscar Winski Company,Busheling
+Busheling,Oscar Winski Company,Busheling
+busheling,Oscar Winski Company,Busheling
+Ferrous Sale,Oscar Winski Company,Clips / Busheling Mix
+Purdue for Solotken,Oscar Winski Company,Prepared Cast (Industrial)
+Purdue Scrap,Oscar Winski Company,Prepared Cast (Industrial)
+Full Rail,Oscar Winski Company,Busheling Rail Shipment
+Full Rail Load #1,Oscar Winski Company,Busheling Rail Shipment
+Purdue Iron for Solotken,Oscar Winski Company,Prepared Cast (Heavy Melt)
+Purdue project for Solotken - last load,Oscar Winski Company,Prepared Cast (Heavy Melt)
+From NHK #1,Oscar Winski Company,Busheling (NHK Plant)
+
+car bodies with motors,Lewis Salvage,Shred (Autos with Motors)
+Aluminum molds,Josh Padnos,Al Cast (Clean Tooling Aluminum)
+
+dirty pipe,Rochester Iron & Metal,Unprepared HMS (Pipe)
+BUSHELING,Rochester Iron & Metal,Busheling
+Wire w/ concrete,Rochester Iron & Metal,Rebar / Concrete-Attached HMS
+Counterweights,Rochester Iron & Metal,Prepared Cast (Industrial)
+"wire, car, pipe",Rochester Iron & Metal,Unprepared HMS
+dirty motors,Rochester Iron & Metal,Mixed Electric Motors (Dirty)
+NHK seats,Rochester Iron & Metal,Non-Ferrous Shred (Seat Frames)
+seats,Rochester Iron & Metal,Non-Ferrous Shred (Seat Frames)
+drums & rotors / per Josh,Rochester Iron & Metal,Drums & Rotors
+Misc Unprepared Pipe from Fox,Rochester Iron & Metal,Unprepared HMS (Pipe)
+Misc Pipe/Tractor Rearends,Rochester Iron & Metal,Unprepared HMS (Rear Ends)
+Rebar,Rochester Iron & Metal,Rebar
+Correction on Invoice 360013 Rebar,Rochester Iron & Metal,Rebar
+Unprepared Pipe,Rochester Iron & Metal,Unprepared HMS (Pipe)
+Substation Boxes,Rochester Iron & Metal,Shred
+Drums and Rotors,Rochester Iron & Metal,Drums & Rotors
+Unprepared FE,Rochester Iron & Metal,HMS #2
+Bolts & Nuts,Rochester Iron & Metal,Bolts & Nuts
+Al Bkg,Rochester Iron & Metal,Al Breakage
+Low Grade Sheet Iron,Rochester Iron & Metal,Shred
+Pipe from solar farm,Rochester Iron & Metal,Unprepared HMS (Pipe)
+Pipe from solar farm project,Rochester Iron & Metal,Unprepared HMS (Pipe)
+SS Bkg,Rochester Iron & Metal,Stainless Breakage
+Stainless Steel,Rochester Iron & Metal,Stainless
+Heavy Unppd,Rochester Iron & Metal,Unprepared HMS (Heavy)
+Unclean Motors and heavy torching,Rochester Iron & Metal,Electric Motors / Torch Cut HMS
+Aluminum Bkg - 5 skids,Rochester Iron & Metal,Al Breakage
+Welding wire - 5 drums,Rochester Iron & Metal,Wire Scrap (Fe Weld Wire)
+Unclean motors,Rochester Iron & Metal,Mixed Electric Motors (Dirty)
+Light polies from Lebanon - pd as UHMS,Rochester Iron & Metal,Unprepared HMS (Light Poles)
+Light poles from Lebanon - pd as UHMS,Rochester Iron & Metal,Unprepared HMS (Light Poles)
+Al tanker from ML Farms,Rochester Iron & Metal,Al Tanker (Plate/Structural Aluminum)
+
+Ni Pipe - Loose on Skid  Pending analysis,Alloys Tech Inc,Nickel Pipe Alloy (Special Alloy)
+D2 tool steel - (2) Steel Drums on Skids,Alloys Tech Inc,Tool Steel D2
+Tungsten carbide dies and inserts - (1) Steel Drum on Skid,Alloys Tech Inc,Tungsten Carbide (Solid)
+Taps - (1) Steel Drum on Skid,Alloys Tech Inc,High-Speed Steel (Taps & Bits)
+"Mixed tool steel - (1) Steel Drum on Skid, (1) Plastic Bucket",Alloys Tech Inc,Tool Steel Mix (M7/D2)
+Carbide - 1 drum,Alloys Tech Inc,Tungsten Carbide (Solid)
+D2 - 6 barrels,Alloys Tech Inc,Tool Steel D2
+Knife scrap - one B/S,Alloys Tech Inc,Tool Steel (Hardened Knives)
+sorting adjustment,Alloys Tech Inc,IGNORE
+4 barrels of D2,Alloys Tech Inc,Tool Steel D2
+1 barrel of M7,Alloys Tech Inc,Tool Steel M7
+Tool steel,Alloys Tech Inc,Tool Steel (H-13/M2/D2 Blend)
+Carbide,Alloys Tech Inc,Tungsten Carbide (Solid)
+mixed SS,Alloys Tech Inc,Mixed Stainless
+D2,Alloys Tech Inc,Tool Steel D2
+M7,Alloys Tech Inc,Tool Steel M7
+Mixed tool steel,Alloys Tech Inc,Tool Steel Mix (M7/D2)
+carbide - see sort report,Alloys Tech Inc,Tungsten Carbide (Solid)
+carbide from Fontana,Alloys Tech Inc,Tungsten Carbide (Solid)
+
+NON FE:Electric Motors,Pro Metal Recycling,Mixed Electric Motors (Elmo)
+NON FE:Transformers,Pro Metal Recycling,Transformers (Al/Cu)
+NON FE:#2 Copper,Pro Metal Recycling,No. 2 Copper (Birch/Cliff)
+dirty auto rads,Pro Metal Recycling,Al/Cu Radiators (Dirty)
+two boxes,Pro Metal Recycling,IGNORE
+4 skids,Pro Metal Recycling,IGNORE
+NON FE:Window A/C units,Pro Metal Recycling,Window A/C Units
+2 bales,Pro Metal Recycling,IGNORE
+2 boxes,Pro Metal Recycling,IGNORE
+NON FE:#2 Insulated Copper,Pro Metal Recycling,ICW #2 (50% & CAT5/Tel)
+NON FE:E-scrap mixed,Pro Metal Recycling,E-Scrap (Mixed)
+NON FE:Alum/Cu Rads Dirty,Pro Metal Recycling,Al/Cu Radiators (Dirty)
+NON FE:Aluminum BX Wire,Pro Metal Recycling,ICW #2 BX (Al)
+NON FE:Sealed Units,Pro Metal Recycling,Sealed Units / Compressors (Vader)
+NON FE:Stainless Steel,Pro Metal Recycling,Stainless
+NON FE:Alum/Cu Radiators,Pro Metal Recycling,Al/Cu Radiators (Clean)
+90/10 brass in bucket,Pro Metal Recycling,Yellow Brass (90/10)
+chopped EDM wire in a bucket,Pro Metal Recycling,Copper Wire Turnings
+NON FE:Ballasts,Pro Metal Recycling,Ballasts (Electronic)
+10/10,Pro Metal Recycling,Al Extrusion 6063 10/10
+radiator ends,Pro Metal Recycling,Radiator Ends (Cu Breakage)
+NON FE:Thermal extrusions,Pro Metal Recycling,Thermal Break Aluminum Extrusion
+one large motor,Pro Metal Recycling,Electric Motors (Large <1000 lb)
+NON FE:Open eye Heliax wire,Pro Metal Recycling,ICW #1 (Heliax 57% Baled)
+one bale,Pro Metal Recycling,IGNORE
+Batteries,Pro Metal Recycling,Lead-Acid Batteries (Auto)
+Al Bkg,Pro Metal Recycling,Al Breakage
+10/10 extrusion,Pro Metal Recycling,Al Extrusion 6063 10/10
+Al bkg,Pro Metal Recycling,Al Breakage
+window A/C units,Pro Metal Recycling,Window A/C Units
+window A/C,Pro Metal Recycling,Window A/C Units
+C182 turnings,Pro Metal Recycling,Copper C182 Turnings
+pumps,Pro Metal Recycling,Sealed Units / Compressors (Vader)
+Loose dirty A/C rads,Pro Metal Recycling,Al/Cu Radiators (Dirty)
+loose clean A/C rads,Pro Metal Recycling,Al/Cu Radiators (Clean)
+8 boxes of E-scrap,Pro Metal Recycling,E-Scrap (Mixed)
+6063 new production - 4 boxes,Pro Metal Recycling,Al Extrusion 6063 (New Production)
+Ptd extrusion,Pro Metal Recycling,Painted Aluminum Extrusion
+Stainless steel,Pro Metal Recycling,Stainless
+Thermal break aluminum,Pro Metal Recycling,Thermal Break Aluminum Extrusion
+Cu Brass rads,Pro Metal Recycling,Copper/Brass Radiators
+2 & 1 copper wire,Pro Metal Recycling,ICW #1 (MCM 85% HG)
+Cast Alum,Pro Metal Recycling,Al Cast (Clean)
+#1 Ins. 80%,Pro Metal Recycling,ICW #1 (THHN 80%)
+"#1 Ins, 80%",Pro Metal Recycling,ICW #1 (THHN 80%)
+Brass Cu Rads,Pro Metal Recycling,Copper/Brass Radiators
+Open Eye,Pro Metal Recycling,ICW #1 (Heliax 57% Baled)
+Al Ext,Pro Metal Recycling,Al Extrusion (Bare)
+Al Ext Ptd,Pro Metal Recycling,Painted Aluminum Extrusion
+Copper bare brite,Pro Metal Recycling,No. 1 Copper Wire (Barley)
+Harness,Pro Metal Recycling,ICW #2 (50% & CAT5/Tel)
+Lead coated Cu,Pro Metal Recycling,Sheet Copper (Lead-Coated)
+#1/#2 Ins mixed,Pro Metal Recycling,ICW #2 (Mixed)
+Battery Cable,Pro Metal Recycling,ICW #2 (Battery Cable)
+Aluminum extrusion,Pro Metal Recycling,Al Extrusion (Bare)
+Plug ends,Pro Metal Recycling,Plug Ends (Breakage Mix)
+Brass copper rads,Pro Metal Recycling,Copper/Brass Radiators
+Aluminum cast,Pro Metal Recycling,Al Cast (Clean)
+Big motor,Pro Metal Recycling,Electric Motors (Large <1000 lb)
+#2 insulated wire in paper drum,Pro Metal Recycling,ICW #2 (50% & CAT5/Tel)
+Al turnings in barrel,Pro Metal Recycling,Aluminum Turnings
+Brass rads from #2 copper box,Pro Metal Recycling,Copper/Brass Radiators
+Insulated copper wire #1,Pro Metal Recycling,ICW #1 (THHN 80%)
+Ins copper wire #2 - telephone wire,Pro Metal Recycling,ICW #2 (50% & CAT5/Tel)
+motors with pumps,Pro Metal Recycling,Electric Motors (Mixed / Pump Attached)
+Al/brass shells mixed,Pro Metal Recycling,Brass Shells (Mixed Alloy)
+Shell primers,Pro Metal Recycling,Brass Shells (Clean)
+wheel wts,Pro Metal Recycling,Lead Wheel Weights
+Dirty wheels,Pro Metal Recycling,Al Car Wheels (Dirty)
+Dirty brass rads,Pro Metal Recycling,Copper/Brass Radiators (Dirty)
+Computer tower,Pro Metal Recycling,Computer Tower (Complete)
+Servers,Pro Metal Recycling,Servers (Complete)
+spent shells,Pro Metal Recycling,Brass Shells (Military Spent)
+H wire,Pro Metal Recycling,ICW #1 (Heliax 57% Baled)
+tin plated copper,Pro Metal Recycling,Tinned Copper Wire
+Cu paper wrapped,Pro Metal Recycling,Copper Wire Scrap (Insulated)
+Misc e-scrap,Pro Metal Recycling,E-Scrap (Mixed)
+Stator,Pro Metal Recycling,Motor Stators (Copper)
+#2 KR,Pro Metal Recycling,ICW #2 (Regional KR Wire)
+Faucets,Pro Metal Recycling,Yellow Brass (Plumbing)
+Xmas lts,Pro Metal Recycling,ICW Low Grade (Christmas Lights)
+
+3003 from Fenders,MDK ZeroLandfill,Aluminum 3003 Sheet
+3003 with poly from Fenders,MDK ZeroLandfill,Aluminum 3003 Sheet (Poly-Coated)
+3003P from Fenders,MDK ZeroLandfill,Aluminum 3003 Sheet
+4017 Bare,MDK ZeroLandfill,Aluminum 4017 Sheet (Bare)
+5052 from Fenders,MDK ZeroLandfill,Aluminum 5052 Sheet
+4017 from Fenders,MDK ZeroLandfill,Aluminum 4017 Sheet
+
+304 Stainless Steel,Newco Metals, Inc,Stainless 304 (Prepared)
+316 Stainless Steel Turnings,Newco Metals, Inc,Stainless 316 Turnings
+Painted Extrusion W/Iron ( Cast End Too),Newco Metals, Inc,Painted Aluminum Extrusion (With Fe)
+Al BKG,Newco Metals, Inc,Al Breakage
+Clean Ext,Newco Metals, Inc,Al Extrusion (Bare)
+Clean Extrusion,Newco Metals, Inc,Al Extrusion (Bare)
+3003 Alum,Newco Metals, Inc,Aluminum 3003 Sheet
+Stainless Steel Dumpster,Newco Metals, Inc,Stainless (Mixed)
+Stainless Steel,Newco Metals, Inc,Stainless
+Stainless Steel Bkg,Newco Metals, Inc,Stainless Breakage
+Mixed Stainless,Newco Metals, Inc,Mixed Stainless
+Al Wheels,Newco Metals, Inc,Al Car Wheels
+Drums and Rotors,Newco Metals, Inc,Drums & Rotors
+Thermal extrusion,Newco Metals, Inc,Thermal Break Aluminum Extrusion
+Wheels = clean,Newco Metals, Inc,Al Car Wheels
+Wheels - dirty,Newco Metals, Inc,Al Car Wheels (Dirty)
+Bare EC wire,Newco Metals, Inc,EC Aluminum Wire
+304 SST w/ Fe,Newco Metals, Inc,Stainless 304 w/ Fe Attachments
+SS Boring,Newco Metals, Inc,Stainless Turnings/Borings
+Fe turnings,Newco Metals, Inc,Steel Turnings
+irony ext,Newco Metals, Inc,Painted Aluminum Extrusion (With Fe)
+301 SS,Newco Metals, Inc,Stainless 301
+3003,Newco Metals, Inc,Aluminum 3003 Sheet
+Al wheels,Newco Metals, Inc,Al Car Wheels
+Ti turnings,Newco Metals, Inc,Titanium Turnings
+Ti solids,Newco Metals, Inc,Titanium Scrap (Solids)
+Al Turnings/ SS T,Newco Metals, Inc,Aluminum Turnings / Stainless Turnings Mix
+SPC,Newco Metals, Inc,Prepared Cast
+
+Busheling,Steel Dynamics Inc.,Busheling
+Freight charge,Stainless Steel Midwest,IGNORE
+October waste hauls,Lincoln Waste Solutions,IGNORE
+Filter Cake Dumpster Haul Fee,Lincoln Waste Solutions,IGNORE
+Filter Cake Disposal Fees,Lincoln Waste Solutions,IGNORE
+Disposal Fees,Lincoln Waste Solutions,IGNORE
+Open Top - General Waste,Lincoln Waste Solutions,IGNORE
+Trash Compactor Haul,Lincoln Waste Solutions,IGNORE
+Hauled per Adam Ingle,Lincoln Waste Solutions,IGNORE
+Hauled per Andy,Lincoln Waste Solutions,IGNORE
+Hauled per Todd,Lincoln Waste Solutions,IGNORE
+PO*,Lincoln Waste Solutions,IGNORE
+Per*,Lincoln Waste Solutions,IGNORE
+Monthly Waste Hauls,Werner & Son,IGNORE
+Monthly Trash Hauls,Werner & Son,IGNORE
+Wood Haul,Werner & Son,IGNORE
+Monthly Dumpster Hauls,Werner & Son,IGNORE
+2 Load of Baled Fiber Core (Frito Lay),Werner & Son,IGNORE
+Over 5 Ton (10/16),Werner & Son,IGNORE
+Baled cores from Frito,Werner & Son,IGNORE
+KAF Cardboard Rebate,Werner & Son,IGNORE
+Cardboard from KAF,Werner & Son,IGNORE
+paper cores from Frito,Werner & Son,IGNORE
+Disposal Fees over 5T*,Werner & Son,IGNORE
+Per Attached,Werner & Son,IGNORE
+KA&F Compactor Haul*,Werner & Son,IGNORE
+
 Pallets,,IGNORE
 B grade pallets,,IGNORE
 Load of Skids,,IGNORE
