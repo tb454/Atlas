@@ -54,6 +54,9 @@ CONTRACTS_JSONL_PATH = OUT_DIR / "bridge_contracts.ndjson"
 TOK_PATH  = OUT_DIR / "qbo_tokens.json"
 MAPPING_CSV_PATH = OUT_DIR / "material_map.csv"
 UNMAPPED_LOG     = OUT_DIR / "unmapped_materials.csv"
+NONMETAL_MAP_PATH = OUT_DIR / "nonmetal_map.csv"
+NONMETAL_OUT_PATH = OUT_DIR / "nonmetal_items.csv"
+
 
 # ===== QuickBooks OAuth/API (.env) =====
 CLIENT_ID     = os.getenv("QBO_CLIENT_ID")
@@ -71,7 +74,6 @@ RELAY_AUTH = os.getenv("QBO_RELAY_AUTH")
 RELAY_PEEK = f"{RELAY_BASE}/admin/qbo/peek" if RELAY_BASE else None
 
 # ===== BRidge config =====
-BRIDGE_BUYER_BASE  = os.getenv("BRIDGE_BUYER_BASE", "https://bridge-buyer.onrender.com")
 BRIDGE_SELLER_BASE = os.getenv("BRIDGE_SELLER_BASE", "https://scrapfutures.com")
 BRIDGE_POST_TARGET = os.getenv("BRIDGE_POST_TARGET", "seller").lower()
 BRIDGE_USER        = os.getenv("BRIDGE_USER")
@@ -83,13 +85,11 @@ ENV = os.getenv("ENV", "production").lower()
 HARVESTER_DISABLED = os.getenv("HARVESTER_DISABLED", "0") == "1"
 
 def _bridge_base_for_doc(doc_type: str | None = None):
-    if BRIDGE_POST_TARGET == "buyer":
-        return BRIDGE_BUYER_BASE
     if BRIDGE_POST_TARGET == "seller":
         return BRIDGE_SELLER_BASE
     if doc_type and doc_type.lower() in {"invoice", "payment", "bill"}:
         return BRIDGE_SELLER_BASE
-    return BRIDGE_BUYER_BASE
+    return BRIDGE_SELLER_BASE
 
 # ===== Material normalization =====
 BASE_MATERIAL_MAP = {    
@@ -498,6 +498,56 @@ def _wildcard_to_regex(pat: str) -> str:
     esc = _re.escape(pat).replace(r"\*", ".*")
     return rf"^{esc}$"
 
+def _load_one_map(path, exact_global, exact_by_cust, patterns, ignore_exact, ignore_patterns):
+    if not path or not path.exists():
+        return
+    with open(path, newline="", encoding="utf-8") as f:
+        r = csv.reader(f)
+        for row in r:
+            if not row:
+                continue
+            if row[0].strip().lower() in {"source", "raw", "#"}:
+                continue
+            src = (row[0] or "").strip()
+            if len(row) == 2:
+                cust = ""
+                suggested = (row[1] or "").strip()
+            else:
+                cust = (row[1] or "").strip()
+                suggested = (row[2] or "").strip()
+            if not src or not suggested:
+                continue
+
+            src_low  = src.lower()
+            cust_low = (cust or "").lower()
+            if cust_low == "*":
+                cust_low = ""
+
+            if suggested.upper() == "IGNORE":
+                if "*" in src:
+                    ignore_patterns.append(re.compile(_wildcard_to_regex(src), re.I))
+                else:
+                    ignore_exact.add(src_low)
+                continue
+
+            if "*" in src:
+                patterns.append((re.compile(_wildcard_to_regex(src), re.I), suggested, cust_low or None))
+            else:
+                if cust_low:
+                    exact_by_cust[cust_low][src_low] = suggested
+                else:
+                    exact_global[src_low] = suggested
+
+def _load_csv_mapping_multi(paths):
+    exact_global = {}
+    exact_by_cust = collections.defaultdict(dict)
+    patterns = []
+    ignore_exact = set()
+    ignore_patterns = []
+    for p in paths:
+        _load_one_map(p, exact_global, exact_by_cust, patterns, ignore_exact, ignore_patterns)
+    return exact_global, exact_by_cust, patterns, ignore_exact, ignore_patterns
+
 # --- Pre-clean ---
 NONFE_RX = re.compile(r"^\s*non\s*fe\s*:\s*", re.I)  # strip "NON FE:" prefix
 
@@ -505,6 +555,31 @@ def _preclean_source(s: str) -> str:
     if not s:
         return s
     return NONFE_RX.sub("", s).strip()
+
+def _is_nonmetal_hit(source_name: str, customer_name: str | None) -> bool:
+    if not source_name:
+        return False
+    s_raw = _preclean_source(source_name.strip())
+    s = s_raw.lower()
+    cust = (customer_name or "").strip().lower()
+
+    # ignore rows in the nonmetal map are NOT routed
+    if s in NONMETAL_IGNORE_EXACT:
+        return False
+    for rx in NONMETAL_IGNORE_PATTERNS:
+        if rx.match(s_raw):
+            return False
+
+    if cust and s in NONMETAL_BY_CUST.get(cust, {}):
+        return True
+    if s in NONMETAL_GLOBAL:
+        return True
+    for rx, _canon, scope in NONMETAL_PATTERNS:
+        if scope and scope != cust:
+            continue
+        if rx.match(s_raw):
+            return True
+    return False
 
 def _load_csv_mapping():
     exact_global = {}
@@ -563,7 +638,15 @@ def _load_csv_mapping():
                     exact_global[src_low] = suggested
 
     return exact_global, exact_by_cust, patterns, ignore_exact, ignore_patterns
-EXACT_GLOBAL, EXACT_BY_CUST, PATTERNS, IGNORE_EXACT, IGNORE_PATTERNS = _load_csv_mapping()
+EXACT_GLOBAL, EXACT_BY_CUST, PATTERNS, IGNORE_EXACT, IGNORE_PATTERNS = _load_csv_mapping_multi([
+    NONMETAL_MAP_PATH,   # non-metal rules first (higher precedence)
+    MAPPING_CSV_PATH,    # metal rules
+])
+
+NONMETAL_GLOBAL, NONMETAL_BY_CUST, NONMETAL_PATTERNS, NONMETAL_IGNORE_EXACT, NONMETAL_IGNORE_PATTERNS = _load_csv_mapping_multi([
+    NONMETAL_MAP_PATH
+])
+
 
 def _log_unmapped(src, customer):
     try:
@@ -1143,6 +1226,7 @@ def main():
     toks = dump_customers_csv(toks)
 
     rows = []
+    nonmetal_rows = []
     sess = requests.Session()
     try:
         bridge_login(sess)
@@ -1191,6 +1275,22 @@ def main():
 
                 # Description-first source text
                 source_for_material = _material_source_text(item_name, line_desc, (inv.get("CustomerRef") or {}).get("name"))
+                # --- route non-metal into its own file ---
+                if _is_nonmetal_hit(source_for_material, (inv.get("CustomerRef") or {}).get("name")):
+                    nonmetal_rows.append({
+                        "customer": (inv.get("CustomerRef") or {}).get("name"),
+                        "description": source_for_material,
+                        "suggested": normalize_material(source_for_material, (inv.get("CustomerRef") or {}).get("name")),
+                        "invoice_id": inv_id,
+                        "invoice_number": doc_no,
+                        "invoice_date": inv_date,
+                        "qty": qty,
+                        "uom": uom,
+                        "line_amount": amount,
+                        "pdf_path": str(pdf_path),
+                     })
+                    continue  # keep it OUT of metal flow
+
                 material_canon = normalize_material(source_for_material, customer_name=(inv.get("CustomerRef") or {}).get("name"))
 
                 row = {
@@ -1260,6 +1360,22 @@ def main():
 
                 # Description-first here too
                 source_for_material = _material_source_text(item_name, line_desc, custname)
+                # --- route non-metal into its own file ---
+                if _is_nonmetal_hit(source_for_material, custname):
+                    nonmetal_rows.append({
+                        "customer": custname,
+                        "description": source_for_material,
+                        "suggested": normalize_material(source_for_material, custname),
+                        "invoice_id": inv_id,
+                        "invoice_number": doc_no,
+                        "invoice_date": inv_date,
+                        "qty": qty,
+                        "uom": uom,
+                        "line_amount": amount,
+                        "pdf_path": str(pdf_path),
+                    })
+                    continue  # keep it OUT of metal flow
+
                 material_canon = normalize_material(source_for_material, customer_name=custname)
 
                 row = {
@@ -1331,6 +1447,19 @@ def main():
         w = csv.DictWriter(f, fieldnames=headers)
         w.writeheader()
         w.writerows(rows)
+
+    # --- Nonmetal output ---
+    if nonmetal_rows:
+        nonmetal_headers = [
+            "customer","description","suggested",
+            "invoice_id","invoice_number","invoice_date",
+            "qty","uom","line_amount","pdf_path"
+        ]
+        with open(NONMETAL_OUT_PATH, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=nonmetal_headers)
+            w.writeheader()
+            w.writerows(nonmetal_rows)
+        print(f"Nonmetal → {NONMETAL_OUT_PATH}  (total: {len(nonmetal_rows)})")
 
     # Run summary
     print(f"Contracts built: {len(contracts)} | Lines harvested: {len(rows)}")
