@@ -705,10 +705,10 @@ Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Dirty),0.2255,3800.0,,1157#
 Pro Metal Recycling,Winski Brothers,ICW #2 BX (Al),0.779,4000.0,,1157#18,,QBO,2022-01-08,USD
 Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.0295,700.0,,1157#19,,QBO,2022-01-08,USD
 Pro Metal Recycling,Winski Brothers,Stainless,0.476,1640.0,,1157#20,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,Alum/Cu Radiators,0.5,4020.0,,1157#21,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.5,4020.0,,1157#21,,QBO,2022-01-08,USD
 Pro Metal Recycling,Winski Brothers,Yellow Brass (90/10),0.013,6240.0,,1157#22,,QBO,2022-01-08,USD
 Pro Metal Recycling,Winski Brothers,Copper Wire Turnings,0.0565,5500.0,,1157#23,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,Ballasts (Magnetic/Regular),0.7135,420.0,,1157#24,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Ballasts (Electronic),0.7135,420.0,,1157#24,,QBO,2022-01-08,USD
 Pro Metal Recycling,Winski Brothers,4 barrels on 1 skid,0.15,1644.47,,1157#25,,QBO,2022-01-08,USD
 Pro Metal Recycling,Winski Brothers,Al Extrusion 6063 10/10,0.3,2700.0,,1305#0,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Al Extrusion (Painted/Anodized),0.2255,2600.0,,1305#1,,QBO,2022-03-28,USD
@@ -723,7 +723,7 @@ Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.4835,8800.0,,13
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.2865,8300.0,,1305#10,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Al Extrusion 6063 10/10,0.2155,2700.0,,1305#11,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Radiator Ends (Cu Breakage),0.2345,2700.0,,1305#12,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,Thermal extrusions,0.215,2000.0,,1305#13,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,Thermal Break Aluminum Extrusion,0.215,2000.0,,1305#13,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Window A/C Units,0.351,500.0,,1305#14,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Window A/C Units,0.361,500.0,,1305#15,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.8245,980.0,,1305#16,,QBO,2022-03-28,USD
@@ -732,7 +732,7 @@ Pro Metal Recycling,Winski Brothers,Al Breakage,1.042,460.0,,1305#18,,QBO,2022-0
 Pro Metal Recycling,Winski Brothers,Al Breakage,1.094,460.0,,1305#19,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.721,460.0,,1305#20,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.6675,460.0,,1305#21,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57%,0.118,3900.0,,1305#22,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57% Baled),0.118,3900.0,,1305#22,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.0965,460.0,,1305#24,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,CATV Al Wire (Bare),0.12,500.0,,1380#0,,QBO,2022-04-25,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.2725,4500.0,,1380#1,,QBO,2022-04-25,USD
@@ -1017,7 +1017,7 @@ Pro Metal Recycling,Winski Brothers,Aluminum Turnings,0.253,800.0,,2491#20,,QBO,
 Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),0.545,300.0,,2491#21,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Sheet Copper,0.312,6400.0,,2491#22,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.227,3780.0,,2491#23,,QBO,2023-07-28,USD
-Pro Metal Recycling,Winski Brothers,Ballasts (Magnetic/Regular),1.3205,580.0,,2491#24,,QBO,2023-07-28,USD
+Pro Metal Recycling,Winski Brothers,Ballasts (Electronic),1.3205,580.0,,2491#24,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Composition / Red Brass (Ebony),0.473,5500.0,,2491#25,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Zinc Die Cast,0.2175,1500.0,,2491#26,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.614,320.0,,2619#0,,QBO,2023-09-07,USD
@@ -1548,8 +1548,8 @@ Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.728,860.0,,37
 Pro Metal Recycling,Winski Brothers,Al Extrusion (Bare),0.4235,1680.0,,3760#13,,QBO,2024-12-12,USD
 Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.118,660.0,,3760#14,,QBO,2024-12-12,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.4795,4060.0,,3760#15,,QBO,2024-12-12,USD
-Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57%,0.28,3880.0,,3760#16,,QBO,2024-12-12,USD
-Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57%,0.268,3880.0,,3760#17,,QBO,2024-12-12,USD
+Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57% Baled),0.28,3880.0,,3760#16,,QBO,2024-12-12,USD
+Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57% Baled),0.268,3880.0,,3760#17,,QBO,2024-12-12,USD
 Pro Metal Recycling,Winski Brothers,copper chops,1.6305,7700.0,,3760#18,,QBO,2024-12-12,USD
 Pro Metal Recycling,Winski Brothers,Painted Aluminum Extrusion,0.252,1600.0,,3760#19,,QBO,2024-12-12,USD
 Pro Metal Recycling,Winski Brothers,Al Car Wheels,0.169,1820.0,,3760#20,,QBO,2024-12-12,USD
@@ -1577,7 +1577,7 @@ Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.433,3840.0,,3813#1
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.548,7520.0,,3813#20,,QBO,2025-01-02,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.457,3500.0,,3813#21,,QBO,2025-01-02,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.994,560.0,,3813#22,,QBO,2025-01-02,USD
-Pro Metal Recycling,Winski Brothers,Ballasts (Magnetic/Regular),1.206,600.0,,3813#23,,QBO,2025-01-02,USD
+Pro Metal Recycling,Winski Brothers,Ballasts (Electronic),1.206,600.0,,3813#23,,QBO,2025-01-02,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.6585,300.0,,3813#24,,QBO,2025-01-02,USD
 Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.195,4760.0,,3813#25,,QBO,2025-01-02,USD
 Pro Metal Recycling,Winski Brothers,#2 Ins - fuses for fireworks,0.2605,3840.0,,3813#26,,QBO,2025-01-02,USD
@@ -1810,7 +1810,7 @@ Pro Metal Recycling,Winski Brothers,#2,0.7125,7500.0,,4215#2,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.968,7500.0,,4215#3,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (Regional KR Wire),1.0465,7500.0,,4215#4,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.042,560.0,,4215#5,,QBO,2025-06-25,USD
-Pro Metal Recycling,Winski Brothers,Ballasts (Magnetic/Regular),1.2105,400.0,,4215#6,,QBO,2025-06-25,USD
+Pro Metal Recycling,Winski Brothers,Ballasts (Electronic),1.2105,400.0,,4215#6,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.405,4520.0,,4215#7,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.231,4520.0,,4215#8,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Al Cast (Clean),0.332,1460.0,,4215#9,,QBO,2025-06-25,USD
