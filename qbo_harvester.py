@@ -538,8 +538,6 @@ def _load_csv_mapping():
     return exact_global, exact_by_cust, patterns, ignore_exact, ignore_patterns
 EXACT_GLOBAL, EXACT_BY_CUST, PATTERNS, IGNORE_EXACT, IGNORE_PATTERNS = _load_csv_mapping()
 
-EXTERNAL_MAP = _load_csv_mapping()
-
 def _log_unmapped(src, customer):
     try:
         write_header = not UNMAPPED_LOG.exists()

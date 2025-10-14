@@ -167,8 +167,8 @@ Mervis,Winski Brothers,Al Extrusion (Bare),0.369,2540.0,,4358#7,,QBO,2025-08-18,
 Mervis,Winski Brothers,No. 1 Copper (Berry/Candy),0.4765,8000.0,,4358#8,,QBO,2025-08-18,USD
 Mervis,Winski Brothers,Al/Cu Radiators (Clean),0.3235,4040.0,,4358#9,,QBO,2025-08-18,USD
 Mervis,Winski Brothers,Clips,11.96,260.63,,4354#0,,QBO,2025-08-18,USD
-Mervis,Winski Brothers,Torching,25.91,166.99,,4372#0,,QBO,2025-08-25,USD
-Mervis,Winski Brothers,Torching,21.22,164.01,,4383#0,,QBO,2025-08-28,USD
+Mervis,Winski Brothers,Unprepared HMS (Torch Cut),25.91,166.99,,4372#0,,QBO,2025-08-25,USD
+Mervis,Winski Brothers,Unprepared HMS (Torch Cut),21.22,164.01,,4383#0,,QBO,2025-08-28,USD
 Mervis,Winski Brothers,Alum Cans,3.223,1500.0,,4397#0,,QBO,2025-09-03,USD
 Mervis,Winski Brothers,Insulated Al Wire,0.2205,1200.0,,4397#1,,QBO,2025-09-03,USD
 Mervis,Winski Brothers,Al Car Wheels,2.4855,2220.0,,4397#2,,QBO,2025-09-03,USD
@@ -186,8 +186,8 @@ Mervis,Winski Brothers,No. 1 Copper (Berry/Candy),0.279,8220.0,,4421#5,,QBO,2025
 Mervis,Winski Brothers,Al Car Wheels,0.7085,2220.0,,4421#6,,QBO,2025-09-15,USD
 Mervis,Winski Brothers,Clips,14.42,243.78,,4446#0,,QBO,2025-10-01,USD
 Mervis,Winski Brothers,Clips,14.53,243.78,,4450#0,,QBO,2025-10-02,USD
-Oscar Winski Company,Winski Brothers,BUSHELING,12.06,500.0,,1013#0,,QBO,2021-09-23,USD
-Oscar Winski Company,Winski Brothers,BUSHELING,11.6,482.14,,1038#0,,QBO,2021-11-16,USD
+Oscar Winski Company,Winski Brothers,Busheling,12.06,500.0,,1013#0,,QBO,2021-09-23,USD
+Oscar Winski Company,Winski Brothers,Busheling,11.6,482.14,,1038#0,,QBO,2021-11-16,USD
 Oscar Winski Company,Winski Brothers,Busheling,14.17,446.43,,1173#0,,QBO,2022-01-18,USD
 Oscar Winski Company,Winski Brothers,Busheling,12.57,419.64,,1215#0,,QBO,2022-02-16,USD
 Oscar Winski Company,Winski Brothers,Busheling,18.24,589.28,,1279#0,,QBO,2022-03-16,USD
@@ -200,21 +200,21 @@ Oscar Winski Company,Winski Brothers,Busheling,13.84,508.93,,1545#0,,QBO,2022-06
 Oscar Winski Company,Winski Brothers,Sealed Units / Compressors (Vader),6.01,178.57,,1607#0,,QBO,2022-07-22,USD
 Oscar Winski Company,Winski Brothers,Sealed Units / Compressors (Vader),7.4,178.57,,1606#0,,QBO,2022-07-22,USD
 Oscar Winski Company,Winski Brothers,Unprepared HMS,6.68,178.57,,1625#0,,QBO,2022-07-27,USD
-Oscar Winski Company,Winski Brothers,Purdue for Solotken,7.42,160.71,,1663#0,,QBO,2022-08-09,USD
-Oscar Winski Company,Winski Brothers,Purdue for Solotken,7.31,160.71,,1662#0,,QBO,2022-08-09,USD
-Oscar Winski Company,Winski Brothers,Purdue Scrap,9.46,160.71,,1674#0,,QBO,2022-08-11,USD
-Oscar Winski Company,Winski Brothers,Full Rail,10.43,294.64,,1670#0,,QBO,2022-08-11,USD
-Oscar Winski Company,Winski Brothers,Full Rail Load #1,13.33,294.64,,1669#0,,QBO,2022-08-11,USD
-Oscar Winski Company,Winski Brothers,Purdue Scrap,10.54,160.71,,1684#0,,QBO,2022-08-17,USD
+Oscar Winski Company,Winski Brothers,Prepared Cast (Industrial),7.42,160.71,,1663#0,,QBO,2022-08-09,USD
+Oscar Winski Company,Winski Brothers,Prepared Cast (Industrial),7.31,160.71,,1662#0,,QBO,2022-08-09,USD
+Oscar Winski Company,Winski Brothers,Prepared Cast (Industrial),9.46,160.71,,1674#0,,QBO,2022-08-11,USD
+Oscar Winski Company,Winski Brothers,Busheling Rail Shipment,10.43,294.64,,1670#0,,QBO,2022-08-11,USD
+Oscar Winski Company,Winski Brothers,Busheling Rail Shipment,13.33,294.64,,1669#0,,QBO,2022-08-11,USD
+Oscar Winski Company,Winski Brothers,Prepared Cast (Industrial),10.54,160.71,,1684#0,,QBO,2022-08-17,USD
 Oscar Winski Company,Winski Brothers,Busheling,13.03,325.89,,1688#0,,QBO,2022-08-18,USD
-Oscar Winski Company,Winski Brothers,Purdue Scrap,10.14,160.72,,1692#0,,QBO,2022-08-19,USD
-Oscar Winski Company,Winski Brothers,Purdue Iron for Solotken,9.05,161.25,,1705#0,,QBO,2022-08-26,USD
-Oscar Winski Company,Winski Brothers,Purdue project for Solotken - last load,6.6,138.39,,1741#0,,QBO,2022-09-12,USD
+Oscar Winski Company,Winski Brothers,Prepared Cast (Industrial),10.14,160.72,,1692#0,,QBO,2022-08-19,USD
+Oscar Winski Company,Winski Brothers,Prepared Cast (Heavy Melt),9.05,161.25,,1705#0,,QBO,2022-08-26,USD
+Oscar Winski Company,Winski Brothers,Prepared Cast (Heavy Melt),6.6,138.39,,1741#0,,QBO,2022-09-12,USD
 Oscar Winski Company,Winski Brothers,Busheling,11.73,308.04,,1745#0,,QBO,2022-09-13,USD
 Oscar Winski Company,Winski Brothers,Busheling,9.99,308.03,,1783#0,,QBO,2022-09-28,USD
-Oscar Winski Company,Winski Brothers,busheling,14.58,281.25,,1822#0,,QBO,2022-10-14,USD
+Oscar Winski Company,Winski Brothers,Busheling,14.58,281.25,,1822#0,,QBO,2022-10-14,USD
 Oscar Winski Company,Winski Brothers,Busheling,15.88,281.25,,1837#0,,QBO,2022-10-21,USD
-Oscar Winski Company,Winski Brothers,Ferrous Sale,13.92,254.46,,1884#0,,QBO,2022-11-10,USD
+Oscar Winski Company,Winski Brothers,Clips / Busheling Mix,13.92,254.46,,1884#0,,QBO,2022-11-10,USD
 Oscar Winski Company,Winski Brothers,Busheling,7.72,281.25,,1944#0,,QBO,2022-12-09,USD
 Oscar Winski Company,Winski Brothers,Busheling,9.25,334.82,,1998#0,,QBO,2023-01-11,USD
 Oscar Winski Company,Winski Brothers,Busheling,14.78,334.82,,2024#0,,QBO,2023-01-23,USD
@@ -273,53 +273,53 @@ Oscar Winski Company,Winski Brothers,Busheling,4.41,330.36,,3163#0,,QBO,2024-04-
 Oscar Winski Company,Winski Brothers,Busheling,4.95,330.35,,3170#0,,QBO,2024-04-25,USD
 Oscar Winski Company,Winski Brothers,Busheling,5.09,330.35,,3178#0,,QBO,2024-04-29,USD
 Oscar Winski Company,Winski Brothers,Busheling,4.61,330.36,,3207#0,,QBO,2024-05-08,USD
-Oscar Winski Company,Winski Brothers,busheling,15.16,330.36,,3233#0,,QBO,2024-05-20,USD
-Oscar Winski Company,Winski Brothers,busheling,4.63,330.35,,3235#0,,QBO,2024-05-21,USD
-Oscar Winski Company,Winski Brothers,From NHK #1,3.18,330.36,,3240#0,,QBO,2024-05-22,USD
-Oscar Winski Company,Winski Brothers,busheling,6.42,294.64,,3283#0,,QBO,2024-06-04,USD
-Oscar Winski Company,Winski Brothers,busheling,5.8,294.64,,3296#0,,QBO,2024-06-06,USD
-Oscar Winski Company,Winski Brothers,busheling,15.4,294.64,,3292#0,,QBO,2024-06-06,USD
+Oscar Winski Company,Winski Brothers,Busheling,15.16,330.36,,3233#0,,QBO,2024-05-20,USD
+Oscar Winski Company,Winski Brothers,Busheling,4.63,330.35,,3235#0,,QBO,2024-05-21,USD
+Oscar Winski Company,Winski Brothers,Busheling (NHK Plant),3.18,330.36,,3240#0,,QBO,2024-05-22,USD
+Oscar Winski Company,Winski Brothers,Busheling,6.42,294.64,,3283#0,,QBO,2024-06-04,USD
+Oscar Winski Company,Winski Brothers,Busheling,5.8,294.64,,3296#0,,QBO,2024-06-06,USD
+Oscar Winski Company,Winski Brothers,Busheling,15.4,294.64,,3292#0,,QBO,2024-06-06,USD
 Oscar Winski Company,Winski Brothers,Clips,6.14,276.78,,3300#0,,QBO,2024-06-10,USD
-Oscar Winski Company,Winski Brothers,busheling,7.43,285.71,,3344#0,,QBO,2024-06-25,USD
-Oscar Winski Company,Winski Brothers,busheling,11.35,285.71,,3373#0,,QBO,2024-07-08,USD
-Oscar Winski Company,Winski Brothers,busheling,7.78,285.71,,3404#0,,QBO,2024-07-17,USD
-Oscar Winski Company,Winski Brothers,busheling,6.68,285.72,,3417#0,,QBO,2024-07-19,USD
-Oscar Winski Company,Winski Brothers,busheling,12.23,285.71,,3430#0,,QBO,2024-07-24,USD
+Oscar Winski Company,Winski Brothers,Busheling,7.43,285.71,,3344#0,,QBO,2024-06-25,USD
+Oscar Winski Company,Winski Brothers,Busheling,11.35,285.71,,3373#0,,QBO,2024-07-08,USD
+Oscar Winski Company,Winski Brothers,Busheling,7.78,285.71,,3404#0,,QBO,2024-07-17,USD
+Oscar Winski Company,Winski Brothers,Busheling,6.68,285.72,,3417#0,,QBO,2024-07-19,USD
+Oscar Winski Company,Winski Brothers,Busheling,12.23,285.71,,3430#0,,QBO,2024-07-24,USD
 Oscar Winski Company,Winski Brothers,No. 1 Copper Wire (Barley),0.663,7580.0,,3439#0,,QBO,2024-07-25,USD
 Oscar Winski Company,Winski Brothers,No. 1 Copper (Berry/Candy),0.232,7240.0,,3439#1,,QBO,2024-07-25,USD
-Oscar Winski Company,Winski Brothers,busheling,7.01,285.71,,3461#0,,QBO,2024-08-01,USD
+Oscar Winski Company,Winski Brothers,Busheling,7.01,285.71,,3461#0,,QBO,2024-08-01,USD
 Oscar Winski Company,Winski Brothers,No. 2 Copper (Birch/Cliff),0.4365,6920.0,,3498#0,,QBO,2024-08-15,USD
 Oscar Winski Company,Winski Brothers,No. 1 Copper (Berry/Candy),1.1105,7560.0,,3493#0,,QBO,2024-08-15,USD
 Oscar Winski Company,Winski Brothers,No. 1 Copper Wire (Barley),1.25,7860.0,,3517#0,,QBO,2024-08-22,USD
-Oscar Winski Company,Winski Brothers,busheling,14.31,294.64,,3587#0,,QBO,2024-09-20,USD
-Oscar Winski Company,Winski Brothers,busheling,8.74,285.72,,3586#0,,QBO,2024-09-24,USD
-Oscar Winski Company,Winski Brothers,busheling,7.91,285.71,,3634#0,,QBO,2024-10-14,USD
-Oscar Winski Company,Winski Brothers,busheling,7.32,294.64,,3723#0,,QBO,2024-11-20,USD
-Oscar Winski Company,Winski Brothers,busheling,9.68,294.64,,3783#0,,QBO,2024-12-18,USD
-Oscar Winski Company,Winski Brothers,busheling,19.65,312.5,,3829#0,,QBO,2025-01-13,USD
-Oscar Winski Company,Winski Brothers,busheling,12.13,330.36,,4177#0,,QBO,2025-06-11,USD
-Oscar Winski Company,Winski Brothers,busheling,14.03,330.36,,4180#0,,QBO,2025-06-12,USD
-Oscar Winski Company,Winski Brothers,busheling,14.96,330.36,,4191#0,,QBO,2025-06-17,USD
-Oscar Winski Company,Winski Brothers,busheling,10.4,330.36,,4243#0,,QBO,2025-07-08,USD
-Oscar Winski Company,Winski Brothers,busheling,12.46,330.36,,4254#0,,QBO,2025-07-11,USD
-Oscar Winski Company,Winski Brothers,busheling,11.27,330.36,,4296#0,,QBO,2025-07-29,USD
-Oscar Winski Company,Winski Brothers,busheling,8.52,330.36,,4336#0,,QBO,2025-08-12,USD
-Oscar Winski Company,Winski Brothers,busheling,15.25,330.36,,4345#0,,QBO,2025-08-14,USD
-Oscar Winski Company,Winski Brothers,busheling,13.47,330.36,,4351#0,,QBO,2025-08-15,USD
-Oscar Winski Company,Winski Brothers,busheling,6.18,330.36,,4371#0,,QBO,2025-08-22,USD
-Oscar Winski Company,Winski Brothers,busheling,14.37,312.5,,4412#0,,QBO,2025-09-10,USD
-Oscar Winski Company,Winski Brothers,busheling,11.36,312.5,,4420#0,,QBO,2025-09-12,USD
-Oscar Winski Company,Winski Brothers,busheling,10.6,330.36,,4445#0,,QBO,2025-10-01,USD
-Oscar Winski Company,Winski Brothers,busheling,12.19,330.36,,4454#0,,QBO,2025-10-03,USD
-Oscar Winski Company,Winski Brothers,busheling,7.74,330.36,,4476#0,,QBO,2025-10-09,USD
-Oscar Winski Company,Winski Brothers,busheling,4.37,330.36,,4486#0,,QBO,2025-10-13,USD
-Oscar Winski Company,Winski Brothers,busheling,10.19,330.36,,4485#0,,QBO,2025-10-13,USD
-Oscar Winski Company,Winski Brothers,busheling,10.53,330.36,,4482#0,,QBO,2025-10-13,USD
+Oscar Winski Company,Winski Brothers,Busheling,14.31,294.64,,3587#0,,QBO,2024-09-20,USD
+Oscar Winski Company,Winski Brothers,Busheling,8.74,285.72,,3586#0,,QBO,2024-09-24,USD
+Oscar Winski Company,Winski Brothers,Busheling,7.91,285.71,,3634#0,,QBO,2024-10-14,USD
+Oscar Winski Company,Winski Brothers,Busheling,7.32,294.64,,3723#0,,QBO,2024-11-20,USD
+Oscar Winski Company,Winski Brothers,Busheling,9.68,294.64,,3783#0,,QBO,2024-12-18,USD
+Oscar Winski Company,Winski Brothers,Busheling,19.65,312.5,,3829#0,,QBO,2025-01-13,USD
+Oscar Winski Company,Winski Brothers,Busheling,12.13,330.36,,4177#0,,QBO,2025-06-11,USD
+Oscar Winski Company,Winski Brothers,Busheling,14.03,330.36,,4180#0,,QBO,2025-06-12,USD
+Oscar Winski Company,Winski Brothers,Busheling,14.96,330.36,,4191#0,,QBO,2025-06-17,USD
+Oscar Winski Company,Winski Brothers,Busheling,10.4,330.36,,4243#0,,QBO,2025-07-08,USD
+Oscar Winski Company,Winski Brothers,Busheling,12.46,330.36,,4254#0,,QBO,2025-07-11,USD
+Oscar Winski Company,Winski Brothers,Busheling,11.27,330.36,,4296#0,,QBO,2025-07-29,USD
+Oscar Winski Company,Winski Brothers,Busheling,8.52,330.36,,4336#0,,QBO,2025-08-12,USD
+Oscar Winski Company,Winski Brothers,Busheling,15.25,330.36,,4345#0,,QBO,2025-08-14,USD
+Oscar Winski Company,Winski Brothers,Busheling,13.47,330.36,,4351#0,,QBO,2025-08-15,USD
+Oscar Winski Company,Winski Brothers,Busheling,6.18,330.36,,4371#0,,QBO,2025-08-22,USD
+Oscar Winski Company,Winski Brothers,Busheling,14.37,312.5,,4412#0,,QBO,2025-09-10,USD
+Oscar Winski Company,Winski Brothers,Busheling,11.36,312.5,,4420#0,,QBO,2025-09-12,USD
+Oscar Winski Company,Winski Brothers,Busheling,10.6,330.36,,4445#0,,QBO,2025-10-01,USD
+Oscar Winski Company,Winski Brothers,Busheling,12.19,330.36,,4454#0,,QBO,2025-10-03,USD
+Oscar Winski Company,Winski Brothers,Busheling,7.74,330.36,,4476#0,,QBO,2025-10-09,USD
+Oscar Winski Company,Winski Brothers,Busheling,4.37,330.36,,4486#0,,QBO,2025-10-13,USD
+Oscar Winski Company,Winski Brothers,Busheling,10.19,330.36,,4485#0,,QBO,2025-10-13,USD
+Oscar Winski Company,Winski Brothers,Busheling,10.53,330.36,,4482#0,,QBO,2025-10-13,USD
 Lewis Salvage,Winski Brothers,Shred,13.65,215.0,,4300#0,,QBO,2025-07-30,USD
 Lewis Salvage,Winski Brothers,Old Sheet Aluminum,11.26,230.0,,4304#0,,QBO,2025-07-31,USD
 Lewis Salvage,Winski Brothers,Stainless 304 (Prepared),5.74,800.0,,4303#0,,QBO,2025-07-31,USD
 Lewis Salvage,Winski Brothers,Shred,19.825,215.0,,4302#0,,QBO,2025-07-31,USD
-Lewis Salvage,Winski Brothers,car bodies with motors,7.54,215.0,,4305#0,,QBO,2025-08-01,USD
+Lewis Salvage,Winski Brothers,Shred (Autos with Motors),7.54,215.0,,4305#0,,QBO,2025-08-01,USD
 Lewis Salvage,Winski Brothers,Shred,16.65,215.0,,4323#0,,QBO,2025-08-07,USD
 Lewis Salvage,Winski Brothers,Shred,12.41,215.0,,4322#0,,QBO,2025-08-07,USD
 Lewis Salvage,Winski Brothers,Shred,22.54,215.0,,4325#0,,QBO,2025-08-08,USD
@@ -356,7 +356,7 @@ Lewis Salvage,Winski Brothers,Shred,7.97,215.0,,4466#0,,QBO,2025-10-08,USD
 Lewis Salvage,Winski Brothers,Shred,14.93,215.0,,4475#0,,QBO,2025-10-09,USD
 Lewis Salvage,Winski Brothers,Shred,7.39,195.0,,4472#0,,QBO,2025-10-09,USD
 Lewis Salvage,Winski Brothers,Shred,14.93,215.0,,4479#0,,QBO,2025-10-10,USD
-Josh Padnos,Winski Brothers,Aluminum molds,12.0925,500.0,,4456#0,,QBO,2025-10-03,USD
+Josh Padnos,Winski Brothers,Al Cast (Clean Tooling Aluminum),12.0925,500.0,,4456#0,,QBO,2025-10-03,USD
 Fryman's Recycling #1,Winski Brothers,Vinyl siding,1.0865,100.0,,1426#0,,QBO,2022-05-09,USD
 Fryman's Recycling #1,Winski Brothers,Vinyl Siding,1.0,151.2,,1906#0,,QBO,2022-11-21,USD
 Fryman's Recycling #1,Winski Brothers,Vinyl Siding,0.0005,230600.0,,2849#0,,QBO,2023-12-08,USD
@@ -366,33 +366,33 @@ Fryman's Recycling #1,Winski Brothers,Vinyl siding,1.121,60.0,,3729#0,,QBO,2024-
 Fryman's Recycling #1,Winski Brothers,Vinyl siding,0.9795,60.0,,4218#0,,QBO,2025-05-25,USD
 Fryman's Recycling #1,Winski Brothers,Vinyl siding,0.9795,60.0,,4447#0,,QBO,2025-10-02,USD
 Rochester Iron & Metal,Winski Brothers,Prepared Cast,14.4375,236.0,,1005#0,,QBO,2021-09-08,USD
-Rochester Iron & Metal,Winski Brothers,dirty pipe,0.007045,520000.0,,1011#0,,QBO,2021-09-20,USD
-Rochester Iron & Metal,Winski Brothers,BUSHELING,10.96,446.43,,1023#0,,QBO,2021-10-26,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),0.007045,520000.0,,1011#0,,QBO,2021-09-20,USD
+Rochester Iron & Metal,Winski Brothers,Busheling,10.96,446.43,,1023#0,,QBO,2021-10-26,USD
 Rochester Iron & Metal,Winski Brothers,P&S,20.39,388.39,,1025#0,,QBO,2021-10-28,USD
 Rochester Iron & Metal,Winski Brothers,Al Breakage,11.04,480.0,,1026#0,,QBO,2021-11-03,USD
-Rochester Iron & Metal,Winski Brothers,Wire w/ concrete,9.44,295.0,,1029#0,,QBO,2021-11-05,USD
-Rochester Iron & Metal,Winski Brothers,Counterweights,29.28,214.29,,1031#0,,QBO,2021-11-09,USD
-Rochester Iron & Metal,Winski Brothers,"wire, car, pipe",14.0,295.0,,1034#0,,QBO,2021-11-12,USD
-Rochester Iron & Metal,Winski Brothers,dirty motors,13.0,372.0,,1028#0,,QBO,2021-11-15,USD
+Rochester Iron & Metal,Winski Brothers,Rebar / Concrete-Attached HMS,9.44,295.0,,1029#0,,QBO,2021-11-05,USD
+Rochester Iron & Metal,Winski Brothers,Prepared Cast (Industrial),29.28,214.29,,1031#0,,QBO,2021-11-09,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS,14.0,295.0,,1034#0,,QBO,2021-11-12,USD
+Rochester Iron & Metal,Winski Brothers,Mixed Electric Motors (Dirty),13.0,372.0,,1028#0,,QBO,2021-11-15,USD
 Rochester Iron & Metal,Winski Brothers,Old Sheet,3.3,1140.0,,1057#0,,QBO,2021-11-18,USD
 Rochester Iron & Metal,Winski Brothers,P&S 5',22.74,424.11,,1106#0,,QBO,2021-12-13,USD
 Rochester Iron & Metal,Winski Brothers,P&S,24.87,424.11,,1111#0,,QBO,2021-12-14,USD
 Rochester Iron & Metal,Winski Brothers,P&S,11.29,424.11,,1114#0,,QBO,2021-12-15,USD
-Rochester Iron & Metal,Winski Brothers,BUSHELING,9.19,464.29,,1131#0,,QBO,2021-12-27,USD
-Rochester Iron & Metal,Winski Brothers,BUSHELING,9.65,464.29,,1133#0,,QBO,2021-12-28,USD
-Rochester Iron & Metal,Winski Brothers,BUSHELING,8.48,464.29,,1136#0,,QBO,2021-12-29,USD
+Rochester Iron & Metal,Winski Brothers,Busheling,9.19,464.29,,1131#0,,QBO,2021-12-27,USD
+Rochester Iron & Metal,Winski Brothers,Busheling,9.65,464.29,,1133#0,,QBO,2021-12-28,USD
+Rochester Iron & Metal,Winski Brothers,Busheling,8.48,464.29,,1136#0,,QBO,2021-12-29,USD
 Rochester Iron & Metal,Winski Brothers,P&S,23.96,424.11,,1135#0,,QBO,2021-12-29,USD
 Rochester Iron & Metal,Winski Brothers,P&S,19.23,370.54,,1210#0,,QBO,2022-02-14,USD
 Rochester Iron & Metal,Winski Brothers,P&S,19.13,370.54,,1212#0,,QBO,2022-02-15,USD
 Rochester Iron & Metal,Winski Brothers,HMS,23.16,330.36,,1216#0,,QBO,2022-02-16,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,7.43,388.39,,1214#0,,QBO,2022-02-16,USD
 Rochester Iron & Metal,Winski Brothers,P&S,21.2,370.54,,1219#0,,QBO,2022-02-18,USD
-Rochester Iron & Metal,Winski Brothers,NHK seats,9.95,388.39,,1225#0,,QBO,2022-02-22,USD
+Rochester Iron & Metal,Winski Brothers,Non-Ferrous Shred (Seat Frames),9.95,388.39,,1225#0,,QBO,2022-02-22,USD
 Rochester Iron & Metal,Winski Brothers,P&S,22.09,370.54,,1224#0,,QBO,2022-02-22,USD
 Rochester Iron & Metal,Winski Brothers,HMS,18.95,330.36,,1226#0,,QBO,2022-02-23,USD
 Rochester Iron & Metal,Winski Brothers,Prepared Cast,12.37,350.0,,1270#0,,QBO,2022-03-14,USD
 Rochester Iron & Metal,Winski Brothers,HMS,22.69,441.97,,1274#0,,QBO,2022-03-15,USD
-Rochester Iron & Metal,Winski Brothers,seats,7.57,558.04,,1273#0,,QBO,2022-03-15,USD
+Rochester Iron & Metal,Winski Brothers,Non-Ferrous Shred (Seat Frames),7.57,558.04,,1273#0,,QBO,2022-03-15,USD
 Rochester Iron & Metal,Winski Brothers,P&S,13.78,482.14,,1277#0,,QBO,2022-03-16,USD
 Rochester Iron & Metal,Winski Brothers,P&S,12.5,482.14,,1275#0,,QBO,2022-03-16,USD
 Rochester Iron & Metal,Winski Brothers,HMS,20.82,441.96,,1292#0,,QBO,2022-03-23,USD
@@ -401,29 +401,29 @@ Rochester Iron & Metal,Winski Brothers,Busheling,8.41,625.0,,1356#0,,QBO,2022-04
 Rochester Iron & Metal,Winski Brothers,HMS,26.16,424.11,,1363#0,,QBO,2022-04-18,USD
 Rochester Iron & Metal,Winski Brothers,HMS,22.68,424.11,,1366#0,,QBO,2022-04-19,USD
 Rochester Iron & Metal,Winski Brothers,P&S,19.7,464.29,,1372#0,,QBO,2022-04-20,USD
-Rochester Iron & Metal,Winski Brothers,drums & rotors / per Josh,11.49,558.04,,1388#0,,QBO,2022-04-27,USD
+Rochester Iron & Metal,Winski Brothers,Drums & Rotors,11.49,558.04,,1388#0,,QBO,2022-04-27,USD
 Rochester Iron & Metal,Winski Brothers,Prepared Cast,21.19,267.86,,1385#0,,QBO,2022-04-27,USD
 Rochester Iron & Metal,Winski Brothers,HMS,22.52,357.14,,1432#0,,QBO,2022-05-10,USD
 Rochester Iron & Metal,Winski Brothers,Old Sheet Aluminum,4.59,1360.0,,1453#0,,QBO,2022-05-17,USD
 Rochester Iron & Metal,Winski Brothers,HMS,18.56,357.14,,1466#0,,QBO,2022-05-24,USD
 Rochester Iron & Metal,Winski Brothers,P&S,16.81,397.32,,1472#0,,QBO,2022-05-25,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,16.37,558.04,,1469#0,,QBO,2022-05-25,USD
-Rochester Iron & Metal,Winski Brothers,Misc Unprepared Pipe from Fox,19.565,240.0,,1496#0,,QBO,2022-06-02,USD
-Rochester Iron & Metal,Winski Brothers,Misc Pipe/Tractor Rearends,17.44,215.0,,1532#0,,QBO,2022-06-20,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),19.565,240.0,,1496#0,,QBO,2022-06-02,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Rear Ends),17.44,215.0,,1532#0,,QBO,2022-06-20,USD
 Rochester Iron & Metal,Winski Brothers,HMS,25.25,290.18,,1540#0,,QBO,2022-06-23,USD
 Rochester Iron & Metal,Winski Brothers,Old Sheet Aluminum,3.83,1340.0,,1542#0,,QBO,2022-06-24,USD
 Rochester Iron & Metal,Winski Brothers,P&S,35.79,330.36,,1543#0,,QBO,2022-06-27,USD
 Rochester Iron & Metal,Winski Brothers,HMS,20.95,261.76,,1586#0,,QBO,2022-07-14,USD
 Rochester Iron & Metal,Winski Brothers,HMS,23.18,263.39,,1590#0,,QBO,2022-07-18,USD
-Rochester Iron & Metal,Winski Brothers,busheling,11.86,370.54,,1594#0,,QBO,2022-07-19,USD
+Rochester Iron & Metal,Winski Brothers,Busheling,11.86,370.54,,1594#0,,QBO,2022-07-19,USD
 Rochester Iron & Metal,Winski Brothers,P&S,22.74,303.57,,1600#0,,QBO,2022-07-20,USD
 Rochester Iron & Metal,Winski Brothers,Old Sheet,3.41,1160.0,,1655#0,,QBO,2022-08-04,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,14.92,308.04,,1668#0,,QBO,2022-08-10,USD
 Rochester Iron & Metal,Winski Brothers,Rebar,7.28,125.0,,1664#0,,QBO,2022-08-10,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,13.05,308.03,,1681#0,,QBO,2022-08-16,USD
-Rochester Iron & Metal,Winski Brothers,Correction on Invoice 360013 Rebar,0.0005,655200.0,,1702#0,,QBO,2022-08-26,USD
-Rochester Iron & Metal,Winski Brothers,Unprepared Pipe,0.009695,340000.0,,1708#0,,QBO,2022-08-29,USD
-Rochester Iron & Metal,Winski Brothers,Substation Boxes,13.61,155.0,,1753#0,,QBO,2022-09-16,USD
+Rochester Iron & Metal,Winski Brothers,Rebar,0.0005,655200.0,,1702#0,,QBO,2022-08-26,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),0.009695,340000.0,,1708#0,,QBO,2022-08-29,USD
+Rochester Iron & Metal,Winski Brothers,Shred,13.61,155.0,,1753#0,,QBO,2022-09-16,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,8.62,290.18,,1777#0,,QBO,2022-09-26,USD
 Rochester Iron & Metal,Winski Brothers,HMS,25.54,223.22,,1782#0,,QBO,2022-09-28,USD
 Rochester Iron & Metal,Winski Brothers,P&S,25.73,285.72,,1787#0,,QBO,2022-09-29,USD
@@ -441,9 +441,9 @@ Rochester Iron & Metal,Winski Brothers,Al Breakage,7.46,320.0,,1917#0,,QBO,2022-
 Rochester Iron & Metal,Winski Brothers,Busheling,13.47,263.39,,1947#0,,QBO,2022-12-13,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,12.39,263.39,,1956#0,,QBO,2022-12-19,USD
 Rochester Iron & Metal,Winski Brothers,HMS,34.53,214.29,,1980#0,,QBO,2023-01-05,USD
-Rochester Iron & Metal,Winski Brothers,Drums and Rotors,15.16,455.36,,2021#0,,QBO,2023-01-23,USD
+Rochester Iron & Metal,Winski Brothers,Drums & Rotors,15.16,455.36,,2021#0,,QBO,2023-01-23,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,11.63,316.96,,2020#0,,QBO,2023-01-23,USD
-Rochester Iron & Metal,Winski Brothers,Unprepared FE,27.83,205.0,,2049#0,,QBO,2023-02-02,USD
+Rochester Iron & Metal,Winski Brothers,HMS #2,27.83,205.0,,2049#0,,QBO,2023-02-02,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,13.4,343.75,,2072#0,,QBO,2023-02-17,USD
 Rochester Iron & Metal,Winski Brothers,Old Sheet,4.82,1020.0,,2087#0,,QBO,2023-02-22,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,8.93,343.75,,2081#0,,QBO,2023-02-22,USD
@@ -453,13 +453,13 @@ Rochester Iron & Metal,Winski Brothers,Unprepared HMS,20.74,214.29,,2144#0,,QBO,
 Rochester Iron & Metal,Winski Brothers,HMS,21.43,294.64,,2142#0,,QBO,2023-03-17,USD
 Rochester Iron & Metal,Winski Brothers,Old Sheet,3.52,1020.0,,2226#0,,QBO,2023-04-14,USD
 Rochester Iron & Metal,Winski Brothers,Old Sheet,3.45,1020.0,,2335#0,,QBO,2023-05-25,USD
-Rochester Iron & Metal,Winski Brothers,Al Bkg,2.55,460.0,,2343#0,,QBO,2023-05-30,USD
+Rochester Iron & Metal,Winski Brothers,Al Breakage,2.55,460.0,,2343#0,,QBO,2023-05-30,USD
 Rochester Iron & Metal,Winski Brothers,HMS,27.09,227.68,,2390#0,,QBO,2023-06-15,USD
 Rochester Iron & Metal,Winski Brothers,HMS,23.68,227.68,,2394#0,,QBO,2023-06-16,USD
 Rochester Iron & Metal,Winski Brothers,Old Sheet,3.69,980.0,,2490#0,,QBO,2023-07-27,USD
-Rochester Iron & Metal,Winski Brothers,Unprepared FE,21.17,170.0,,2501#0,,QBO,2023-07-31,USD
+Rochester Iron & Metal,Winski Brothers,HMS #2,21.17,170.0,,2501#0,,QBO,2023-07-31,USD
 Rochester Iron & Metal,Winski Brothers,HMS,22.35,245.54,,2583#0,,QBO,2023-08-28,USD
-Rochester Iron & Metal,Winski Brothers,Drums and Rotors,22.72,312.5,,2618#0,,QBO,2023-09-07,USD
+Rochester Iron & Metal,Winski Brothers,Drums & Rotors,22.72,312.5,,2618#0,,QBO,2023-09-07,USD
 Rochester Iron & Metal,Winski Brothers,Old Sheet,3.475,980.0,,2642#0,,QBO,2023-09-21,USD
 Rochester Iron & Metal,Winski Brothers,HMS,21.2,245.54,,2645#0,,QBO,2023-09-22,USD
 Rochester Iron & Metal,Winski Brothers,HMS,20.46,245.54,,2649#0,,QBO,2023-09-25,USD
@@ -467,17 +467,17 @@ Rochester Iron & Metal,Winski Brothers,Clips,14.54,190.0,,2686#0,,QBO,2023-10-06
 Rochester Iron & Metal,Winski Brothers,Busheling,7.31,303.57,,2694#0,,QBO,2023-10-13,USD
 Rochester Iron & Metal,Winski Brothers,Clips,13.88,290.18,,2707#0,,QBO,2023-10-17,USD
 Rochester Iron & Metal,Winski Brothers,Clips,17.03,294.68,,2729#0,,QBO,2023-10-27,USD
-Rochester Iron & Metal,Winski Brothers,Low Grade Sheet Iron,19.19,53.57,,2761#0,,QBO,2023-11-06,USD
+Rochester Iron & Metal,Winski Brothers,Shred,19.19,53.57,,2761#0,,QBO,2023-11-06,USD
 Rochester Iron & Metal,Winski Brothers,Old Sheet,4.49,1000.0,,2763#0,,QBO,2023-11-07,USD
 Rochester Iron & Metal,Winski Brothers,Clips,17.82,316.96,,2783#0,,QBO,2023-11-13,USD
-Rochester Iron & Metal,Winski Brothers,Pipe from solar farm,19.97,316.96,,2808#0,,QBO,2023-11-27,USD
-Rochester Iron & Metal,Winski Brothers,Pipe from solar farm,21.81,316.96,,2807#0,,QBO,2023-11-27,USD
-Rochester Iron & Metal,Winski Brothers,Pipe from solar farm,16.98,375.86,,2812#0,,QBO,2023-11-28,USD
-Rochester Iron & Metal,Winski Brothers,Pipe from solar farm,18.04,316.96,,2818#0,,QBO,2023-11-30,USD
-Rochester Iron & Metal,Winski Brothers,Pipe from solar farm project,18.94,316.96,,2816#0,,QBO,2023-11-30,USD
-Rochester Iron & Metal,Winski Brothers,Pipe from solar farm,16.53,370.54,,2829#0,,QBO,2023-12-01,USD
-Rochester Iron & Metal,Winski Brothers,Pipe from solar farm,11.05,235.0,,2837#0,,QBO,2023-12-04,USD
-Rochester Iron & Metal,Winski Brothers,Pipe from solar farm,24.59,370.54,,2840#0,,QBO,2023-12-05,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),19.97,316.96,,2808#0,,QBO,2023-11-27,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),21.81,316.96,,2807#0,,QBO,2023-11-27,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),16.98,375.86,,2812#0,,QBO,2023-11-28,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),18.04,316.96,,2818#0,,QBO,2023-11-30,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),18.94,316.96,,2816#0,,QBO,2023-11-30,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),16.53,370.54,,2829#0,,QBO,2023-12-01,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),11.05,235.0,,2837#0,,QBO,2023-12-04,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),24.59,370.54,,2840#0,,QBO,2023-12-05,USD
 Rochester Iron & Metal,Winski Brothers,Clips,21.31,318.95,,2848#0,,QBO,2023-12-08,USD
 Rochester Iron & Metal,Winski Brothers,Clips,15.98,388.39,,2857#0,,QBO,2023-12-12,USD
 Rochester Iron & Metal,Winski Brothers,Clips,19.26,388.39,,2860#0,,QBO,2023-12-13,USD
@@ -489,21 +489,21 @@ Rochester Iron & Metal,Winski Brothers,Clips,22.72,343.6,,2961#0,,QBO,2024-02-02
 Rochester Iron & Metal,Winski Brothers,Clips,15.355,344.96,,2971#0,,QBO,2024-02-07,USD
 Rochester Iron & Metal,Winski Brothers,Clips,12.54,361.61,,3001#0,,QBO,2024-02-22,USD
 Rochester Iron & Metal,Winski Brothers,Old Sheet,4.08,1000.0,,3000#0,,QBO,2024-02-22,USD
-Rochester Iron & Metal,Winski Brothers,SS Bkg,5.19,420.0,,3031#0,,QBO,2024-03-05,USD
-Rochester Iron & Metal,Winski Brothers,Stainless Steel,6.78,420.0,,3105#0,,QBO,2024-03-28,USD
-Rochester Iron & Metal,Winski Brothers,Heavy Unppd,17.75,170.0,,3312#0,,QBO,2024-06-14,USD
+Rochester Iron & Metal,Winski Brothers,Stainless Breakage,5.19,420.0,,3031#0,,QBO,2024-03-05,USD
+Rochester Iron & Metal,Winski Brothers,Stainless,6.78,420.0,,3105#0,,QBO,2024-03-28,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Heavy),17.75,170.0,,3312#0,,QBO,2024-06-14,USD
 Rochester Iron & Metal,Winski Brothers,Clips,11.25,269.9,,3319#0,,QBO,2024-06-17,USD
 Rochester Iron & Metal,Winski Brothers,Clips,14.29,272.32,,3327#0,,QBO,2024-06-19,USD
-Rochester Iron & Metal,Winski Brothers,Unclean Motors and heavy torching,16.96,237.34,,3342#0,,QBO,2024-06-25,USD
+Rochester Iron & Metal,Winski Brothers,Electric Motors / Torch Cut HMS,16.96,237.34,,3342#0,,QBO,2024-06-25,USD
 Rochester Iron & Metal,Winski Brothers,Clips,12.715,250.0,,3339#0,,QBO,2024-06-25,USD
 Rochester Iron & Metal,Winski Brothers,Clips,0.0005,1648200.0,,3339#1,,QBO,2024-06-25,USD
-Rochester Iron & Metal,Winski Brothers,SS Bkg,5.09,480.0,,3352#0,,QBO,2024-06-27,USD
+Rochester Iron & Metal,Winski Brothers,Stainless Breakage,5.09,480.0,,3352#0,,QBO,2024-06-27,USD
 Rochester Iron & Metal,Winski Brothers,Clips,13.47,280.0,,3393#0,,QBO,2024-07-15,USD
 Rochester Iron & Metal,Winski Brothers,Old Sheet Aluminum,20.54,250.0,,3399#0,,QBO,2024-07-16,USD
 Rochester Iron & Metal,Winski Brothers,Clips,11.44,220.0,,3405#0,,QBO,2024-07-17,USD
-Rochester Iron & Metal,Winski Brothers,Heavy Unppd,26.71,170.0,,3401#0,,QBO,2024-07-17,USD
-Rochester Iron & Metal,Winski Brothers,Aluminum Bkg - 5 skids,2.86,560.0,,3413#0,,QBO,2024-07-18,USD
-Rochester Iron & Metal,Winski Brothers,Welding wire - 5 drums,1.9325,220.0,,3413#1,,QBO,2024-07-18,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Heavy),26.71,170.0,,3401#0,,QBO,2024-07-17,USD
+Rochester Iron & Metal,Winski Brothers,Al Breakage,2.86,560.0,,3413#0,,QBO,2024-07-18,USD
+Rochester Iron & Metal,Winski Brothers,Wire Scrap (Fe Weld Wire),1.9325,220.0,,3413#1,,QBO,2024-07-18,USD
 Rochester Iron & Metal,Winski Brothers,Clips,9.42,250.0,,3412#0,,QBO,2024-07-18,USD
 Rochester Iron & Metal,Winski Brothers,Clips,11.46,250.0,,3419#0,,QBO,2024-07-19,USD
 Rochester Iron & Metal,Winski Brothers,Clips,11.02,250.0,,3416#0,,QBO,2024-07-19,USD
@@ -512,7 +512,7 @@ Rochester Iron & Metal,Winski Brothers,HMS,24.15,143.91,,3427#0,,QBO,2024-07-23,
 Rochester Iron & Metal,Winski Brothers,Clips,11.1,272.32,,3428#0,,QBO,2024-07-24,USD
 Rochester Iron & Metal,Winski Brothers,Clips,11.99,238.62,,3435#0,,QBO,2024-07-25,USD
 Rochester Iron & Metal,Winski Brothers,Clips,14.675,220.0,,3456#0,,QBO,2024-08-01,USD
-Rochester Iron & Metal,Winski Brothers,Unclean motors,15.24,275.0,,3481#0,,QBO,2024-08-09,USD
+Rochester Iron & Metal,Winski Brothers,Mixed Electric Motors (Dirty),15.24,275.0,,3481#0,,QBO,2024-08-09,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,18.2,285.71,,3509#0,,QBO,2024-08-19,USD
 Rochester Iron & Metal,Winski Brothers,Clips,11.22,272.32,,3515#0,,QBO,2024-08-21,USD
 Rochester Iron & Metal,Winski Brothers,Clips,10.37,272.32,,3522#0,,QBO,2024-08-27,USD
@@ -524,14 +524,14 @@ Rochester Iron & Metal,Winski Brothers,Clips,13.0,210.0,,3556#0,,QBO,2024-09-11,
 Rochester Iron & Metal,Winski Brothers,Shred,11.37,272.32,,3558#0,,QBO,2024-09-13,USD
 Rochester Iron & Metal,Winski Brothers,Shred,14.025,210.0,,3563#0,,QBO,2024-09-16,USD
 Rochester Iron & Metal,Winski Brothers,Shred,14.595,210.0,,3569#0,,QBO,2024-09-17,USD
-Rochester Iron & Metal,Winski Brothers,Light polies from Lebanon - pd as UHMS,14.71,170.0,,3577#0,,QBO,2024-09-19,USD
-Rochester Iron & Metal,Winski Brothers,Light poles from Lebanon - pd as UHMS,9.6,170.0,,3576#0,,QBO,2024-09-19,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Light Poles),14.71,170.0,,3577#0,,QBO,2024-09-19,USD
+Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Light Poles),9.6,170.0,,3576#0,,QBO,2024-09-19,USD
 Rochester Iron & Metal,Winski Brothers,Shred,15.555,210.0,,3575#0,,QBO,2024-09-19,USD
 Rochester Iron & Metal,Winski Brothers,Shred,11.3,210.0,,3584#0,,QBO,2024-09-23,USD
 Rochester Iron & Metal,Winski Brothers,Clips,13.48,241.07,,3580#0,,QBO,2024-09-24,USD
 Rochester Iron & Metal,Winski Brothers,Shred,15.155,210.0,,3589#0,,QBO,2024-09-25,USD
 Rochester Iron & Metal,Winski Brothers,Clips,11.34,241.07,,3594#0,,QBO,2024-09-26,USD
-Rochester Iron & Metal,Winski Brothers,busheling,7.42,285.71,,3599#0,,QBO,2024-09-27,USD
+Rochester Iron & Metal,Winski Brothers,Busheling,7.42,285.71,,3599#0,,QBO,2024-09-27,USD
 Rochester Iron & Metal,Winski Brothers,Shred,14.77,210.0,,3622#0,,QBO,2024-10-08,USD
 Rochester Iron & Metal,Winski Brothers,Shred,20.105,210.0,,3625#0,,QBO,2024-10-09,USD
 Rochester Iron & Metal,Winski Brothers,Clips,12.54,272.32,,3630#0,,QBO,2024-10-10,USD
@@ -539,7 +539,7 @@ Rochester Iron & Metal,Winski Brothers,Busheling / 20034,9.56,285.71,,3631#0,,QB
 Rochester Iron & Metal,Winski Brothers,Shred,14.82,210.0,,3638#0,,QBO,2024-10-16,USD
 Rochester Iron & Metal,Winski Brothers,Shred,15.43,210.0,,3641#0,,QBO,2024-10-17,USD
 Rochester Iron & Metal,Winski Brothers,Clips,12.6,275.56,,3643#0,,QBO,2024-10-18,USD
-Rochester Iron & Metal,Winski Brothers,busheling,8.32,285.71,,3648#0,,QBO,2024-10-21,USD
+Rochester Iron & Metal,Winski Brothers,Busheling,8.32,285.71,,3648#0,,QBO,2024-10-21,USD
 Rochester Iron & Metal,Winski Brothers,Shred,15.71,210.0,,3653#0,,QBO,2024-10-23,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,12.6,285.71,,3658#0,,QBO,2024-10-24,USD
 Rochester Iron & Metal,Winski Brothers,Shred,19.07,210.0,,3661#0,,QBO,2024-10-28,USD
@@ -652,9 +652,9 @@ Rochester Iron & Metal,Winski Brothers,Shred,20.715,215.0,,4201#0,,QBO,2025-06-2
 Rochester Iron & Metal,Winski Brothers,Clips,12.05,285.71,,4204#0,,QBO,2025-06-23,USD
 Rochester Iron & Metal,Winski Brothers,Shred,15.72,215.0,,4217#0,,QBO,2025-06-26,USD
 Rochester Iron & Metal,Winski Brothers,Shred,14.97,215.0,,4223#0,,QBO,2025-06-30,USD
-Rochester Iron & Metal,Winski Brothers,Al tanker from ML Farms,4.67,340.0,,4232#0,,QBO,2025-07-01,USD
-Rochester Iron & Metal,Winski Brothers,Al tanker from ML Farms,4.35,340.0,,4230#0,,QBO,2025-07-01,USD
-Rochester Iron & Metal,Winski Brothers,Al tanker from ML Farms,3.92,340.0,,4229#0,,QBO,2025-07-01,USD
+Rochester Iron & Metal,Winski Brothers,Al Tanker (Plate/Structural Aluminum),4.67,340.0,,4232#0,,QBO,2025-07-01,USD
+Rochester Iron & Metal,Winski Brothers,Al Tanker (Plate/Structural Aluminum),4.35,340.0,,4230#0,,QBO,2025-07-01,USD
+Rochester Iron & Metal,Winski Brothers,Al Tanker (Plate/Structural Aluminum),3.92,340.0,,4229#0,,QBO,2025-07-01,USD
 Rochester Iron & Metal,Winski Brothers,Shred,17.76,215.0,,4238#0,,QBO,2025-07-03,USD
 Rochester Iron & Metal,Winski Brothers,Shred,14.53,215.0,,4235#0,,QBO,2025-07-03,USD
 Rochester Iron & Metal,Winski Brothers,Shred,15.03,215.0,,4246#0,,QBO,2025-07-08,USD
@@ -669,55 +669,48 @@ Rochester Iron & Metal,Winski Brothers,Shred,20.48,215.0,,4281#0,,QBO,2025-07-21
 Rochester Iron & Metal,Winski Brothers,Shred,14.61,215.0,,4288#0,,QBO,2025-07-22,USD
 Rochester Iron & Metal,Winski Brothers,Shred,17.59,215.0,,4286#0,,QBO,2025-07-22,USD
 Rochester Iron & Metal,Winski Brothers,Shred,18.24,215.0,,4292#0,,QBO,2025-07-25,USD
-Alloys Tech Inc,Winski Brothers,Ni Pipe - Loose on Skid  Pending analysis,0.223,12000.0,,1507#0,,QBO,2022-06-09,USD
-Alloys Tech Inc,Winski Brothers,D2 tool steel - (2) Steel Drums on Skids,1.478,800.0,,1507#1,,QBO,2022-06-09,USD
-Alloys Tech Inc,Winski Brothers,Tungsten carbide dies and inserts - (1) Steel Drum on Skid,0.956,23640.17,,1507#2,,QBO,2022-06-09,USD
-Alloys Tech Inc,Winski Brothers,Taps - (1) Steel Drum on Skid,0.414,2647.83,,1507#3,,QBO,2022-06-09,USD
-Alloys Tech Inc,Winski Brothers,"Mixed tool steel - (1) Steel Drum on Skid, (1) Plastic Bucket",0.8725,654.53,,1507#4,,QBO,2022-06-09,USD
-Alloys Tech Inc,Winski Brothers,Carbide - 1 drum,1.136,18000.0,,2615#0,,QBO,2023-09-06,USD
-Alloys Tech Inc,Winski Brothers,D2 - 6 barrels,4.792,680.0,,2615#1,,QBO,2023-09-06,USD
-Alloys Tech Inc,Winski Brothers,Knife scrap - one B/S,0.3985,2602.71,,2615#2,,QBO,2023-09-06,USD
-Alloys Tech Inc,Winski Brothers,sorting adjustment,0.087,2000.0,,2615#3,,QBO,2023-09-06,USD
-Alloys Tech Inc,Winski Brothers,4 barrels of D2,2.66,660.0,,3396#0,,QBO,2024-07-16,USD
-Alloys Tech Inc,Winski Brothers,1 barrel of M7,0.7265,2700.0,,3396#1,,QBO,2024-07-16,USD
-Alloys Tech Inc,Winski Brothers,Tool steel,0.683,500.0,,3396#2,,QBO,2024-07-16,USD
-Alloys Tech Inc,Winski Brothers,Tool steel,0.029,224.83,,3396#3,,QBO,2024-07-16,USD
-Alloys Tech Inc,Winski Brothers,Carbide,0.1,19092.0,,3396#4,,QBO,2024-07-16,USD
-Alloys Tech Inc,Winski Brothers,mixed SS,0.2225,390.56,,3396#5,,QBO,2024-07-16,USD
-Alloys Tech Inc,Winski Brothers,mixed SS,0.555,388.83,,3396#6,,QBO,2024-07-16,USD
-Alloys Tech Inc,Winski Brothers,Carbide,0.403,28621.96,,3869#0,,QBO,2025-02-04,USD
-Alloys Tech Inc,Winski Brothers,D2,1.425,680.0,,3869#1,,QBO,2025-02-04,USD
-Alloys Tech Inc,Winski Brothers,M7,0.521,3600.0,,3869#2,,QBO,2025-02-04,USD
-Alloys Tech Inc,Winski Brothers,Mixed tool steel,0.0375,1717.33,,3869#3,,QBO,2025-02-04,USD
-Alloys Tech Inc,Winski Brothers,carbide - see sort report,0.41,23583.54,,3957#0,,QBO,2025-03-13,USD
-Alloys Tech Inc,Winski Brothers,carbide from Fontana,1.018,22719.11,,4019#0,,QBO,2025-04-07,USD
+Alloys Tech Inc,Winski Brothers,Nickel Pipe Alloy (Special Alloy),0.223,12000.0,,1507#0,,QBO,2022-06-09,USD
+Alloys Tech Inc,Winski Brothers,Tool Steel D2,1.478,800.0,,1507#1,,QBO,2022-06-09,USD
+Alloys Tech Inc,Winski Brothers,Tungsten Carbide (Solid),0.956,23640.17,,1507#2,,QBO,2022-06-09,USD
+Alloys Tech Inc,Winski Brothers,High-Speed Steel (Taps & Bits),0.414,2647.83,,1507#3,,QBO,2022-06-09,USD
+Alloys Tech Inc,Winski Brothers,Tool Steel Mix (M7/D2),0.8725,654.53,,1507#4,,QBO,2022-06-09,USD
+Alloys Tech Inc,Winski Brothers,Tungsten Carbide (Solid),1.136,18000.0,,2615#0,,QBO,2023-09-06,USD
+Alloys Tech Inc,Winski Brothers,Tool Steel D2,4.792,680.0,,2615#1,,QBO,2023-09-06,USD
+Alloys Tech Inc,Winski Brothers,Tool Steel (Hardened Knives),0.3985,2602.71,,2615#2,,QBO,2023-09-06,USD
+Alloys Tech Inc,Winski Brothers,Tool Steel D2,2.66,660.0,,3396#0,,QBO,2024-07-16,USD
+Alloys Tech Inc,Winski Brothers,Tool Steel M7,0.7265,2700.0,,3396#1,,QBO,2024-07-16,USD
+Alloys Tech Inc,Winski Brothers,Tool Steel (H-13/M2/D2 Blend),0.683,500.0,,3396#2,,QBO,2024-07-16,USD
+Alloys Tech Inc,Winski Brothers,Tool Steel (H-13/M2/D2 Blend),0.029,224.83,,3396#3,,QBO,2024-07-16,USD
+Alloys Tech Inc,Winski Brothers,Tungsten Carbide (Solid),0.1,19092.0,,3396#4,,QBO,2024-07-16,USD
+Alloys Tech Inc,Winski Brothers,Mixed Stainless,0.2225,390.56,,3396#5,,QBO,2024-07-16,USD
+Alloys Tech Inc,Winski Brothers,Mixed Stainless,0.555,388.83,,3396#6,,QBO,2024-07-16,USD
+Alloys Tech Inc,Winski Brothers,Tungsten Carbide (Solid),0.403,28621.96,,3869#0,,QBO,2025-02-04,USD
+Alloys Tech Inc,Winski Brothers,Tool Steel D2,1.425,680.0,,3869#1,,QBO,2025-02-04,USD
+Alloys Tech Inc,Winski Brothers,Tool Steel M7,0.521,3600.0,,3869#2,,QBO,2025-02-04,USD
+Alloys Tech Inc,Winski Brothers,Tool Steel Mix (M7/D2),0.0375,1717.33,,3869#3,,QBO,2025-02-04,USD
+Alloys Tech Inc,Winski Brothers,Tungsten Carbide (Solid),0.41,23583.54,,3957#0,,QBO,2025-03-13,USD
+Alloys Tech Inc,Winski Brothers,Tungsten Carbide (Solid),1.018,22719.11,,4019#0,,QBO,2025-04-07,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,1.0775,3000.0,,1157#0,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Electric Motors,1.338,860.0,,1157#1,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Transformers,0.561,1400.0,,1157#2,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.338,860.0,,1157#1,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Transformers (Al/Cu),0.561,1400.0,,1157#2,,QBO,2022-01-08,USD
 Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.1935,1340.0,,1157#3,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,NON FE:#2 Copper,1.161,7540.0,,1157#4,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,dirty auto rads,0.2705,3300.0,,1157#5,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,two boxes,0.73,8140.0,,1157#6,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,two boxes,0.764,1340.0,,1157#7,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,two boxes,1.0,1600.0,,1157#8,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,4 skids,4.082,420.0,,1157#9,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Window A/C units,0.442,460.0,,1157#10,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),1.161,7540.0,,1157#4,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Dirty),0.2705,3300.0,,1157#5,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Window A/C Units,0.442,460.0,,1157#10,,QBO,2022-01-08,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.6875,460.0,,1157#11,,QBO,2022-01-08,USD
 Pro Metal Recycling,Winski Brothers,Al Extrusion (Bare),0.596,2200.0,,1157#12,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,2 bales,1.0835,1340.0,,1157#13,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,2 boxes,0.955,8260.0,,1157#14,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,NON FE:#2 Insulated Copper,0.0695,3600.0,,1157#15,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,NON FE:E-scrap mixed,0.2565,500.0,,1157#16,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Alum/Cu Rads Dirty,0.2255,3800.0,,1157#17,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Aluminum BX Wire,0.779,4000.0,,1157#18,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Sealed Units,1.0295,700.0,,1157#19,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Stainless Steel,0.476,1640.0,,1157#20,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Alum/Cu Radiators,0.5,4020.0,,1157#21,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,90/10 brass in bucket,0.013,6240.0,,1157#22,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,chopped EDM wire in a bucket,0.0565,5500.0,,1157#23,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Ballasts,0.7135,420.0,,1157#24,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.0695,3600.0,,1157#15,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,E-Scrap (Mixed),0.2565,500.0,,1157#16,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Dirty),0.2255,3800.0,,1157#17,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 BX (Al),0.779,4000.0,,1157#18,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.0295,700.0,,1157#19,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Stainless,0.476,1640.0,,1157#20,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.5,4020.0,,1157#21,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Yellow Brass (90/10),0.013,6240.0,,1157#22,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Copper Wire Turnings,0.0565,5500.0,,1157#23,,QBO,2022-01-08,USD
+Pro Metal Recycling,Winski Brothers,Ballasts (Electronic),0.7135,420.0,,1157#24,,QBO,2022-01-08,USD
 Pro Metal Recycling,Winski Brothers,4 barrels on 1 skid,0.15,1644.47,,1157#25,,QBO,2022-01-08,USD
-Pro Metal Recycling,Winski Brothers,10/10,0.3,2700.0,,1305#0,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,Al Extrusion 6063 10/10,0.3,2700.0,,1305#0,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Al Extrusion (Painted/Anodized),0.2255,2600.0,,1305#1,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,NON FE:Batteries - Auto,0.922,420.0,,1305#2,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,NON FE:Batteries - Auto,1.064,420.0,,1305#3,,QBO,2022-03-28,USD
@@ -725,22 +718,21 @@ Pro Metal Recycling,Winski Brothers,turnings,0.0635,4500.0,,1305#4,,QBO,2022-03-
 Pro Metal Recycling,Winski Brothers,one drum,0.44,6540.0,,1305#5,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,NON FE:Yellow Brass,1.1975,6000.0,,1305#6,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,NON FE:Bare Brite Copper,1.2795,9000.0,,1305#7,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,NON FE:#1 copper,0.361,8800.0,,1305#8,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,NON FE:#1 copper,0.4835,8800.0,,1305#9,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,NON FE:#2 Copper,0.2865,8300.0,,1305#10,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,10/10,0.2155,2700.0,,1305#11,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,radiator ends,0.2345,2700.0,,1305#12,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Thermal extrusions,0.215,2000.0,,1305#13,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Window A/C units,0.351,500.0,,1305#14,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Window A/C units,0.361,500.0,,1305#15,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Electric Motors,1.8245,980.0,,1305#16,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,one large motor,0.364,860.0,,1305#17,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.361,8800.0,,1305#8,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.4835,8800.0,,1305#9,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.2865,8300.0,,1305#10,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,Al Extrusion 6063 10/10,0.2155,2700.0,,1305#11,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,Radiator Ends (Cu Breakage),0.2345,2700.0,,1305#12,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,Thermal Break Aluminum Extrusion,0.215,2000.0,,1305#13,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,Window A/C Units,0.351,500.0,,1305#14,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,Window A/C Units,0.361,500.0,,1305#15,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.8245,980.0,,1305#16,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,Electric Motors (Large <1000 lb),0.364,860.0,,1305#17,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,1.042,460.0,,1305#18,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,1.094,460.0,,1305#19,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.721,460.0,,1305#20,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.6675,460.0,,1305#21,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,NON FE:Open eye Heliax wire,0.118,3900.0,,1305#22,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,one bale,0.6015,4500.0,,1305#23,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57% Baled),0.118,3900.0,,1305#22,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.0965,460.0,,1305#24,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,CATV Al Wire (Bare),0.12,500.0,,1380#0,,QBO,2022-04-25,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.2725,4500.0,,1380#1,,QBO,2022-04-25,USD
@@ -748,14 +740,14 @@ Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.5775,8800.0,,13
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),1.3535,9000.0,,1380#3,,QBO,2022-04-25,USD
 Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.5155,800.0,,1380#4,,QBO,2022-04-25,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.7405,5000.0,,1380#5,,QBO,2022-04-25,USD
-Pro Metal Recycling,Winski Brothers,Batteries,1.0255,440.0,,1380#6,,QBO,2022-04-25,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.8535,440.0,,1380#7,,QBO,2022-04-25,USD
+Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.0255,440.0,,1380#6,,QBO,2022-04-25,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.8535,440.0,,1380#7,,QBO,2022-04-25,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.6195,1000.0,,1380#8,,QBO,2022-04-25,USD
 Pro Metal Recycling,Winski Brothers,Transformers (Al/Cu),1.0225,840.0,,1380#9,,QBO,2022-04-25,USD
 Pro Metal Recycling,Winski Brothers,Old Cast Aluminum,0.6165,1600.0,,1380#10,,QBO,2022-04-25,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.3285,4500.0,,1380#11,,QBO,2022-04-25,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),0.273,860.0,,1380#12,,QBO,2022-04-25,USD
-Pro Metal Recycling,Winski Brothers,10/10 extrusion,0.158,2400.0,,1380#13,,QBO,2022-04-25,USD
+Pro Metal Recycling,Winski Brothers,Al Extrusion 6063 10/10,0.158,2400.0,,1380#13,,QBO,2022-04-25,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Dirty),0.3955,4240.0,,1380#14,,QBO,2022-04-25,USD
 Pro Metal Recycling,Winski Brothers,Old Cast Aluminum,0.3065,1600.0,,1380#15,,QBO,2022-04-25,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.639,8400.0,,1380#16,,QBO,2022-04-25,USD
@@ -767,17 +759,17 @@ Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.741,680.0,,15
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.385,6220.0,,1569#3,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.6375,680.0,,1569#4,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Old Cast Aluminum,0.314,1200.0,,1569#5,,QBO,2022-07-07,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.8665,240.0,,1569#6,,QBO,2022-07-07,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.656,320.0,,1569#7,,QBO,2022-07-07,USD
-Pro Metal Recycling,Winski Brothers,batteries,0.8755,400.0,,1569#8,,QBO,2022-07-07,USD
-Pro Metal Recycling,Winski Brothers,batteries,1.0545,400.0,,1569#9,,QBO,2022-07-07,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.8665,240.0,,1569#6,,QBO,2022-07-07,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.656,320.0,,1569#7,,QBO,2022-07-07,USD
+Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.8755,400.0,,1569#8,,QBO,2022-07-07,USD
+Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.0545,400.0,,1569#9,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.4245,3560.0,,1569#10,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,E-Scrap (Mixed),0.345,440.0,,1569#11,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.3195,680.0,,1569#12,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Yellow Brass (Solid,0.864,4660.0,,1569#13,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.671,6020.0,,1569#14,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),0.4545,580.0,,1569#15,,QBO,2022-07-07,USD
-Pro Metal Recycling,Winski Brothers,window A/C units,0.545,400.0,,1569#16,,QBO,2022-07-07,USD
+Pro Metal Recycling,Winski Brothers,Window A/C Units,0.545,400.0,,1569#16,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.5045,6220.0,,1569#17,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.0505,6620.0,,1569#18,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.02,6620.0,,1569#19,,QBO,2022-07-07,USD
@@ -785,11 +777,11 @@ Pro Metal Recycling,Winski Brothers,Sheet Copper,0.148,5820.0,,1569#20,,QBO,2022
 Pro Metal Recycling,Winski Brothers,Brass Shells (Clean,0.127,4400.0,,1569#21,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Zinc Die Cast,0.187,1400.0,,1569#22,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.2325,3560.0,,1569#23,,QBO,2022-07-07,USD
-Pro Metal Recycling,Winski Brothers,window A/C,0.4285,400.0,,1569#24,,QBO,2022-07-07,USD
+Pro Metal Recycling,Winski Brothers,Window A/C Units,0.4285,400.0,,1569#24,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.4145,1000.0,,1569#25,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Copper Breakage,0.588,440.0,,1569#26,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Brass Breakage,0.5725,2000.0,,1569#27,,QBO,2022-07-07,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.429,240.0,,1569#28,,QBO,2022-07-07,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.429,240.0,,1569#28,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Transformers (Al/Cu),0.5165,240.0,,1569#29,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Insulated Copper Wire Scrap (Droid),0.428,1000.0,,1569#30,,QBO,2022-07-07,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.5385,620.0,,1722#0,,QBO,2022-09-01,USD
@@ -810,7 +802,7 @@ Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.2975,1200.0,,1722#14,,QB
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),1.333,6400.0,,1722#15,,QBO,2022-09-01,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.2275,3580.0,,1722#16,,QBO,2022-09-01,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.3465,3300.0,,1722#17,,QBO,2022-09-01,USD
-Pro Metal Recycling,Winski Brothers,C182 turnings,0.413,5300.0,,1722#18,,QBO,2022-09-01,USD
+Pro Metal Recycling,Winski Brothers,Copper C182 Turnings,0.413,5300.0,,1722#18,,QBO,2022-09-01,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.037,420.0,,1722#19,,QBO,2022-09-01,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.7925,420.0,,1722#20,,QBO,2022-09-01,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.4955,6700.0,,1722#21,,QBO,2022-09-01,USD
@@ -821,29 +813,29 @@ Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.759,680.0,,18
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.55,6500.0,,1824#1,,QBO,2022-10-14,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.284,6300.0,,1824#2,,QBO,2022-10-14,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.603,6000.0,,1824#3,,QBO,2022-10-14,USD
-Pro Metal Recycling,Winski Brothers,pumps,1.622,120.0,,1824#4,,QBO,2022-10-14,USD
-Pro Metal Recycling,Winski Brothers,Loose dirty A/C rads,0.285,3060.0,,1824#5,,QBO,2022-10-14,USD
-Pro Metal Recycling,Winski Brothers,loose clean A/C rads,0.3585,3320.0,,1824#6,,QBO,2022-10-14,USD
+Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.622,120.0,,1824#4,,QBO,2022-10-14,USD
+Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Dirty),0.285,3060.0,,1824#5,,QBO,2022-10-14,USD
+Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.3585,3320.0,,1824#6,,QBO,2022-10-14,USD
 Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.219,1000.0,,1824#7,,QBO,2022-10-14,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.619,360.0,,1824#8,,QBO,2022-10-14,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),2.013,440.0,,1824#9,,QBO,2022-10-14,USD
-Pro Metal Recycling,Winski Brothers,8 boxes of E-scrap,2.3795,313.64,,1824#10,,QBO,2022-10-14,USD
+Pro Metal Recycling,Winski Brothers,E-Scrap (Mixed),2.3795,313.64,,1824#10,,QBO,2022-10-14,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Steel Case,1.024,360.0,,1824#11,,QBO,2022-10-14,USD
-Pro Metal Recycling,Winski Brothers,6063 new production - 4 boxes,1.288,1600.0,,1824#12,,QBO,2022-10-14,USD
+Pro Metal Recycling,Winski Brothers,Al Extrusion 6063 (New Production),1.288,1600.0,,1824#12,,QBO,2022-10-14,USD
 Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.256,480.0,,1824#13,,QBO,2022-10-14,USD
 Pro Metal Recycling,Winski Brothers,Al Extrusion 6063 10/10,0.54,1480.0,,1824#14,,QBO,2022-10-14,USD
 Pro Metal Recycling,Winski Brothers,Al 6061 Solids,0.4715,1300.0,,1824#15,,QBO,2022-10-14,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.457,7320.0,,1892#0,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.22,7120.0,,1892#1,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.2955,6900.0,,1892#2,,QBO,2022-11-14,USD
-Pro Metal Recycling,Winski Brothers,Ptd extrusion,0.315,1600.0,,1892#3,,QBO,2022-11-14,USD
-Pro Metal Recycling,Winski Brothers,Ptd extrusion,0.2815,1600.0,,1892#4,,QBO,2022-11-14,USD
+Pro Metal Recycling,Winski Brothers,Painted Aluminum Extrusion,0.315,1600.0,,1892#3,,QBO,2022-11-14,USD
+Pro Metal Recycling,Winski Brothers,Painted Aluminum Extrusion,0.2815,1600.0,,1892#4,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,Painted Aluminum Extrusion,0.336,1600.0,,1892#5,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,Al Extrusion (Bare),0.3555,1600.0,,1892#6,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.4615,740.0,,1892#7,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,Old Cast Aluminum,0.406,1100.0,,1892#8,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.742,360.0,,1892#9,,QBO,2022-11-14,USD
-Pro Metal Recycling,Winski Brothers,Stainless steel,0.561,1000.0,,1892#10,,QBO,2022-11-14,USD
+Pro Metal Recycling,Winski Brothers,Stainless,0.561,1000.0,,1892#10,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.978,400.0,,1892#11,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,Stainless Steel Turnings,0.1525,400.0,,1892#12,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,Stainless Steel Turnings,0.1435,400.0,,1892#13,,QBO,2022-11-14,USD
@@ -856,10 +848,10 @@ Pro Metal Recycling,Winski Brothers,Stainless Solids,0.685,1000.0,,1892#19,,QBO,
 Pro Metal Recycling,Winski Brothers,Plated Bus Bar,0.1575,7000.0,,1892#20,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,Yellow Brass (Solid,0.886,4800.0,,1892#21,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,Transformers (Al/Cu),0.394,1160.0,,1892#22,,QBO,2022-11-14,USD
-Pro Metal Recycling,Winski Brothers,Thermal break aluminum,0.1815,1000.0,,1892#23,,QBO,2022-11-14,USD
+Pro Metal Recycling,Winski Brothers,Thermal Break Aluminum Extrusion,0.1815,1000.0,,1892#23,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,E-Scrap (Mixed),0.412,400.0,,1892#24,,QBO,2022-11-14,USD
-Pro Metal Recycling,Winski Brothers,Cu Brass rads,0.377,4160.0,,1892#25,,QBO,2022-11-14,USD
-Pro Metal Recycling,Winski Brothers,2 & 1 copper wire,0.015,3000.0,,1892#26,,QBO,2022-11-14,USD
+Pro Metal Recycling,Winski Brothers,Copper/Brass Radiators,0.377,4160.0,,1892#25,,QBO,2022-11-14,USD
+Pro Metal Recycling,Winski Brothers,ICW #1 (MCM 85% HG),0.015,3000.0,,1892#26,,QBO,2022-11-14,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.762,7640.0,,2011#0,,QBO,2023-01-18,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.7945,7640.0,,2011#1,,QBO,2023-01-18,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.6855,7640.0,,2011#2,,QBO,2023-01-18,USD
@@ -883,7 +875,7 @@ Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.0785,58
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.3165,7480.0,,2011#20,,QBO,2023-01-18,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.359,7240.0,,2011#21,,QBO,2023-01-18,USD
 Pro Metal Recycling,Winski Brothers,ICW Low Grade (Christmas Lights),0.1945,1000.0,,2011#22,,QBO,2023-01-18,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.3935,360.0,,2011#23,,QBO,2023-01-18,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.3935,360.0,,2011#23,,QBO,2023-01-18,USD
 Pro Metal Recycling,Winski Brothers,E-Scrap (TV/Monitors),0.119,40.0,,2011#24,,QBO,2023-01-18,USD
 Pro Metal Recycling,Winski Brothers,E-Scrap (TV/Monitors),0.289,40.0,,2011#25,,QBO,2023-01-18,USD
 Pro Metal Recycling,Winski Brothers,E-Scrap (TV/Monitors),0.3995,40.0,,2011#26,,QBO,2023-01-18,USD
@@ -894,10 +886,10 @@ Pro Metal Recycling,Winski Brothers,Painted Aluminum Extrusion,0.326,1620.0,,208
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.6875,820.0,,2080#2,,QBO,2023-02-22,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Dirty),0.2345,3700.0,,2080#3,,QBO,2023-02-22,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.1295,3980.0,,2080#4,,QBO,2023-02-22,USD
-Pro Metal Recycling,Winski Brothers,Cast Alum,0.2465,1300.0,,2080#5,,QBO,2023-02-22,USD
-Pro Metal Recycling,Winski Brothers,#1 Ins. 80%,0.78,5420.0,,2080#6,,QBO,2023-02-22,USD
-Pro Metal Recycling,Winski Brothers,#1 Ins. 80%,0.7605,4800.0,,2080#7,,QBO,2023-02-22,USD
-Pro Metal Recycling,Winski Brothers,"#1 Ins, 80%",1.248,5800.0,,2080#8,,QBO,2023-02-22,USD
+Pro Metal Recycling,Winski Brothers,Al Cast (Clean),0.2465,1300.0,,2080#5,,QBO,2023-02-22,USD
+Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.78,5420.0,,2080#6,,QBO,2023-02-22,USD
+Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.7605,4800.0,,2080#7,,QBO,2023-02-22,USD
+Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),1.248,5800.0,,2080#8,,QBO,2023-02-22,USD
 Pro Metal Recycling,Winski Brothers,Stainless,0.544,1200.0,,2080#9,,QBO,2023-02-22,USD
 Pro Metal Recycling,Winski Brothers,Painted Aluminum Extrusion,0.358,1620.0,,2080#10,,QBO,2023-02-22,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.3815,7300.0,,2080#11,,QBO,2023-02-22,USD
@@ -911,7 +903,7 @@ Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.116,7840.0,,208
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.405,7700.0,,2080#19,,QBO,2023-02-22,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.703,7300.0,,2080#20,,QBO,2023-02-22,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.8435,820.0,,2080#21,,QBO,2023-02-22,USD
-Pro Metal Recycling,Winski Brothers,Stainless Steel,0.9275,1200.0,,2080#22,,QBO,2023-02-22,USD
+Pro Metal Recycling,Winski Brothers,Stainless,0.9275,1200.0,,2080#22,,QBO,2023-02-22,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.714,360.0,,2080#23,,QBO,2023-02-22,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.214,3400.0,,2080#24,,QBO,2023-02-22,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.362,400.0,,2080#25,,QBO,2023-02-22,USD
@@ -931,9 +923,9 @@ Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.275,3900.0,,2219#9
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.237,3900.0,,2219#10,,QBO,2023-04-12,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.819,400.0,,2219#11,,QBO,2023-04-12,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.15,3320.0,,2219#12,,QBO,2023-04-12,USD
-Pro Metal Recycling,Winski Brothers,Brass Cu Rads,0.293,4740.0,,2219#13,,QBO,2023-04-12,USD
+Pro Metal Recycling,Winski Brothers,Copper/Brass Radiators,0.293,4740.0,,2219#13,,QBO,2023-04-12,USD
 Pro Metal Recycling,Winski Brothers,Stainless,0.5965,1160.0,,2219#14,,QBO,2023-04-12,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.703,240.0,,2219#15,,QBO,2023-04-12,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.703,240.0,,2219#15,,QBO,2023-04-12,USD
 Pro Metal Recycling,Winski Brothers,Thermal Break Aluminum Extrusion,0.2245,1300.0,,2219#16,,QBO,2023-04-12,USD
 Pro Metal Recycling,Winski Brothers,MLC (Mixed Low Copper) Prepared,0.211,1400.0,,2219#17,,QBO,2023-04-12,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.977,7100.0,,2219#18,,QBO,2023-04-12,USD
@@ -963,12 +955,12 @@ Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.262,1080.0,,2313#14,,QBO
 Pro Metal Recycling,Winski Brothers,Stainless,0.3765,1060.0,,2313#15,,QBO,2023-05-18,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.4225,1940.0,,2313#16,,QBO,2023-05-18,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.4,1940.0,,2313#17,,QBO,2023-05-18,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.408,300.0,,2313#18,,QBO,2023-05-18,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.408,300.0,,2313#18,,QBO,2023-05-18,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.54,1940.0,,2313#19,,QBO,2023-05-18,USD
 Pro Metal Recycling,Winski Brothers,Copper Breakage,0.7705,500.0,,2313#20,,QBO,2023-05-18,USD
 Pro Metal Recycling,Winski Brothers,Stainless,0.894,1060.0,,2313#21,,QBO,2023-05-18,USD
 Pro Metal Recycling,Winski Brothers,Copper Breakage,0.174,500.0,,2313#22,,QBO,2023-05-18,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.5155,300.0,,2313#23,,QBO,2023-05-18,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.5155,300.0,,2313#23,,QBO,2023-05-18,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.55,1940.0,,2313#24,,QBO,2023-05-18,USD
 Pro Metal Recycling,Winski Brothers,E-Scrap (Mixed),0.382,500.0,,2313#25,,QBO,2023-05-18,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.093,400.0,,2313#26,,QBO,2023-05-18,USD
@@ -994,7 +986,7 @@ Pro Metal Recycling,Winski Brothers,Stainless Steel Turnings,0.1455,400.0,,2415#
 Pro Metal Recycling,Winski Brothers,Painted Aluminum Extrusion,0.3285,1400.0,,2415#17,,QBO,2023-06-24,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 BX (Al),0.374,3740.0,,2415#18,,QBO,2023-06-24,USD
 Pro Metal Recycling,Winski Brothers,Old Cast Aluminum,0.28,1340.0,,2415#19,,QBO,2023-06-24,USD
-Pro Metal Recycling,Winski Brothers,AL Bkg,0.465,320.0,,2415#20,,QBO,2023-06-24,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.465,320.0,,2415#20,,QBO,2023-06-24,USD
 Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.2485,1080.0,,2415#21,,QBO,2023-06-24,USD
 Pro Metal Recycling,Winski Brothers,Fireworks wire,0.236,3100.0,,2415#22,,QBO,2023-06-24,USD
 Pro Metal Recycling,Winski Brothers,Transformers (Al/Cu),0.677,1240.0,,2415#23,,QBO,2023-06-24,USD
@@ -1006,14 +998,14 @@ Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.3485,7140.0,,24
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.743,6700.0,,2491#2,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Stainless,0.347,940.0,,2491#3,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Stainless,0.434,940.0,,2491#4,,QBO,2023-07-28,USD
-Pro Metal Recycling,Winski Brothers,Al BKG,0.511,320.0,,2491#5,,QBO,2023-07-28,USD
-Pro Metal Recycling,Winski Brothers,Al BKG,0.691,320.0,,2491#6,,QBO,2023-07-28,USD
-Pro Metal Recycling,Winski Brothers,Batteries,1.008,440.0,,2491#7,,QBO,2023-07-28,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.511,320.0,,2491#5,,QBO,2023-07-28,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.691,320.0,,2491#6,,QBO,2023-07-28,USD
+Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.008,440.0,,2491#7,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.7665,840.0,,2491#8,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),0.243,600.0,,2491#9,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Radiator Ends (Cu Breakage),0.2425,2240.0,,2491#10,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Transformers (Al/Cu),0.35,640.0,,2491#11,,QBO,2023-07-28,USD
-Pro Metal Recycling,Winski Brothers,Open Eye,0.374,3480.0,,2491#12,,QBO,2023-07-28,USD
+Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57% Baled),0.374,3480.0,,2491#12,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.355,3780.0,,2491#13,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.198,1080.0,,2491#14,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Dirty),0.296,3500.0,,2491#15,,QBO,2023-07-28,USD
@@ -1028,38 +1020,38 @@ Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.227,3780.0,,2491#2
 Pro Metal Recycling,Winski Brothers,Ballasts (Magnetic/Regular),1.3205,580.0,,2491#24,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Composition / Red Brass (Ebony),0.473,5500.0,,2491#25,,QBO,2023-07-28,USD
 Pro Metal Recycling,Winski Brothers,Zinc Die Cast,0.2175,1500.0,,2491#26,,QBO,2023-07-28,USD
-Pro Metal Recycling,Winski Brothers,Al BKG,0.614,320.0,,2619#0,,QBO,2023-09-07,USD
-Pro Metal Recycling,Winski Brothers,Al BKG,0.7995,320.0,,2619#1,,QBO,2023-09-07,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.614,320.0,,2619#0,,QBO,2023-09-07,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.7995,320.0,,2619#1,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,Al 6061 Solids,0.838,1260.0,,2619#2,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.3815,3620.0,,2619#3,,QBO,2023-09-07,USD
-Pro Metal Recycling,Winski Brothers,Al Ext,0.37,1500.0,,2619#4,,QBO,2023-09-07,USD
-Pro Metal Recycling,Winski Brothers,Al Ext Ptd,0.34,1400.0,,2619#5,,QBO,2023-09-07,USD
+Pro Metal Recycling,Winski Brothers,Al Extrusion (Bare),0.37,1500.0,,2619#4,,QBO,2023-09-07,USD
+Pro Metal Recycling,Winski Brothers,Painted Aluminum Extrusion,0.34,1400.0,,2619#5,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.9255,420.0,,2619#6,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.2045,420.0,,2619#7,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),0.7495,740.0,,2619#8,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,Old Cast Aluminum,0.357,1260.0,,2619#9,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,Yellow Brass (Solid,0.937,4840.0,,2619#10,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.284,660.0,,2619#11,,QBO,2023-09-07,USD
-Pro Metal Recycling,Winski Brothers,Copper bare brite,0.547,7100.0,,2619#12,,QBO,2023-09-07,USD
+Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),0.547,7100.0,,2619#12,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.4155,6960.0,,2619#13,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.3885,6580.0,,2619#14,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.3355,3100.0,,2619#15,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.442,3500.0,,2619#16,,QBO,2023-09-07,USD
-Pro Metal Recycling,Winski Brothers,Harness,0.555,4220.0,,2619#17,,QBO,2023-09-07,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.555,4220.0,,2619#17,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.207,820.0,,2619#18,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57%,0.132,2200.0,,2619#19,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,Scrap Lead — Soft (Racks),0.383,1540.0,,2619#20,,QBO,2023-09-07,USD
-Pro Metal Recycling,Winski Brothers,Stainless steel,0.1875,940.0,,2619#21,,QBO,2023-09-07,USD
+Pro Metal Recycling,Winski Brothers,Stainless,0.1875,940.0,,2619#21,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,Brass cont'd,0.2715,3300.0,,2619#22,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.741,820.0,,2619#23,,QBO,2023-09-07,USD
-Pro Metal Recycling,Winski Brothers,Lead coated Cu,0.026,1500.0,,2619#24,,QBO,2023-09-07,USD
+Pro Metal Recycling,Winski Brothers,Sheet Copper (Lead-Coated),0.026,1500.0,,2619#24,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,E-Scrap (Mixed),0.0405,200.0,,2619#25,,QBO,2023-09-07,USD
-Pro Metal Recycling,Winski Brothers,#1/#2 Ins mixed,0.1765,2800.0,,2619#26,,QBO,2023-09-07,USD
-Pro Metal Recycling,Winski Brothers,#1/#2 Ins mixed,0.2605,2800.0,,2619#27,,QBO,2023-09-07,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (Mixed),0.1765,2800.0,,2619#26,,QBO,2023-09-07,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (Mixed),0.2605,2800.0,,2619#27,,QBO,2023-09-07,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.451,900.0,,2619#28,,QBO,2023-09-07,USD
-Pro Metal Recycling,Winski Brothers,Battery Cable,1.0255,4700.0,,2715#0,,QBO,2023-10-19,USD
-Pro Metal Recycling,Winski Brothers,Battery Cable,1.2325,4700.0,,2715#1,,QBO,2023-10-19,USD
-Pro Metal Recycling,Winski Brothers,Battery Cable,0.3025,4700.0,,2715#2,,QBO,2023-10-19,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (Battery Cable),1.0255,4700.0,,2715#0,,QBO,2023-10-19,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (Battery Cable),1.2325,4700.0,,2715#1,,QBO,2023-10-19,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (Battery Cable),0.3025,4700.0,,2715#2,,QBO,2023-10-19,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.615,3120.0,,2715#3,,QBO,2023-10-19,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.46,3120.0,,2715#4,,QBO,2023-10-19,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.511,3120.0,,2715#5,,QBO,2023-10-19,USD
@@ -1091,7 +1083,7 @@ Pro Metal Recycling,Winski Brothers,MLC (Mixed Low Copper) Prepared,0.417,1280.0
 Pro Metal Recycling,Winski Brothers,MLC (Mixed Low Copper) Prepared,0.236,1280.0,,2715#31,,QBO,2023-10-19,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.941,440.0,,2715#32,,QBO,2023-10-19,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.041,440.0,,2715#33,,QBO,2023-10-19,USD
-Pro Metal Recycling,Winski Brothers,Al BKG,0.3715,600.0,,2715#34,,QBO,2023-10-19,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.3715,600.0,,2715#34,,QBO,2023-10-19,USD
 Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.3545,5160.0,,2715#35,,QBO,2023-10-19,USD
 Pro Metal Recycling,Winski Brothers,Al Cast (Clean),0.388,1260.0,,2715#36,,QBO,2023-10-19,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.3615,7060.0,,2781#0,,QBO,2023-11-10,USD
@@ -1099,27 +1091,27 @@ Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.8035,6920.0,,27
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),1.1175,6620.0,,2781#2,,QBO,2023-11-10,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.423,1880.0,,2781#3,,QBO,2023-11-10,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.5385,2740.0,,2781#4,,QBO,2023-11-10,USD
-Pro Metal Recycling,Winski Brothers,Aluminum extrusion,0.45,1500.0,,2781#5,,QBO,2023-11-10,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.632,320.0,,2781#6,,QBO,2023-11-10,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.52,320.0,,2781#7,,QBO,2023-11-10,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.394,320.0,,2781#8,,QBO,2023-11-10,USD
+Pro Metal Recycling,Winski Brothers,Al Extrusion (Bare),0.45,1500.0,,2781#5,,QBO,2023-11-10,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.632,320.0,,2781#6,,QBO,2023-11-10,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.52,320.0,,2781#7,,QBO,2023-11-10,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.394,320.0,,2781#8,,QBO,2023-11-10,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.071,460.0,,2781#9,,QBO,2023-11-10,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.126,460.0,,2781#10,,QBO,2023-11-10,USD
 Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.2055,1040.0,,2781#11,,QBO,2023-11-10,USD
-Pro Metal Recycling,Winski Brothers,Plug ends,0.194,300.0,,2781#12,,QBO,2023-11-10,USD
-Pro Metal Recycling,Winski Brothers,Brass copper rads,0.336,4640.0,,2781#13,,QBO,2023-11-10,USD
+Pro Metal Recycling,Winski Brothers,Plug Ends (Breakage Mix),0.194,300.0,,2781#12,,QBO,2023-11-10,USD
+Pro Metal Recycling,Winski Brothers,Copper/Brass Radiators,0.336,4640.0,,2781#13,,QBO,2023-11-10,USD
 Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.274,660.0,,2781#14,,QBO,2023-11-10,USD
-Pro Metal Recycling,Winski Brothers,Stainless steel,0.5315,940.0,,2781#15,,QBO,2023-11-10,USD
-Pro Metal Recycling,Winski Brothers,Aluminum cast,0.285,1260.0,,2781#16,,QBO,2023-11-10,USD
+Pro Metal Recycling,Winski Brothers,Stainless,0.5315,940.0,,2781#15,,QBO,2023-11-10,USD
+Pro Metal Recycling,Winski Brothers,Al Cast (Clean),0.285,1260.0,,2781#16,,QBO,2023-11-10,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.696,320.0,,2781#17,,QBO,2023-11-10,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.003,460.0,,2781#18,,QBO,2023-11-10,USD
 Pro Metal Recycling,Winski Brothers,Transformers (Al/Cu),0.379,1360.0,,2781#19,,QBO,2023-11-10,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.2755,800.0,,2781#20,,QBO,2023-11-10,USD
-Pro Metal Recycling,Winski Brothers,Big motor,0.329,740.0,,2781#21,,QBO,2023-11-10,USD
+Pro Metal Recycling,Winski Brothers,Electric Motors (Large <1000 lb),0.329,740.0,,2781#21,,QBO,2023-11-10,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.4245,800.0,,2781#22,,QBO,2023-11-10,USD
-Pro Metal Recycling,Winski Brothers,#2 insulated wire in paper drum,0.058,2740.0,,2781#23,,QBO,2023-11-10,USD
-Pro Metal Recycling,Winski Brothers,Al turnings in barrel,0.027,800.0,,2781#24,,QBO,2023-11-10,USD
-Pro Metal Recycling,Winski Brothers,Brass rads from #2 copper box,0.078,4640.0,,2781#25,,QBO,2023-11-10,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.058,2740.0,,2781#23,,QBO,2023-11-10,USD
+Pro Metal Recycling,Winski Brothers,Aluminum Turnings,0.027,800.0,,2781#24,,QBO,2023-11-10,USD
+Pro Metal Recycling,Winski Brothers,Copper/Brass Radiators,0.078,4640.0,,2781#25,,QBO,2023-11-10,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.11,7300.0,,2830#0,,QBO,2023-12-01,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.384,7160.0,,2830#1,,QBO,2023-12-01,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.352,3680.0,,2830#2,,QBO,2023-12-01,USD
@@ -1157,15 +1149,15 @@ Pro Metal Recycling,Winski Brothers,Al Car Wheels,0.2415,1780.0,,2890#8,,QBO,202
 Pro Metal Recycling,Winski Brothers,Al Car Wheels,0.2595,1780.0,,2890#9,,QBO,2024-01-03,USD
 Pro Metal Recycling,Winski Brothers,Al Car Wheels (Chrome),0.289,1440.0,,2890#10,,QBO,2024-01-03,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),0.618,780.0,,2890#11,,QBO,2024-01-03,USD
-Pro Metal Recycling,Winski Brothers,Insulated copper wire #1,0.459,4480.0,,2890#12,,QBO,2024-01-03,USD
-Pro Metal Recycling,Winski Brothers,Ins copper wire #2 - telephone wire,0.2855,3220.0,,2890#13,,QBO,2024-01-03,USD
+Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.459,4480.0,,2890#12,,QBO,2024-01-03,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.2855,3220.0,,2890#13,,QBO,2024-01-03,USD
 Pro Metal Recycling,Winski Brothers,Transformers (Al/Cu),0.351,320.0,,2890#14,,QBO,2024-01-03,USD
 Pro Metal Recycling,Winski Brothers,Copper Breakage,0.3435,500.0,,2890#15,,QBO,2024-01-03,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.187,3740.0,,2890#16,,QBO,2024-01-03,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.411,500.0,,2890#17,,QBO,2024-01-03,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.2815,500.0,,2890#18,,QBO,2024-01-03,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.288,500.0,,2890#19,,QBO,2024-01-03,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.2755,500.0,,2890#20,,QBO,2024-01-03,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.411,500.0,,2890#17,,QBO,2024-01-03,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.2815,500.0,,2890#18,,QBO,2024-01-03,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.288,500.0,,2890#19,,QBO,2024-01-03,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.2755,500.0,,2890#20,,QBO,2024-01-03,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.5035,3440.0,,2941#0,,QBO,2024-01-29,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.404,3440.0,,2941#1,,QBO,2024-01-29,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.561,3440.0,,2941#2,,QBO,2024-01-29,USD
@@ -1185,7 +1177,7 @@ Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.558,3440.0,,2941#1
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.489,7160.0,,2941#16,,QBO,2024-01-29,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),1.476,6900.0,,2941#17,,QBO,2024-01-29,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.591,6900.0,,2941#18,,QBO,2024-01-29,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.2685,500.0,,2941#19,,QBO,2024-01-29,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.2685,500.0,,2941#19,,QBO,2024-01-29,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.761,3440.0,,2941#20,,QBO,2024-01-29,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.187,2900.0,,2941#21,,QBO,2024-01-29,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.325,2900.0,,2941#22,,QBO,2024-01-29,USD
@@ -1198,7 +1190,7 @@ Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.377,3500.0,,2994#4
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.502,3500.0,,2994#5,,QBO,2024-02-19,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.367,2440.0,,2994#6,,QBO,2024-02-19,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.2605,3300.0,,2994#7,,QBO,2024-02-19,USD
-Pro Metal Recycling,Winski Brothers,motors with pumps,0.332,780.0,,2994#8,,QBO,2024-02-19,USD
+Pro Metal Recycling,Winski Brothers,Electric Motors (Mixed / Pump Attached),0.332,780.0,,2994#8,,QBO,2024-02-19,USD
 Pro Metal Recycling,Winski Brothers,Al Breakage,0.38,500.0,,2994#9,,QBO,2024-02-19,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.191,3760.0,,2994#10,,QBO,2024-02-19,USD
 Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.563,4900.0,,2994#11,,QBO,2024-02-19,USD
@@ -1206,7 +1198,7 @@ Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.297,860.0,,29
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),0.9825,780.0,,2994#13,,QBO,2024-02-19,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.128,860.0,,2994#14,,QBO,2024-02-19,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.08,860.0,,2994#15,,QBO,2024-02-19,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.492,500.0,,2994#16,,QBO,2024-02-19,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.492,500.0,,2994#16,,QBO,2024-02-19,USD
 Pro Metal Recycling,Winski Brothers,Stainless Steel Turnings,0.1725,600.0,,2994#17,,QBO,2024-02-19,USD
 Pro Metal Recycling,Winski Brothers,Stainless Steel Turnings,0.237,600.0,,2994#18,,QBO,2024-02-19,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.4325,1500.0,,2994#19,,QBO,2024-02-19,USD
@@ -1228,11 +1220,11 @@ Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.308,880.0,,30
 Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.543,4540.0,,3038#8,,QBO,2024-03-06,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.48,5340.0,,3038#9,,QBO,2024-03-06,USD
 Pro Metal Recycling,Winski Brothers,Old Cast Aluminum,0.442,1300.0,,3038#10,,QBO,2024-03-06,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.24,500.0,,3038#11,,QBO,2024-03-06,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.36,500.0,,3038#12,,QBO,2024-03-06,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.871,500.0,,3038#13,,QBO,2024-03-06,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.798,500.0,,3038#14,,QBO,2024-03-06,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.3425,500.0,,3038#15,,QBO,2024-03-06,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.24,500.0,,3038#11,,QBO,2024-03-06,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.36,500.0,,3038#12,,QBO,2024-03-06,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.871,500.0,,3038#13,,QBO,2024-03-06,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.798,500.0,,3038#14,,QBO,2024-03-06,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.3425,500.0,,3038#15,,QBO,2024-03-06,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),0.394,400.0,,3038#16,,QBO,2024-03-06,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),0.389,400.0,,3038#17,,QBO,2024-03-06,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),0.309,320.0,,3038#18,,QBO,2024-03-06,USD
@@ -1244,7 +1236,7 @@ Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.2245,73
 Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.285,1040.0,,3038#24,,QBO,2024-03-06,USD
 Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.13,1400.0,,3038#25,,QBO,2024-03-06,USD
 Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),0.192,300.0,,3038#26,,QBO,2024-03-06,USD
-Pro Metal Recycling,Winski Brothers,Big motor,0.495,780.0,,3038#27,,QBO,2024-03-06,USD
+Pro Metal Recycling,Winski Brothers,Electric Motors (Large <1000 lb),0.495,780.0,,3038#27,,QBO,2024-03-06,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.062,7920.0,,3071#0,,QBO,2024-03-18,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.5545,6060.0,,3071#1,,QBO,2024-03-18,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.2505,6060.0,,3071#2,,QBO,2024-03-18,USD
@@ -1281,21 +1273,21 @@ Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),0.388,820.0,,31
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),0.8175,8680.0,,3157#7,,QBO,2024-04-22,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.29,4340.0,,3157#8,,QBO,2024-04-22,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.297,4340.0,,3157#9,,QBO,2024-04-22,USD
-Pro Metal Recycling,Winski Brothers,batteries,2.168,580.0,,3157#10,,QBO,2024-04-22,USD
+Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),2.168,580.0,,3157#10,,QBO,2024-04-22,USD
 Pro Metal Recycling,Winski Brothers,Copper Turnings (Alloy/Shop),0.2785,6000.0,,3157#11,,QBO,2024-04-22,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.781,420.0,,3157#12,,QBO,2024-04-22,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.715,420.0,,3157#13,,QBO,2024-04-22,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.781,420.0,,3157#12,,QBO,2024-04-22,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.715,420.0,,3157#13,,QBO,2024-04-22,USD
 Pro Metal Recycling,Winski Brothers,Radiator Ends (Cu Breakage),0.298,2600.0,,3157#14,,QBO,2024-04-22,USD
 Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.248,1200.0,,3157#15,,QBO,2024-04-22,USD
 Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.318,1200.0,,3157#16,,QBO,2024-04-22,USD
 Pro Metal Recycling,Winski Brothers,Sheet Copper,0.2105,8040.0,,3157#17,,QBO,2024-04-22,USD
-Pro Metal Recycling,Winski Brothers,Al/brass shells mixed,0.04,900.0,,3157#18,,QBO,2024-04-22,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.3835,420.0,,3157#19,,QBO,2024-04-22,USD
-Pro Metal Recycling,Winski Brothers,Shell primers,0.064,4000.0,,3157#20,,QBO,2024-04-22,USD
+Pro Metal Recycling,Winski Brothers,Brass Shells (Mixed Alloy),0.04,900.0,,3157#18,,QBO,2024-04-22,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.3835,420.0,,3157#19,,QBO,2024-04-22,USD
+Pro Metal Recycling,Winski Brothers,Brass Shells (Clean),0.064,4000.0,,3157#20,,QBO,2024-04-22,USD
 Pro Metal Recycling,Winski Brothers,Scrap Lead — Soft (Racks),0.031,1620.0,,3157#21,,QBO,2024-04-22,USD
 Pro Metal Recycling,Winski Brothers,Range Lead (Indoor),0.017,1440.0,,3157#22,,QBO,2024-04-22,USD
 Pro Metal Recycling,Winski Brothers,Range Lead (Indoor),0.036,1600.0,,3157#23,,QBO,2024-04-22,USD
-Pro Metal Recycling,Winski Brothers,wheel wts,0.107,420.0,,3157#24,,QBO,2024-04-22,USD
+Pro Metal Recycling,Winski Brothers,Lead Wheel Weights,0.107,420.0,,3157#24,,QBO,2024-04-22,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),0.3285,8560.0,,3176#0,,QBO,2024-04-26,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.1965,8400.0,,3176#1,,QBO,2024-04-26,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.818,8200.0,,3176#2,,QBO,2024-04-26,USD
@@ -1328,7 +1320,7 @@ Pro Metal Recycling,Winski Brothers,Range Lead (Indoor),1.072,1600.0,,3176#28,,Q
 Pro Metal Recycling,Winski Brothers,Range Lead (Indoor),1.109,1600.0,,3176#29,,QBO,2024-04-26,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.012,8760.0,,3248#0,,QBO,2024-05-28,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.51,8300.0,,3248#1,,QBO,2024-05-28,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.589,400.0,,3248#2,,QBO,2024-05-28,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.589,400.0,,3248#2,,QBO,2024-05-28,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.8795,960.0,,3248#3,,QBO,2024-05-28,USD
 Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57%,0.1465,2860.0,,3248#4,,QBO,2024-05-28,USD
 Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),0.181,300.0,,3248#5,,QBO,2024-05-28,USD
@@ -1352,10 +1344,10 @@ Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.3085,7680.0,,33
 Pro Metal Recycling,Winski Brothers,Yellow Brass (Solid,1.041,5400.0,,3308#2,,QBO,2024-06-12,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.88,560.0,,3308#3,,QBO,2024-06-12,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.948,560.0,,3308#4,,QBO,2024-06-12,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.504,300.0,,3308#5,,QBO,2024-06-12,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.5355,300.0,,3308#6,,QBO,2024-06-12,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.8165,300.0,,3308#7,,QBO,2024-06-12,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.6165,300.0,,3308#8,,QBO,2024-06-12,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.504,300.0,,3308#5,,QBO,2024-06-12,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.5355,300.0,,3308#6,,QBO,2024-06-12,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.8165,300.0,,3308#7,,QBO,2024-06-12,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.6165,300.0,,3308#8,,QBO,2024-06-12,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.278,4340.0,,3308#9,,QBO,2024-06-12,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.343,4340.0,,3308#10,,QBO,2024-06-12,USD
 Pro Metal Recycling,Winski Brothers,Dirty rads,0.305,4060.0,,3308#11,,QBO,2024-06-12,USD
@@ -1396,7 +1388,7 @@ Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.2445,900.0,,3
 Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.3685,1220.0,,3440#2,,QBO,2024-07-25,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.357,3400.0,,3440#3,,QBO,2024-07-25,USD
 Pro Metal Recycling,Winski Brothers,mixed boards,0.1275,700.0,,3440#4,,QBO,2024-07-25,USD
-Pro Metal Recycling,Winski Brothers,Dirty wheels,0.27,1860.0,,3440#5,,QBO,2024-07-25,USD
+Pro Metal Recycling,Winski Brothers,Al Car Wheels (Dirty),0.27,1860.0,,3440#5,,QBO,2024-07-25,USD
 Pro Metal Recycling,Winski Brothers,Stainless Steel Turnings,0.173,700.0,,3440#6,,QBO,2024-07-25,USD
 Pro Metal Recycling,Winski Brothers,Stainless Steel Turnings,0.192,700.0,,3440#7,,QBO,2024-07-25,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.354,4060.0,,3440#8,,QBO,2024-07-25,USD
@@ -1438,8 +1430,8 @@ Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.457,3740.0,,3494#2
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.477,3740.0,,3494#27,,QBO,2024-08-15,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.59,3740.0,,3494#28,,QBO,2024-08-15,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.5825,3740.0,,3494#29,,QBO,2024-08-15,USD
-Pro Metal Recycling,Winski Brothers,Computer tower,0.153,800.0,,3494#30,,QBO,2024-08-15,USD
-Pro Metal Recycling,Winski Brothers,Servers,0.175,1600.0,,3494#31,,QBO,2024-08-15,USD
+Pro Metal Recycling,Winski Brothers,Computer Tower (Complete),0.153,800.0,,3494#30,,QBO,2024-08-15,USD
+Pro Metal Recycling,Winski Brothers,Servers (Complete),0.175,1600.0,,3494#31,,QBO,2024-08-15,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.4655,760.0,,3494#32,,QBO,2024-08-15,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.163,3400.0,,3494#33,,QBO,2024-08-15,USD
 Pro Metal Recycling,Winski Brothers,Lead Wheel Weights,0.4055,420.0,,3494#34,,QBO,2024-08-15,USD
@@ -1455,18 +1447,18 @@ Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.287,3500.0,,3562#8
 Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.463,670.0,,3562#9,,QBO,2024-09-13,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.568,760.0,,3562#10,,QBO,2024-09-13,USD
 Pro Metal Recycling,Winski Brothers,Al Cast (Clean),0.4695,1440.0,,3562#11,,QBO,2024-09-13,USD
-Pro Metal Recycling,Winski Brothers,spent shells,0.129,2100.0,,3562#12,,QBO,2024-09-13,USD
+Pro Metal Recycling,Winski Brothers,Brass Shells (Military Spent),0.129,2100.0,,3562#12,,QBO,2024-09-13,USD
 Pro Metal Recycling,Winski Brothers,Range Lead (Indoor),0.66,1460.0,,3562#13,,QBO,2024-09-13,USD
 Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.5145,4860.0,,3562#14,,QBO,2024-09-13,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.6425,2340.0,,3562#15,,QBO,2024-09-13,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.594,3840.0,,3562#16,,QBO,2024-09-13,USD
 Pro Metal Recycling,Winski Brothers,Stainless Sheet Scrap,2.261,1040.0,,3562#17,,QBO,2024-09-13,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.2945,4020.0,,3562#18,,QBO,2024-09-13,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.5545,300.0,,3562#19,,QBO,2024-09-13,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.6245,300.0,,3562#20,,QBO,2024-09-13,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.7245,300.0,,3562#21,,QBO,2024-09-13,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.4975,300.0,,3562#22,,QBO,2024-09-13,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.5285,300.0,,3562#23,,QBO,2024-09-13,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.5545,300.0,,3562#19,,QBO,2024-09-13,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.6245,300.0,,3562#20,,QBO,2024-09-13,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.7245,300.0,,3562#21,,QBO,2024-09-13,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.4975,300.0,,3562#22,,QBO,2024-09-13,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.5285,300.0,,3562#23,,QBO,2024-09-13,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.158,540.0,,3562#24,,QBO,2024-09-13,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),0.8585,7900.0,,3562#25,,QBO,2024-09-13,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.4565,760.0,,3562#26,,QBO,2024-09-13,USD
@@ -1513,8 +1505,8 @@ Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.5345,4120.0,,3623#
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.7505,4120.0,,3623#19,,QBO,2024-10-07,USD
 Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.4935,5220.0,,3623#20,,QBO,2024-10-07,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.3265,2460.0,,3623#21,,QBO,2024-10-07,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.745,300.0,,3623#22,,QBO,2024-10-07,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.485,300.0,,3623#23,,QBO,2024-10-07,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.745,300.0,,3623#22,,QBO,2024-10-07,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.485,300.0,,3623#23,,QBO,2024-10-07,USD
 Pro Metal Recycling,Winski Brothers,Radiator Ends (Cu Breakage),0.2325,2680.0,,3623#24,,QBO,2024-10-07,USD
 Pro Metal Recycling,Winski Brothers,Brass Breakage,0.4435,500.0,,3623#25,,QBO,2024-10-07,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.2545,8220.0,,3659#0,,QBO,2024-10-24,USD
@@ -1529,8 +1521,8 @@ Pro Metal Recycling,Winski Brothers,Al Extrusion (Bare),0.296,1860.0,,3659#8,,QB
 Pro Metal Recycling,Winski Brothers,Al Extrusion (Bare),0.431,1860.0,,3659#9,,QBO,2024-10-24,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.5115,920.0,,3659#10,,QBO,2024-10-24,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.3945,6240.0,,3659#11,,QBO,2024-10-24,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.607,300.0,,3659#12,,QBO,2024-10-24,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.48,300.0,,3659#13,,QBO,2024-10-24,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.607,300.0,,3659#12,,QBO,2024-10-24,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.48,300.0,,3659#13,,QBO,2024-10-24,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.0065,440.0,,3659#14,,QBO,2024-10-24,USD
 Pro Metal Recycling,Winski Brothers,Transformers (Al/Cu),0.2955,1480.0,,3659#15,,QBO,2024-10-24,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.2305,4220.0,,3659#16,,QBO,2024-10-24,USD
@@ -1539,14 +1531,14 @@ Pro Metal Recycling,Winski Brothers,E-Scrap (TV/Monitors),0.1105,100.0,,3659#18,
 Pro Metal Recycling,Winski Brothers,Radiator Ends (Cu Breakage),0.1475,2660.0,,3659#19,,QBO,2024-10-24,USD
 Pro Metal Recycling,Winski Brothers,Old Cast Aluminum,0.3105,1440.0,,3659#20,,QBO,2024-10-24,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.022,3120.0,,3659#21,,QBO,2024-10-24,USD
-Pro Metal Recycling,Winski Brothers,H wire,0.107,3680.0,,3659#22,,QBO,2024-10-24,USD
+Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57% Baled),0.107,3680.0,,3659#22,,QBO,2024-10-24,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),0.7415,7880.0,,3760#0,,QBO,2024-12-12,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.864,7680.0,,3760#1,,QBO,2024-12-12,USD
 Pro Metal Recycling,Winski Brothers,Sheet Copper,0.5245,7100.0,,3760#2,,QBO,2024-12-12,USD
 Pro Metal Recycling,Winski Brothers,Composition / Red Brass (Ebony),0.2085,6440.0,,3760#3,,QBO,2024-12-12,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.84,540.0,,3760#4,,QBO,2024-12-12,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.493,300.0,,3760#5,,QBO,2024-12-12,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.5035,300.0,,3760#6,,QBO,2024-12-12,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.493,300.0,,3760#5,,QBO,2024-12-12,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.5035,300.0,,3760#6,,QBO,2024-12-12,USD
 Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.5655,5600.0,,3760#7,,QBO,2024-12-12,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.5625,3640.0,,3760#8,,QBO,2024-12-12,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.4005,3100.0,,3760#9,,QBO,2024-12-12,USD
@@ -1586,7 +1578,7 @@ Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.548,7520.0,,381
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.457,3500.0,,3813#21,,QBO,2025-01-02,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.994,560.0,,3813#22,,QBO,2025-01-02,USD
 Pro Metal Recycling,Winski Brothers,Ballasts (Magnetic/Regular),1.206,600.0,,3813#23,,QBO,2025-01-02,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.6585,300.0,,3813#24,,QBO,2025-01-02,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.6585,300.0,,3813#24,,QBO,2025-01-02,USD
 Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.195,4760.0,,3813#25,,QBO,2025-01-02,USD
 Pro Metal Recycling,Winski Brothers,#2 Ins - fuses for fireworks,0.2605,3840.0,,3813#26,,QBO,2025-01-02,USD
 Pro Metal Recycling,Winski Brothers,Insulated Al Wire,0.3145,1080.0,,3813#27,,QBO,2025-01-02,USD
@@ -1609,10 +1601,10 @@ Pro Metal Recycling,Winski Brothers,Al Truck Wheels,0.1885,1400.0,,3830#12,,QBO,
 Pro Metal Recycling,Winski Brothers,Radiators (Auto,0.148,5140.0,,3830#13,,QBO,2025-01-13,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.5365,4120.0,,3830#14,,QBO,2025-01-13,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Dirty),0.211,3840.0,,3830#15,,QBO,2025-01-13,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.296,300.0,,3830#16,,QBO,2025-01-13,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.296,300.0,,3830#16,,QBO,2025-01-13,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.17,840.0,,3830#17,,QBO,2025-01-13,USD
 Pro Metal Recycling,Winski Brothers,Al Car Wheels,0.2165,1860.0,,3830#18,,QBO,2025-01-13,USD
-Pro Metal Recycling,Winski Brothers,Dirty brass rads,0.123,3400.0,,3830#19,,QBO,2025-01-13,USD
+Pro Metal Recycling,Winski Brothers,Copper/Brass Radiators (Dirty),0.123,3400.0,,3830#19,,QBO,2025-01-13,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.0185,8420.0,,3921#0,,QBO,2025-02-26,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.365,8020.0,,3921#1,,QBO,2025-02-26,USD
 Pro Metal Recycling,Winski Brothers,ICW Low Grade (Christmas Lights),0.3295,1420.0,,3921#2,,QBO,2025-02-26,USD
@@ -1625,8 +1617,8 @@ Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.0425,72
 Pro Metal Recycling,Winski Brothers,Painted Aluminum Extrusion,0.2295,1860.0,,3921#9,,QBO,2025-02-26,USD
 Pro Metal Recycling,Winski Brothers,Painted Aluminum Extrusion,0.1925,1860.0,,3921#10,,QBO,2025-02-26,USD
 Pro Metal Recycling,Winski Brothers,MLC (Mixed Low Copper) Prepared,0.3715,1560.0,,3921#11,,QBO,2025-02-26,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.577,300.0,,3921#12,,QBO,2025-02-26,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.6615,200.0,,3921#13,,QBO,2025-02-26,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.577,300.0,,3921#12,,QBO,2025-02-26,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.6615,200.0,,3921#13,,QBO,2025-02-26,USD
 Pro Metal Recycling,Winski Brothers,Thermal Break Aluminum Extrusion,0.271,1440.0,,3921#14,,QBO,2025-02-26,USD
 Pro Metal Recycling,Winski Brothers,Al Car Wheels,0.2115,1980.0,,3921#15,,QBO,2025-02-26,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.895,560.0,,3921#16,,QBO,2025-02-26,USD
@@ -1677,7 +1669,7 @@ Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.38,3800.0,,3958#11
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.385,3100.0,,3958#12,,QBO,2025-03-13,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.298,3800.0,,3958#13,,QBO,2025-03-13,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.281,3420.0,,3958#14,,QBO,2025-03-13,USD
-Pro Metal Recycling,Winski Brothers,battery cable,0.722,5100.0,,3958#15,,QBO,2025-03-13,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (Battery Cable),0.722,5100.0,,3958#15,,QBO,2025-03-13,USD
 Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.4545,5260.0,,3958#16,,QBO,2025-03-13,USD
 Pro Metal Recycling,Winski Brothers,dirty motors,0.944,600.0,,3958#17,,QBO,2025-03-13,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.3915,880.0,,3958#18,,QBO,2025-03-13,USD
@@ -1685,7 +1677,7 @@ Pro Metal Recycling,Winski Brothers,Al rims,0.2345,2080.0,,3958#19,,QBO,2025-03-
 Pro Metal Recycling,Winski Brothers,Al rims,0.3515,2080.0,,3958#20,,QBO,2025-03-13,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.037,560.0,,3958#21,,QBO,2025-03-13,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.1995,4480.0,,3958#22,,QBO,2025-03-13,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.4375,400.0,,3958#23,,QBO,2025-03-13,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.4375,400.0,,3958#23,,QBO,2025-03-13,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),0.8705,8580.0,,4005#0,,QBO,2025-03-31,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.5215,8180.0,,4005#1,,QBO,2025-03-31,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.809,560.0,,4005#2,,QBO,2025-03-31,USD
@@ -1706,11 +1698,11 @@ Pro Metal Recycling,Winski Brothers,Stainless Steel Turnings,0.2235,540.0,,4005#
 Pro Metal Recycling,Winski Brothers,Stainless (316/312 Mixed),0.2115,1740.0,,4005#17,,QBO,2025-03-31,USD
 Pro Metal Recycling,Winski Brothers,MLC (Mixed Low Copper) Prepared,0.1935,1600.0,,4005#18,,QBO,2025-03-31,USD
 Pro Metal Recycling,Winski Brothers,dirty truck wheels,0.052,1500.0,,4005#19,,QBO,2025-03-31,USD
-Pro Metal Recycling,Winski Brothers,tin plated copper,0.235,2900.0,,4005#20,,QBO,2025-03-31,USD
-Pro Metal Recycling,Winski Brothers,Cu paper wrapped,0.005,4900.0,,4005#21,,QBO,2025-03-31,USD
+Pro Metal Recycling,Winski Brothers,Tinned Copper Wire,0.235,2900.0,,4005#20,,QBO,2025-03-31,USD
+Pro Metal Recycling,Winski Brothers,Copper Wire Scrap (Insulated),0.005,4900.0,,4005#21,,QBO,2025-03-31,USD
 Pro Metal Recycling,Winski Brothers,Copper Breakage,0.009,800.0,,4005#22,,QBO,2025-03-31,USD
 Pro Metal Recycling,Winski Brothers,Copper Breakage,0.036,500.0,,4005#23,,QBO,2025-03-31,USD
-Pro Metal Recycling,Winski Brothers,Misc e-scrap,0.009,100.0,,4005#24,,QBO,2025-03-31,USD
+Pro Metal Recycling,Winski Brothers,E-Scrap (Mixed),0.009,100.0,,4005#24,,QBO,2025-03-31,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper (Berry/Candy),0.8285,7480.0,,4054#0,,QBO,2025-04-21,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.787,7000.0,,4054#1,,QBO,2025-04-21,USD
 Pro Metal Recycling,Winski Brothers,Sheet Copper,0.303,6780.0,,4054#2,,QBO,2025-04-21,USD
@@ -1750,13 +1742,13 @@ Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.4775,3920.0,,4069#
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.6505,3920.0,,4069#15,,QBO,2025-04-28,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.405,3920.0,,4069#16,,QBO,2025-04-28,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.4155,3920.0,,4069#17,,QBO,2025-04-28,USD
-Pro Metal Recycling,Winski Brothers,Battery cable,0.789,5600.0,,4069#18,,QBO,2025-04-28,USD
-Pro Metal Recycling,Winski Brothers,Battery cable,0.591,5600.0,,4069#19,,QBO,2025-04-28,USD
-Pro Metal Recycling,Winski Brothers,Battery cable,0.864,5600.0,,4069#20,,QBO,2025-04-28,USD
-Pro Metal Recycling,Winski Brothers,Battery cable,0.69,5600.0,,4069#21,,QBO,2025-04-28,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (Battery Cable),0.789,5600.0,,4069#18,,QBO,2025-04-28,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (Battery Cable),0.591,5600.0,,4069#19,,QBO,2025-04-28,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (Battery Cable),0.864,5600.0,,4069#20,,QBO,2025-04-28,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (Battery Cable),0.69,5600.0,,4069#21,,QBO,2025-04-28,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.267,860.0,,4069#22,,QBO,2025-04-28,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.249,860.0,,4069#23,,QBO,2025-04-28,USD
-Pro Metal Recycling,Winski Brothers,Stator,0.589,100.0,,4069#24,,QBO,2025-04-28,USD
+Pro Metal Recycling,Winski Brothers,Motor Stators (Copper),0.589,100.0,,4069#24,,QBO,2025-04-28,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),0.8985,7860.0,,4120#0,,QBO,2025-05-20,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.4875,7000.0,,4120#1,,QBO,2025-05-20,USD
 Pro Metal Recycling,Winski Brothers,Al Car Wheels,0.239,2040.0,,4120#2,,QBO,2025-05-20,USD
@@ -1774,7 +1766,7 @@ Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.359,2280.0,,4120#1
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.556,3600.0,,4120#14,,QBO,2025-05-20,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.18,3600.0,,4120#15,,QBO,2025-05-20,USD
 Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.2665,4920.0,,4120#16,,QBO,2025-05-20,USD
-Pro Metal Recycling,Winski Brothers,Stator,0.6,40.0,,4120#17,,QBO,2025-05-20,USD
+Pro Metal Recycling,Winski Brothers,Motor Stators (Copper),0.6,40.0,,4120#17,,QBO,2025-05-20,USD
 Pro Metal Recycling,Winski Brothers,Copper Breakage,0.163,300.0,,4120#18,,QBO,2025-05-20,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),0.459,760.0,,4120#19,,QBO,2025-05-20,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.2195,840.0,,4120#20,,QBO,2025-05-20,USD
@@ -1811,27 +1803,27 @@ Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.251,4500.0,,4170#25,,QBO
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.3305,4520.0,,4170#26,,QBO,2025-06-06,USD
 Pro Metal Recycling,Winski Brothers,Brass Breakage,0.206,3100.0,,4170#27,,QBO,2025-06-06,USD
 Pro Metal Recycling,Winski Brothers,Zinc Die Cast,0.163,1780.0,,4170#28,,QBO,2025-06-06,USD
-Pro Metal Recycling,Winski Brothers,plug ends,0.121,400.0,,4170#29,,QBO,2025-06-06,USD
+Pro Metal Recycling,Winski Brothers,Plug Ends (Breakage Mix),0.121,400.0,,4170#29,,QBO,2025-06-06,USD
 Pro Metal Recycling,Winski Brothers,No. 1 Copper Wire (Barley),1.062,8240.0,,4215#0,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,#1,0.342,8020.0,,4215#1,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,#2,0.7125,7500.0,,4215#2,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,No. 2 Copper (Birch/Cliff),0.968,7500.0,,4215#3,,QBO,2025-06-25,USD
-Pro Metal Recycling,Winski Brothers,#2 KR,1.0465,7500.0,,4215#4,,QBO,2025-06-25,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (Regional KR Wire),1.0465,7500.0,,4215#4,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.042,560.0,,4215#5,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Ballasts (Magnetic/Regular),1.2105,400.0,,4215#6,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.405,4520.0,,4215#7,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.231,4520.0,,4215#8,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Al Cast (Clean),0.332,1460.0,,4215#9,,QBO,2025-06-25,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.6555,300.0,,4215#10,,QBO,2025-06-25,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.6555,300.0,,4215#10,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Al wheels,0.23,2120.0,,4215#11,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Al wheels,0.232,2120.0,,4215#12,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.5815,780.0,,4215#13,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),0.826,780.0,,4215#14,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,KR #2 Ins wire - 24 boxes,9.0975,4000.0,,4215#15,,QBO,2025-06-25,USD
 Pro Metal Recycling,Winski Brothers,Machine wire LG?,0.71,2900.0,,4215#16,,QBO,2025-06-25,USD
-Pro Metal Recycling,Winski Brothers,al bkg,0.503,300.0,,4265#0,,QBO,2025-07-16,USD
-Pro Metal Recycling,Winski Brothers,al bkg,0.508,300.0,,4265#1,,QBO,2025-07-16,USD
-Pro Metal Recycling,Winski Brothers,al bkg,0.5295,300.0,,4265#2,,QBO,2025-07-16,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.503,300.0,,4265#0,,QBO,2025-07-16,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.508,300.0,,4265#1,,QBO,2025-07-16,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.5295,300.0,,4265#2,,QBO,2025-07-16,USD
 Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.4265,740.0,,4265#3,,QBO,2025-07-16,USD
 Pro Metal Recycling,Winski Brothers,al wheels,0.21,2120.0,,4265#4,,QBO,2025-07-16,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.0325,560.0,,4265#5,,QBO,2025-07-16,USD
@@ -1839,8 +1831,8 @@ Pro Metal Recycling,Winski Brothers,Range Lead (Indoor),0.5875,1520.0,,4265#6,,Q
 Pro Metal Recycling,Winski Brothers,Range Lead (Indoor),0.5235,1520.0,,4265#7,,QBO,2025-07-16,USD
 Pro Metal Recycling,Winski Brothers,Range Lead (Indoor),0.61,1520.0,,4265#8,,QBO,2025-07-16,USD
 Pro Metal Recycling,Winski Brothers,Range Lead (Indoor),1.2235,1520.0,,4265#9,,QBO,2025-07-16,USD
-Pro Metal Recycling,Winski Brothers,Faucets,0.351,1500.0,,4265#10,,QBO,2025-07-16,USD
-Pro Metal Recycling,Winski Brothers,Xmas lts,0.0725,1360.0,,4265#11,,QBO,2025-07-16,USD
+Pro Metal Recycling,Winski Brothers,Yellow Brass (Plumbing),0.351,1500.0,,4265#10,,QBO,2025-07-16,USD
+Pro Metal Recycling,Winski Brothers,ICW Low Grade (Christmas Lights),0.0725,1360.0,,4265#11,,QBO,2025-07-16,USD
 Pro Metal Recycling,Winski Brothers,Copper Breakage,0.288,1100.0,,4265#12,,QBO,2025-07-16,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.424,1700.0,,4265#13,,QBO,2025-07-16,USD
 Pro Metal Recycling,Winski Brothers,HW R,0.453,1700.0,,4265#14,,QBO,2025-07-16,USD
@@ -1863,8 +1855,8 @@ Pro Metal Recycling,Winski Brothers,Al Car Wheels,0.2415,2160.0,,4328#9,,QBO,202
 Pro Metal Recycling,Winski Brothers,Al Car Wheels,0.267,2160.0,,4328#10,,QBO,2025-08-08,USD
 Pro Metal Recycling,Winski Brothers,AL WHEELS,0.218,2160.0,,4328#11,,QBO,2025-08-08,USD
 Pro Metal Recycling,Winski Brothers,Old Cast Aluminum,0.1765,1520.0,,4328#12,,QBO,2025-08-08,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.7465,360.0,,4328#13,,QBO,2025-08-08,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.4465,360.0,,4328#14,,QBO,2025-08-08,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.7465,360.0,,4328#13,,QBO,2025-08-08,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.4465,360.0,,4328#14,,QBO,2025-08-08,USD
 Pro Metal Recycling,Winski Brothers,Al Bkg - Transformer,0.3055,400.0,,4328#15,,QBO,2025-08-08,USD
 Pro Metal Recycling,Winski Brothers,Range Lead (Indoor),0.73,1520.0,,4328#16,,QBO,2025-08-08,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Steel Case,0.597,480.0,,4328#17,,QBO,2025-08-08,USD
@@ -1872,7 +1864,7 @@ Pro Metal Recycling,Winski Brothers,E-Scrap (Mixed),0.306,300.0,,4328#18,,QBO,20
 Pro Metal Recycling,Winski Brothers,Stainless,0.153,960.0,,4328#19,,QBO,2025-08-08,USD
 Pro Metal Recycling,Winski Brothers,Stainless 316 (Clean,0.07,1680.0,,4328#20,,QBO,2025-08-08,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.2565,4260.0,,4328#21,,QBO,2025-08-08,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.062,360.0,,4328#22,,QBO,2025-08-08,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.062,360.0,,4328#22,,QBO,2025-08-08,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.3125,2300.0,,4384#0,,QBO,2025-08-28,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.435,2300.0,,4384#1,,QBO,2025-08-28,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.414,2300.0,,4384#2,,QBO,2025-08-28,USD
@@ -1880,7 +1872,7 @@ Pro Metal Recycling,Winski Brothers,ICW #1 (THHN 80%),0.4405,5040.0,,4384#3,,QBO
 Pro Metal Recycling,Winski Brothers,Machine wire - KR,9.367,3960.0,,4384#4,,QBO,2025-08-28,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.3125,3660.0,,4384#5,,QBO,2025-08-28,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.386,3560.0,,4384#6,,QBO,2025-08-28,USD
-Pro Metal Recycling,Winski Brothers,Harness,0.3185,3560.0,,4384#7,,QBO,2025-08-28,USD
+Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.3185,3560.0,,4384#7,,QBO,2025-08-28,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.119,560.0,,4384#8,,QBO,2025-08-28,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),1.073,560.0,,4384#9,,QBO,2025-08-28,USD
 Pro Metal Recycling,Winski Brothers,Copper Breakage,0.1985,100.0,,4384#10,,QBO,2025-08-28,USD
@@ -1891,7 +1883,7 @@ Pro Metal Recycling,Winski Brothers,Sealed Units / Compressors (Vader),1.3195,75
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.826,580.0,,4422#1,,QBO,2025-09-15,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Auto),0.975,580.0,,4422#2,,QBO,2025-09-15,USD
 Pro Metal Recycling,Winski Brothers,Lead-Acid Batteries (Steel Case,0.797,500.0,,4422#3,,QBO,2025-09-15,USD
-Pro Metal Recycling,Winski Brothers,Al BKG,6.315,360.0,,4422#4,,QBO,2025-09-15,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,6.315,360.0,,4422#4,,QBO,2025-09-15,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.6525,880.0,,4422#5,,QBO,2025-09-15,USD
 Pro Metal Recycling,Winski Brothers,E-Scrap (Mixed),0.447,300.0,,4422#6,,QBO,2025-09-15,USD
 Pro Metal Recycling,Winski Brothers,Al Truck Wheels,0.253,1560.0,,4422#7,,QBO,2025-09-15,USD
@@ -1917,9 +1909,9 @@ Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57%,0.4585,4480.0,,4438#11,,Q
 Pro Metal Recycling,Winski Brothers,ICW #1 (Heliax 57%,0.1375,4480.0,,4438#12,,QBO,2025-09-29,USD
 Pro Metal Recycling,Winski Brothers,ICW #2 (50% & CAT5/Tel),0.334,5360.0,,4438#13,,QBO,2025-09-29,USD
 Pro Metal Recycling,Winski Brothers,Al/Cu Radiators (Clean),0.261,4560.0,,4438#14,,QBO,2025-09-29,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.2845,360.0,,4438#15,,QBO,2025-09-29,USD
-Pro Metal Recycling,Winski Brothers,Al bkg,0.473,360.0,,4438#16,,QBO,2025-09-29,USD
-Pro Metal Recycling,Winski Brothers,Al Bkg,0.189,360.0,,4438#17,,QBO,2025-09-29,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.2845,360.0,,4438#15,,QBO,2025-09-29,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.473,360.0,,4438#16,,QBO,2025-09-29,USD
+Pro Metal Recycling,Winski Brothers,Al Breakage,0.189,360.0,,4438#17,,QBO,2025-09-29,USD
 Pro Metal Recycling,Winski Brothers,Mixed Electric Motors (Elmo),1.2205,880.0,,4438#18,,QBO,2025-09-29,USD
 Pro Metal Recycling,Winski Brothers,Old Cast Aluminum,0.3405,1500.0,,4438#19,,QBO,2025-09-29,USD
 Pro Metal Recycling,Winski Brothers,Aluminum Turnings,0.096,400.0,,4438#20,,QBO,2025-09-29,USD
@@ -1945,45 +1937,44 @@ J. Solotken & Company,Winski Brothers,Western HS project - shredder scrap,11.785
 MDK ZeroLandfill,Winski Brothers,11 skids,21.506,2830.0,,1041#0,,QBO,2021-11-16,USD
 MDK ZeroLandfill,Winski Brothers,12 skids,21.505,2830.0,,1040#0,,QBO,2021-11-16,USD
 MDK ZeroLandfill,Winski Brothers,11 skids,21.505,2830.0,,1039#0,,QBO,2021-11-16,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,18.7255,2640.0,,1524#0,,QBO,2022-06-15,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,18.7255,2640.0,,1523#0,,QBO,2022-06-15,USD
-MDK ZeroLandfill,Winski Brothers,3003 with poly from Fenders,21.3,1760.0,,1875#0,,QBO,2022-11-07,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,20.405,1910.0,,1874#0,,QBO,2022-11-07,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,21.3175,1910.0,,1873#0,,QBO,2022-11-07,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,21.9575,1910.0,,1872#0,,QBO,2022-11-07,USD
-MDK ZeroLandfill,Winski Brothers,3003 with poly from Fenders,21.41,1760.0,,1888#0,,QBO,2022-11-10,USD
-MDK ZeroLandfill,Winski Brothers,3003 with poly from Fenders,20.16,1760.0,,1887#0,,QBO,2022-11-10,USD
-MDK ZeroLandfill,Winski Brothers,3003 with poly from Fenders,21.43,1910.0,,1886#0,,QBO,2022-11-10,USD
-MDK ZeroLandfill,Winski Brothers,3003 with poly from Fenders,21.0985,1760.0,,1885#0,,QBO,2022-11-10,USD
-MDK ZeroLandfill,Winski Brothers,3003P from Fenders,21.02,1760.0,,1904#0,,QBO,2022-11-17,USD
-MDK ZeroLandfill,Winski Brothers,4017 Bare,21.1195,1240.0,,1982#0,,QBO,2023-01-04,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,18.7255,2640.0,,1524#0,,QBO,2022-06-15,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,18.7255,2640.0,,1523#0,,QBO,2022-06-15,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet (Poly-Coated),21.3,1760.0,,1875#0,,QBO,2022-11-07,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,20.405,1910.0,,1874#0,,QBO,2022-11-07,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,21.3175,1910.0,,1873#0,,QBO,2022-11-07,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,21.9575,1910.0,,1872#0,,QBO,2022-11-07,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet (Poly-Coated),21.41,1760.0,,1888#0,,QBO,2022-11-10,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet (Poly-Coated),20.16,1760.0,,1887#0,,QBO,2022-11-10,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet (Poly-Coated),21.43,1910.0,,1886#0,,QBO,2022-11-10,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet (Poly-Coated),21.0985,1760.0,,1885#0,,QBO,2022-11-10,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,21.02,1760.0,,1904#0,,QBO,2022-11-17,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 4017 Sheet (Bare),21.1195,1240.0,,1982#0,,QBO,2023-01-04,USD
 MDK ZeroLandfill,Winski Brothers,4017 Bare 12-14  966904-2,16.095,1220.0,,2009#0,,QBO,2023-01-18,USD
 MDK ZeroLandfill,Winski Brothers,4017 Bare 12-20 966904-3,14.512,1220.0,,2009#1,,QBO,2023-01-18,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,18.875,1800.0,,2412#0,,QBO,2023-06-23,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,20.77,1700.0,,2411#0,,QBO,2023-06-23,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,19.945,1804.06,,2410#0,,QBO,2023-06-23,USD
-MDK ZeroLandfill,Winski Brothers,5052 from Fenders,22.649,1840.0,,2445#0,,QBO,2023-07-05,USD
-MDK ZeroLandfill,Winski Brothers,5052 from Fenders,20.233,1840.0,,2444#0,,QBO,2023-07-05,USD
-MDK ZeroLandfill,Winski Brothers,5052 from Fenders,20.84,1840.0,,2494#0,,QBO,2023-07-28,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,19.6175,2380.0,,3836#0,,QBO,2025-01-16,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,20.7245,2380.0,,3843#0,,QBO,2025-01-21,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,21.603,2380.0,,3842#0,,QBO,2025-01-21,USD
-MDK ZeroLandfill,Winski Brothers,4017 from Fenders,20.245,1600.0,,3841#0,,QBO,2025-01-21,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,22.528,2380.0,,3856#0,,QBO,2025-01-29,USD
-MDK ZeroLandfill,Winski Brothers,3003 From Fenders,21.623,2380.0,,3855#0,,QBO,2025-01-29,USD
-MDK ZeroLandfill,Winski Brothers,3003 From Fenders,21.752,2380.0,,3872#0,,QBO,2025-02-04,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,21.5435,2380.0,,3871#0,,QBO,2025-02-04,USD
-MDK ZeroLandfill,Winski Brothers,4017 from Fenders,21.49,1600.0,,3870#0,,QBO,2025-02-04,USD
-MDK ZeroLandfill,Winski Brothers,5052 from Fenders,5.9205,2380.0,,3897#0,,QBO,2025-02-11,USD
-MDK ZeroLandfill,Winski Brothers,3003 from Fenders,11.093,2380.0,,3897#1,,QBO,2025-02-11,USD
-MDK ZeroLandfill,Winski Brothers,5052 from Fenders,19.0725,2380.0,,3895#0,,QBO,2025-02-11,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,18.875,1800.0,,2412#0,,QBO,2023-06-23,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,20.77,1700.0,,2411#0,,QBO,2023-06-23,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,19.945,1804.06,,2410#0,,QBO,2023-06-23,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,22.649,1840.0,,2445#0,,QBO,2023-07-05,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,20.233,1840.0,,2444#0,,QBO,2023-07-05,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,20.84,1840.0,,2494#0,,QBO,2023-07-28,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,19.6175,2380.0,,3836#0,,QBO,2025-01-16,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,20.7245,2380.0,,3843#0,,QBO,2025-01-21,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,21.603,2380.0,,3842#0,,QBO,2025-01-21,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 4017 Sheet,20.245,1600.0,,3841#0,,QBO,2025-01-21,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,22.528,2380.0,,3856#0,,QBO,2025-01-29,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,21.623,2380.0,,3855#0,,QBO,2025-01-29,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,21.752,2380.0,,3872#0,,QBO,2025-02-04,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,21.5435,2380.0,,3871#0,,QBO,2025-02-04,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 4017 Sheet,21.49,1600.0,,3870#0,,QBO,2025-02-04,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,5.9205,2380.0,,3897#0,,QBO,2025-02-11,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 3003 Sheet,11.093,2380.0,,3897#1,,QBO,2025-02-11,USD
+MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,19.0725,2380.0,,3895#0,,QBO,2025-02-11,USD
 "Newco Metals, Inc",Winski Brothers,Newco,15.68,437.6,,1002#0,,QBO,2021-08-28,USD
 "Newco Metals, Inc",Winski Brothers,40 yd roll off load,10.71,1620.0,,1021#0,,QBO,2021-10-06,USD
 "Newco Metals, Inc",Winski Brothers,Al Breakage,1.19,420.0,,1021#1,,QBO,2021-10-06,USD
 "Newco Metals, Inc",Winski Brothers,NON FE:Aluminum Cans,3.57,1820.0,,1197#0,,QBO,2022-02-07,USD
 "Newco Metals, Inc",Winski Brothers,6 bales,2.087,1820.0,,1201#0,,QBO,2022-02-08,USD
 "Newco Metals, Inc",Winski Brothers,4 drums of 301 stainless,0.385,1500.0,,1201#1,,QBO,2022-02-08,USD
-"Newco Metals, Inc",Winski Brothers,2 boxes,0.5045,2540.0,,1201#2,,QBO,2022-02-08,USD
 "Newco Metals, Inc",Winski Brothers,3 bales,1.4105,1920.0,,1278#0,,QBO,2022-03-16,USD
 "Newco Metals, Inc",Winski Brothers,10 Alcoa tubs,0.005,800000.0,,1278#2,,QBO,2022-03-16,USD
 "Newco Metals, Inc",Winski Brothers,7 bales,2.551,1920.0,,1288#0,,QBO,2022-03-22,USD
@@ -2017,7 +2008,6 @@ MDK ZeroLandfill,Winski Brothers,5052 from Fenders,19.0725,2380.0,,3895#0,,QBO,2
 "Newco Metals, Inc",Winski Brothers,Alum Cans,2.2675,1480.0,,1539#0,,QBO,2022-06-23,USD
 "Newco Metals, Inc",Winski Brothers,Painted Aluminum Extrusion,0.172,2100.0,,1539#1,,QBO,2022-06-23,USD
 "Newco Metals, Inc",Winski Brothers,Thermal Break Aluminum Extrusion,0.21,840.0,,1539#2,,QBO,2022-06-23,USD
-"Newco Metals, Inc",Winski Brothers,Alum Cans,0.064,1040.0,,1539#3,,QBO,2022-06-23,USD
 "Newco Metals, Inc",Winski Brothers,MLC (Mixed Low Copper) Prepared,0.0885,1400.0,,1539#4,,QBO,2022-06-23,USD
 "Newco Metals, Inc",Winski Brothers,Clean Ext,0.6045,2180.0,,1539#5,,QBO,2022-06-23,USD
 "Newco Metals, Inc",Winski Brothers,Alum Cans,3.4215,1480.0,,1589#0,,QBO,2022-07-15,USD
@@ -2138,158 +2128,28 @@ Steel Dynamics Inc.,Winski Brothers,Busheling,7.28,419.64,,3979#0,,QBO,2025-03-2
 Steel Dynamics Inc.,Winski Brothers,HMS,18.82,339.29,,3986#0,,QBO,2025-03-25,USD
 Stainless Steel Midwest,Winski Brothers,Clips,16.55,1280.0,,1989#0,,QBO,2023-01-06,USD
 Stainless Steel Midwest,Winski Brothers,Stainless Steel Turnings,0.334,1120.0,,1989#1,,QBO,2023-01-06,USD
-Stainless Steel Midwest,Winski Brothers,Freight charge,-0.0005,1450000.0,,1989#2,,QBO,2023-01-06,USD
 Stainless Steel Midwest,Winski Brothers,Stainless Sheet Scrap,16.5905,1120.0,,2536#0,,QBO,2023-08-10,USD
-Stainless Steel Midwest,Winski Brothers,Freight charge,0.0005,-1850000.0,,2536#1,,QBO,2023-08-10,USD
-Lincoln Waste Solutions,Winski Brothers,October waste hauls,0.0005,12196540.0,,1049#0,,QBO,2021-10-29,USD
-Lincoln Waste Solutions,Winski Brothers,Filter Cake Dumpster Haul Fee,0.0005,770000.0,,1161#0,,QBO,2022-01-12,USD
-Lincoln Waste Solutions,Winski Brothers,Filter Cake Disposal Fees,0.005685,123700.0,,1161#1,,QBO,2022-01-12,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00226,113700.0,,1167#1,,QBO,2022-01-14,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00423,123700.0,,1182#1,,QBO,2022-01-28,USD
-Lincoln Waste Solutions,Winski Brothers,Open Top - General Waste,0.0005,400000.0,,1245#0,,QBO,2022-02-28,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,113700.0,,1245#1,,QBO,2022-02-28,USD
 Lincoln Waste Solutions,Winski Brothers,Filter Cake Haul Fee,0.0005,770000.0,,1244#0,,QBO,2022-02-28,USD
-Lincoln Waste Solutions,Winski Brothers,Filter Cake Disposal Fees,0.005595,123700.0,,1244#1,,QBO,2022-02-28,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,113700.0,,1544#1,,QBO,2022-06-27,USD
 Lincoln Waste Solutions,Winski Brothers,Filter Cake Haul Fee,0.0005,770000.0,,1585#0,,QBO,2022-07-14,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00424,123700.0,,1585#1,,QBO,2022-07-14,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,113700.0,,1631#1,,QBO,2022-07-29,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00543,123700.0,,1630#1,,QBO,2022-07-29,USD
-Lincoln Waste Solutions,Winski Brothers,Per: AGT081510A,0.0005,0.0,,1682#2,,QBO,2022-08-16,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT090610C,0.0005,0.0,,1731#2,,QBO,2022-09-06,USD
 Lincoln Waste Solutions,Winski Brothers,Disposal Fees Special Waste,0.0035,123700.0,,1764#1,,QBO,2022-09-21,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,113700.0,,1763#1,,QBO,2022-09-21,USD
 Lincoln Waste Solutions,Winski Brothers,Filter Cake Haul,0.0005,770000.0,,1808#0,,QBO,2022-10-05,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00407,123700.0,,1808#1,,QBO,2022-10-05,USD
-Lincoln Waste Solutions,Winski Brothers,Per AGT 101710A,0.0005,0.0,,1828#2,,QBO,2022-10-17,USD
-Lincoln Waste Solutions,Winski Brothers,Trash Compactor Haul,0.0005,400000.0,,1868#0,,QBO,2022-11-07,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,113700.0,,1868#1,,QBO,2022-11-07,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT111010A,0.0005,0.0,,1889#2,,QBO,2022-11-11,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT112910B,0.0005,0.0,,1919#2,,QBO,2022-11-30,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,120480.0,,2006#1,,QBO,2023-01-17,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00422,131020.0,,2015#1,,QBO,2023-01-20,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT020110A,0.0005,0.0,,2050#2,,QBO,2023-02-06,USD
-Lincoln Waste Solutions,Winski Brothers,Hauled per Adam Ingle,0.0005,440000.0,,2074#0,,QBO,2023-02-20,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,120480.0,,2074#1,,QBO,2023-02-20,USD
-Lincoln Waste Solutions,Winski Brothers,Hauled per Andy,0.0005,830000.0,,2078#0,,QBO,2023-02-21,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.005655,131020.0,,2078#1,,QBO,2023-02-21,USD
-Lincoln Waste Solutions,Winski Brothers,Hauled per Todd,0.0005,440000.0,,2090#0,,QBO,2023-02-23,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,120480.0,,2090#1,,QBO,2023-02-23,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.002815,131020.0,,2215#1,,QBO,2023-04-10,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,120480.0,,2262#1,,QBO,2023-04-27,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00446,120480.0,,2280#1,,QBO,2023-05-03,USD
-Lincoln Waste Solutions,Winski Brothers,PO # AGT052410A,0.0005,0.0,,2341#2,,QBO,2023-05-26,USD
-Lincoln Waste Solutions,Winski Brothers,PO # AGT053010B,0.0005,0.0,,2348#2,,QBO,2023-05-30,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00375,123840.0,,2570#1,,QBO,2023-08-25,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,123840.0,,2582#1,,QBO,2023-08-28,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,123840.0,,2684#1,,QBO,2023-10-04,USD
-Lincoln Waste Solutions,Winski Brothers,Per A Musante,0.0005,830000.0,,2738#0,,QBO,2023-10-31,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.005435,134380.0,,2738#1,,QBO,2023-10-31,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,123840.0,,2769#1,,QBO,2023-11-07,USD
-Lincoln Waste Solutions,Winski Brothers,Hauled per Todd,0.0005,440000.0,,2784#0,,QBO,2023-11-13,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00281,123840.0,,2784#1,,QBO,2023-11-13,USD
-Lincoln Waste Solutions,Winski Brothers,Per A Musante,0.0005,830000.0,,2844#0,,QBO,2023-12-07,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00489,134380.0,,2844#1,,QBO,2023-12-07,USD
-Lincoln Waste Solutions,Winski Brothers,Per Rodney,0.0005,860000.0,,2927#0,,QBO,2024-01-18,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.004485,143500.0,,2927#1,,QBO,2024-01-18,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0029,132960.0,,2963#1,,QBO,2024-02-02,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT020210A,0.0005,0.0,,2963#2,,QBO,2024-02-02,USD
-Lincoln Waste Solutions,Winski Brothers,Hauled per Andy,0.0005,860000.0,,2969#0,,QBO,2024-02-06,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.004605,143500.0,,2969#1,,QBO,2024-02-06,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,132960.0,,2982#1,,QBO,2024-02-12,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Adam,0.0005,860000.0,,3065#0,,QBO,2024-03-14,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.006655,143500.0,,3065#1,,QBO,2024-03-14,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,132960.0,,3074#1,,QBO,2024-03-18,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Adam,0.0005,860000.0,,3151#0,,QBO,2024-04-18,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.004775,143500.0,,3151#1,,QBO,2024-04-18,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,132960.0,,3165#1,,QBO,2024-04-24,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT042410A,0.0005,0.0,,3165#2,,QBO,2024-04-24,USD
-Lincoln Waste Solutions,Winski Brothers,Hauled per Andy,0.0005,860000.0,,3232#0,,QBO,2024-05-20,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00509,143500.0,,3232#1,,QBO,2024-05-20,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,132960.0,,3273#1,,QBO,2024-06-03,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT060310A,0.0005,0.0,,3273#2,,QBO,2024-06-03,USD
-Lincoln Waste Solutions,Winski Brothers,Hauled per Andy,0.0005,860000.0,,3362#0,,QBO,2024-07-01,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.003675,143500.0,,3362#1,,QBO,2024-07-01,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,132960.0,,3443#1,,QBO,2024-07-26,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT072610A,0.0005,0.0,,3443#2,,QBO,2024-07-26,USD
-Lincoln Waste Solutions,Winski Brothers,Hauled per Andy,0.0005,860000.0,,3475#0,,QBO,2024-08-07,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.004275,143500.0,,3475#1,,QBO,2024-08-07,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00383,132960.0,,3490#1,,QBO,2024-08-13,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,3554#0,,QBO,2024-09-10,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.003265,143500.0,,3554#1,,QBO,2024-09-10,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,3707#0,,QBO,2024-11-13,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00438,143500.0,,3707#1,,QBO,2024-11-13,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,132960.0,,3717#1,,QBO,2024-11-18,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT111810A,0.0005,0.0,,3717#2,,QBO,2024-11-18,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.003795,132960.0,,3759#1,,QBO,2024-12-06,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT120610A,0.0005,0.0,,3759#2,,QBO,2024-12-06,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,3778#0,,QBO,2024-12-13,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.004835,143500.0,,3778#1,,QBO,2024-12-13,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,3852#0,,QBO,2025-01-28,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.005885,143500.0,,3852#1,,QBO,2025-01-28,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,3915#0,,QBO,2025-02-24,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.005775,143500.0,,3915#1,,QBO,2025-02-24,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,132960.0,,3961#1,,QBO,2025-03-14,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT031410A,0.0005,0.0,,3961#2,,QBO,2025-03-14,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.003945,132960.0,,3968#1,,QBO,2025-03-18,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT031810A,0.0005,0.0,,3968#2,,QBO,2025-03-18,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,3989#0,,QBO,2025-03-25,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00519,143500.0,,3989#1,,QBO,2025-03-25,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,132960.0,,4024#1,,QBO,2025-04-08,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT040810A,0.0005,0.0,,4024#2,,QBO,2025-04-08,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,4058#0,,QBO,2025-04-22,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00429,143500.0,,4058#1,,QBO,2025-04-22,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,4119#0,,QBO,2025-05-19,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00481,143498.96,,4119#1,,QBO,2025-05-19,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,4210#0,,QBO,2025-06-23,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00541,143500.0,,4210#1,,QBO,2025-06-23,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,132960.0,,4212#1,,QBO,2025-06-27,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT062410A,0.0005,0.0,,4212#2,,QBO,2025-06-27,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.004015,132960.0,,4284#1,,QBO,2025-07-21,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT072110A,0.0005,0.0,,4284#2,,QBO,2025-07-21,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,4289#0,,QBO,2025-07-22,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00531,143500.0,,4289#1,,QBO,2025-07-22,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.0025,132960.0,,4308#1,,QBO,2025-08-04,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT080410A,0.0005,0.0,,4308#2,,QBO,2025-08-04,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,4369#0,,QBO,2025-08-21,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.005275,143500.0,,4369#1,,QBO,2025-08-21,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,4426#0,,QBO,2025-09-19,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00495,143500.0,,4426#1,,QBO,2025-09-19,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00406,132960.0,,4458#1,,QBO,2025-10-06,USD
-Lincoln Waste Solutions,Winski Brothers,PO AGT100610A,0.0005,0.0,,4458#2,,QBO,2025-10-06,USD
 Lincoln Waste Solutions,Winski Brothers,Hauled per Mike,0.0005,860000.0,,4474#0,,QBO,2025-10-09,USD
-Lincoln Waste Solutions,Winski Brothers,Disposal Fees,0.00384,143500.0,,4474#1,,QBO,2025-10-09,USD
-Werner & Son,Winski Brothers,Monthly Waste Hauls,0.002,780000.0,,1144#0,,QBO,2021-12-31,USD
-Werner & Son,Winski Brothers,Monthly Trash Hauls,0.0015,820000.0,,1403#0,,QBO,2022-04-30,USD
-Werner & Son,Winski Brothers,Wood Haul,0.0005,250000.0,,1491#1,,QBO,2022-05-31,USD
-Werner & Son,Winski Brothers,Monthly Dumpster Hauls,0.0015,820000.0,,1554#0,,QBO,2022-06-30,USD
-Werner & Son,Winski Brothers,Monthly Dumpster Hauls,0.002,820000.0,,1712#0,,QBO,2022-08-31,USD
-Werner & Son,Winski Brothers,Monthly Dumpster Hauls,0.002,820000.0,,1799#0,,QBO,2022-09-30,USD
-Werner & Son,Winski Brothers,Monthly Dumpster Hauls,0.002,820000.0,,1853#0,,QBO,2022-10-31,USD
-Werner & Son,Winski Brothers,Monthly Dumpster Hauls,0.002,820000.0,,1926#0,,QBO,2022-11-30,USD
-Werner & Son,Winski Brothers,2 Load of Baled Fiber Core (Frito Lay),40.59,25.0,,2589#0,,QBO,2023-08-29,USD
-Werner & Son,Winski Brothers,Over 5 Ton (10/16),0.000225,124000.0,,2746#1,,QBO,2023-11-01,USD
-Werner & Son,Winski Brothers,Baled cores from Frito,0.0005,985000.0,,2897#0,,QBO,2024-01-04,USD
-Werner & Son,Winski Brothers,KAF Cardboard Rebate,0.0005,678000.0,,2977#0,,QBO,2024-02-09,USD
-Werner & Son,Winski Brothers,KAF Cardboard Rebate,0.0005,712800.0,,3289#0,,QBO,2024-06-30,USD
-Werner & Son,Winski Brothers,Cardboard from KAF,2.37,90.0,,3474#0,,QBO,2024-08-07,USD
 Werner & Son,Winski Brothers,Alum Cans,2.51,90.0,,3593#0,,QBO,2024-09-25,USD
-Werner & Son,Winski Brothers,paper cores from Frito,21.98,25.0,,3728#0,,QBO,2024-12-04,USD
-Werner & Son,Winski Brothers,Disposal Fees over 5T (12/6),0.00019,132000.0,,3761#1,,QBO,2025-01-02,USD
-Werner & Son,Winski Brothers,KAF Cardboard Rebate,0.0005,426000.0,,3837#0,,QBO,2025-01-16,USD
-Werner & Son,Winski Brothers,Per Attached,0.0005,284000.0,,3966#0,,QBO,2025-03-18,USD
-Werner & Son,Winski Brothers,Disposal Fees over 5T (3/3),0.000625,132000.0,,3929#1,,QBO,2025-04-01,USD
-Werner & Son,Winski Brothers,KAF Cardboard Rebate,0.0005,581000.0,,4078#0,,QBO,2025-04-23,USD
 Werner & Son,Winski Brothers,Cardboard from Bolts,0.94,70.0,,3993#0,,QBO,2025-04-23,USD
 Werner & Son,Winski Brothers,Brock Warehouse Wood Box / Insulation,0.0005,142000.0,,4067#0,,QBO,2025-04-25,USD
 Werner & Son,Winski Brothers,Cardboard from Value Merch,0.77,60.0,,4076#0,,QBO,2025-04-29,USD
-Werner & Son,Winski Brothers,Disposal Fees over 5T (4/4),0.000305,132000.0,,4007#1,,QBO,2025-05-01,USD
-Werner & Son,Winski Brothers,Disposal Fees over 5T (4/18),0.00044,132000.0,,4007#2,,QBO,2025-05-01,USD
 Werner & Son,Winski Brothers,Cardboard from the Yard,2.08,60.0,,4128#0,,QBO,2025-05-22,USD
-Werner & Son,Winski Brothers,Disposal Fees over 5T (5-22),0.00026,132000.0,,4093#1,,QBO,2025-06-02,USD
-Werner & Son,Winski Brothers,Disposal Fees over 5T (6/17),0.00075,132000.0,,4193#1,,QBO,2025-07-01,USD
-Werner & Son,Winski Brothers,KA&F Compactor Haul 6/20,0.0005,200700.0,,4270#0,,QBO,2025-07-17,USD
-Werner & Son,Winski Brothers,Disposal Fees over 5T,0.0,132000.0,,4250#1,,QBO,2025-08-04,USD
-Werner & Son,Winski Brothers,Disposal Fees over 5T,0.0,132000.0,,4314#1,,QBO,2025-09-02,USD
-Werner & Son,Winski Brothers,KA&F Compactor Haul 9/19,4.58,40.0,,4433#0,,QBO,2025-09-25,USD
-Werner & Son,Winski Brothers,Disposal Fees over 5T,0.0,132000.0,,4391#1,,QBO,2025-10-01,USD
