@@ -498,6 +498,14 @@ def _wildcard_to_regex(pat: str) -> str:
     esc = _re.escape(pat).replace(r"\*", ".*")
     return rf"^{esc}$"
 
+# --- Pre-clean ---
+NONFE_RX = re.compile(r"^\s*non\s*fe\s*:\s*", re.I)  # strip "NON FE:" prefix
+
+def _preclean_source(s: str) -> str:
+    if not s:
+        return s
+    return NONFE_RX.sub("", s).strip()
+
 def _load_csv_mapping():
     exact_global = {}
     exact_by_cust = collections.defaultdict(dict)
@@ -617,13 +625,6 @@ QUICK_PHRASE_MAP = {
     "stainless steel": "Stainless",
     "batteries - auto": "Lead-Acid Batteries (Auto)",
 }
-def _preclean_source(s: str) -> str:
-    """Strip 'NON FE:' prefix, normalize whitespace/case for phrase map lookup."""
-    if not s:
-        return s
-    s2 = NONFE_RX.sub("", s).strip()  # remove leading 'NON FE:'
-    return s2
-
 
 # ---- Material normalization ---------------------
 def normalize_material(source_name: str, customer_name: str | None = None):
