@@ -50,6 +50,8 @@ START = END - timedelta(days=100*365)
 OUT_DIR   = pathlib.Path("qbo_out"); OUT_DIR.mkdir(exist_ok=True)
 PDFS_DIR  = OUT_DIR / "qbo_pdfs"; PDFS_DIR.mkdir(exist_ok=True)
 CSV_PATH  = OUT_DIR / "bridge_invoices.csv"
+CONTRACTS_CSV_PATH   = OUT_DIR / "bridge_contracts.csv"
+CONTRACTS_JSONL_PATH = OUT_DIR / "bridge_contracts.ndjson"
 TOK_PATH  = OUT_DIR / "qbo_tokens.json"
 MAPPING_CSV_PATH = OUT_DIR / "material_map.csv"
 UNMAPPED_LOG     = OUT_DIR / "unmapped_materials.csv"
@@ -102,7 +104,8 @@ def _bridge_base_for_doc(doc_type: str | None = None):
 # ----- Bridge config -----
 
 # ===== Material normalization =====
-BASE_MATERIAL_MAP = {   
+BASE_MATERIAL_MAP = {
+    # ---- Core ferrous you started with ----
     "ferrous sale clips": "Clips",
     "clips": "Clips",
     "hms": "HMS",
@@ -110,16 +113,21 @@ BASE_MATERIAL_MAP = {
     "hms 5ft": "HMS 5'",
     "hms 5'": "HMS 5'",
     "p&s": "P&S",
+    "p & s": "P&S",
     "p&s 5ft": "P&S 5'",
     "p&s 5'": "P&S 5'",
     "shred": "Shred",
     "shred steel": "Shred",
     "busheling": "Busheling",
+    "busheling/prime": "Busheling",
     "old sheet": "Old Sheet",
     "old sheet aluminum": "Old Sheet Aluminum",
     "low grade sheet iron": "Shred",
     "drums and rotors": "Drums & Rotors",
-    "unprepared": " Unprepared HMS",
+    "rotors / drums": "Drums & Rotors",
+    "unprepared": "Unprepared HMS",
+    "unprepared hms": "Unprepared HMS",
+    "unprepared heavy melt": "Unprepared HMS",
     "unprepared fe": "HMS",
     "unprepared pipe": "Unprepared HMS",
     "pipe from solar farm": "Unprepared HMS",
@@ -132,18 +140,333 @@ BASE_MATERIAL_MAP = {
     "stainless steel": "Stainless",
     "ss bkg": "Stainless Breakage",
     "al bkg": "Al Breakage",
-    "busheling/prime": "Busheling",
-    "5052 clip": "Clips 5052 Al",
-    "6061 clip": "Clips 6061 Al",
-    "3003 clip": "Clips 3003 Al",
-    "4017": "4017 Al",
-    "acsr & ins alum wire": "Insulated Al Wire",
-    "aluminum car wheels": "Al Car Wheels",
     "alum breakage": "Al Breakage",
+    "aluminum car wheels": "Al Car Wheels",
     "new bare extrusion prepared": "Al Extrusion (Bare)",
-    "alum Cans": "Alum Cans",
+    "alum cans": "Alum Cans",
     "aluminum cans": "Alum Cans",
+    "acsr & ins alum wire": "Insulated Al Wire",
+
+    # ---- Ferrous spec aliases ----
+    "plate and structural": "P&S",
+    "plate & structural": "P&S",
+    "p&s (spec)": "P&S",
+    "mixed #1 / #2 heavy melt": "Mixed #1/#2 HMS",
+    "mixed #1/#2 heavy melt": "Mixed #1/#2 HMS",
+    "mixed #1 #2 hm": "Mixed #1/#2 HMS",
+    "mixed #1/#2 hm": "Mixed #1/#2 HMS",
+    "#2 heavy melt": "#2 HMS",
+    "no. 2 heavy melt": "#2 HMS",
+    "hms #2 (spec)": "#2 HMS",
+    "#1 heavy melt": "#1 HMS",
+    "no. 1 heavy melt": "#1 HMS",
+    "#1 shredded scrap": "Shred #1",
+    "#1 shred (spec)": "Shred #1",
+    "no. 1 shredded": "Shred #1",
+    "#2 shredded scrap": "Shred #2",
+    "#2 shred (spec)": "Shred #2",
+    "no. 2 shredded": "Shred #2",
+    "turnings": "Turnings",
+    "#1 bundles": "#1 Bundles",
+    "no. 1 bundles": "#1 Bundles",
+    "#2 bundles": "#2 Bundles",
+    "no. 2 bundles": "#2 Bundles",
+    "prepared cast": "Prepared Cast",
+    "prepared cast iron": "Prepared Cast",
+    "dealer clips": "Dealer Clips / Tin Plate Busheling",
+    "tin plate busheling": "Dealer Clips / Tin Plate Busheling",
+    "dealer clips, tin plate busheling": "Dealer Clips / Tin Plate Busheling",
+    "tire wire": "Tire Wire",
+    "pig iron": "Pig Iron",
+
+    # ---- Copper / brass ISRI shortcuts ----
+    "barley": "No. 1 Copper Wire (Barley)",
+    "berry": "No. 1 Copper Wire (Berry)",
+    "birch": "No. 2 Copper Wire (Birch)",
+    "candy": "No. 1 Heavy Copper Solids & Tubing (Candy)",
+    "berry/candy": "Berry/Candy",
+    "cliff": "No. 2 Copper Solids & Tubing (Cliff)",
+    "birch/cliff": "Birch/Cliff",
+    "clove": "No. 1 Copper Wire Nodules (Clove)",
+    "cobra": "No. 2 Copper Wire Nodules (Cobra)",
+    "cocoa": "Copper Wire Nodules (Cocoa)",
+    "dream": "Light Copper (Dream)",
+    "drink": "Refinery Brass (Drink)",
+    "droid": "Insulated Copper Wire Scrap (Droid)",
+    "drove": "Copper-Bearing Scrap (Drove)",
+    "druid": "Insulated Copper Wire Scrap (Druid)",
+    "ebony": "Composition / Red Brass (Ebony)",
+    "ebulent": "Lead-Free Bismuth Brass Solids (Ebulent)",
+    "ecstatic": "Lead-Free Bismuth Brass Turnings (Ecstatic)",
+    "eland": "High Grade Low-Lead Bronze/Brass Solids (Eland)",
+    "elder": "Genuine Babbitt-Lined Brass Bushings (Elder)",
+    "elias": "High-Lead Bronze Solids & Borings (Elias)",
+
+    # ---- Aluminum ISRI ----
+    "tablet": "Clean Aluminum Lithographic Sheets (Tablet)",
+    "tabloid": "New Clean Aluminum Lithographic Sheets (Tabloid)",
+    "taboo": "Mixed Low Copper Aluminum Clips & Solids (Taboo)",
+    "taint": "Clean Mixed Old Alloy Sheet Aluminum (Taint/Tabor)",
+    "tabor": "Clean Mixed Old Alloy Sheet Aluminum (Taint/Tabor)",
+    "take": "New Aluminum Can Stock (Take)",
+    "talc": "Post-Consumer Aluminum Cans / UBC (Talc)",
+    "talcred": "Shredded UBC (Talcred)",
+    "taldack": "Densified UBC (Taldack)",
+    "taldon": "Baled UBC (Taldon)",
+    "taldork": "Briquetted UBC (Taldork)",
+
+    # ---- Zinc ISRI ----
+    "saves": "Old Zinc Die Cast Scrap (Saves)",
+    "scabs": "New Zinc Die Cast Scrap (Scabs)",
+    "scoot": "Zinc Die Cast Automotive Grilles (Scoot)",
+    "scope": "New Plated Zinc Die Cast Scrap (Scope)",
+    "score": "Old Scrap Zinc (Score)",
+    "screen": "New Zinc Clippings (Screen)",
+    "scribe": "Crushed Clean Sorted Fragmentizers Die Cast Scrap (Scribe)",
+    "scroll": "Unsorted Zinc Die Cast Scrap (Scroll)",
+    "scrub": "Hot Dip Galvanizers Slab Zinc Dross — Batch (Scrub)",
+    "scull": "Zinc Die Cast Slabs or Pigs (Scull)",
+    "seal": "Continuous Line Galvanizing Slab Zinc Top Dross (Seal)",
+    "seam": "Continuous Line Galvanizing Slab Zinc Bottom Dross (Seam)",
+    "shelf": "Prime Zinc Die Cast Dross (Shelf)",
+
+    # ---- Magnesium ISRI ----
+    "wafer": "Magnesium Clips (Wafer)",
+    "walnut": "Magnesium Scrap (Walnut)",
+    "wine": "Magnesium Engraver Plates (Wine)",
+    "wood": "Magnesium Dockboards (Wood)",
+    "world": "Magnesium Turnings (World)",
+
+    # ---- Lead ISRI ----
+    "racks": "Scrap Lead — Soft (Racks)",
+    "radio": "Mixed Hard/Soft Scrap Lead (Radio)",
+    "rains": "Scrap Drained/Dry Whole Intact Lead (Batteries) (Rains)",
+    "rakes": "Battery Lugs (Rakes)",
+    "reels": "Mixed Nonferrous Wheel Weights (Reels)",
+    "relay": "Lead Covered Copper Cable (Relay)",
+    "rents": "Lead Dross (Rents)",
+    "rink": "Scrap Wet Whole Intact Lead Batteries (Rink)",
+    "rono": "Scrap Industrial Intact Lead Cells (Rono)",
+    "roper": "Scrap Whole Intact Industrial Lead Batteries (Roper)",
+    "ropes": "Lead Wheel Weights (Ropes)",
+
+    # ---- Nickel/Stainless/Hi-temp ISRI ----
+    "aroma": "New Nickel Scrap (Aroma)",
+    "burly": "Old Nickel Scrap (Burly)",
+    "dandy": "New Cupro Nickel Clips & Solids (Dandy)",
+    "daunt": "Cupro Nickel Solids (Daunt)",
+    "decoy": "Cupro Nickel Turnings & Borings (Decoy)",
+    "delta": "Soldered Cupro Nickel Solids (Delta)",
+    "depth": "Misc. Nickel-Copper / Nickel-Copper-Iron (Depth)",
+    "hitch": "New R-Monel Clippings & Solids (Hitch)",
+    "house": "New Mixed Monel Solids & Clippings (House)",
+    "ideal": "Old Monel Sheet & Solids (Ideal)",
+    "indian": "K-Monel Solids (Indian)",
+    "junto": "Soldered Monel Sheet & Solids (Junto)",
+    "lemon": "Monel Castings (Lemon)",
+    "lemur": "Monel Turnings (Lemur)",
+    "pekoe": "200 Series Stainless Steel Scrap Solids (Pekoe)",
+    "sabot": "Stainless Steel Scrap (18-8) (Sabot)",
+    "saint": "Nickel Bearing Scrap (Saint)",
+    "ultra": "Stainless Steel Turnings (Ultra)",
+    "vaunt": "Edison Batteries (Nickel-Iron) (Vaunt)",
+    "zurik": "Shredded Nonferrous Sensor Sorted Scrap (predom. SS) (Zurik)",
+
+    # ---- Mixed metals / shop pulls ----
+    "darth": "Fluorescent Ballasts (Darth)",
+    "vader": "Sealed Units / Compressors (Vader)",
+    "elmo": "Mixed Electric Motors (Elmo)",
+    "small elmo": "Small Electric Motors (Elmo)",
+    "sheema": "Shredded Electric Motors / Meatballs (Sheema)",
+    "shelmo": "Shredded Electric Motors / Meatballs (Shelmo)",
+
+    # ---- Other ISRI ----
+    "ranch": "Block Tin (Ranch)",
+    "ranks": "Pewter (Ranks)",
+    "raves": "High Tin Base Babbitt (Raves)",
+    "roses": "Mixed Common Babbitt (Roses)",
+    "sails": "Titanium Scrap (Sails)",
+    "sakes": "Titanium Turnings (Sakes)",
+
+    # ---- Your AL 60xx / PAS / MLC set ----
+    "al 6061 new bare extrusion prepared": "Al Extrusion (Bare)",
+    "al 6061 clip/plate/pipe prepared": "Clips 6061 Al",
+    "6061 clip": "Clips 6061 Al",
+    "al 6063 secondary prepared": "6063 Secondary",
+    "al 6063 old extrusion prepared": "Al Extrusion 6063 (Old)",
+    "al 6063 extrusion 10/10 prepared": "Al Extrusion 6063 10/10",
+    "al pas baled": "Painted Aluminum Siding (Baled)",
+    "al pas bailed": "Painted Aluminum Siding (Baled)",
+    "al cast clean": "Al Cast (Clean)",
+    "al rads clean /baled": "Al Radiators (Clean, Baled)",
+    "al rads dirty/baled": "Al Radiators (Dirty, Baled)",
+    "al sheet clean /baled": "Al Sheet (Clean, Baled)",
+    "al wheel auto clean": "Al Car Wheels",
+    "al wheel auto dirty 2 cents less": "Al Car Wheels (Dirty)",
+    "al wheel chrome clean": "Al Car Wheels (Chrome)",
+    "al wheel chrome dirty 2 cents less": "Al Car Wheels (Chrome, Dirty)",
+    "truck wheel clean": "Al Truck Wheels",
+    "al wire bare catv": "CATV Al Wire (Bare)",
+    "al wire neoprene & acsr 68% prepared": "Insulated Al Wire (ACSR 68%)",
+    "al wire ec wire prepared": "EC Aluminum Wire",
+    "al mlc mix low copper sheet/plate/clip solid prepared": "MLC (Mixed Low Copper) Prepared",
+
+    # ---- Auto electrics / coils ----
+    "auto coil-al starter al nose": "Auto Starter (Al Nose)",
+    "auto coil-truck starter fe nose, truck starter": "Truck Starter (Fe Nose)",
+    "auto coil-alternator no bus alternator": "Alternator (No Bus)",
+    "auto coil-auto compressor no steel case & hose": "Auto A/C Compressor (No Steel Case/Hose)",
+
+    # ---- ICW ----
+    "icw low grade christmas lights": "ICW Low Grade (Christmas Lights)",
+    "icw low grade computer wire 25%": "ICW Low Grade (Computer Wire 25%)",
+    "icw low grade cu catv": "ICW Low Grade (Cu CATV)",
+    "icw low grade ext. cords 35% up": "ICW Low Grade (Extension Cords 35%+)",
+    "icw low grade mixed wire 40% up": "ICW Low Grade (Mixed Wire 40%+)",
+    "icw#1 heliax 57%, open eye/baled": "ICW #1 (Heliax 57%, Baled)",
+    "icw#1 mcm 85% hg": "ICW #1 (MCM 85% HG)",
+    "icw#1 romex 65%, no weather proof.": "ICW #1 (Romex 65%)",
+    "icw#1 thhn80%": "ICW #1 (THHN 80%)",
+    "icw#2 50%& cat5, tel wire": "ICW #2 (50% & CAT5/Tel)",
+    "icw#2 harness wire no fuse boxes": "ICW #2 (Harness, No Fuse Boxes)",
+    "icw#2-bx cable al": "ICW #2 BX (Al)",
+    "icw#2-bx cable fe, 24%": "ICW #2 BX (Fe, 24%)",
+
+    # ---- Lead (shop terms) ----
+    "lead clean clean": "Lead (Soft/Clean)",
+    "lead range range lead indoor": "Range Lead (Indoor)",
+    "lead wheel weight wheel weight": "Lead Wheel Weights",
+
+    # ---- Tool/Alloy steels ----
+    "manganese steel": "Manganese Steel",
+    "h-13": "Tool Steel H-13",
+
+    # ---- E-scrap: adapters / laptop note ----
+    "e scrap-ac adaptors laptop no cable no wall plugs & no phone chargers": "AC Adapters (Laptop, No Cables/Plugs)",
+    "laptop with cable no wall plugs & phone chargers": "Laptops (With Cable, No Wall Plugs/Chargers)",
+
+    # ---- E-scrap: batteries ----
+    "e scrap-battery modem/laptop battery": "Laptop/Modem Batteries",
+    "cell phone battery - lithium ion": "Cell Phone Battery (Li-ion)",
+
+    # ---- E-scrap: others ----
+    "e scrap-others plastic computer fan": "Plastic Computer Fan",
+    "cable box with hd": "Cable Box (With HDD)",
+    "cable box no hd w green board": "Cable Box (No HDD, Green Board)",
+    "cell phone no battery": "Cell Phone (No Battery)",
+    "cell phone with battery": "Cell Phone (With Battery)",
+    "circuit breakers": "Circuit Breakers",
+    "cpu gold": "CPU (Gold)",
+    "credit card pos reader - stationary": "POS Reader (Stationary)",
+    "credit card pos reader -mobile": "POS Reader (Mobile)",
+    "docking stations": "Docking Station",
+    "ecm box, no jelly": "ECM Box (No Potting)",
+    "fuse box from car": "Automotive Fuse Box",
+    "lcd monitor broken": "LCD Monitor (Broken)",
+    "network equipment, switch": "Network Switch",
+    "networking metal": "Networking Metal Scrap",
+    "ac unit whole - window mount": "AC Unit (Window, Whole)",
+    "printer / copiers - palletized/shrink wrapped": "Printers/Copiers (Palletized)",
+    "router - steel": "Router (Steel)",
+    "routers-plastic modem": "Router/Modem (Plastic)",
+    "e meter w glass cover": "Electric Meter (Glass Cover)",
+    "e meter - digital": "Electric Meter (Digital)",
+    "e meter - analog,no glass": "Electric Meter (Analog, No Glass)",
+    "telephone office": "Telephone Office Gear",
+    "ups battery backup": "UPS Battery Backup",
+    "plug end breakage mix": "Plug Ends (Breakage Mix)",
+    "alu computer fan": "Aluminum Computer Fan",
+    "printer / copiers - unprepared": "Printers/Copiers (Unprepared)",
+    "ribbon cable": "Ribbon Cable",
+
+    # ---- E-scrap: computers/laptops/drives ----
+    "e scrap-computer scrap complete computer tower": "Computer Tower (Complete)",
+    "incomplete tower w/o ram, cup, hard drive": "Computer Tower (Incomplete, No RAM/CPU/HDD)",
+    "mix computer tower": "Computer Towers (Mixed)",
+    "e scrap-laptop complete w good screen 15\"+": "Laptop (Complete, ≥15\" Good Screen)",
+    "incomplete 12\"+": "Laptop (Incomplete, ≥12\")",
+    "chrome book/tablet w good screen": "Chromebook/Tablet (Good Screen)",
+    "e scrap-cd rom cd rom": "CD-ROM Drives",
+    "e scrap-hard drive hard drive no board": "Hard Drive (No Board)",
+    "hard drive no board shredded": "Hard Drive (No Board, Shredded)",
+    "hard drive with full board": "Hard Drive (Full Board)",
+    "hard drive with partial board": "Hard Drive (Partial Board)",
+    "hard drive with board -punched / bent / cracked or with caddy": "Hard Drive (Board, Damaged/Caddy)",
+    "hard drive with board shredded": "Hard Drive (Board, Shredded)",
+
+    # ---- Power supplies / servers / boards ----
+    "e scrap-power supply server power supply": "Server Power Supply",
+    "with cable": "Power Supply (With Cable)",
+    "without cable": "Power Supply (Without Cable)",
+    "e scrap-server blade server": "Blade Server",
+    "complete": "Server (Complete)",
+    "incomplete": "Server (Incomplete)",
+    "server cabinet": "Server Cabinet",
+    "e scrap-circuit board auto shredder board": "Auto Shredder Board",
+    "green motherboard": "Motherboard (Green)",
+    "color motherboard": "Motherboard (Mixed Colors)",
+    "crt board": "CRT Board",
+    "finger board clean no attachment": "Finger Cards (Clean, No Attachments)",
+    "gold ram / no bracket": "RAM (Gold Fingers, No Bracket)",
+    "silver ram": "RAM (Silver)",
+    "medium grade board": "Circuit Board (Medium Grade)",
+    "power board green": "Power Board (Green)",
+    "power board brown": "Power Board (Brown)",
+    "server motherboard": "Server Motherboard",
+    "telecom board high grade": "Telecom Board (High Grade)",
+
+    # ---- Stainless ----
+    "ss 304 ss 304 prepared": "Stainless 304 (Prepared)",
+    "ss 316 solid clean prepared": "Stainless 316 (Clean, Prepared)",
+
+    # ---- Ballasts / Batteries ----
+    "ballast electronic ballast": "Ballasts (Electronic)",
+    "ballast regular": "Ballasts (Magnetic/Regular)",
+    "battery auto pb-acid battery": "Lead-Acid Batteries (Auto)",
+    "battery steel case battery steel case industrial": "Lead-Acid Batteries (Steel Case, Industrial)",
+
+    # ---- Motors / Transformers ----
+    "compressor sealed unit boxed, no cast iron case": "Sealed Units (Compressors, No Cast Case)",
+    "e motor low grade celling fan motors": "Electric Motors (Low Grade/Ceiling Fans)",
+    "e motor mix no pumps, power tools, ceiling fans.": "Electric Motors (Mixed, No Pumps/Power Tools/Ceiling Fans)",
+    "e motor large big, but less than 1000 pounds": "Electric Motors (Large <1000 lb)",
+    "transformer transformer alu large only": "Transformers (Aluminum, Large Only)",
+    "transformer cu al/cu": "Transformers (Al/Cu)",
+    "transformer cu cu small (palm size)": "Transformers (Copper, Small)",
+    "transformer cu medium (more than 200lbs)": "Transformers (Copper, Medium)",
+    "transformer cu large": "Transformers (Copper, Large)",
+
+    # ---- Zinc quick ----
+    "zinc zinc/die cast": "Zinc Die Cast",
+
+    # ---- Brass shop terms ----
+    "brass hard solid clean": "Brass (Hard, Clean)",
+    "brass red ebony": "Red Brass (Ebony)",
+    "brass red semi red": "Red Brass (Semi)",
+    "brass shaving al bronze shaving, c/d": "Al Bronze Shavings (C/D)",
+    "brass shaving brass red shaving, c/d": "Red Brass Shavings (C/D)",
+    "brass shaving brass yellow shaving, c/d": "Yellow Brass Shavings (C/D)",
+    "brass shell clean no chrome": "Brass Shells (Clean, No Chrome)",
+    "brass special al bronze solid": "Al Bronze (Solid)",
+    "brass yellow regular solid clean": "Yellow Brass (Solid, Clean)",
+
+    # ---- Copper quick terms ----
+    "cu bb barley": "No. 1 Copper Wire (Barley)",
+    "cu#1 berry & candy": "No. 1 Copper (Berry/Candy)",
+    "cu#2 birch & cliff": "No. 2 Copper (Birch/Cliff)",
+    "cu#3 sheet copper": "Sheet Copper",
+
+    # ---- Radiators / A/C ----
+    "a/c reefer clean talk bailed": "A/C Radiators (Clean, Baled)",
+    "a/c reefer clean unbaled": "A/C Radiators (Clean, Unbaled)",
+    "a/c reefer dirty talk bailed": "A/C Radiators (Dirty, Baled)",
+    "a/c reefer dirty unbaled": "A/C Radiators (Dirty, Unbaled)",
+    "radiator clean, car radiator": "Car Radiators (Clean)",
+    "cu bkg ac reefer end": "Copper Breakage (A/C Reefer Ends)",
 }
+# ---- Material normalization ---- 
+
+# ----- Keyword rules (applied after exact map) ----
 KEYWORD_RULES = [
     (re.compile(r"\bshred( steel)?\b", re.I), "Shred"),
     (re.compile(r"\bhms\b|\bheavy\s*melt\b", re.I), "HMS"),
@@ -154,6 +477,13 @@ KEYWORD_RULES = [
     (re.compile(r"\bins(ulated)?\s+al(uminum)?\s+wire\b|\bacsr\b", re.I), "Insulated Al Wire"),
     (re.compile(r"\bbreakage\b", re.I), "Al Breakage"),
 ]
+
+KEYWORD_RULES += [
+    (re.compile(r"\bold\s*sheet\b", re.I), "Old Sheet"),
+    (re.compile(r"\bubc|alum\s*cans?\b", re.I), "Alum Cans"),
+]
+#---- Keyword rules (applied after exact map) -----
+
 CUSTOMER_OVERRIDES = {}  # {"mervis": {"ferrous sale clips":"Clips"}}
 
 def _load_csv_mapping():
@@ -493,6 +823,46 @@ def post_contract_to_bridge(session: requests.Session, row: dict, seller_name: s
         print(f"[bridge] POST /contracts failed [{r.status_code}] {r.text[:200]}")
     return r
 
+def _row_to_bridge_contract(row: dict, seller_name: str = "Winski Brothers") -> dict | None:
+    """
+    Translate a harvested QBO line-item `row` into the exact payload BRidge /contracts expects.
+    Returns None if qty/unit_price missing.
+    """
+    qty = row.get("qty")
+    unit_price = row.get("unit_price")
+    if qty is None or unit_price is None:
+        return None
+
+    uom = (row.get("uom") or "").lower()
+    if uom in ("lb", "lbs", "pound", "pounds"):
+        weight_tons = float(qty) / 2000.0
+        price_per_ton = float(unit_price) * 2000.0
+    elif uom in ("ton", "tons", "t"):
+        weight_tons = float(qty)
+        price_per_ton = float(unit_price)
+    else:
+        # Fallback assume pounds
+        weight_tons = float(qty) / 2000.0
+        price_per_ton = float(unit_price) * 2000.0
+
+    material_canon = normalize_material(
+        row.get("item_original") or row.get("item") or "", row.get("customer")
+    )
+
+    return {
+        "buyer": row.get("customer"),
+        "seller": seller_name,
+        "material": material_canon,
+        "weight_tons": round(weight_tons, 6),
+        "price_per_ton": round(price_per_ton, 2),
+        "pricing_formula": None,
+        "reference_symbol": f"{row.get('invoice_number')}#{row.get('_line_index', 0)}",
+        "reference_price": None,
+        "reference_source": "QBO",
+        "reference_timestamp": row.get("invoice_date"),
+        "currency": "USD",
+    }
+
 # --- Dump all customers for visibility -------------------------------------------------
 def dump_customers_csv(toks, out_path="qbo_out/customers.csv"):
     all_rows, startpos = [], 1
@@ -742,6 +1112,28 @@ def main():
                         post_contract_to_bridge(sess, row, seller_name=BRIDGE_SELLER)
                     except Exception as e:
                         print(f"[bridge] post error: {e}")
+    # ---- Build BRidge-ready contracts from harvested rows ----
+    contracts = []
+    for r in rows:
+        c = _row_to_bridge_contract(r, seller_name=BRIDGE_SELLER)
+        if c:
+            contracts.append(c)
+
+    # Write contracts CSV (exact schema BRidge expects)
+    contract_headers = [
+        "buyer","seller","material","weight_tons","price_per_ton",
+        "pricing_formula","reference_symbol","reference_price",
+        "reference_source","reference_timestamp","currency"
+    ]
+    with open(CONTRACTS_CSV_PATH, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=contract_headers)
+        w.writeheader()
+        w.writerows(contracts)
+
+    # Also write NDJSON (for bulk import / debugging)
+    with open(CONTRACTS_JSONL_PATH, "w", encoding="utf-8") as f:
+        for c in contracts:
+            f.write(json.dumps(c, ensure_ascii=False) + "\n")
 
     # ---- Final CSV write (base indent of main) ----
     headers = [
