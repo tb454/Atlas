@@ -25,7 +25,7 @@ print("QBO_ENV =", QBO_ENV, "| API_BASE =", API_BASE)
 # ====== CONFIG ======
 CUSTOMER_NAMES = [
     "Mervis",
-    "Oscar Winski",
+    "Oscar Winski Company",
     "Lewis Salvage",
     "Josh Padnos",
     "Frymans Recycling #1",
@@ -92,8 +92,11 @@ def _bridge_base_for_doc(doc_type: str | None = None):
     return BRIDGE_BUYER_BASE
 
 # ===== Material normalization =====
-BASE_MATERIAL_MAP = {
-    # ---- Core ferrous to started with ----
+BASE_MATERIAL_MAP = {    
+    "bolts and nuts": "Bolts & Nuts",
+    "aluminum molds": "Al Breakage",
+    "counterweights": "Counterweights / Unbreakable Cast",
+    "mixed ss": "Stainless",
     "ferrous sale clips": "Clips",
     "clips": "Clips",
     "hms": "HMS",
@@ -458,6 +461,17 @@ BASE_MATERIAL_MAP = {
 
 # ----- Keyword rules (applied after exact map) ----
 KEYWORD_RULES = [
+    (re.compile(r"^\s*non\s*fe\s*:\s*(.*)$", re.I), lambda m: None),  # we strip this in _preclean_source; rule is a no-op placeholder
+    (re.compile(r"\bbusheling\b", re.I), "Busheling"),
+    (re.compile(r"\btorching\b", re.I), "Unprepared HMS (Torch Cut)"),
+    (re.compile(r"\buhms\b", re.I), "Unprepared HMS"),
+    (re.compile(r"\b(unprepared\s*fe|heavy\s*unppd)\b", re.I), "Unprepared HMS"),
+    (re.compile(r"\blow\s*grade\s*sheet\s*iron\b", re.I), "Shred"),
+    (re.compile(r"\bpipe from solar farm( project)?\b", re.I), "Shred"),
+    (re.compile(r"\b(aluminum|al)\s*molds?\b", re.I), "Al Breakage"),
+    (re.compile(r"\bss\s*bkg\b", re.I), "Stainless Breakage"),
+    (re.compile(r"\bal\s*bkg\b", re.I), "Al Breakage"),
+    (re.compile(r"\bunclean\s*motors?\b", re.I), "Shred"),
     (re.compile(r"\bbusheling\b", re.I), "Busheling"),
     (re.compile(r"\btorching\b", re.I), "Unprepared HMS (Torch Cut)"),
     (re.compile(r"\bshred( steel)?\b", re.I), "Shred"),
@@ -468,8 +482,6 @@ KEYWORD_RULES = [
     (re.compile(r"\bextrusion\b.*\bbare\b", re.I), "Al Extrusion (Bare)"),
     (re.compile(r"\bins(ulated)?\s+al(uminum)?\s+wire\b|\bacsr\b", re.I), "Insulated Al Wire"),
     (re.compile(r"\bbreakage\b", re.I), "Al Breakage"),
-]
-KEYWORD_RULES += [
     (re.compile(r"\bold\s*sheet\b", re.I), "Old Sheet"),
     (re.compile(r"\bubc|alum\s*cans?\b", re.I), "Alum Cans"),
 ]
@@ -551,6 +563,64 @@ def _log_unmapped(src, customer):
     except Exception:
         pass
 
+# --- Pre-clean & phrase map -------------------------------------------------
+NONFE_RX = re.compile(r"^\s*non\s*fe\s*:\s*", re.I)  # strip "NON FE:" prefix
+
+# exact phrase -> canonical (all keys lowercase)
+QUICK_PHRASE_MAP = {
+    "car bodies with motors": "Shred",
+    "dirty pipe": "Unprepared HMS",
+    "busheling": "Busheling",
+    "nhk seats": "Busheling",
+    "seats": "Busheling",
+    "misc pipe/tractor rearends": "Shred",
+    "unprepared fe": "Unprepared HMS",
+    "drums and rotors": "Drums & Rotors",
+    "drums & rotors": "Drums & Rotors",
+    "rebar": "Rebar",
+    "aluminum molds": "Al Breakage",
+    "counterweights": "Counterweights / Unbreakable Cast",
+    "misc unprepared pipe from fox,": "Unprepared HMS",
+    "bolts and nuts": "Bolts & Nuts",
+    "low grade sheet iron": "Shred",
+    "pipe from solar farm": "Shred",
+    "pipe from solar farm project": "Shred",
+    "al bkg": "Al Breakage",
+    "ss bkg": "Stainless Breakage",
+    "heavy unppd": "Unprepared HMS",
+    "unclean motors": "Shred",
+    "light polies from lebanon - pd as uhms": "Unprepared HMS",
+    "uhms": "Unprepared HMS",
+    "al tanker from ml farms": "Old Sheet Aluminum",
+
+    # Alloys / tool steel families as their own classes:
+    "d2": "Tool Steel D2",
+    "tungsten carbide": "Tungsten Carbide (Solid)",
+    "taps": "High-Speed Steel (Taps & Bits)",
+    "mixed tool steel": "Tool Steel Mix (M7/D2)",
+    "mixed ss": "Stainless",
+
+    # NON FE expansions after stripping prefix:
+    "electric motors": "Mixed Electric Motors (Elmo)",
+    "transformers": "Transformers (Al/Cu)",
+    "#2 copper": "No. 2 Copper (Birch/Cliff)",
+    "#2 insulated copper": "ICW #2 (50% & CAT5/Tel)",
+    "e-scrap mixed": "E-Scrap (Mixed)",
+    "alum/cu rads": "Al/Cu Radiators (Clean)",
+    "aluminum bx wire": "Aluminum BX Wire",
+    "sealed units": "Sealed Units / Compressors (Vader)",
+    "stainless steel": "Stainless",
+    "batteries - auto": "Lead-Acid Batteries (Auto)",
+}
+def _preclean_source(s: str) -> str:
+    """Strip 'NON FE:' prefix, normalize whitespace/case for phrase map lookup."""
+    if not s:
+        return s
+    s2 = NONFE_RX.sub("", s).strip()  # remove leading 'NON FE:'
+    return s2
+
+
+# ---- Material normalization ---------------------
 def normalize_material(source_name: str, customer_name: str | None = None):
     """
     Returns:
@@ -562,22 +632,24 @@ def normalize_material(source_name: str, customer_name: str | None = None):
       3) Customer-scoped wildcard
       4) Global wildcard
       5) BASE_MATERIAL_MAP (built-in aliases)
-      6) Keyword rules (regex)
+      6) Keyword rules (regex) and QUICK_PHRASE_MAP
       7) Fuzzy to exact CSV keys only
       8) log & passthrough
     """
     if not source_name:
         return "Unknown"
 
-    s_raw = source_name.strip()
+    # NEW: strip NON FE: and normalize for quick phrase hits
+    s_raw_orig = source_name.strip()
+    s_raw = _preclean_source(s_raw_orig)  # <-- removes "NON FE:" if present
     s = s_raw.lower()
     cust = (customer_name or "").strip().lower()
 
-    # -- ignore lines from CSV (exact or wildcard) --
+    # IGNORE (CSV patterns or exact)
     if s in IGNORE_EXACT:
         return None
     for rx in IGNORE_PATTERNS:
-        if rx.match(s_raw):
+        if rx.match(s_raw_orig):
             return None
 
     # 1) customer exact → 2) global exact
@@ -593,16 +665,29 @@ def normalize_material(source_name: str, customer_name: str | None = None):
         if rx.match(s_raw):
             return canon
 
-    # 5) built-in table (restored)
+    # 5) built-in map
     if s in BASE_MATERIAL_MAP:
         return BASE_MATERIAL_MAP[s]
 
-    # 6) keyword rules
+    # 6a) quick phrase map (exact lowercase)
+    if s in QUICK_PHRASE_MAP:
+        return QUICK_PHRASE_MAP[s]
+
+    # 6b) keyword regexes
     for pat, canon in KEYWORD_RULES:
-        if pat.search(s_raw):
+        m = pat.search(s_raw)
+        if not m:
+            continue
+        # allow callable canon (we used a lambda placeholder, but no-op)
+        if callable(canon):
+            out = canon(m)
+            if out:
+                return out
+            # else continue to other rules
+        else:
             return canon
 
-    # 7) fuzzy (only across exact CSV keys)
+    # 7) fuzzy to CSV exacts only (don’t fuzz to patterns)
     keys = set(EXACT_GLOBAL.keys())
     if cust:
         keys |= set(EXACT_BY_CUST.get(cust, {}).keys())
@@ -613,8 +698,8 @@ def normalize_material(source_name: str, customer_name: str | None = None):
                     or EXACT_GLOBAL.get(match[0])
                     or s_raw)
 
-    # 8) log and passthrough
-    _log_unmapped(source_name, customer_name)
+    # 8) log & passthrough (post-strip)
+    _log_unmapped(s_raw_orig, customer_name)
     return s_raw
 # ---- End material normalization ----
 
