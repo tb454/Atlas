@@ -458,6 +458,8 @@ BASE_MATERIAL_MAP = {
 
 # ----- Keyword rules (applied after exact map) ----
 KEYWORD_RULES = [
+    (re.compile(r"\bbusheling\b", re.I), "Busheling"),
+    (re.compile(r"\btorching\b", re.I), "Unprepared HMS (Torch Cut)"),
     (re.compile(r"\bshred( steel)?\b", re.I), "Shred"),
     (re.compile(r"\bhms\b|\bheavy\s*melt\b", re.I), "HMS"),
     (re.compile(r"\bp\s*&\s*s\b|\bp[/&]s\b", re.I), "P&S"),
@@ -559,9 +561,10 @@ def normalize_material(source_name: str, customer_name: str | None = None):
       2) Global exact
       3) Customer-scoped wildcard
       4) Global wildcard
-      5) Keyword rules (your regex)
-      6) Fuzzy alias to exacts
-      7) log & return original
+      5) BASE_MATERIAL_MAP (built-in aliases)
+      6) Keyword rules (regex)
+      7) Fuzzy to exact CSV keys only
+      8) log & passthrough
     """
     if not source_name:
         return "Unknown"
@@ -570,7 +573,7 @@ def normalize_material(source_name: str, customer_name: str | None = None):
     s = s_raw.lower()
     cust = (customer_name or "").strip().lower()
 
-    # IGNORE
+    # -- ignore lines from CSV (exact or wildcard) --
     if s in IGNORE_EXACT:
         return None
     for rx in IGNORE_PATTERNS:
@@ -586,25 +589,31 @@ def normalize_material(source_name: str, customer_name: str | None = None):
     # 3) customer wildcard → 4) global wildcard
     for rx, canon, scope in PATTERNS:
         if scope and scope != cust:
-            continue  # scoped to a different customer
+            continue
         if rx.match(s_raw):
             return canon
 
-    # 5) keyword rules
+    # 5) built-in table (restored)
+    if s in BASE_MATERIAL_MAP:
+        return BASE_MATERIAL_MAP[s]
+
+    # 6) keyword rules
     for pat, canon in KEYWORD_RULES:
         if pat.search(s_raw):
             return canon
 
-    # 6) fuzzy to EXAC(T)s only (not patterns)
+    # 7) fuzzy (only across exact CSV keys)
     keys = set(EXACT_GLOBAL.keys())
     if cust:
         keys |= set(EXACT_BY_CUST.get(cust, {}).keys())
     if keys:
         match = difflib.get_close_matches(s, list(keys), n=1, cutoff=0.88)
         if match:
-            return EXACT_BY_CUST.get(cust, {}).get(match[0]) or EXACT_GLOBAL.get(match[0]) or s_raw
+            return (EXACT_BY_CUST.get(cust, {}).get(match[0])
+                    or EXACT_GLOBAL.get(match[0])
+                    or s_raw)
 
-    # 7) log and pass through
+    # 8) log and passthrough
     _log_unmapped(source_name, customer_name)
     return s_raw
 # ---- End material normalization ----
