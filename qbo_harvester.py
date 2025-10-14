@@ -6,7 +6,6 @@ from datetime import date, timedelta
 import requests
 import difflib, re, secrets
 from dotenv import load_dotenv
-import difflib
 
 # Load .env and ensure keys
 load_dotenv()
@@ -71,15 +70,6 @@ RELAY_BASE = os.getenv("QBO_RELAY_BASE")
 RELAY_AUTH = os.getenv("QBO_RELAY_AUTH")
 RELAY_PEEK = f"{RELAY_BASE}/admin/qbo/peek" if RELAY_BASE else None
 
-# choose host by env (sandbox vs prod)
-QBO_ENV = (os.getenv("QBO_ENV") or "production").lower()
-if QBO_ENV.startswith("sand"):
-    API_BASE = "https://sandbox-quickbooks.api.intuit.com/v3/company"
-else:
-    API_BASE = "https://quickbooks.api.intuit.com/v3/company"
-
-print("QBO_ENV =", QBO_ENV, "| API_BASE =", API_BASE)
-
 # ===== BRidge config =====
 BRIDGE_BUYER_BASE  = os.getenv("BRIDGE_BUYER_BASE", "https://bridge-buyer.onrender.com")
 BRIDGE_SELLER_BASE = os.getenv("BRIDGE_SELLER_BASE", "https://scrapfutures.com")
@@ -97,11 +87,9 @@ def _bridge_base_for_doc(doc_type: str | None = None):
         return BRIDGE_BUYER_BASE
     if BRIDGE_POST_TARGET == "seller":
         return BRIDGE_SELLER_BASE
-    # fallback: auto-route based on document type
     if doc_type and doc_type.lower() in {"invoice", "payment", "bill"}:
         return BRIDGE_SELLER_BASE
     return BRIDGE_BUYER_BASE
-# ----- Bridge config -----
 
 # ===== Material normalization =====
 BASE_MATERIAL_MAP = {
@@ -477,12 +465,10 @@ KEYWORD_RULES = [
     (re.compile(r"\bins(ulated)?\s+al(uminum)?\s+wire\b|\bacsr\b", re.I), "Insulated Al Wire"),
     (re.compile(r"\bbreakage\b", re.I), "Al Breakage"),
 ]
-
 KEYWORD_RULES += [
     (re.compile(r"\bold\s*sheet\b", re.I), "Old Sheet"),
     (re.compile(r"\bubc|alum\s*cans?\b", re.I), "Alum Cans"),
 ]
-#---- Keyword rules (applied after exact map) -----
 
 CUSTOMER_OVERRIDES = {}  # {"mervis": {"ferrous sale clips":"Clips"}}
 
@@ -492,11 +478,12 @@ def _load_csv_mapping():
         with open(MAPPING_CSV_PATH, newline="", encoding="utf-8") as f:
             r = csv.reader(f)
             for row in r:
-                if not row or row[0].strip().lower() == "source":  # header
+                if not row or row[0].strip().lower() == "source":
                     continue
                 src = row[0].strip().lower()
                 can = (row[1] if len(row) > 1 else "").strip()
-                if src and can: m[src] = can
+                if src and can:
+                    m[src] = can
     return m
 EXTERNAL_MAP = _load_csv_mapping()
 
@@ -505,22 +492,27 @@ def _log_unmapped(src, customer):
         write_header = not UNMAPPED_LOG.exists()
         with open(UNMAPPED_LOG, "a", newline="", encoding="utf-8") as f:
             w = csv.writer(f)
-            if write_header: w.writerow(["source","customer","suggested"])
+            if write_header:
+                w.writerow(["source","customer","suggested"])
             w.writerow([src, customer or "", ""])
     except Exception:
         pass
 
 def normalize_material(source_name: str, customer_name: str | None = None) -> str:
-    if not source_name: return "Unknown"
+    if not source_name:
+        return "Unknown"
     s = source_name.strip().lower()
     cust = (customer_name or "").strip().lower()
 
     if cust in CUSTOMER_OVERRIDES and s in CUSTOMER_OVERRIDES[cust]:
         return CUSTOMER_OVERRIDES[cust][s]
-    if s in EXTERNAL_MAP:       return EXTERNAL_MAP[s]
-    if s in BASE_MATERIAL_MAP:  return BASE_MATERIAL_MAP[s]
+    if s in EXTERNAL_MAP:
+        return EXTERNAL_MAP[s]
+    if s in BASE_MATERIAL_MAP:
+        return BASE_MATERIAL_MAP[s]
     for pat, canon in KEYWORD_RULES:
-        if pat.search(source_name): return canon
+        if pat.search(source_name):
+            return canon
     keys = list({*BASE_MATERIAL_MAP.keys(), *EXTERNAL_MAP.keys()})
     if keys:
         match = difflib.get_close_matches(s, keys, n=1, cutoff=0.88)
@@ -578,7 +570,6 @@ def _local_server():
     while server.auth_code is None or server.realm_id is None:
         server.handle_request()
     return server.auth_code, server.realm_id
-
 
 def oauth_flow():
     global EXPECTED_STATE
@@ -727,11 +718,9 @@ def download_invoice_pdf(toks, invoice_id, out_path: pathlib.Path):
 
     if r.status_code >= 400:
         tid = r.headers.get("intuit_tid")
-        # Print a short, support-friendly line; then raise
         print(f"[QBO PDF ERROR] {r.status_code} tid={tid} invoice_id={invoice_id} body={r.text[:500]}")
         r.raise_for_status()
 
-    # Success: stream to a temp file then move into place
     out_path.parent.mkdir(parents=True, exist_ok=True)
     tmp_path = out_path.with_suffix(out_path.suffix + ".part")
     with open(tmp_path, "wb") as f:
@@ -752,6 +741,16 @@ def bridge_login(session: requests.Session) -> None:
     if r.status_code != 200:
         raise RuntimeError(f"BRidge login failed: {r.status_code} {r.text}")
 
+def _material_source_text(item_name: str | None, line_desc: str | None, customer_name: str | None = None) -> str:
+    """
+    Prefer the QuickBooks line Description (where yards put real materials),
+    fall back to the Item (Product/Service) name if Description is empty.
+    """
+    s = (line_desc or "").strip()
+    if s:
+        return s
+    return (item_name or "").strip()
+
 def post_contract_to_bridge(session: requests.Session, row: dict, seller_name: str = "Winski Brothers"):
     # derive tonnage & $/ton from the QBO line
     qty = row.get("qty")
@@ -770,8 +769,12 @@ def post_contract_to_bridge(session: requests.Session, row: dict, seller_name: s
         weight_tons = float(qty) / 2000.0
         price_per_ton = float(unit_price) * 2000.0
 
-    # canonical material + provenance
-    material_canon = normalize_material(row.get("item_original") or row.get("item") or "", row.get("customer"))
+    # canonical material + provenance (Description-first)
+    material_canon = normalize_material(
+        row.get("description") or row.get("item_original") or row.get("item") or "",
+        row.get("customer")
+    )
+
     payload = {
         "buyer": row["customer"],
         "seller": seller_name,
@@ -784,25 +787,17 @@ def post_contract_to_bridge(session: requests.Session, row: dict, seller_name: s
         "reference_source": "QBO",
         "reference_timestamp": row.get("invoice_date"),
         "currency": "USD",
-        # "meta": {"qbo_item": row.get("item_original"), "qbo_uom": row.get("uom")}
     }
 
-    # headers (idempotency + optional historical import mode)
-    headers = {
-        "Idempotency-Key": f"QBO:{payload['reference_symbol']}",
-    }
+    headers = {"Idempotency-Key": f"QBO:{payload['reference_symbol']}"}
     if os.getenv("BRIDGE_IMPORT_MODE", "historical").lower() == "historical":
         headers["X-Import-Mode"] = "historical"
-
-        # Back-date created_at for historical imports using the QBO invoice date
         inv_date = row.get("invoice_date")
-        if headers.get("X-Import-Mode") == "historical" and inv_date:
+        if inv_date:
             if isinstance(inv_date, str):
-                # 'YYYY-MM-DD' → add midnight UTC
                 if len(inv_date) == 10 and inv_date[4] == "-" and inv_date[7] == "-":
                     headers["X-Import-Created-At"] = inv_date + "T00:00:00Z"
                 else:
-                    # already ISO-ish; backend will normalize
                     headers["X-Import-Created-At"] = inv_date
             else:
                 try:
@@ -841,12 +836,12 @@ def _row_to_bridge_contract(row: dict, seller_name: str = "Winski Brothers") -> 
         weight_tons = float(qty)
         price_per_ton = float(unit_price)
     else:
-        # Fallback assume pounds
         weight_tons = float(qty) / 2000.0
         price_per_ton = float(unit_price) * 2000.0
 
     material_canon = normalize_material(
-        row.get("item_original") or row.get("item") or "", row.get("customer")
+        row.get("description") or row.get("item_original") or row.get("item") or "",
+        row.get("customer")
     )
 
     return {
@@ -875,7 +870,6 @@ def dump_customers_csv(toks, out_path="qbo_out/customers.csv"):
         all_rows.extend(rows)
         startpos += len(rows)
 
-    import csv, os
     os.makedirs("qbo_out", exist_ok=True)
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f); w.writerow(["Id","DisplayName"])
@@ -884,10 +878,8 @@ def dump_customers_csv(toks, out_path="qbo_out/customers.csv"):
     print(f"Customers → {out_path}  (total: {len(all_rows)})")
     return toks
 
-
 # --- Forgiving customer lookup: EXACT → LIKE → FUZZY -----------------------------------
 def get_customer_id_by_name(toks, display_name):
-    import difflib
     target = (display_name or "").strip()
     safe = target.replace("'", "''")
 
@@ -923,7 +915,6 @@ def get_customer_id_by_name(toks, display_name):
 
     print(f"[WARN] Customer not found (after fuzzy): {target}")
     return None, toks
-
 
 # --- Fallback: pull ALL invoices without customer filter -------------------------------
 def get_invoices_all(toks, start_date, end_date):
@@ -968,7 +959,7 @@ def main():
 
     matched_any = False
 
-    # ---- Per-customer loop (unchanged) ----
+    # ---- Per-customer loop ----
     for name in CUSTOMER_NAMES:
         cust_id, toks = get_customer_id_by_name(toks, name)
         if not cust_id:
@@ -1005,29 +996,28 @@ def main():
                 unitprice   = d.get("UnitPrice")
                 amount      = L.get("Amount")
                 uom         = d.get("UnitOfMeasure")
-                # Prefer Description for material normalization; fallback to Item name
-                source_for_material = line_desc or item_name or ""
-                material_canon = normalize_material(
-                    source_for_material,
-                    customer_name=(inv.get("CustomerRef") or {}).get("name")
-                )
+
+                # Description-first source text
+                source_for_material = _material_source_text(item_name, line_desc, (inv.get("CustomerRef") or {}).get("name"))
+                material_canon = normalize_material(source_for_material, customer_name=(inv.get("CustomerRef") or {}).get("name"))
 
                 row = {
                     "customer": (inv.get("CustomerRef") or {}).get("name") or name if 'name' in locals() else (inv.get("CustomerRef") or {}).get("name"),
                     "invoice_id": inv_id,
                     "invoice_number": doc_no,
                     "invoice_date": inv_date,
-                    "service_date": svc_date or inv_date,            # Not always present
-                    "product_service": item_name,                    # QBO item
-                    "description": line_desc,                        # “Shred” text
+                    "service_date": svc_date or inv_date,
+                    "product_service": item_name,       # QBO Item (Product/Service)
+                    "qbo_item": item_name,              # audit copy
+                    "description": line_desc,           # raw Description from QBO
                     "ship_date": ship_dt,
                     "ship_via": ship_m,
-                    "item": material_canon,
-                    "item_original": item_name,
+                    "item": material_canon,             # canonical material
+                    "item_original": source_for_material,  # exact text normalized (Desc-first)
                     "qty": qty,
                     "uom": uom,
-                    "unit_price": unitprice,                         # aka Rate
-                    "line_amount": amount,                           # Amount
+                    "unit_price": unitprice,            # aka Rate
+                    "line_amount": amount,              # Amount
                     "invoice_total": total,
                     "invoice_balance": balance,
                     "pdf_path": str(pdf_path),
@@ -1041,14 +1031,13 @@ def main():
                     except Exception as e:
                         print(f"[bridge] post error: {e}")
 
-    # ---- Fallback: now correctly OUTSIDE the per-customer loop ----
+    # ---- Fallback: ALL customers if none matched ----
     if not matched_any:
         print("[fallback] No CUSTOMER_NAMES matched. Pulling ALL invoices in date window…")
         invs, toks = get_invoices_all(toks, START.isoformat(), END.isoformat())
         print(f"[ALL CUSTOMERS] {len(invs)} invoices")
 
-        cdir = PDFS_DIR / "_ALL"
-        cdir.mkdir(parents=True, exist_ok=True)
+        cdir = PDFS_DIR / "_ALL"; cdir.mkdir(parents=True, exist_ok=True)
 
         for inv in invs:
             inv_id   = inv["Id"]
@@ -1064,7 +1053,6 @@ def main():
             if not pdf_path.exists():
                 toks = download_invoice_pdf(toks, inv_id, pdf_path)
 
-            # line items for this invoice (fallback path)
             for idx, L in enumerate(inv.get("Line", [])):
                 if L.get("DetailType") != "SalesItemLineDetail":
                     continue
@@ -1078,11 +1066,9 @@ def main():
                 amount    = L.get("Amount")
                 uom       = d.get("UnitOfMeasure")
 
-                source_for_material = line_desc or item_name or ""
-                material_canon = normalize_material(
-                    source_for_material,
-                    customer_name=custname
-                )
+                # Description-first here too
+                source_for_material = _material_source_text(item_name, line_desc, custname)
+                material_canon = normalize_material(source_for_material, customer_name=custname)
 
                 row = {
                     "customer": custname,
@@ -1091,11 +1077,12 @@ def main():
                     "invoice_date": inv_date,
                     "service_date": svc_date or inv_date,
                     "product_service": item_name,
+                    "qbo_item": item_name,
                     "description": line_desc,
                     "ship_date": ship_dt,
                     "ship_via": ship_m,
                     "item": material_canon,
-                    "item_original": item_name,
+                    "item_original": source_for_material,
                     "qty": qty,
                     "uom": uom,
                     "unit_price": unitprice,
@@ -1112,6 +1099,7 @@ def main():
                         post_contract_to_bridge(sess, row, seller_name=BRIDGE_SELLER)
                     except Exception as e:
                         print(f"[bridge] post error: {e}")
+
     # ---- Build BRidge-ready contracts from harvested rows ----
     contracts = []
     for r in rows:
@@ -1135,16 +1123,15 @@ def main():
         for c in contracts:
             f.write(json.dumps(c, ensure_ascii=False) + "\n")
 
-    # ---- Final CSV write (base indent of main) ----
+    # ---- Final CSV write (raw line export) ----
     headers = [
         "customer","invoice_id","invoice_number","invoice_date","service_date",
-        "product_service","description",
+        "product_service","qbo_item","description",
         "ship_date","ship_via",
         "item","item_original","qty","uom","unit_price","line_amount","invoice_total",
         "invoice_balance","pdf_path"
     ]
 
-    # Drop internal field before writing
     for r in rows:
         r.pop("_line_index", None)
 
@@ -1153,6 +1140,16 @@ def main():
         w.writeheader()
         w.writerows(rows)
 
+    # Run summary
+    print(f"Contracts built: {len(contracts)} | Lines harvested: {len(rows)}")
+    if os.path.exists(UNMAPPED_LOG):
+        try:
+            with open(UNMAPPED_LOG, encoding="utf-8") as _f:
+                # count lines excluding header
+                unmapped_count = max(0, sum(1 for _ in _f) - 1)
+            print(f"Unmapped terms logged: {unmapped_count} → {UNMAPPED_LOG}")
+        except Exception:
+            pass
     print(f"Done → {CSV_PATH}  | PDFs under {PDFS_DIR}")
 
 if __name__ == "__main__":

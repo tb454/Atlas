@@ -54,7 +54,7 @@ Mervis,5119,2244,2023-04-20,2023-04-20,Ferrous Sale,Clips,,,Clips,Ferrous Sale,2
 Mervis,5160,2250,2023-04-25,2023-04-25,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,22400,,0.1339286,3000.0,3000.0,0,qbo_out\qbo_pdfs\Mervis\INV-5160.pdf
 Mervis,5171,2257,2023-04-26,2023-04-26,Non-Ferrous Sale,#3 copper,,,#3 copper,Non-Ferrous Sale,358,,3.49,1249.42,4246.58,0,qbo_out\qbo_pdfs\Mervis\INV-5171.pdf
 Mervis,5171,2257,2023-04-26,2023-04-26,Non-Ferrous Sale,Truck rims,,,Truck rims,Non-Ferrous Sale,320,,0.62,198.4,4246.58,0,qbo_out\qbo_pdfs\Mervis\INV-5171.pdf
-Mervis,5171,2257,2023-04-26,2023-04-26,Non-Ferrous Sale,UBCs,,,UBCs,Non-Ferrous Sale,1707,,0.68,1160.76,4246.58,0,qbo_out\qbo_pdfs\Mervis\INV-5171.pdf
+Mervis,5171,2257,2023-04-26,2023-04-26,Non-Ferrous Sale,UBCs,,,Alum Cans,Non-Ferrous Sale,1707,,0.68,1160.76,4246.58,0,qbo_out\qbo_pdfs\Mervis\INV-5171.pdf
 Mervis,5171,2257,2023-04-26,2023-04-26,Non-Ferrous Sale,Pallets,,,Pallets,Non-Ferrous Sale,296,,5,1480.0,4246.58,0,qbo_out\qbo_pdfs\Mervis\INV-5171.pdf
 Mervis,5171,2257,2023-04-26,2023-04-26,Non-Ferrous Sale,B grade pallets,,,B grade pallets,Non-Ferrous Sale,79,,2,158.0,4246.58,0,qbo_out\qbo_pdfs\Mervis\INV-5171.pdf
 Mervis,5181,2264,2023-04-27,2023-04-27,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,33740,,0.1339286,4518.75,4518.75,0,qbo_out\qbo_pdfs\Mervis\INV-5181.pdf
@@ -93,9 +93,9 @@ Mervis,6458,2677,2023-10-03,2023-10-03,Ferrous Sale,Mixed Clips,,,Clips,Ferrous 
 Mervis,6537,2693,2023-10-12,2023-10-12,Ferrous Sale,5' P&S,,,P&S,Ferrous Sale,27740,,0.1607138,4458.2,4458.2,0,qbo_out\qbo_pdfs\Mervis\INV-6537.pdf
 Mervis,6546,2696,2023-10-13,2023-10-13,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,22720,,0.127232,2890.71,2890.71,0,qbo_out\qbo_pdfs\Mervis\INV-6546.pdf
 Mervis,6554,2701,2023-10-16,2023-10-16,Ferrous Sale,5' P&S,,,P&S,Ferrous Sale,29980,,0.1607138,4818.2,4818.2,0,qbo_out\qbo_pdfs\Mervis\INV-6554.pdf
-Mervis,6573,2711,2023-10-17,2023-10-17,Ferrous Sale,Unprepared HMS,,,HMS,Ferrous Sale,43940,,0.1049108,4609.78,4609.78,0,qbo_out\qbo_pdfs\Mervis\INV-6573.pdf
+Mervis,6573,2711,2023-10-17,2023-10-17,Ferrous Sale,Unprepared HMS,,,Unprepared HMS,Ferrous Sale,43940,,0.1049108,4609.78,4609.78,0,qbo_out\qbo_pdfs\Mervis\INV-6573.pdf
 Mervis,6566,2705,2023-10-17,2023-10-17,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,39360,,0.1562497,6149.99,6149.99,0,qbo_out\qbo_pdfs\Mervis\INV-6566.pdf
-Mervis,6580,2713,2023-10-18,2023-10-18,Ferrous Sale,Unprepared HMS,,,HMS,Ferrous Sale,35460,,0.1049109,3720.14,3720.14,0,qbo_out\qbo_pdfs\Mervis\INV-6580.pdf
+Mervis,6580,2713,2023-10-18,2023-10-18,Ferrous Sale,Unprepared HMS,,,Unprepared HMS,Ferrous Sale,35460,,0.1049109,3720.14,3720.14,0,qbo_out\qbo_pdfs\Mervis\INV-6580.pdf
 Mervis,6588,2717,2023-10-20,2023-10-20,Ferrous Sale,5' PNS,,,5' PNS,Ferrous Sale,29960,,0.15625,4681.25,4681.25,0,qbo_out\qbo_pdfs\Mervis\INV-6588.pdf
 Mervis,6655,2730,2023-10-27,2023-10-27,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,34240,,0.1444763,4946.87,4946.87,0,qbo_out\qbo_pdfs\Mervis\INV-6655.pdf
 Mervis,6685,2741,2023-10-31,2023-10-31,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,17900,,0.1294648,2317.42,2317.42,0,qbo_out\qbo_pdfs\Mervis\INV-6685.pdf
@@ -149,19 +149,19 @@ Mervis,8973,3414,2024-07-19,2024-07-19,Ferrous Sale,Mixed Clips,2024-07-19,Mervi
 Mervis,9850,3633,2024-10-14,2024-10-14,Ferrous Sale,5' PNS,2024-10-14,Winski 24,5' PNS,Ferrous Sale,26140,,0.1160712,3034.1,3034.1,0,qbo_out\qbo_pdfs\Mervis\INV-9850.pdf
 Mervis,10074,3714,2024-11-15,2024-11-15,Ferrous Sale,5' PNS,2024-11-15,Winski 01,5' PNS,Ferrous Sale,31100,,0.13,4043.0,4043.0,0,qbo_out\qbo_pdfs\Mervis\INV-10074.pdf
 Mervis,10120,3722,2024-11-25,2024-11-25,Ferrous Sale,5' PNS,2024-11-25,Winski 01,5' PNS,Ferrous Sale,41360,,0.1160716,4800.72,4800.72,0,qbo_out\qbo_pdfs\Mervis\INV-10120.pdf
-Mervis,11977,4269,2025-07-17,2025-07-22,Non-Ferrous Sale,Baled UBCs,2025-07-22,,Baled UBCs,Non-Ferrous Sale,6479,,0.75,4859.25,16771.28,0,qbo_out\qbo_pdfs\Mervis\INV-11977.pdf
+Mervis,11977,4269,2025-07-17,2025-07-22,Non-Ferrous Sale,Baled UBCs,2025-07-22,,Alum Cans,Non-Ferrous Sale,6479,,0.75,4859.25,16771.28,0,qbo_out\qbo_pdfs\Mervis\INV-11977.pdf
 Mervis,11977,4269,2025-07-17,2025-07-22,Non-Ferrous Sale,BB Cu,2025-07-22,,BB Cu,Non-Ferrous Sale,1453,,4.28,6218.84,16771.28,0,qbo_out\qbo_pdfs\Mervis\INV-11977.pdf
 Mervis,11977,4269,2025-07-17,2025-07-22,Non-Ferrous Sale,#1 Cu,2025-07-22,,#1 Cu,Non-Ferrous Sale,587,,4.03,2365.61,16771.28,0,qbo_out\qbo_pdfs\Mervis\INV-11977.pdf
 Mervis,11977,4269,2025-07-17,2025-07-22,Non-Ferrous Sale,#2 Cu,2025-07-22,,#2 Cu,Non-Ferrous Sale,581,,3.81,2213.61,16771.28,0,qbo_out\qbo_pdfs\Mervis\INV-11977.pdf
 Mervis,11977,4269,2025-07-17,2025-07-24,Non-Ferrous Sale,304 SS,2025-07-22,,304 SS,Non-Ferrous Sale,2717,,0.41,1113.97,16771.28,0,qbo_out\qbo_pdfs\Mervis\INV-11977.pdf
-Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,Baled UBCs,2025-08-08,Mervis,Baled UBCs,Non-Ferrous Sale,5267,,0.75,3950.25,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
+Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,Baled UBCs,2025-08-08,Mervis,Alum Cans,Non-Ferrous Sale,5267,,0.75,3950.25,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
 Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,BB,2025-08-08,Mervis,BB,Non-Ferrous Sale,2148,,3.89,8355.72,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
 Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,a/c RADS,2025-08-08,Mervis,a/c RADS,Non-Ferrous Sale,1573,,2.21,3476.33,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
 Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,Ptd ext,2025-08-08,Mervis,Ptd ext,Non-Ferrous Sale,925,,1.15,1063.75,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
 Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,#2 Cu tips,2025-08-08,Mervis,#2 Cu tips,Non-Ferrous Sale,644,,3.67,2363.48,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
 Mervis,12115,4320,2025-08-05,2025-08-07,Non-Ferrous Sale,#2 Cu,2025-08-08,Mervis,#2 Cu,Non-Ferrous Sale,534,,3.67,1959.78,21169.31,0,qbo_out\qbo_pdfs\Mervis\INV-12115.pdf
 Mervis,12182,4348,2025-08-15,2025-08-15,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,27160,,0.1324429,3597.15,3597.15,0,qbo_out\qbo_pdfs\Mervis\INV-12182.pdf
-Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,Baled UBCs,2025-08-19,,Baled UBCs,Non-Ferrous Sale,2218,,0.75,1663.5,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
+Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,Baled UBCs,2025-08-19,,Alum Cans,Non-Ferrous Sale,2218,,0.75,1663.5,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
 Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,Ptd ext,2025-08-19,,Ptd ext,Non-Ferrous Sale,407,,1.17,476.19,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
 Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,ptd ext,2025-08-19,,ptd ext,Non-Ferrous Sale,387,,1.17,452.79,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
 Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,ptd ext,2025-08-19,,ptd ext,Non-Ferrous Sale,426,,1.17,498.42,10481.01,0,qbo_out\qbo_pdfs\Mervis\INV-12203.pdf
@@ -174,7 +174,7 @@ Mervis,12203,4358,2025-08-18,2025-08-19,Non-Ferrous Sale,A/C rads,2025-08-19,,A/
 Mervis,12196,4354,2025-08-18,2025-08-18,Ferrous Sale,Mixed Clips,2025-08-18,Ireland Trucking 1979,Clips,Ferrous Sale,23920,,0.1303156,3117.15,3117.15,0,qbo_out\qbo_pdfs\Mervis\INV-12196.pdf
 Mervis,12279,4372,2025-08-25,2025-08-25,Ferrous Sale,Torching,,,Torching,Ferrous Sale,51820,,0.0834963,4326.78,4326.78,0,qbo_out\qbo_pdfs\Mervis\INV-12279.pdf
 Mervis,12310,4383,2025-08-28,2025-08-28,Ferrous Sale,Torching,2025-08-28,Ireland Trucking 98,Torching,Ferrous Sale,42440,,0.0820066,3480.36,3480.36,0,qbo_out\qbo_pdfs\Mervis\INV-12310.pdf
-Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,Baled UBCs,2025-09-03,,Baled UBCs,Non-Ferrous Sale,6446,,0.75,4834.5,16882.92,0,qbo_out\qbo_pdfs\Mervis\INV-12353.pdf
+Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,Baled UBCs,2025-09-03,,Alum Cans,Non-Ferrous Sale,6446,,0.75,4834.5,16882.92,0,qbo_out\qbo_pdfs\Mervis\INV-12353.pdf
 Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,URD wire,2025-09-03,,URD wire,Non-Ferrous Sale,441,,0.6,264.6,16882.92,0,qbo_out\qbo_pdfs\Mervis\INV-12353.pdf
 Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,Al car wqheels,2025-09-03,,Al car wqheels,Non-Ferrous Sale,4971,,1.11,5517.81,16882.92,0,qbo_out\qbo_pdfs\Mervis\INV-12353.pdf
 Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,BB Cu,2025-09-03,,BB Cu,Non-Ferrous Sale,1008,,4.05,4082.4,16882.92,0,qbo_out\qbo_pdfs\Mervis\INV-12353.pdf
@@ -182,7 +182,7 @@ Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,#2 Cu,2025-09-03,,#2 Cu
 Mervis,12353,4397,2025-09-03,2025-09-03,Non-Ferrous Sale,AC rads,2025-09-03,,AC rads,Non-Ferrous Sale,689,,0.64,440.96,16882.92,0,qbo_out\qbo_pdfs\Mervis\INV-12353.pdf
 Mervis,12402,4409,2025-09-09,2025-09-09,Ferrous Sale,Clips,2025-09-09,Ireland Trucking 80,Clips,Ferrous Sale,24920,,0.12189,3037.5,3037.5,0,qbo_out\qbo_pdfs\Mervis\INV-12402.pdf
 Mervis,12399,4407,2025-09-09,2025-09-09,Ferrous Sale,Clips,2025-09-09,Ireland Trucking 80,Clips,Ferrous Sale,24900,,0.1600663,3985.65,3985.65,0,qbo_out\qbo_pdfs\Mervis\INV-12399.pdf
-Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,Baled UBCs,,,Baled UBCs,Non-Ferrous Sale,5748,,0.74,4253.52,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
+Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,Baled UBCs,,,Alum Cans,Non-Ferrous Sale,5748,,0.74,4253.52,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
 Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,Bare Ext,,,Bare Ext,Non-Ferrous Sale,611,,1.28,782.08,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
 Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,Ptd ext,,,Ptd ext,Non-Ferrous Sale,603,,1.18,711.54,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
 Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,Ptd ext,,,Ptd ext,Non-Ferrous Sale,548,,1.18,646.64,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
@@ -191,8 +191,8 @@ Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,#1 Cu,,,#1 Cu,Non-Ferro
 Mervis,12444,4421,2025-09-15,2025-09-19,Non-Ferrous Sale,Wheels,,,Wheels,Non-Ferrous Sale,1417,,1.11,1572.87,12878.65,0,qbo_out\qbo_pdfs\Mervis\INV-12444.pdf
 Mervis,12532,4446,2025-10-01,2025-10-01,Ferrous Sale,Clips,2025-10-01,Bibbs 1979,Clips,Ferrous Sale,28840,,0.12189,3515.31,3515.31,3515.31,qbo_out\qbo_pdfs\Mervis\INV-12532.pdf
 Mervis,12541,4450,2025-10-02,2025-10-02,Ferrous Sale,Clips,2025-10-02,Mervis 1121,Clips,Ferrous Sale,29060,,0.12189,3542.12,3542.12,3542.12,qbo_out\qbo_pdfs\Mervis\INV-12541.pdf
-Oscar Winski Company,197,1013,2021-09-23,2021-09-23,FE:Busheling,BUSHELING,,,BUSHELING,FE:Busheling,24120,,0.2500008,6030.02,6030.02,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-197.pdf
-Oscar Winski Company,464,1038,2021-11-16,2021-11-16,FE:Busheling,BUSHELING,,,BUSHELING,FE:Busheling,23200,,0.2410703,5592.83,5592.83,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-464.pdf
+Oscar Winski Company,197,1013,2021-09-23,2021-09-23,FE:Busheling,BUSHELING,,,Busheling,FE:Busheling,24120,,0.2500008,6030.02,6030.02,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-197.pdf
+Oscar Winski Company,464,1038,2021-11-16,2021-11-16,FE:Busheling,BUSHELING,,,Busheling,FE:Busheling,23200,,0.2410703,5592.83,5592.83,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-464.pdf
 Oscar Winski Company,896,1173,2022-01-18,2022-01-18,FE:Busheling,,,,FE:Busheling,FE:Busheling,28340,,0.2232147,6325.9,6325.9,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-896.pdf
 Oscar Winski Company,1235,1215,2022-02-16,2022-02-16,FE:Busheling,,,,FE:Busheling,FE:Busheling,25140,,0.209821,5274.9,5274.9,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-1235.pdf
 Oscar Winski Company,1587,1223,2022-02-22,2022-02-22,FE:Busheling,Delivered Price,,,Delivered Price,FE:Busheling,29980,,0.2142852,6424.27,6424.27,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-1587.pdf
@@ -218,7 +218,7 @@ Oscar Winski Company,3106,1705,2022-08-26,2022-08-26,Ferrous Sale,Purdue Iron fo
 Oscar Winski Company,3235,1741,2022-09-12,2022-09-12,Ferrous Sale,Purdue project for Solotken - last load,,,Purdue project for Solotken - last load,Ferrous Sale,13200,,0.069197,913.4,913.4,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3235.pdf
 Oscar Winski Company,3245,1745,2022-09-13,2022-09-13,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,23460,,0.1540175,3613.25,3613.25,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3245.pdf
 Oscar Winski Company,3399,1783,2022-09-28,2022-09-28,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,19980,,0.154017,3077.26,3077.26,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3399.pdf
-Oscar Winski Company,3548,1822,2022-10-14,2022-10-13,Ferrous Sale,busheling,,,busheling,Ferrous Sale,29160,,0.1406255,4100.64,4100.64,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3548.pdf
+Oscar Winski Company,3548,1822,2022-10-14,2022-10-13,Ferrous Sale,busheling,,,Busheling,Ferrous Sale,29160,,0.1406255,4100.64,4100.64,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3548.pdf
 Oscar Winski Company,3587,1837,2022-10-21,2022-10-21,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,31760,,0.1406253,4466.26,4466.26,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3587.pdf
 Oscar Winski Company,3785,1884,2022-11-10,2022-11-10,Ferrous Sale,,,,Ferrous Sale,Ferrous Sale,27840,,0.1272324,3542.15,3542.15,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-3785.pdf
 Oscar Winski Company,4102,1944,2022-12-09,2022-12-09,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,15440,,0.1406256,2171.26,2171.26,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-4102.pdf
@@ -279,45 +279,48 @@ Oscar Winski Company,8284,3163,2024-04-23,2024-04-23,Ferrous Sale,Busheling from
 Oscar Winski Company,8302,3170,2024-04-25,2024-04-25,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,9900,,0.1651768,1635.25,1635.25,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8302.pdf
 Oscar Winski Company,8318,3178,2024-04-29,2024-04-25,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,10180,,0.1651768,1681.5,1681.5,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8318.pdf
 Oscar Winski Company,8412,3207,2024-05-08,2024-05-08,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,9220,,0.16518,1522.96,1522.96,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8412.pdf
-Oscar Winski Company,8477,3233,2024-05-20,2024-05-20,Ferrous Sale,busheling,2024-05-20,,busheling,Ferrous Sale,30320,,0.1651784,5008.21,5008.21,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8477.pdf
-Oscar Winski Company,8493,3235,2024-05-21,2024-05-21,Ferrous Sale,busheling,2024-05-21,,busheling,Ferrous Sale,9260,,0.1651771,1529.54,1529.54,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8493.pdf
+Oscar Winski Company,8477,3233,2024-05-20,2024-05-20,Ferrous Sale,busheling,2024-05-20,,Busheling,Ferrous Sale,30320,,0.1651784,5008.21,5008.21,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8477.pdf
+Oscar Winski Company,8493,3235,2024-05-21,2024-05-21,Ferrous Sale,busheling,2024-05-21,,Busheling,Ferrous Sale,9260,,0.1651771,1529.54,1529.54,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8493.pdf
 Oscar Winski Company,8500,3240,2024-05-22,2024-05-22,Ferrous Sale,From NHK #1,2024-05-22,,From NHK #1,Ferrous Sale,6360,,0.1651792,1050.54,1050.54,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8500.pdf
-Oscar Winski Company,8607,3283,2024-06-04,2024-06-04,Ferrous Sale,busheling,2024-06-04,,busheling,Ferrous Sale,12840,,0.1473201,1891.59,1891.59,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8607.pdf
-Oscar Winski Company,8629,3296,2024-06-06,2024-06-06,Ferrous Sale,busheling,2024-06-06,,busheling,Ferrous Sale,11600,,0.1473224,1708.94,1708.94,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8629.pdf
-Oscar Winski Company,8621,3292,2024-06-06,2024-06-06,Ferrous Sale,busheling,2024-06-06,,busheling,Ferrous Sale,30800,,0.1473214,4537.5,4537.5,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8621.pdf
+Oscar Winski Company,8607,3283,2024-06-04,2024-06-04,Ferrous Sale,busheling,2024-06-04,,Busheling,Ferrous Sale,12840,,0.1473201,1891.59,1891.59,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8607.pdf
+Oscar Winski Company,8629,3296,2024-06-06,2024-06-06,Ferrous Sale,busheling,2024-06-06,,Busheling,Ferrous Sale,11600,,0.1473224,1708.94,1708.94,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8629.pdf
+Oscar Winski Company,8621,3292,2024-06-06,2024-06-06,Ferrous Sale,busheling,2024-06-06,,Busheling,Ferrous Sale,30800,,0.1473214,4537.5,4537.5,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8621.pdf
 Oscar Winski Company,8652,3300,2024-06-10,2024-06-10,Ferrous Sale,Clips,2024-06-10,,Clips,Ferrous Sale,12280,,0.1383917,1699.45,1699.45,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8652.pdf
-Oscar Winski Company,8765,3344,2024-06-25,2024-06-25,Ferrous Sale,busheling,2024-06-25,,busheling,Ferrous Sale,14860,,0.1428567,2122.85,2122.85,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8765.pdf
-Oscar Winski Company,8877,3373,2024-07-08,2024-07-08,Ferrous Sale,busheling,2024-07-08,,busheling,Ferrous Sale,22700,,0.1428567,3242.85,3242.85,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8877.pdf
-Oscar Winski Company,8961,3404,2024-07-17,2024-07-17,Ferrous Sale,busheling,2024-07-17,,busheling,Ferrous Sale,15560,,0.1428567,2222.85,2222.85,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8961.pdf
-Oscar Winski Company,8978,3417,2024-07-19,2024-07-19,Ferrous Sale,busheling,2024-07-19,,busheling,Ferrous Sale,13360,,0.1428578,1908.58,1908.58,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8978.pdf
-Oscar Winski Company,8997,3430,2024-07-24,2024-07-24,Ferrous Sale,busheling,2024-07-24,,busheling,Ferrous Sale,24460,,0.1428567,3494.27,3494.27,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8997.pdf
+Oscar Winski Company,8765,3344,2024-06-25,2024-06-25,Ferrous Sale,busheling,2024-06-25,,Busheling,Ferrous Sale,14860,,0.1428567,2122.85,2122.85,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8765.pdf
+Oscar Winski Company,8877,3373,2024-07-08,2024-07-08,Ferrous Sale,busheling,2024-07-08,,Busheling,Ferrous Sale,22700,,0.1428567,3242.85,3242.85,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8877.pdf
+Oscar Winski Company,8961,3404,2024-07-17,2024-07-17,Ferrous Sale,busheling,2024-07-17,,Busheling,Ferrous Sale,15560,,0.1428567,2222.85,2222.85,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8961.pdf
+Oscar Winski Company,8978,3417,2024-07-19,2024-07-19,Ferrous Sale,busheling,2024-07-19,,Busheling,Ferrous Sale,13360,,0.1428578,1908.58,1908.58,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8978.pdf
+Oscar Winski Company,8997,3430,2024-07-24,2024-07-24,Ferrous Sale,busheling,2024-07-24,,Busheling,Ferrous Sale,24460,,0.1428567,3494.27,3494.27,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-8997.pdf
 Oscar Winski Company,9020,3439,2024-07-25,2024-07-25,Non-Ferrous Sale,Bare bright Cu,2024-07-25,,Bare bright Cu,Non-Ferrous Sale,1326,,3.79,5025.54,6705.22,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9020.pdf
 Oscar Winski Company,9020,3439,2024-07-25,2024-07-25,Non-Ferrous Sale,#1 Cu,2024-07-25,,#1 Cu,Non-Ferrous Sale,464,,3.62,1679.68,6705.22,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9020.pdf
-Oscar Winski Company,9091,3461,2024-08-01,2024-08-01,Ferrous Sale,busheling,2024-08-01,,busheling,Ferrous Sale,14020,,0.1428567,2002.85,2002.85,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9091.pdf
+Oscar Winski Company,9091,3461,2024-08-01,2024-08-01,Ferrous Sale,busheling,2024-08-01,,Busheling,Ferrous Sale,14020,,0.1428567,2002.85,2002.85,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9091.pdf
 Oscar Winski Company,9200,3498,2024-08-15,2024-08-16,Non-Ferrous Sale,#2 copper,2024-08-16,,#2 copper,Non-Ferrous Sale,873,,3.46,3020.58,3020.58,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9200.pdf
 Oscar Winski Company,9192,3493,2024-08-15,2024-08-15,Non-Ferrous Sale,Bare brite copper,2024-08-15,,Bare brite copper,Non-Ferrous Sale,2221,,3.78,8395.38,8395.38,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9192.pdf
 Oscar Winski Company,9256,3517,2024-08-22,2024-08-22,Non-Ferrous Sale,Bare prite Cu,2024-08-22,,Bare prite Cu,Non-Ferrous Sale,2500,,3.93,9825.0,9825.0,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9256.pdf
-Oscar Winski Company,9674,3587,2024-09-20,2024-09-20,Ferrous Sale,busheling,2024-09-20,Winski 24,busheling,Ferrous Sale,28620,,0.1473215,4216.34,4216.34,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9674.pdf
-Oscar Winski Company,9670,3586,2024-09-24,2024-09-24,Ferrous Sale,busheling,2024-09-24,OW T-95,busheling,Ferrous Sale,17480,,0.1428576,2497.15,2497.15,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9670.pdf
-Oscar Winski Company,9851,3634,2024-10-14,2024-10-14,Ferrous Sale,busheling,2024-10-14,OW #97,busheling,Ferrous Sale,15820,,0.1428571,2260.0,2260.0,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9851.pdf
-Oscar Winski Company,10124,3723,2024-11-20,2024-11-20,Ferrous Sale,busheling,2024-11-20,Winski 01,busheling,Ferrous Sale,14640,,0.147321,2156.78,2156.78,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-10124.pdf
-Oscar Winski Company,10352,3783,2024-12-18,2024-12-18,Ferrous Sale,busheling,2024-12-18,Winski 24,busheling,Ferrous Sale,19360,,0.1473223,2852.16,2852.16,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-10352.pdf
-Oscar Winski Company,10527,3829,2025-01-13,2025-01-13,Ferrous Sale,busheling,2025-01-13,Winski 24,busheling,Ferrous Sale,39300,,0.1562496,6140.61,6140.61,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-10527.pdf
-Oscar Winski Company,11711,4177,2025-06-11,2025-06-11,Ferrous Sale,busheling,2025-06-11,OW 1056,busheling,Ferrous Sale,24260,,0.1651789,4007.24,4007.24,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11711.pdf
-Oscar Winski Company,11716,4180,2025-06-12,2025-06-12,Ferrous Sale,busheling,2025-06-11,OW 1056,busheling,Ferrous Sale,28060,,0.1651789,4634.92,4634.92,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11716.pdf
-Oscar Winski Company,11762,4191,2025-06-17,2025-06-17,Ferrous Sale,busheling,2025-06-17,OW 242075,busheling,Ferrous Sale,29920,,0.1651781,4942.13,4942.13,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11762.pdf
-Oscar Winski Company,11894,4243,2025-07-08,2025-07-08,Ferrous Sale,busheling,2025-07-08,OW 182014,busheling,Ferrous Sale,20800,,0.1651784,3435.71,3435.71,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11894.pdf
-Oscar Winski Company,11919,4254,2025-07-11,2025-07-11,Ferrous Sale,busheling,2025-07-11,OW 182014,busheling,Ferrous Sale,24920,,0.1651786,4116.25,4116.25,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11919.pdf
-Oscar Winski Company,12071,4296,2025-07-29,2025-07-29,Ferrous Sale,busheling,2025-07-29,OW 242075,busheling,Ferrous Sale,22540,,0.1651788,3723.13,3723.13,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12071.pdf
-Oscar Winski Company,12161,4336,2025-08-12,2025-08-12,Ferrous Sale,busheling,2025-08-12,OW T95,busheling,Ferrous Sale,17040,,0.1651778,2814.63,2814.63,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12161.pdf
-Oscar Winski Company,12177,4345,2025-08-14,2025-08-14,Ferrous Sale,busheling,2025-08-14,OW 1056,busheling,Ferrous Sale,30500,,0.165179,5037.96,5037.96,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12177.pdf
-Oscar Winski Company,12186,4351,2025-08-15,2025-08-15,Ferrous Sale,busheling,2025-08-15,OW 97,busheling,Ferrous Sale,26940,,0.1651789,4449.92,4449.92,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12186.pdf
-Oscar Winski Company,12245,4371,2025-08-22,2025-08-22,Ferrous Sale,busheling,2025-08-22,OW T95,busheling,Ferrous Sale,12360,,0.1651788,2041.61,2041.61,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12245.pdf
-Oscar Winski Company,12411,4412,2025-09-10,2025-09-10,Ferrous Sale,busheling,2025-09-10,OW T95,busheling,Ferrous Sale,28740,,0.1562505,4490.64,4490.64,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12411.pdf
-Oscar Winski Company,12436,4420,2025-09-12,2025-09-12,Ferrous Sale,busheling,2025-09-12,OW T97,busheling,Ferrous Sale,22720,,0.1562509,3550.02,3550.02,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12436.pdf
-Oscar Winski Company,12531,4445,2025-10-01,2025-10-01,Ferrous Sale,busheling,2025-10-01,OW T97,busheling,Ferrous Sale,21200,,0.1651788,3501.79,3501.79,3501.79,qbo_out\qbo_pdfs\Oscar_Winski\INV-12531.pdf
-Oscar Winski Company,12557,4454,2025-10-03,2025-10-03,Ferrous Sale,busheling,2025-10-03,OW T97,busheling,Ferrous Sale,24380,,0.1651788,4027.06,4027.06,4027.06,qbo_out\qbo_pdfs\Oscar_Winski\INV-12557.pdf
-Oscar Winski Company,12614,4476,2025-10-09,2025-10-09,Ferrous Sale,busheling,2025-10-09,Winski 24,busheling,Ferrous Sale,15480,,0.1651788,2556.97,2556.97,2556.97,qbo_out\qbo_pdfs\Oscar_Winski\INV-12614.pdf
+Oscar Winski Company,9674,3587,2024-09-20,2024-09-20,Ferrous Sale,busheling,2024-09-20,Winski 24,Busheling,Ferrous Sale,28620,,0.1473215,4216.34,4216.34,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9674.pdf
+Oscar Winski Company,9670,3586,2024-09-24,2024-09-24,Ferrous Sale,busheling,2024-09-24,OW T-95,Busheling,Ferrous Sale,17480,,0.1428576,2497.15,2497.15,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9670.pdf
+Oscar Winski Company,9851,3634,2024-10-14,2024-10-14,Ferrous Sale,busheling,2024-10-14,OW #97,Busheling,Ferrous Sale,15820,,0.1428571,2260.0,2260.0,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-9851.pdf
+Oscar Winski Company,10124,3723,2024-11-20,2024-11-20,Ferrous Sale,busheling,2024-11-20,Winski 01,Busheling,Ferrous Sale,14640,,0.147321,2156.78,2156.78,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-10124.pdf
+Oscar Winski Company,10352,3783,2024-12-18,2024-12-18,Ferrous Sale,busheling,2024-12-18,Winski 24,Busheling,Ferrous Sale,19360,,0.1473223,2852.16,2852.16,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-10352.pdf
+Oscar Winski Company,10527,3829,2025-01-13,2025-01-13,Ferrous Sale,busheling,2025-01-13,Winski 24,Busheling,Ferrous Sale,39300,,0.1562496,6140.61,6140.61,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-10527.pdf
+Oscar Winski Company,11711,4177,2025-06-11,2025-06-11,Ferrous Sale,busheling,2025-06-11,OW 1056,Busheling,Ferrous Sale,24260,,0.1651789,4007.24,4007.24,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11711.pdf
+Oscar Winski Company,11716,4180,2025-06-12,2025-06-12,Ferrous Sale,busheling,2025-06-11,OW 1056,Busheling,Ferrous Sale,28060,,0.1651789,4634.92,4634.92,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11716.pdf
+Oscar Winski Company,11762,4191,2025-06-17,2025-06-17,Ferrous Sale,busheling,2025-06-17,OW 242075,Busheling,Ferrous Sale,29920,,0.1651781,4942.13,4942.13,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11762.pdf
+Oscar Winski Company,11894,4243,2025-07-08,2025-07-08,Ferrous Sale,busheling,2025-07-08,OW 182014,Busheling,Ferrous Sale,20800,,0.1651784,3435.71,3435.71,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11894.pdf
+Oscar Winski Company,11919,4254,2025-07-11,2025-07-11,Ferrous Sale,busheling,2025-07-11,OW 182014,Busheling,Ferrous Sale,24920,,0.1651786,4116.25,4116.25,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-11919.pdf
+Oscar Winski Company,12071,4296,2025-07-29,2025-07-29,Ferrous Sale,busheling,2025-07-29,OW 242075,Busheling,Ferrous Sale,22540,,0.1651788,3723.13,3723.13,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12071.pdf
+Oscar Winski Company,12161,4336,2025-08-12,2025-08-12,Ferrous Sale,busheling,2025-08-12,OW T95,Busheling,Ferrous Sale,17040,,0.1651778,2814.63,2814.63,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12161.pdf
+Oscar Winski Company,12177,4345,2025-08-14,2025-08-14,Ferrous Sale,busheling,2025-08-14,OW 1056,Busheling,Ferrous Sale,30500,,0.165179,5037.96,5037.96,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12177.pdf
+Oscar Winski Company,12186,4351,2025-08-15,2025-08-15,Ferrous Sale,busheling,2025-08-15,OW 97,Busheling,Ferrous Sale,26940,,0.1651789,4449.92,4449.92,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12186.pdf
+Oscar Winski Company,12245,4371,2025-08-22,2025-08-22,Ferrous Sale,busheling,2025-08-22,OW T95,Busheling,Ferrous Sale,12360,,0.1651788,2041.61,2041.61,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12245.pdf
+Oscar Winski Company,12411,4412,2025-09-10,2025-09-10,Ferrous Sale,busheling,2025-09-10,OW T95,Busheling,Ferrous Sale,28740,,0.1562505,4490.64,4490.64,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12411.pdf
+Oscar Winski Company,12436,4420,2025-09-12,2025-09-12,Ferrous Sale,busheling,2025-09-12,OW T97,Busheling,Ferrous Sale,22720,,0.1562509,3550.02,3550.02,0,qbo_out\qbo_pdfs\Oscar_Winski\INV-12436.pdf
+Oscar Winski Company,12531,4445,2025-10-01,2025-10-01,Ferrous Sale,busheling,2025-10-01,OW T97,Busheling,Ferrous Sale,21200,,0.1651788,3501.79,3501.79,3501.79,qbo_out\qbo_pdfs\Oscar_Winski\INV-12531.pdf
+Oscar Winski Company,12557,4454,2025-10-03,2025-10-03,Ferrous Sale,busheling,2025-10-03,OW T97,Busheling,Ferrous Sale,24380,,0.1651788,4027.06,4027.06,4027.06,qbo_out\qbo_pdfs\Oscar_Winski\INV-12557.pdf
+Oscar Winski Company,12614,4476,2025-10-09,2025-10-09,Ferrous Sale,busheling,2025-10-09,Winski 24,Busheling,Ferrous Sale,15480,,0.1651788,2556.97,2556.97,2556.97,qbo_out\qbo_pdfs\Oscar_Winski\INV-12614.pdf
+Oscar Winski Company,12647,4486,2025-10-13,2025-10-13,Ferrous Sale,busheling,2025-10-13,Winski 24,Busheling,Ferrous Sale,8740,,0.1651788,1443.66,1443.66,1443.66,qbo_out\qbo_pdfs\Oscar_Winski\INV-12647.pdf
+Oscar Winski Company,12646,4485,2025-10-13,2025-10-13,Ferrous Sale,busheling,2025-10-13,Winski 01,Busheling,Ferrous Sale,20380,,0.1651788,3366.34,3366.34,3366.34,qbo_out\qbo_pdfs\Oscar_Winski\INV-12646.pdf
+Oscar Winski Company,12642,4482,2025-10-13,2025-10-13,Ferrous Sale,busheling,2025-10-13,OW T-97,Busheling,Ferrous Sale,21060,,0.1651788,3478.67,3478.67,3478.67,qbo_out\qbo_pdfs\Oscar_Winski\INV-12642.pdf
 Lewis Salvage,12077,4300,2025-07-30,2025-07-30,Ferrous Sale,Shred,2025-07-30,RIM 03-01,Shred,Ferrous Sale,27300,,0.1075,2934.75,2934.75,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12077.pdf
 Lewis Salvage,12082,4304,2025-07-31,2025-07-31,Ferrous Sale,Clean sheet,2025-07-31,,Clean sheet,Ferrous Sale,22520,,0.115,2589.8,2589.8,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12082.pdf
 Lewis Salvage,12081,4303,2025-07-31,2025-07-31,Non-Ferrous Sale,304 SS,2025-07-31,16-02,304 SS,Non-Ferrous Sale,11480,,0.4,4592.0,4592.0,0,qbo_out\qbo_pdfs\Lewis_Salvage\INV-12081.pdf
@@ -370,22 +373,22 @@ Fryman's Recycling #1,11817,4218,2025-05-25,2025-05-25,Non-Ferrous Sale,Vinyl si
 Fryman's Recycling #1,12536,4447,2025-10-02,2025-10-02,Non-Ferrous Sale,Vinyl siding,2025-10-02,,Vinyl siding,Non-Ferrous Sale,1959,,0.03,58.77,58.77,58.77,qbo_out\qbo_pdfs\Frymans_Recycling_#1\INV-12536.pdf
 Rochester Iron & Metal,141,1005,2021-09-08,2021-09-08,FE:Cast Pipe/Misc,cast pipe,,,cast pipe,FE:Cast Pipe/Misc,28875,,0.118,3407.25,3407.25,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-141.pdf
 Rochester Iron & Metal,190,1011,2021-09-20,2021-09-20,FE:Cast Pipe/Misc,dirty pipe,,,dirty pipe,FE:Cast Pipe/Misc,14.09,,260,3663.4,3663.4,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-190.pdf
-Rochester Iron & Metal,370,1023,2021-10-26,2021-10-26,FE:Busheling,BUSHELING,,,BUSHELING,FE:Busheling,21920,,0.2232142,4892.86,4892.86,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-370.pdf
+Rochester Iron & Metal,370,1023,2021-10-26,2021-10-26,FE:Busheling,BUSHELING,,,Busheling,FE:Busheling,21920,,0.2232142,4892.86,4892.86,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-370.pdf
 Rochester Iron & Metal,375,1025,2021-10-28,2021-10-28,FE:5ft P&S,,,,P&S,FE:5ft P&S,40780,,0.1941964,7919.33,7919.33,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-375.pdf
 Rochester Iron & Metal,395,1026,2021-11-03,2021-11-03,NON FE:Aluminum Breakage,,,,Al Breakage,NON FE:Aluminum Breakage,22080,,0.24,5299.2,5299.2,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-395.pdf
 Rochester Iron & Metal,405,1029,2021-11-05,2021-11-05,FE:Sheet Iron,Wire w/ concrete,,,Wire w/ concrete,FE:Sheet Iron,18880,,0.1475,2784.8,2784.8,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-405.pdf
 Rochester Iron & Metal,425,1031,2021-11-09,2021-11-09,FE:Heavy Melt,Counterweights,,,Counterweights,FE:Heavy Melt,58560,,0.1071429,6274.29,6274.29,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-425.pdf
 Rochester Iron & Metal,437,1034,2021-11-12,2021-11-12,FE:Sheet Iron,"wire, car, pipe",,,"wire, car, pipe",FE:Sheet Iron,28000,,0.1475,4130.0,4130.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-437.pdf
 Rochester Iron & Metal,401,1028,2021-11-15,2021-11-15,FE:Unclean Motors,dirty motors,,,dirty motors,FE:Unclean Motors,26000,,0.186,4836.0,4836.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-401.pdf
-Rochester Iron & Metal,498,1057,2021-11-18,2021-11-18,NON FE:Old Sheet Aluminum,old sheet aluminum,,,old sheet aluminum,NON FE:Old Sheet Aluminum,6600,,0.57,3762.0,3762.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-498.pdf
+Rochester Iron & Metal,498,1057,2021-11-18,2021-11-18,NON FE:Old Sheet Aluminum,old sheet aluminum,,,Old Sheet Aluminum,NON FE:Old Sheet Aluminum,6600,,0.57,3762.0,3762.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-498.pdf
 Rochester Iron & Metal,658,1106,2021-12-13,2021-12-13,FE:5ft P&S,5' PNS,,,5' PNS,FE:5ft P&S,45480,,0.2120536,9644.2,9644.2,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-658.pdf
 Rochester Iron & Metal,677,1111,2021-12-14,2021-12-14,FE:5ft P&S,5' P&S,,,P&S,FE:5ft P&S,49740,,0.2120536,10547.55,10547.55,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-677.pdf
 Rochester Iron & Metal,685,1114,2021-12-15,2021-12-15,FE:5ft P&S,,,,P&S,FE:5ft P&S,22580,,0.2120536,4788.17,4788.17,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-685.pdf
 Rochester Iron & Metal,724,1121,2021-12-21,2021-12-21,FE:5ft P&S,,,,P&S,FE:5ft P&S,0,,,0,0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-724.pdf
-Rochester Iron & Metal,738,1126,2021-12-23,2021-12-23,FE:Busheling,BUSHELING,,,BUSHELING,FE:Busheling,0,,,0,0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-738.pdf
-Rochester Iron & Metal,760,1131,2021-12-27,2021-12-27,FE:Busheling,BUSHELING,,,BUSHELING,FE:Busheling,18380,,0.2321431,4266.79,4266.79,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-760.pdf
-Rochester Iron & Metal,765,1133,2021-12-28,2021-12-28,FE:Busheling,BUSHELING,,,BUSHELING,FE:Busheling,19300,,0.232143,4480.36,4480.36,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-765.pdf
-Rochester Iron & Metal,769,1136,2021-12-29,2021-12-23,FE:Busheling,BUSHELING,,,BUSHELING,FE:Busheling,16960,,0.2321427,3937.14,3937.14,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-769.pdf
+Rochester Iron & Metal,738,1126,2021-12-23,2021-12-23,FE:Busheling,BUSHELING,,,Busheling,FE:Busheling,0,,,0,0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-738.pdf
+Rochester Iron & Metal,760,1131,2021-12-27,2021-12-27,FE:Busheling,BUSHELING,,,Busheling,FE:Busheling,18380,,0.2321431,4266.79,4266.79,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-760.pdf
+Rochester Iron & Metal,765,1133,2021-12-28,2021-12-28,FE:Busheling,BUSHELING,,,Busheling,FE:Busheling,19300,,0.232143,4480.36,4480.36,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-765.pdf
+Rochester Iron & Metal,769,1136,2021-12-29,2021-12-23,FE:Busheling,BUSHELING,,,Busheling,FE:Busheling,16960,,0.2321427,3937.14,3937.14,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-769.pdf
 Rochester Iron & Metal,768,1135,2021-12-29,2021-12-21,FE:5ft P&S,,,,P&S,FE:5ft P&S,47920,,0.2120536,10161.61,10161.61,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-768.pdf
 Rochester Iron & Metal,833,1153,2022-01-07,2022-01-07,NON FE:Old Sheet Aluminum,40 yd roll off,,,40 yd roll off,NON FE:Old Sheet Aluminum,7760,,0.55,4268.0,4268.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-833.pdf
 Rochester Iron & Metal,1212,1210,2022-02-14,2022-02-14,FE:5ft P&S,,,,P&S,FE:5ft P&S,38460,,0.185268,7125.41,7125.41,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-1212.pdf
@@ -403,7 +406,7 @@ Rochester Iron & Metal,1758,1273,2022-03-15,2022-03-15,FE:Busheling,seats,,,seat
 Rochester Iron & Metal,1781,1277,2022-03-16,2022-03-16,FE:5ft P&S,,,,P&S,FE:5ft P&S,27560,,0.2410715,6643.93,6643.93,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-1781.pdf
 Rochester Iron & Metal,1778,1275,2022-03-16,2022-03-16,FE:5ft P&S,,,,P&S,FE:5ft P&S,25000,,0.241072,6026.8,6026.8,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-1778.pdf
 Rochester Iron & Metal,1825,1292,2022-03-23,2022-03-23,FE:Heavy Melt,,,,HMS,FE:Heavy Melt,41640,,0.2209822,9201.7,9201.7,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-1825.pdf
-Rochester Iron & Metal,1875,1306,2022-03-29,2022-03-29,NON FE:Old Sheet Aluminum,,,,NON FE:Old Sheet Aluminum,NON FE:Old Sheet Aluminum,7560,,0.7,5292.0,5292.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-1875.pdf
+Rochester Iron & Metal,1875,1306,2022-03-29,2022-03-29,NON FE:Old Sheet Aluminum,,,,Old Sheet,NON FE:Old Sheet Aluminum,7560,,0.7,5292.0,5292.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-1875.pdf
 Rochester Iron & Metal,2038,1356,2022-04-14,2022-04-14,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,16820,,0.3125,5256.25,5256.25,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-2038.pdf
 Rochester Iron & Metal,2061,1363,2022-04-18,2022-04-18,Ferrous Sale,cast rich heavy melt,,,HMS,Ferrous Sale,52320,,0.2120537,11094.65,11094.65,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-2061.pdf
 Rochester Iron & Metal,2072,1366,2022-04-19,2022-04-19,Ferrous Sale,HMS,,,HMS,Ferrous Sale,45360,,0.2120536,9618.75,9618.75,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-2072.pdf
@@ -422,15 +425,15 @@ Rochester Iron & Metal,2614,1542,2022-06-24,2022-06-24,Non-Ferrous Sale,Old Alum
 Rochester Iron & Metal,2623,1543,2022-06-27,2022-06-27,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,71580,,0.1651788,11823.5,11823.5,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-2623.pdf
 Rochester Iron & Metal,2757,1586,2022-07-14,2022-07-14,Ferrous Sale,HMS,,,HMS,Ferrous Sale,41900,,0.1308795,5483.85,5483.85,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-2757.pdf
 Rochester Iron & Metal,2768,1590,2022-07-18,2022-07-18,Ferrous Sale,HMS,,,HMS,Ferrous Sale,46360,,0.1316965,6105.45,6105.45,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-2768.pdf
-Rochester Iron & Metal,2790,1594,2022-07-19,2022-07-19,Ferrous Sale,busheling,,,busheling,Ferrous Sale,23720,,0.1852677,4394.55,4394.55,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-2790.pdf
+Rochester Iron & Metal,2790,1594,2022-07-19,2022-07-19,Ferrous Sale,busheling,,,Busheling,Ferrous Sale,23720,,0.1852677,4394.55,4394.55,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-2790.pdf
 Rochester Iron & Metal,2806,1600,2022-07-20,2022-07-20,Ferrous Sale,5ft P & S,,,P&S,Ferrous Sale,45480,,0.1517854,6903.2,6903.2,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-2806.pdf
 Rochester Iron & Metal,2946,1655,2022-08-04,2022-08-04,Non-Ferrous Sale,Old Sheet,,,Old Sheet,Non-Ferrous Sale,6820,,0.58,3955.6,3955.6,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-2946.pdf
 Rochester Iron & Metal,2990,1668,2022-08-10,2022-08-10,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,29840,,0.1540181,4595.9,4595.9,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-2990.pdf
 Rochester Iron & Metal,2974,1664,2022-08-10,2022-08-10,Ferrous Sale,Rebar,,,Rebar,Ferrous Sale,14560,,0.0625,910.0,910.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-2974.pdf
 Rochester Iron & Metal,3041,1681,2022-08-16,2022-08-16,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,26100,,0.1540172,4019.85,4019.85,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-3041.pdf
 Rochester Iron & Metal,3097,1702,2022-08-26,2022-08-26,Ferrous Sale,Correction on Invoice 360013 Rebar,,,Correction on Invoice 360013 Rebar,Ferrous Sale,1,,327.6,327.6,327.6,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-3097.pdf
-Rochester Iron & Metal,3130,1708,2022-08-29,2022-08-29,Ferrous Sale,Unprepared Pipe,,,Unprepared Pipe,Ferrous Sale,19.39,,170,3296.3,3296.3,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-3130.pdf
-Rochester Iron & Metal,3278,1753,2022-09-16,2022-09-16,Ferrous Sale,Substation Boxes,,,Substation Boxes,Ferrous Sale,27220,,0.0775,2109.55,2109.55,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-3278.pdf
+Rochester Iron & Metal,3130,1708,2022-08-29,2022-08-29,Ferrous Sale,Unprepared Pipe,,,Unprepared HMS,Ferrous Sale,19.39,,170,3296.3,3296.3,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-3130.pdf
+Rochester Iron & Metal,3278,1753,2022-09-16,2022-09-16,Ferrous Sale,Substation Boxes,,,Shred,Ferrous Sale,27220,,0.0775,2109.55,2109.55,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-3278.pdf
 Rochester Iron & Metal,3363,1777,2022-09-26,2022-09-26,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,17240,,0.1450893,2501.34,2501.34,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-3363.pdf
 Rochester Iron & Metal,3397,1782,2022-09-28,2022-09-28,Ferrous Sale,HMS,,,HMS,Ferrous Sale,51080,,0.1116075,5700.91,5700.91,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-3397.pdf
 Rochester Iron & Metal,3405,1787,2022-09-29,2022-09-29,Ferrous Sale,5ft P&S,,,P&S,Ferrous Sale,51460,,0.1428576,7351.45,7351.45,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-3405.pdf
@@ -448,26 +451,26 @@ Rochester Iron & Metal,3953,1917,2022-11-30,2022-11-22,Non-Ferrous Sale,Stainles
 Rochester Iron & Metal,4115,1947,2022-12-13,2022-12-13,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,26940,,0.1316964,3547.9,3547.9,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4115.pdf
 Rochester Iron & Metal,4146,1956,2022-12-19,2022-12-19,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,24780,,0.1316969,3263.45,3263.45,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4146.pdf
 Rochester Iron & Metal,4272,1980,2023-01-05,2023-01-05,Ferrous Sale,HMS,,,HMS,Ferrous Sale,69060,,0.1071431,7399.3,7399.3,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4272.pdf
-Rochester Iron & Metal,4436,2021,2023-01-23,2023-01-23,Ferrous Sale,Drums and Rotors,,,Drums and Rotors,Ferrous Sale,30320,,0.2276781,6903.2,6903.2,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4436.pdf
+Rochester Iron & Metal,4436,2021,2023-01-23,2023-01-23,Ferrous Sale,Drums and Rotors,,,Drums & Rotors,Ferrous Sale,30320,,0.2276781,6903.2,6903.2,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4436.pdf
 Rochester Iron & Metal,4435,2020,2023-01-23,2023-01-23,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,23260,,0.1584824,3686.3,3686.3,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4435.pdf
-Rochester Iron & Metal,4536,2049,2023-02-02,2023-02-02,Ferrous Sale,Unprepared FE,,,Unprepared FE,Ferrous Sale,55660,,0.1025,5705.15,5705.15,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4536.pdf
+Rochester Iron & Metal,4536,2049,2023-02-02,2023-02-02,Ferrous Sale,Unprepared FE,,,HMS,Ferrous Sale,55660,,0.1025,5705.15,5705.15,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4536.pdf
 Rochester Iron & Metal,4638,2072,2023-02-17,2023-02-17,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,26800,,0.171875,4606.25,4606.25,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4638.pdf
-Rochester Iron & Metal,4666,2087,2023-02-22,2023-02-23,Non-Ferrous Sale,Old Sheet Dumpster,,,Old Sheet Dumpster,Non-Ferrous Sale,9640,,0.51,4916.4,4916.4,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4666.pdf
+Rochester Iron & Metal,4666,2087,2023-02-22,2023-02-23,Non-Ferrous Sale,Old Sheet Dumpster,,,Old Sheet Aluminum,Non-Ferrous Sale,9640,,0.51,4916.4,4916.4,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4666.pdf
 Rochester Iron & Metal,4660,2081,2023-02-22,2023-02-22,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,17860,,0.1718751,3069.69,3069.69,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4660.pdf
 Rochester Iron & Metal,4822,2136,2023-03-15,2023-03-15,Ferrous Sale,Bolts & Nuts,,,Bolts & Nuts,Ferrous Sale,38240,,0.1473214,5633.57,5633.57,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4822.pdf
 Rochester Iron & Metal,4836,2140,2023-03-16,2023-03-16,Ferrous Sale,"5"" P&S",,,P&S,Ferrous Sale,62460,,0.1941964,12129.51,12129.51,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4836.pdf
-Rochester Iron & Metal,4843,2144,2023-03-17,2023-03-17,Ferrous Sale,Unprepared,,,Unprepared,Ferrous Sale,41480,,0.107143,4444.29,4444.29,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4843.pdf
+Rochester Iron & Metal,4843,2144,2023-03-17,2023-03-17,Ferrous Sale,Unprepared,,,Unprepared HMS,Ferrous Sale,41480,,0.107143,4444.29,4444.29,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4843.pdf
 Rochester Iron & Metal,4840,2142,2023-03-17,2023-03-17,Ferrous Sale,HMS,,,HMS,Ferrous Sale,42860,,0.1473215,6314.2,6314.2,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-4840.pdf
 Rochester Iron & Metal,5413,2334,2023-04-14,2023-03-16,Ferrous Sale,Adjustment to Inv # 2142,,,Adjustment to Inv # 2142,Ferrous Sale,1,,5032.5,5032.5,5032.5,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-5413.pdf
 Rochester Iron & Metal,5079,2226,2023-04-14,2023-04-14,Non-Ferrous Sale,Old Sheet,,,Old Sheet,Non-Ferrous Sale,7040,,0.51,3590.4,3590.4,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-5079.pdf
 Rochester Iron & Metal,5421,2335,2023-05-25,2023-05-25,Non-Ferrous Sale,Old Sheet,,,Old Sheet,Non-Ferrous Sale,6900,,0.51,3519.0,3519.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-5421.pdf
-Rochester Iron & Metal,5440,2343,2023-05-30,2023-05-30,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,5100,,0.23,1173.0,1173.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-5440.pdf
+Rochester Iron & Metal,5440,2343,2023-05-30,2023-05-30,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,5100,,0.23,1173.0,1173.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-5440.pdf
 Rochester Iron & Metal,5583,2390,2023-06-15,2023-06-15,Ferrous Sale,HMS,,,HMS,Ferrous Sale,54180,,0.1138392,6167.81,6167.81,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-5583.pdf
 Rochester Iron & Metal,5591,2394,2023-06-16,2023-06-16,Ferrous Sale,HMS,,,HMS,Ferrous Sale,47360,,0.1138393,5391.43,5391.43,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-5591.pdf
 Rochester Iron & Metal,5903,2490,2023-07-27,2023-07-27,Non-Ferrous Sale,Old Sheet Aluminum,,,Old Sheet Aluminum,Non-Ferrous Sale,7380,,0.49,3616.2,3616.2,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-5903.pdf
-Rochester Iron & Metal,5929,2501,2023-07-31,2023-07-31,Ferrous Sale,Unprepared FE,,,Unprepared FE,Ferrous Sale,42340,,0.085,3598.9,3598.9,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-5929.pdf
+Rochester Iron & Metal,5929,2501,2023-07-31,2023-07-31,Ferrous Sale,Unprepared FE,,,HMS,Ferrous Sale,42340,,0.085,3598.9,3598.9,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-5929.pdf
 Rochester Iron & Metal,6173,2583,2023-08-28,2023-08-28,Ferrous Sale,HMS,,,HMS,Ferrous Sale,44700,,0.1227678,5487.72,5487.72,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6173.pdf
-Rochester Iron & Metal,6276,2618,2023-09-07,2023-09-07,Ferrous Sale,Drums and Rotors,,,Drums and Rotors,Ferrous Sale,45440,,0.15625,7100.0,7100.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6276.pdf
+Rochester Iron & Metal,6276,2618,2023-09-07,2023-09-07,Ferrous Sale,Drums and Rotors,,,Drums & Rotors,Ferrous Sale,45440,,0.15625,7100.0,7100.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6276.pdf
 Rochester Iron & Metal,6369,2642,2023-09-21,2023-09-21,Non-Ferrous Sale,Old Sheet,,,Old Sheet,Non-Ferrous Sale,6950,,0.49,3405.5,3405.5,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6369.pdf
 Rochester Iron & Metal,6375,2645,2023-09-22,2023-09-22,Ferrous Sale,HMS,,,HMS,Ferrous Sale,42400,,0.1227679,5205.36,5205.36,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6375.pdf
 Rochester Iron & Metal,6382,2649,2023-09-25,2023-09-25,Ferrous Sale,HMS,,,HMS,Ferrous Sale,40920,,0.1227678,5023.66,5023.66,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6382.pdf
@@ -475,30 +478,30 @@ Rochester Iron & Metal,6498,2686,2023-10-06,2023-10-06,Ferrous Sale,Mixed Clips,
 Rochester Iron & Metal,6542,2694,2023-10-13,2023-10-13,Ferrous Sale,Busheling,,,Busheling,Ferrous Sale,14620,,0.1517859,2219.11,2219.11,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6542.pdf
 Rochester Iron & Metal,6569,2707,2023-10-17,2023-10-17,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,27760,,0.1450893,4027.68,4027.68,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6569.pdf
 Rochester Iron & Metal,6654,2729,2023-10-27,2023-10-27,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,34060,,0.1473406,5018.42,5018.42,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6654.pdf
-Rochester Iron & Metal,6742,2761,2023-11-06,2023-11-06,Ferrous Sale,Low Grade Sheet Iron,,,Low Grade Sheet Iron,Ferrous Sale,38380,,0.0267858,1028.04,1028.04,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6742.pdf
+Rochester Iron & Metal,6742,2761,2023-11-06,2023-11-06,Ferrous Sale,Low Grade Sheet Iron,,,Shred,Ferrous Sale,38380,,0.0267858,1028.04,1028.04,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6742.pdf
 Rochester Iron & Metal,6761,2763,2023-11-07,2023-11-07,Non-Ferrous Sale,Old Sheet Aluminum,,,Old Sheet Aluminum,Non-Ferrous Sale,8980,,0.5,4490.0,4490.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6761.pdf
 Rochester Iron & Metal,6849,2783,2023-11-13,2023-11-13,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,35640,,0.158482,5648.3,5648.3,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6849.pdf
-Rochester Iron & Metal,6987,2808,2023-11-27,2023-11-22,Ferrous Sale,Pipe from solar farm,,,Pipe from solar farm,Ferrous Sale,39940,,0.1584822,6329.78,6329.78,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6987.pdf
-Rochester Iron & Metal,6986,2807,2023-11-27,2023-11-21,Ferrous Sale,Pipe from solar farm,2023-11-21,,Pipe from solar farm,Ferrous Sale,43620,,0.1584821,6912.99,6912.99,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6986.pdf
-Rochester Iron & Metal,6992,2812,2023-11-28,2023-11-28,Ferrous Sale,Pipe from solar farm,,,Pipe from solar farm,Ferrous Sale,33960,,0.1879284,6382.05,6382.05,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6992.pdf
-Rochester Iron & Metal,7011,2818,2023-11-30,2023-11-30,Ferrous Sale,Pipe from solar farm,,,Pipe from solar farm,Ferrous Sale,36080,,0.1584823,5718.04,5718.04,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7011.pdf
-Rochester Iron & Metal,7006,2816,2023-11-30,2023-11-29,Ferrous Sale,Pipe from solar farm project,,,Pipe from solar farm project,Ferrous Sale,37880,,0.158482,6003.3,6003.3,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7006.pdf
-Rochester Iron & Metal,7037,2829,2023-12-01,2023-12-01,Ferrous Sale,Pipe from solar farm,,,Pipe from solar farm,Ferrous Sale,33060,,0.185268,6124.96,6124.96,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7037.pdf
-Rochester Iron & Metal,7074,2837,2023-12-04,2023-12-04,Ferrous Sale,Pipe from solar farm,,,Pipe from solar farm,Ferrous Sale,22100,,0.1175,2596.75,2596.75,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7074.pdf
-Rochester Iron & Metal,7079,2840,2023-12-05,2023-12-05,Ferrous Sale,Pipe from solar farm,,,Pipe from solar farm,Ferrous Sale,49180,,0.1852678,9111.47,9111.47,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7079.pdf
+Rochester Iron & Metal,6987,2808,2023-11-27,2023-11-22,Ferrous Sale,Pipe from solar farm,,,Unprepared HMS,Ferrous Sale,39940,,0.1584822,6329.78,6329.78,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6987.pdf
+Rochester Iron & Metal,6986,2807,2023-11-27,2023-11-21,Ferrous Sale,Pipe from solar farm,2023-11-21,,Unprepared HMS,Ferrous Sale,43620,,0.1584821,6912.99,6912.99,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6986.pdf
+Rochester Iron & Metal,6992,2812,2023-11-28,2023-11-28,Ferrous Sale,Pipe from solar farm,,,Unprepared HMS,Ferrous Sale,33960,,0.1879284,6382.05,6382.05,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-6992.pdf
+Rochester Iron & Metal,7011,2818,2023-11-30,2023-11-30,Ferrous Sale,Pipe from solar farm,,,Unprepared HMS,Ferrous Sale,36080,,0.1584823,5718.04,5718.04,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7011.pdf
+Rochester Iron & Metal,7006,2816,2023-11-30,2023-11-29,Ferrous Sale,Pipe from solar farm project,,,Unprepared HMS,Ferrous Sale,37880,,0.158482,6003.3,6003.3,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7006.pdf
+Rochester Iron & Metal,7037,2829,2023-12-01,2023-12-01,Ferrous Sale,Pipe from solar farm,,,Unprepared HMS,Ferrous Sale,33060,,0.185268,6124.96,6124.96,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7037.pdf
+Rochester Iron & Metal,7074,2837,2023-12-04,2023-12-04,Ferrous Sale,Pipe from solar farm,,,Unprepared HMS,Ferrous Sale,22100,,0.1175,2596.75,2596.75,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7074.pdf
+Rochester Iron & Metal,7079,2840,2023-12-05,2023-12-05,Ferrous Sale,Pipe from solar farm,,,Unprepared HMS,Ferrous Sale,49180,,0.1852678,9111.47,9111.47,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7079.pdf
 Rochester Iron & Metal,7101,2848,2023-12-08,2023-12-08,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,42620,,0.1594763,6796.88,6796.88,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7101.pdf
 Rochester Iron & Metal,7143,2857,2023-12-12,2023-12-12,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,31960,,0.1941965,6206.52,6206.52,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7143.pdf
 Rochester Iron & Metal,7263,2860,2023-12-13,2023-12-13,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,38520,,0.1941965,7480.45,7480.45,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7263.pdf
 Rochester Iron & Metal,7271,2862,2023-12-14,2023-12-14,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,36420,,0.1941963,7072.63,7072.63,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7271.pdf
-Rochester Iron & Metal,7437,2896,2024-01-04,2024-01-04,Non-Ferrous Sale,Old Sheet Alum Dumpster,,,Old Sheet Alum Dumpster,Non-Ferrous Sale,9300,,0.5,4650.0,4650.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7437.pdf
+Rochester Iron & Metal,7437,2896,2024-01-04,2024-01-04,Non-Ferrous Sale,Old Sheet Alum Dumpster,,,Old Sheet Aluminum,Non-Ferrous Sale,9300,,0.5,4650.0,4650.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7437.pdf
 Rochester Iron & Metal,7594,2939,2024-01-26,2024-01-26,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,30720,,0.1941963,5965.71,5965.71,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7594.pdf
 Rochester Iron & Metal,7623,2945,2024-01-30,2024-01-30,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,34400,,0.1930674,6641.52,6641.52,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7623.pdf
 Rochester Iron & Metal,7657,2961,2024-02-02,2024-02-02,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,45440,,0.1718,7806.59,7806.59,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7657.pdf
 Rochester Iron & Metal,7684,2971,2024-02-07,2024-02-07,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,30710,,0.1724777,5296.79,5296.79,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7684.pdf
 Rochester Iron & Metal,7779,3001,2024-02-22,2024-02-22,Ferrous Sale,Mixed Clips,,,Clips,Ferrous Sale,25080,,0.1808034,4534.55,4534.55,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7779.pdf
 Rochester Iron & Metal,7778,3000,2024-02-22,2024-02-22,Non-Ferrous Sale,Old Sheet,,,Old Sheet,Non-Ferrous Sale,8160,,0.5,4080.0,4080.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7778.pdf
-Rochester Iron & Metal,7873,3031,2024-03-05,2024-03-05,Non-Ferrous Sale,SS Bkg,,,SS Bkg,Non-Ferrous Sale,10380,,0.21,2179.8,2179.8,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7873.pdf
-Rochester Iron & Metal,8077,3105,2024-03-28,2024-03-28,Non-Ferrous Sale,Stainless Steel,,,Stainless Steel,Non-Ferrous Sale,13560,,0.21,2847.6,2847.6,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8077.pdf
+Rochester Iron & Metal,7873,3031,2024-03-05,2024-03-05,Non-Ferrous Sale,SS Bkg,,,Stainless Breakage,Non-Ferrous Sale,10380,,0.21,2179.8,2179.8,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-7873.pdf
+Rochester Iron & Metal,8077,3105,2024-03-28,2024-03-28,Non-Ferrous Sale,Stainless Steel,,,Stainless,Non-Ferrous Sale,13560,,0.21,2847.6,2847.6,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8077.pdf
 Rochester Iron & Metal,8192,3133,2024-04-12,2024-04-12,Ferrous Sale,Difference from short paid invoice #2837,,,Difference from short paid invoice #2837,Ferrous Sale,1,,1497.67,1497.67,1497.67,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8192.pdf
 Rochester Iron & Metal,8689,3312,2024-06-14,2024-06-14,Ferrous Sale,Heavy Unppd,2024-06-14,,Heavy Unppd,Ferrous Sale,35500,,0.085,3017.5,3017.5,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8689.pdf
 Rochester Iron & Metal,8719,3319,2024-06-17,2024-06-17,Ferrous Sale,Mixed Clips,2024-06-17,,Clips,Ferrous Sale,22500,,0.1349507,3036.39,3036.39,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8719.pdf
@@ -506,7 +509,7 @@ Rochester Iron & Metal,8731,3327,2024-06-19,2024-06-19,Ferrous Sale,Mixed Clips,
 Rochester Iron & Metal,8763,3342,2024-06-25,2024-06-25,Ferrous Sale,Unclean Motors and heavy torching,2024-06-25,,Unclean Motors and heavy torching,Ferrous Sale,33920,,0.1186704,4025.3,4025.3,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8763.pdf
 Rochester Iron & Metal,8760,3339,2024-06-25,2024-06-25,Ferrous Sale,Mixed Clips,2024-06-25,,Clips,Ferrous Sale,25430,,0.125,3178.75,4002.85,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8760.pdf
 Rochester Iron & Metal,8760,3339,2024-06-25,2024-10-28,Ferrous Sale,clips,2024-06-25,,Clips,Ferrous Sale,1,,824.1,824.1,4002.85,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8760.pdf
-Rochester Iron & Metal,8779,3352,2024-06-27,2024-06-27,Non-Ferrous Sale,SS Bkg,2024-06-27,,SS Bkg,Non-Ferrous Sale,10180,,0.24,2443.2,2443.2,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8779.pdf
+Rochester Iron & Metal,8779,3352,2024-06-27,2024-06-27,Non-Ferrous Sale,SS Bkg,2024-06-27,,Stainless Breakage,Non-Ferrous Sale,10180,,0.24,2443.2,2443.2,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8779.pdf
 Rochester Iron & Metal,8928,3393,2024-07-15,2024-07-15,Ferrous Sale,Mixed Clips,2024-07-15,,Clips,Ferrous Sale,26940,,0.14,3771.6,3771.6,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8928.pdf
 Rochester Iron & Metal,8953,3399,2024-07-16,2024-07-16,Ferrous Sale,Clean sheet,2024-07-16,Kinsman,Clean sheet,Ferrous Sale,41080,,0.125,5135.0,5135.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8953.pdf
 Rochester Iron & Metal,8963,3405,2024-07-17,2024-07-17,Ferrous Sale,Mixed Clips,2024-07-17,,Clips,Ferrous Sale,22880,,0.11,2516.8,2516.8,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-8963.pdf
@@ -540,7 +543,7 @@ Rochester Iron & Metal,9651,3584,2024-09-23,2024-09-23,Ferrous Sale,Sheet Iron,2
 Rochester Iron & Metal,9635,3580,2024-09-24,2024-09-24,Ferrous Sale,Clips,2024-09-24,OW 00-01,Clips,Ferrous Sale,26960,,0.1205356,3249.64,3249.64,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9635.pdf
 Rochester Iron & Metal,9676,3589,2024-09-25,2024-09-25,Ferrous Sale,Sheet Iron,2024-09-25,RIM 00-01,Sheet Iron,Ferrous Sale,30310,,0.105,3182.55,3182.55,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9676.pdf
 Rochester Iron & Metal,9687,3594,2024-09-26,2024-09-26,Ferrous Sale,Clips,2024-09-26,OW 00-01,Clips,Ferrous Sale,22680,,0.1205357,2733.75,2733.75,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9687.pdf
-Rochester Iron & Metal,9696,3599,2024-09-27,2024-09-27,Ferrous Sale,busheling,2024-09-27,OW 15-01,busheling,Ferrous Sale,14840,,0.1428571,2120.0,2120.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9696.pdf
+Rochester Iron & Metal,9696,3599,2024-09-27,2024-09-27,Ferrous Sale,busheling,2024-09-27,OW 15-01,Busheling,Ferrous Sale,14840,,0.1428571,2120.0,2120.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9696.pdf
 Rochester Iron & Metal,9775,3622,2024-10-08,2024-10-08,Ferrous Sale,Sheet Iron,2024-10-08,Tinsman #77,Sheet Iron,Ferrous Sale,29540,,0.105,3101.7,3101.7,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9775.pdf
 Rochester Iron & Metal,9819,3625,2024-10-09,2024-10-09,Ferrous Sale,Sheet Iron,2024-10-09,Tinsman #77,Sheet Iron,Ferrous Sale,40210,,0.105,4222.05,4222.05,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9819.pdf
 Rochester Iron & Metal,9824,3630,2024-10-10,2024-10-10,Ferrous Sale,Clips,2024-10-10,Tinsman #77,Clips,Ferrous Sale,25080,,0.1361611,3414.92,3414.92,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9824.pdf
@@ -548,7 +551,7 @@ Rochester Iron & Metal,9833,3631,2024-10-11,2024-10-11,Ferrous Sale,Busheling / 
 Rochester Iron & Metal,9862,3638,2024-10-16,2024-10-16,Ferrous Sale,Sheet Iron,2024-10-16,Tinsman #77,Sheet Iron,Ferrous Sale,29640,,0.105,3112.2,3112.2,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9862.pdf
 Rochester Iron & Metal,9873,3641,2024-10-17,2024-10-17,Ferrous Sale,Sheet Iron,2024-10-17,Tinsman #77,Sheet Iron,Ferrous Sale,30860,,0.105,3240.3,3240.3,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9873.pdf
 Rochester Iron & Metal,9879,3643,2024-10-18,2024-10-18,Ferrous Sale,Clips,2024-10-18,Tinsman #77,Clips,Ferrous Sale,25200,,0.1377817,3472.1,3472.1,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9879.pdf
-Rochester Iron & Metal,9891,3648,2024-10-21,2024-10-21,Ferrous Sale,busheling,2024-10-21,RIM  17-01,busheling,Ferrous Sale,16640,,0.1428567,2377.14,2377.14,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9891.pdf
+Rochester Iron & Metal,9891,3648,2024-10-21,2024-10-21,Ferrous Sale,busheling,2024-10-21,RIM  17-01,Busheling,Ferrous Sale,16640,,0.1428567,2377.14,2377.14,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9891.pdf
 Rochester Iron & Metal,9920,3653,2024-10-23,2024-10-23,Ferrous Sale,Sheet Iron,2024-10-23,Tinsman #77,Sheet Iron,Ferrous Sale,31420,,0.105,3299.1,3299.1,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9920.pdf
 Rochester Iron & Metal,9928,3658,2024-10-24,2024-10-24,Ferrous Sale,Busheling,2024-10-24,RIM  22-01,Busheling,Ferrous Sale,25200,,0.1428571,3600.0,3600.0,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9928.pdf
 Rochester Iron & Metal,9936,3661,2024-10-28,2024-10-28,Ferrous Sale,Sheet Iron,2024-10-28,Tinsman #77,Sheet Iron,Ferrous Sale,38140,,0.105,4004.7,4004.7,0,qbo_out\qbo_pdfs\Rochester_Iron_&_Metal\INV-9936.pdf
@@ -734,7 +737,7 @@ Pro Metal Recycling,1874,1305,2022-03-28,2022-03-28,NON FE:Extrusion - Bare/Anod
 Pro Metal Recycling,1874,1305,2022-03-28,2022-03-28,NON FE:Aluminum Extrusions - 10/10,new anodized extrusion,,,new anodized extrusion,NON FE:Aluminum Extrusions - 10/10,451,,1.3,586.3,42838.48,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-1874.pdf
 Pro Metal Recycling,1874,1305,2022-03-28,2022-03-28,NON FE:Batteries - Auto,,,,NON FE:Batteries - Auto,NON FE:Batteries - Auto,1844,,0.21,387.24,42838.48,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-1874.pdf
 Pro Metal Recycling,1874,1305,2022-03-28,2022-03-28,NON FE:Batteries - Auto,,,,NON FE:Batteries - Auto,NON FE:Batteries - Auto,2128,,0.21,446.88,42838.48,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-1874.pdf
-Pro Metal Recycling,1874,1305,2022-03-28,2022-03-28,NON FE:Yellow Brass,turnings,,,turnings,NON FE:Yellow Brass,127,,2.25,285.75,42838.48,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-1874.pdf
+Pro Metal Recycling,1874,1305,2022-03-28,2022-03-28,NON FE:Yellow Brass,turnings,,,Turnings,NON FE:Yellow Brass,127,,2.25,285.75,42838.48,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-1874.pdf
 Pro Metal Recycling,1874,1305,2022-03-28,2022-03-28,NON FE:Red Brass,one drum,,,one drum,NON FE:Red Brass,880,,3.27,2877.6,42838.48,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-1874.pdf
 Pro Metal Recycling,1874,1305,2022-03-28,2022-03-28,NON FE:Yellow Brass,,,,NON FE:Yellow Brass,NON FE:Yellow Brass,2395,,3,7185.0,42838.48,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-1874.pdf
 Pro Metal Recycling,1874,1305,2022-03-28,2022-03-28,NON FE:Bare Brite Copper,,,,NON FE:Bare Brite Copper,NON FE:Bare Brite Copper,2559,,4.5,11515.5,42838.48,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-1874.pdf
@@ -762,7 +765,7 @@ Pro Metal Recycling,2112,1380,2022-04-25,2022-04-25,Non-Ferrous Sale,Bare brite 
 Pro Metal Recycling,2112,1380,2022-04-25,2022-04-25,Non-Ferrous Sale,sealed units,,,sealed units,Non-Ferrous Sale,3031,,0.4,1212.4,38035.2,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2112.pdf
 Pro Metal Recycling,2112,1380,2022-04-25,2022-04-25,Non-Ferrous Sale,#2 Ins Cu,,,#2 Ins Cu,Non-Ferrous Sale,1481,,2.5,3702.5,38035.2,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2112.pdf
 Pro Metal Recycling,2112,1380,2022-04-25,2022-04-25,Non-Ferrous Sale,Batteries,,,Batteries,Non-Ferrous Sale,2051,,0.22,451.22,38035.2,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2112.pdf
-Pro Metal Recycling,2112,1380,2022-04-25,2022-04-25,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,1707,,0.22,375.54,38035.2,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2112.pdf
+Pro Metal Recycling,2112,1380,2022-04-25,2022-04-25,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,1707,,0.22,375.54,38035.2,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2112.pdf
 Pro Metal Recycling,2112,1380,2022-04-25,2022-04-25,Non-Ferrous Sale,Elec. Motors,,,Elec. Motors,Non-Ferrous Sale,3239,,0.5,1619.5,38035.2,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2112.pdf
 Pro Metal Recycling,2112,1380,2022-04-25,2022-04-25,Non-Ferrous Sale,Transformers,,,Transformers,Non-Ferrous Sale,2045,,0.42,858.9,38035.2,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2112.pdf
 Pro Metal Recycling,2112,1380,2022-04-25,2022-04-25,Non-Ferrous Sale,Old cast aluminum,,,Old cast aluminum,Non-Ferrous Sale,1233,,0.8,986.4,38035.2,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2112.pdf
@@ -780,8 +783,8 @@ Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,Elec motors
 Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,#1 Cu,,,#1 Cu,Non-Ferrous Sale,770,,3.11,2394.7,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
 Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,Elec motors,,,Elec motors,Non-Ferrous Sale,3275,,0.34,1113.5,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
 Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,old cast,,,old cast,Non-Ferrous Sale,628,,0.6,376.8,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
-Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,Al bkg,,,Al bkg,Non-Ferrous Sale,1733,,0.12,207.96,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
-Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,Al bkg,,,Al bkg,Non-Ferrous Sale,1312,,0.16,209.92,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
+Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,Al bkg,,,Al Breakage,Non-Ferrous Sale,1733,,0.12,207.96,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
+Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,Al bkg,,,Al Breakage,Non-Ferrous Sale,1312,,0.16,209.92,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
 Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,batteries,,,batteries,Non-Ferrous Sale,1751,,0.2,350.2,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
 Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,batteries,,,batteries,Non-Ferrous Sale,2109,,0.2,421.8,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
 Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,A/C rads,,,A/C rads,Non-Ferrous Sale,849,,1.78,1511.22,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
@@ -802,7 +805,7 @@ Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,window A/C,
 Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,ACSR,,,Insulated Al Wire,Non-Ferrous Sale,829,,0.5,414.5,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
 Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,Cu Bkg,,,Cu Bkg,Non-Ferrous Sale,1176,,0.22,258.72,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
 Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,Brass bkg,,,Brass bkg,Non-Ferrous Sale,1145,,1,1145.0,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
-Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,Al bkg,,,Al bkg,Non-Ferrous Sale,858,,0.12,102.96,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
+Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,Al bkg,,,Al Breakage,Non-Ferrous Sale,858,,0.12,102.96,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
 Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,Transformers,,,Transformers,Non-Ferrous Sale,1033,,0.12,123.96,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
 Pro Metal Recycling,2718,1569,2022-07-07,2022-07-07,Non-Ferrous Sale,Jelly wire,,,Jelly wire,Non-Ferrous Sale,856,,0.5,428.0,42101.93,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-2718.pdf
 Pro Metal Recycling,3158,1722,2022-09-01,2022-09-01,Non-Ferrous Sale,Elec motors,,,Elec motors,Non-Ferrous Sale,3077,,0.31,953.87,27188.53,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-3158.pdf
@@ -856,7 +859,7 @@ Pro Metal Recycling,3801,1892,2022-11-14,2022-11-14,Non-Ferrous Sale,Bare extrus
 Pro Metal Recycling,3801,1892,2022-11-14,2022-11-14,Non-Ferrous Sale,Electric motors,,,Electric motors,Non-Ferrous Sale,2923,,0.37,1081.51,30092.52,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-3801.pdf
 Pro Metal Recycling,3801,1892,2022-11-14,2022-11-14,Non-Ferrous Sale,Old cast aluminum,,,Old cast aluminum,Non-Ferrous Sale,812,,0.55,446.6,30092.52,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-3801.pdf
 Pro Metal Recycling,3801,1892,2022-11-14,2022-11-14,Non-Ferrous Sale,Aluminum breakage,,,Al Breakage,Non-Ferrous Sale,1484,,0.18,267.12,30092.52,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-3801.pdf
-Pro Metal Recycling,3801,1892,2022-11-14,2022-11-14,Non-Ferrous Sale,Stainless steel,,,Stainless steel,Non-Ferrous Sale,1122,,0.5,561.0,30092.52,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-3801.pdf
+Pro Metal Recycling,3801,1892,2022-11-14,2022-11-14,Non-Ferrous Sale,Stainless steel,,,Stainless,Non-Ferrous Sale,1122,,0.5,561.0,30092.52,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-3801.pdf
 Pro Metal Recycling,3801,1892,2022-11-14,2022-11-14,Non-Ferrous Sale,Auto batteries,,,Auto batteries,Non-Ferrous Sale,1956,,0.2,391.2,30092.52,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-3801.pdf
 Pro Metal Recycling,3801,1892,2022-11-14,2022-11-14,Non-Ferrous Sale,Stainless turnings,,,Stainless turnings,Non-Ferrous Sale,305,,0.2,61.0,30092.52,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-3801.pdf
 Pro Metal Recycling,3801,1892,2022-11-14,2022-11-14,Non-Ferrous Sale,Stainless turnings,,,Stainless turnings,Non-Ferrous Sale,287,,0.2,57.4,30092.52,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-3801.pdf
@@ -896,7 +899,7 @@ Pro Metal Recycling,4415,2011,2023-01-18,2023-01-20,Non-Ferrous Sale,Sealed unit
 Pro Metal Recycling,4415,2011,2023-01-18,2023-01-20,Non-Ferrous Sale,#1 Cu,2023-02-21,,#1 Cu,Non-Ferrous Sale,633,,3.74,2367.42,81852.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4415.pdf
 Pro Metal Recycling,4415,2011,2023-01-18,2023-01-20,Non-Ferrous Sale,#2 Cu,2023-02-21,,#2 Cu,Non-Ferrous Sale,718,,3.62,2599.16,81852.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4415.pdf
 Pro Metal Recycling,4415,2011,2023-01-18,2023-01-20,Non-Ferrous Sale,Xmas lights,2023-02-21,,Xmas lights,Non-Ferrous Sale,389,,0.5,194.5,81852.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4415.pdf
-Pro Metal Recycling,4415,2011,2023-01-18,2023-01-19,Non-Ferrous Sale,Al bkg,2023-02-21,,Al bkg,Non-Ferrous Sale,787,,0.18,141.66,81852.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4415.pdf
+Pro Metal Recycling,4415,2011,2023-01-18,2023-01-19,Non-Ferrous Sale,Al bkg,2023-02-21,,Al Breakage,Non-Ferrous Sale,787,,0.18,141.66,81852.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4415.pdf
 Pro Metal Recycling,4415,2011,2023-01-18,2023-01-20,Non-Ferrous Sale,TVs,2023-02-21,,TVs,Non-Ferrous Sale,238,,0.02,4.76,81852.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4415.pdf
 Pro Metal Recycling,4415,2011,2023-01-18,2023-01-20,Non-Ferrous Sale,TVs,2023-02-21,,TVs,Non-Ferrous Sale,578,,0.02,11.56,81852.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4415.pdf
 Pro Metal Recycling,4415,2011,2023-01-18,2023-01-20,Non-Ferrous Sale,TVs,2023-02-21,,TVs,Non-Ferrous Sale,799,,0.02,15.98,81852.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4415.pdf
@@ -924,7 +927,7 @@ Pro Metal Recycling,4659,2080,2023-02-22,2023-02-24,Non-Ferrous Sale,Bare Bright
 Pro Metal Recycling,4659,2080,2023-02-22,2023-02-24,Non-Ferrous Sale,#1 Cu,,,#1 Cu,Non-Ferrous Sale,810,,3.85,3118.5,46734.79,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4659.pdf
 Pro Metal Recycling,4659,2080,2023-02-22,2023-02-24,Non-Ferrous Sale,#2 CU,,,#2 CU,Non-Ferrous Sale,1406,,3.65,5131.9,46734.79,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4659.pdf
 Pro Metal Recycling,4659,2080,2023-02-22,2023-02-24,Non-Ferrous Sale,Electric Motors,,,Electric Motors,Non-Ferrous Sale,3687,,0.41,1511.67,46734.79,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4659.pdf
-Pro Metal Recycling,4659,2080,2023-02-22,2023-02-24,Non-Ferrous Sale,Stainless Steel,,,Stainless Steel,Non-Ferrous Sale,1855,,0.6,1113.0,46734.79,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4659.pdf
+Pro Metal Recycling,4659,2080,2023-02-22,2023-02-24,Non-Ferrous Sale,Stainless Steel,,,Stainless,Non-Ferrous Sale,1855,,0.6,1113.0,46734.79,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4659.pdf
 Pro Metal Recycling,4659,2080,2023-02-22,2023-02-24,Non-Ferrous Sale,Auto batteries,,,Auto batteries,Non-Ferrous Sale,1428,,0.18,257.04,46734.79,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4659.pdf
 Pro Metal Recycling,4659,2080,2023-02-22,2023-02-24,Non-Ferrous Sale,Harness wire,,,Harness wire,Non-Ferrous Sale,428,,1.7,727.6,46734.79,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4659.pdf
 Pro Metal Recycling,4659,2080,2023-02-22,2023-02-24,Non-Ferrous Sale,Alum bkg,,,Alum bkg,Non-Ferrous Sale,724,,0.2,144.8,46734.79,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-4659.pdf
@@ -946,7 +949,7 @@ Pro Metal Recycling,5064,2219,2023-04-12,2023-04-13,Non-Ferrous Sale,Auto Batter
 Pro Metal Recycling,5064,2219,2023-04-12,2023-04-13,Non-Ferrous Sale,Harness wire,,,Harness wire,Non-Ferrous Sale,300,,1.66,498.0,40800.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5064.pdf
 Pro Metal Recycling,5064,2219,2023-04-12,2023-04-13,Non-Ferrous Sale,Brass Cu Rads,,,Brass Cu Rads,Non-Ferrous Sale,586,,2.37,1388.82,40800.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5064.pdf
 Pro Metal Recycling,5064,2219,2023-04-12,2023-04-13,Non-Ferrous Sale,Stainless,,,Stainless,Non-Ferrous Sale,1193,,0.58,691.94,40800.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5064.pdf
-Pro Metal Recycling,5064,2219,2023-04-12,2023-04-13,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,1406,,0.12,168.72,40800.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5064.pdf
+Pro Metal Recycling,5064,2219,2023-04-12,2023-04-13,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,1406,,0.12,168.72,40800.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5064.pdf
 Pro Metal Recycling,5064,2219,2023-04-12,2023-04-13,Non-Ferrous Sale,Thermal Break Ext,,,Thermal Break Ext,Non-Ferrous Sale,449,,0.65,291.85,40800.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5064.pdf
 Pro Metal Recycling,5064,2219,2023-04-12,2023-04-13,Non-Ferrous Sale,MLC,,,MLC,Non-Ferrous Sale,422,,0.7,295.4,40800.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5064.pdf
 Pro Metal Recycling,5064,2219,2023-04-12,2023-04-13,Non-Ferrous Sale,#2 Cu,,,#2 Cu,Non-Ferrous Sale,1954,,3.55,6936.7,40800.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5064.pdf
@@ -976,12 +979,12 @@ Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,ACSR,,,Insu
 Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,SS,,,SS,Non-Ferrous Sale,753,,0.53,399.09,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
 Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,#2 Ins,,,#2 Ins,Non-Ferrous Sale,845,,0.97,819.65,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
 Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,#2 Ins,,,#2 Ins,Non-Ferrous Sale,800,,0.97,776.0,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
-Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,816,,0.15,122.4,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
+Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,816,,0.15,122.4,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
 Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,#2 Ins,,,#2 Ins,Non-Ferrous Sale,1080,,0.97,1047.6,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
 Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,Cu Bkg,,,Cu Bkg,Non-Ferrous Sale,1541,,0.25,385.25,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
 Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,SS,,,SS,Non-Ferrous Sale,1788,,0.53,947.64,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
 Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,Cu Bkg,,,Cu Bkg,Non-Ferrous Sale,348,,0.25,87.0,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
-Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,1031,,0.15,154.65,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
+Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,1031,,0.15,154.65,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
 Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,#2 Ins,,,#2 Ins,Non-Ferrous Sale,1100,,0.97,1067.0,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
 Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,Escrap,,,Escrap,Non-Ferrous Sale,764,,0.25,191.0,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
 Pro Metal Recycling,5349,2313,2023-05-18,2023-05-18,Non-Ferrous Sale,Auto Batteries,,,Auto Batteries,Non-Ferrous Sale,2186,,0.2,437.2,37676.71,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5349.pdf
@@ -1007,7 +1010,7 @@ Pro Metal Recycling,5661,2415,2023-06-24,2023-06-24,Non-Ferrous Sale,SS turnings
 Pro Metal Recycling,5661,2415,2023-06-24,2023-06-24,Non-Ferrous Sale,Ptd ext,2023-06-29,,Ptd ext,Non-Ferrous Sale,657,,0.7,459.9,34028.51,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5661.pdf
 Pro Metal Recycling,5661,2415,2023-06-24,2023-06-28,Non-Ferrous Sale,Al BX wire,2023-06-29,,Al BX wire,Non-Ferrous Sale,748,,1.87,1398.76,34028.51,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5661.pdf
 Pro Metal Recycling,5661,2415,2023-06-24,2023-06-28,Non-Ferrous Sale,Old Cast Al,2023-06-29,,Old Cast Al,Non-Ferrous Sale,560,,0.67,375.2,34028.51,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5661.pdf
-Pro Metal Recycling,5661,2415,2023-06-24,2023-06-28,Non-Ferrous Sale,AL Bkg,2023-06-29,,AL Bkg,Non-Ferrous Sale,930,,0.16,148.8,34028.51,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5661.pdf
+Pro Metal Recycling,5661,2415,2023-06-24,2023-06-28,Non-Ferrous Sale,AL Bkg,2023-06-29,,Al Breakage,Non-Ferrous Sale,930,,0.16,148.8,34028.51,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5661.pdf
 Pro Metal Recycling,5661,2415,2023-06-24,2023-06-28,Non-Ferrous Sale,ACSR,2023-06-29,,Insulated Al Wire,Non-Ferrous Sale,497,,0.54,268.38,34028.51,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5661.pdf
 Pro Metal Recycling,5661,2415,2023-06-24,2023-06-28,Non-Ferrous Sale,Fireworks wire,2023-06-29,,Fireworks wire,Non-Ferrous Sale,472,,1.55,731.6,34028.51,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5661.pdf
 Pro Metal Recycling,5661,2415,2023-06-24,2023-06-28,Non-Ferrous Sale,Transformers,2023-06-29,,Transformers,Non-Ferrous Sale,1354,,0.62,839.48,34028.51,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5661.pdf
@@ -1019,8 +1022,8 @@ Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,#1 Cu,,,#1 
 Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,#2 Cu,,,#2 Cu,Non-Ferrous Sale,1486,,3.35,4978.1,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
 Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,SS,,,SS,Non-Ferrous Sale,694,,0.47,326.18,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
 Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,SS,,,SS,Non-Ferrous Sale,868,,0.47,407.96,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
-Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,Al BKG,,,Al BKG,Non-Ferrous Sale,1022,,0.16,163.52,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
-Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,Al BKG,,,Al BKG,Non-Ferrous Sale,1382,,0.16,221.12,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
+Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,Al BKG,,,Al Breakage,Non-Ferrous Sale,1022,,0.16,163.52,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
+Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,Al BKG,,,Al Breakage,Non-Ferrous Sale,1382,,0.16,221.12,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
 Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,Batteries,,,Batteries,Non-Ferrous Sale,2016,,0.22,443.52,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
 Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,E Motors,,,E Motors,Non-Ferrous Sale,3533,,0.42,1483.86,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
 Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,E Motors,,,E Motors,Non-Ferrous Sale,486,,0.3,145.8,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
@@ -1041,8 +1044,8 @@ Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,Clean A/C R
 Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,Ballasts,,,Ballasts,Non-Ferrous Sale,2641,,0.29,765.89,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
 Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,Red Brass,,,Red Brass,Non-Ferrous Sale,946,,2.75,2601.5,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
 Pro Metal Recycling,5904,2491,2023-07-28,2023-08-04,Non-Ferrous Sale,Zn Die Cast,,,Zn Die Cast,Non-Ferrous Sale,435,,0.75,326.25,29452.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-5904.pdf
-Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Al BKG,,,Al BKG,Non-Ferrous Sale,1228,,0.16,196.48,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
-Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Al BKG,,,Al BKG,Non-Ferrous Sale,1599,,0.16,255.84,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
+Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Al BKG,,,Al Breakage,Non-Ferrous Sale,1228,,0.16,196.48,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
+Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Al BKG,,,Al Breakage,Non-Ferrous Sale,1599,,0.16,255.84,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
 Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Al 6061,,,Al 6061,Non-Ferrous Sale,1676,,0.63,1055.88,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
 Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Al/Cu Rads clean,,,Al/Cu Rads clean,Non-Ferrous Sale,763,,1.81,1381.03,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
 Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Al Ext,,,Al Ext,Non-Ferrous Sale,740,,0.75,555.0,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
@@ -1062,7 +1065,7 @@ Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Harness,,,H
 Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Elec motors,,,Elec motors,Non-Ferrous Sale,2414,,0.41,989.74,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
 Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Closed eye heliax wire,,,Closed eye heliax wire,Non-Ferrous Sale,264,,1.1,290.4,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
 Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Lead,,,Lead,Non-Ferrous Sale,766,,0.77,589.82,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
-Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Stainless steel,,,Stainless steel,Non-Ferrous Sale,375,,0.47,176.25,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
+Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Stainless steel,,,Stainless,Non-Ferrous Sale,375,,0.47,176.25,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
 Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Brass cont'd,,,Brass cont'd,Non-Ferrous Sale,543,,1.65,895.95,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
 Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Elec Motors,,,Elec Motors,Non-Ferrous Sale,3482,,0.41,1427.62,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
 Pro Metal Recycling,6277,2619,2023-09-07,2023-09-14,Non-Ferrous Sale,Lead coated Cu,,,Lead coated Cu,Non-Ferrous Sale,52,,0.75,39.0,31509.24,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6277.pdf
@@ -1104,7 +1107,7 @@ Pro Metal Recycling,6586,2715,2023-10-19,2023-10-19,Non-Ferrous Sale,MLC (pallet
 Pro Metal Recycling,6586,2715,2023-10-19,2023-10-19,Non-Ferrous Sale,MLC,,,MLC,Non-Ferrous Sale,472,,0.64,302.08,49632.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6586.pdf
 Pro Metal Recycling,6586,2715,2023-10-19,2023-10-19,Non-Ferrous Sale,Auto Battery,,,Auto Battery,Non-Ferrous Sale,1882,,0.22,414.04,49632.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6586.pdf
 Pro Metal Recycling,6586,2715,2023-10-19,2023-10-19,Non-Ferrous Sale,Auto Battery,,,Auto Battery,Non-Ferrous Sale,2082,,0.22,458.04,49632.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6586.pdf
-Pro Metal Recycling,6586,2715,2023-10-19,2023-10-19,Non-Ferrous Sale,Al BKG,,,Al BKG,Non-Ferrous Sale,743,,0.3,222.9,49632.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6586.pdf
+Pro Metal Recycling,6586,2715,2023-10-19,2023-10-19,Non-Ferrous Sale,Al BKG,,,Al Breakage,Non-Ferrous Sale,743,,0.3,222.9,49632.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6586.pdf
 Pro Metal Recycling,6586,2715,2023-10-19,2023-10-19,Non-Ferrous Sale,#1 Insulated,,,#1 Insulated,Non-Ferrous Sale,709,,2.58,1829.22,49632.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6586.pdf
 Pro Metal Recycling,6586,2715,2023-10-19,2023-10-19,Non-Ferrous Sale,Al Cast,,,Al Cast,Non-Ferrous Sale,776,,0.63,488.88,49632.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6586.pdf
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Bare Brite copper,,,Bare Brite copper,Non-Ferrous Sale,723,,3.53,2552.19,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
@@ -1113,17 +1116,17 @@ Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,#2 copper,,
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,#2 insulated copper,,,#2 insulated copper,Non-Ferrous Sale,846,,0.94,795.24,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Harness wire,,,Harness wire,Non-Ferrous Sale,1077,,1.37,1475.49,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Aluminum extrusion,,,Aluminum extrusion,Non-Ferrous Sale,900,,0.75,675.0,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
-Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,1264,,0.16,202.24,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
-Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,1040,,0.16,166.4,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
-Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,788,,0.16,126.08,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
+Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,1264,,0.16,202.24,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
+Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,1040,,0.16,166.4,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
+Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,788,,0.16,126.08,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Auto Batteries,,,Auto Batteries,Non-Ferrous Sale,2142,,0.23,492.66,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Auto Batteries,,,Auto Batteries,Non-Ferrous Sale,2252,,0.23,517.96,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,ACSR,,,Insulated Al Wire,Non-Ferrous Sale,411,,0.52,213.72,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Plug ends,,,Plug ends,Non-Ferrous Sale,388,,0.15,58.2,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Brass copper rads,,,Brass copper rads,Non-Ferrous Sale,672,,2.32,1559.04,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Sealed units,,,Sealed units,Non-Ferrous Sale,2548,,0.33,840.84,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
-Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Stainless steel,,,Stainless steel,Non-Ferrous Sale,1063,,0.47,499.61,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
-Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Aluminum cast,,,Aluminum cast,Non-Ferrous Sale,570,,0.63,359.1,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
+Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Stainless steel,,,Stainless,Non-Ferrous Sale,1063,,0.47,499.61,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
+Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Aluminum cast,,,Alum Cans,Non-Ferrous Sale,570,,0.63,359.1,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Aluminum Breakage,,,Al Breakage,Non-Ferrous Sale,1392,,0.16,222.72,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Auto batteries,,,Auto batteries,Non-Ferrous Sale,2006,,0.23,461.38,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
 Pro Metal Recycling,6846,2781,2023-11-10,2023-11-17,Non-Ferrous Sale,Transformers,,,Transformers,Non-Ferrous Sale,758,,0.68,515.44,27637.28,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-6846.pdf
@@ -1175,10 +1178,10 @@ Pro Metal Recycling,7409,2890,2024-01-03,2024-01-04,Non-Ferrous Sale,Ins copper 
 Pro Metal Recycling,7409,2890,2024-01-03,2024-01-04,Non-Ferrous Sale,Transformer,,,Transformer,Non-Ferrous Sale,702,,0.16,112.32,23861.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7409.pdf
 Pro Metal Recycling,7409,2890,2024-01-03,2024-01-04,Non-Ferrous Sale,Cu bkg,,,Cu bkg,Non-Ferrous Sale,687,,0.25,171.75,23861.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7409.pdf
 Pro Metal Recycling,7409,2890,2024-01-03,2024-01-04,Non-Ferrous Sale,AC Rads clean,,,AC Rads clean,Non-Ferrous Sale,374,,1.87,699.38,23861.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7409.pdf
-Pro Metal Recycling,7409,2890,2024-01-03,2024-01-04,Non-Ferrous Sale,Al bkg,,,Al bkg,Non-Ferrous Sale,822,,0.25,205.5,23861.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7409.pdf
-Pro Metal Recycling,7409,2890,2024-01-03,2024-01-04,Non-Ferrous Sale,Al bkg,,,Al bkg,Non-Ferrous Sale,563,,0.25,140.75,23861.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7409.pdf
-Pro Metal Recycling,7409,2890,2024-01-03,2024-01-04,Non-Ferrous Sale,Al bkg,,,Al bkg,Non-Ferrous Sale,576,,0.25,144.0,23861.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7409.pdf
-Pro Metal Recycling,7409,2890,2024-01-03,2024-01-04,Non-Ferrous Sale,Al bkg,,,Al bkg,Non-Ferrous Sale,551,,0.25,137.75,23861.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7409.pdf
+Pro Metal Recycling,7409,2890,2024-01-03,2024-01-04,Non-Ferrous Sale,Al bkg,,,Al Breakage,Non-Ferrous Sale,822,,0.25,205.5,23861.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7409.pdf
+Pro Metal Recycling,7409,2890,2024-01-03,2024-01-04,Non-Ferrous Sale,Al bkg,,,Al Breakage,Non-Ferrous Sale,563,,0.25,140.75,23861.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7409.pdf
+Pro Metal Recycling,7409,2890,2024-01-03,2024-01-04,Non-Ferrous Sale,Al bkg,,,Al Breakage,Non-Ferrous Sale,576,,0.25,144.0,23861.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7409.pdf
+Pro Metal Recycling,7409,2890,2024-01-03,2024-01-04,Non-Ferrous Sale,Al bkg,,,Al Breakage,Non-Ferrous Sale,551,,0.25,137.75,23861.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7409.pdf
 Pro Metal Recycling,7596,2941,2024-01-29,2024-02-02,Non-Ferrous Sale,Harness wire,,,Harness wire,Non-Ferrous Sale,1007,,1.72,1732.04,50953.17,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7596.pdf
 Pro Metal Recycling,7596,2941,2024-01-29,2024-02-02,Non-Ferrous Sale,Harness wire,,,Harness wire,Non-Ferrous Sale,808,,1.72,1389.76,50953.17,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7596.pdf
 Pro Metal Recycling,7596,2941,2024-01-29,2024-02-02,Non-Ferrous Sale,Harnesswire,,,Harnesswire,Non-Ferrous Sale,1122,,1.72,1929.84,50953.17,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7596.pdf
@@ -1198,7 +1201,7 @@ Pro Metal Recycling,7596,2941,2024-01-29,2024-02-02,Non-Ferrous Sale,Harness wir
 Pro Metal Recycling,7596,2941,2024-01-29,2024-02-02,Non-Ferrous Sale,#1 copper,,,#1 copper,Non-Ferrous Sale,978,,3.58,3501.24,50953.17,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7596.pdf
 Pro Metal Recycling,7596,2941,2024-01-29,2024-02-02,Non-Ferrous Sale,#2 copper,,,#2 copper,Non-Ferrous Sale,2952,,3.45,10184.4,50953.17,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7596.pdf
 Pro Metal Recycling,7596,2941,2024-01-29,2024-02-02,Non-Ferrous Sale,#2 copper,,,#2 copper,Non-Ferrous Sale,1182,,3.45,4077.9,50953.17,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7596.pdf
-Pro Metal Recycling,7596,2941,2024-01-29,2024-02-02,Non-Ferrous Sale,Al bkg,,,Al bkg,Non-Ferrous Sale,537,,0.25,134.25,50953.17,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7596.pdf
+Pro Metal Recycling,7596,2941,2024-01-29,2024-02-02,Non-Ferrous Sale,Al bkg,,,Al Breakage,Non-Ferrous Sale,537,,0.25,134.25,50953.17,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7596.pdf
 Pro Metal Recycling,7596,2941,2024-01-29,2024-02-02,Non-Ferrous Sale,Harness wire,,,Harness wire,Non-Ferrous Sale,1522,,1.72,2617.84,50953.17,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7596.pdf
 Pro Metal Recycling,7596,2941,2024-01-29,2024-02-02,Non-Ferrous Sale,#2 Ins,,,#2 Ins,Non-Ferrous Sale,374,,1.45,542.3,50953.17,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7596.pdf
 Pro Metal Recycling,7596,2941,2024-01-29,2024-02-02,Non-Ferrous Sale,#2 Ins,,,#2 Ins,Non-Ferrous Sale,650,,1.45,942.5,50953.17,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7596.pdf
@@ -1219,7 +1222,7 @@ Pro Metal Recycling,7761,2994,2024-02-19,2024-02-23,Non-Ferrous Sale,electric mo
 Pro Metal Recycling,7761,2994,2024-02-19,2024-02-23,Non-Ferrous Sale,electric motor,,,electric motor,Non-Ferrous Sale,1965,,0.39,766.35,38296.83,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7761.pdf
 Pro Metal Recycling,7761,2994,2024-02-19,2024-02-23,Non-Ferrous Sale,electric motors,,,electric motors,Non-Ferrous Sale,2256,,0.43,970.08,38296.83,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7761.pdf
 Pro Metal Recycling,7761,2994,2024-02-19,2024-02-23,Non-Ferrous Sale,electric motors,,,electric motors,Non-Ferrous Sale,2160,,0.43,928.8,38296.83,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7761.pdf
-Pro Metal Recycling,7761,2994,2024-02-19,2024-02-23,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,984,,0.25,246.0,38296.83,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7761.pdf
+Pro Metal Recycling,7761,2994,2024-02-19,2024-02-23,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,984,,0.25,246.0,38296.83,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7761.pdf
 Pro Metal Recycling,7761,2994,2024-02-19,2024-02-23,Non-Ferrous Sale,SS turnings,,,SS turnings,Non-Ferrous Sale,345,,0.3,103.5,38296.83,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7761.pdf
 Pro Metal Recycling,7761,2994,2024-02-19,2024-02-23,Non-Ferrous Sale,SS turnings,,,SS turnings,Non-Ferrous Sale,474,,0.3,142.2,38296.83,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7761.pdf
 Pro Metal Recycling,7761,2994,2024-02-19,2024-02-23,Non-Ferrous Sale,harness wire,,,harness wire,Non-Ferrous Sale,865,,0.75,648.75,38296.83,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7761.pdf
@@ -1241,11 +1244,11 @@ Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Elec motors
 Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,#1 Insulated Cu,,,#1 Insulated Cu,Non-Ferrous Sale,1086,,2.27,2465.22,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
 Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Harness wire,,,Harness wire,Non-Ferrous Sale,960,,2.67,2563.2,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
 Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Old cast,,,Old cast,Non-Ferrous Sale,884,,0.65,574.6,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
-Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,480,,0.25,120.0,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
-Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,720,,0.25,180.0,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
-Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,1742,,0.25,435.5,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
-Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,1596,,0.25,399.0,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
-Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,685,,0.25,171.25,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
+Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,480,,0.25,120.0,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
+Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,720,,0.25,180.0,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
+Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,1742,,0.25,435.5,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
+Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,1596,,0.25,399.0,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
+Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,685,,0.25,171.25,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
 Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,elec motor,,,elec motor,Non-Ferrous Sale,788,,0.2,157.6,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
 Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,elec motors,,,elec motors,Non-Ferrous Sale,778,,0.2,155.6,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
 Pro Metal Recycling,7885,3038,2024-03-06,2024-03-14,Non-Ferrous Sale,elec motors,,,elec motors,Non-Ferrous Sale,618,,0.16,98.88,36181.77,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-7885.pdf
@@ -1296,14 +1299,14 @@ Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,A/C rads,,,
 Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,A/C rads,,,A/C rads,Non-Ferrous Sale,594,,2.17,1288.98,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
 Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,batteries,,,batteries,Non-Ferrous Sale,4336,,0.29,1257.44,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
 Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,Copper turnings,,,Copper turnings,Non-Ferrous Sale,557,,3,1671.0,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
-Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,1562,,0.21,328.02,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
-Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,1430,,0.21,300.3,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
+Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,1562,,0.21,328.02,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
+Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,1430,,0.21,300.3,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
 Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,Rad Ends,,,Rad Ends,Non-Ferrous Sale,596,,1.3,774.8,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
 Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,ACSR,,,Insulated Al Wire,Non-Ferrous Sale,496,,0.6,297.6,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
 Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,ACSR,,,Insulated Al Wire,Non-Ferrous Sale,636,,0.6,381.6,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
 Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,#3 copper,,,#3 copper,Non-Ferrous Sale,421,,4.02,1692.42,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
 Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,Al/brass shells mixed,,,Al/brass shells mixed,Non-Ferrous Sale,80,,0.45,36.0,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
-Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,767,,0.21,161.07,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
+Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,767,,0.21,161.07,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
 Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,Shell primers,,,Shell primers,Non-Ferrous Sale,128,,2,256.0,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
 Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,Lead sheet,,,Lead sheet,Non-Ferrous Sale,62,,0.81,50.22,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
 Pro Metal Recycling,8268,3157,2024-04-22,2024-04-26,Non-Ferrous Sale,lead shot,,,lead shot,Non-Ferrous Sale,34,,0.72,24.48,40478.84,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8268.pdf
@@ -1341,7 +1344,7 @@ Pro Metal Recycling,8313,3176,2024-04-26,2024-05-03,Non-Ferrous Sale,Range lead,
 Pro Metal Recycling,8313,3176,2024-04-26,2024-05-03,Non-Ferrous Sale,Range lead,,,Range lead,Non-Ferrous Sale,2218,,0.8,1774.4,55878.22,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8313.pdf
 Pro Metal Recycling,8527,3248,2024-05-28,2024-05-30,Non-Ferrous Sale,Bare Brite Cu,2024-05-30,,Bare Brite Cu,Non-Ferrous Sale,2024,,4.38,8865.12,26843.47,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8527.pdf
 Pro Metal Recycling,8527,3248,2024-05-28,2024-05-30,Non-Ferrous Sale,#2 Cu,2024-05-30,,#2 Cu,Non-Ferrous Sale,1020,,4.15,4233.0,26843.47,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8527.pdf
-Pro Metal Recycling,8527,3248,2024-05-28,2024-05-30,Non-Ferrous Sale,Al Bkg,2024-05-30,,Al Bkg,Non-Ferrous Sale,1178,,0.2,235.6,26843.47,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8527.pdf
+Pro Metal Recycling,8527,3248,2024-05-28,2024-05-30,Non-Ferrous Sale,Al Bkg,2024-05-30,,Al Breakage,Non-Ferrous Sale,1178,,0.2,235.6,26843.47,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8527.pdf
 Pro Metal Recycling,8527,3248,2024-05-28,2024-05-30,Non-Ferrous Sale,Elec Motors,2024-05-30,,Elec Motors,Non-Ferrous Sale,3759,,0.48,1804.32,26843.47,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8527.pdf
 Pro Metal Recycling,8527,3248,2024-05-28,2024-05-30,Non-Ferrous Sale,Closed eye Heliax,2024-05-30,,Closed eye Heliax,Non-Ferrous Sale,293,,1.43,418.99,26843.47,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8527.pdf
 Pro Metal Recycling,8527,3248,2024-05-28,2024-05-30,Non-Ferrous Sale,Cast compressor,2024-05-30,,Cast compressor,Non-Ferrous Sale,362,,0.15,54.3,26843.47,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8527.pdf
@@ -1365,10 +1368,10 @@ Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,#2 copper,2
 Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,Yellow brass,2024-06-14,Bailey Trucking,Yellow brass,Non-Ferrous Sale,2082,,2.7,5621.4,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
 Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,auto batteries,2024-06-14,Bailey Trucking,auto batteries,Non-Ferrous Sale,1760,,0.28,492.8,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
 Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,auto batteries,2024-06-14,Bailey Trucking,auto batteries,Non-Ferrous Sale,1896,,0.28,530.88,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
-Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,Al Bkg,2024-06-14,Bailey Trucking,Al Bkg,Non-Ferrous Sale,1008,,0.15,151.2,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
-Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,Al Bkg,2024-06-14,Bailey Trucking,Al Bkg,Non-Ferrous Sale,1071,,0.15,160.65,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
-Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,Al Bkg,2024-06-14,Bailey Trucking,Al Bkg,Non-Ferrous Sale,1633,,0.15,244.95,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
-Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,Al Bkg,2024-06-14,Bailey Trucking,Al Bkg,Non-Ferrous Sale,1233,,0.15,184.95,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
+Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,Al Bkg,2024-06-14,Bailey Trucking,Al Breakage,Non-Ferrous Sale,1008,,0.15,151.2,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
+Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,Al Bkg,2024-06-14,Bailey Trucking,Al Breakage,Non-Ferrous Sale,1071,,0.15,160.65,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
+Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,Al Bkg,2024-06-14,Bailey Trucking,Al Breakage,Non-Ferrous Sale,1633,,0.15,244.95,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
+Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,Al Bkg,2024-06-14,Bailey Trucking,Al Breakage,Non-Ferrous Sale,1233,,0.15,184.95,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
 Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,A/C Rads,2024-06-14,Bailey Trucking,A/C Rads,Non-Ferrous Sale,556,,2.17,1206.52,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
 Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,A/C Rads,2024-06-14,Bailey Trucking,A/C Rads,Non-Ferrous Sale,686,,2.17,1488.62,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
 Pro Metal Recycling,8674,3308,2024-06-12,2024-06-13,Non-Ferrous Sale,Dirty rads,2024-06-14,Bailey Trucking,Dirty rads,Non-Ferrous Sale,610,,2.03,1238.3,20829.74,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-8674.pdf
@@ -1475,11 +1478,11 @@ Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,#2 ins Cu,2
 Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Harness wire - IH,2024-09-23,Bailey Trkg,Harness wire - IH,Non-Ferrous Sale,1188,,1.92,2280.96,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
 Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,SS sheets - B,2024-09-23,Bailey Trkg,SS sheets - B,Non-Ferrous Sale,4522,,0.52,2351.44,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
 Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Clean A/C rads,2024-09-23,Bailey Trkg,Clean A/C rads,Non-Ferrous Sale,589,,2.01,1183.89,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
-Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Al Bkg,2024-09-23,Bailey Trkg,Al Bkg,Non-Ferrous Sale,1109,,0.15,166.35,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
-Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Al Bkg,2024-09-23,Bailey Trkg,Al Bkg,Non-Ferrous Sale,1249,,0.15,187.35,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
-Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Al Bkg,2024-09-23,Bailey Trkg,Al Bkg,Non-Ferrous Sale,1449,,0.15,217.35,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
-Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Al Bkg,2024-09-23,Bailey Trkg,Al Bkg,Non-Ferrous Sale,995,,0.15,149.25,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
-Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Al Bkg,2024-09-23,Bailey Trkg,Al Bkg,Non-Ferrous Sale,1057,,0.15,158.55,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
+Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Al Bkg,2024-09-23,Bailey Trkg,Al Breakage,Non-Ferrous Sale,1109,,0.15,166.35,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
+Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Al Bkg,2024-09-23,Bailey Trkg,Al Breakage,Non-Ferrous Sale,1249,,0.15,187.35,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
+Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Al Bkg,2024-09-23,Bailey Trkg,Al Breakage,Non-Ferrous Sale,1449,,0.15,217.35,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
+Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Al Bkg,2024-09-23,Bailey Trkg,Al Breakage,Non-Ferrous Sale,995,,0.15,149.25,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
+Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Al Bkg,2024-09-23,Bailey Trkg,Al Breakage,Non-Ferrous Sale,1057,,0.15,158.55,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
 Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,auto batteries,2024-09-23,Bailey Trkg,auto batteries,Non-Ferrous Sale,2316,,0.27,625.32,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
 Pro Metal Recycling,9450,3562,2024-09-13,2024-09-20,Non-Ferrous Sale,Bare brite Cu,2024-09-23,Bailey Trkg,Bare brite Cu,Non-Ferrous Sale,1717,,3.95,6782.15,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
 Pro Metal Recycling,9450,3562,2024-09-13,2024-09-23,Non-Ferrous Sale,Motors,2024-09-23,Bailey Trkg,Motors,Non-Ferrous Sale,2913,,0.38,1106.94,56636.23,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9450.pdf
@@ -1526,8 +1529,8 @@ Pro Metal Recycling,9797,3623,2024-10-07,2024-10-10,Non-Ferrous Sale,Harness wir
 Pro Metal Recycling,9797,3623,2024-10-07,2024-10-10,Non-Ferrous Sale,Harness wire - K,2024-10-10,Bailey Trucking,Harness wire - K,Non-Ferrous Sale,1501,,2.06,3092.06,43625.99,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9797.pdf
 Pro Metal Recycling,9797,3623,2024-10-07,2024-10-10,Non-Ferrous Sale,#1 ins Cu,2024-10-10,Bailey Trucking,#1 ins Cu,Non-Ferrous Sale,987,,2.61,2576.07,43625.99,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9797.pdf
 Pro Metal Recycling,9797,3623,2024-10-07,2024-10-10,Non-Ferrous Sale,#2 ins Cu,2024-10-10,Bailey Trucking,#2 ins Cu,Non-Ferrous Sale,653,,1.23,803.19,43625.99,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9797.pdf
-Pro Metal Recycling,9797,3623,2024-10-07,2024-10-10,Non-Ferrous Sale,Al bkg,2024-10-10,Bailey Trucking,Al bkg,Non-Ferrous Sale,1490,,0.15,223.5,43625.99,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9797.pdf
-Pro Metal Recycling,9797,3623,2024-10-07,2024-10-10,Non-Ferrous Sale,Al bkg,2024-10-10,Bailey Trucking,Al bkg,Non-Ferrous Sale,970,,0.15,145.5,43625.99,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9797.pdf
+Pro Metal Recycling,9797,3623,2024-10-07,2024-10-10,Non-Ferrous Sale,Al bkg,2024-10-10,Bailey Trucking,Al Breakage,Non-Ferrous Sale,1490,,0.15,223.5,43625.99,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9797.pdf
+Pro Metal Recycling,9797,3623,2024-10-07,2024-10-10,Non-Ferrous Sale,Al bkg,2024-10-10,Bailey Trucking,Al Breakage,Non-Ferrous Sale,970,,0.15,145.5,43625.99,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9797.pdf
 Pro Metal Recycling,9797,3623,2024-10-07,2024-10-10,Non-Ferrous Sale,Rad ends,2024-10-10,Bailey Trucking,Rad ends,Non-Ferrous Sale,465,,1.34,623.1,43625.99,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9797.pdf
 Pro Metal Recycling,9797,3623,2024-10-07,2024-10-10,Non-Ferrous Sale,brass bkg,2024-10-10,Bailey Trucking,brass bkg,Non-Ferrous Sale,887,,0.25,221.75,43625.99,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9797.pdf
 Pro Metal Recycling,9929,3659,2024-10-24,2024-10-31,Non-Ferrous Sale,Bare brite cu,2024-10-31,Bailey Trucking,Bare brite cu,Non-Ferrous Sale,2509,,4.11,10311.99,32804.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9929.pdf
@@ -1542,8 +1545,8 @@ Pro Metal Recycling,9929,3659,2024-10-24,2024-10-24,Non-Ferrous Sale,Bare ext,20
 Pro Metal Recycling,9929,3659,2024-10-24,2024-10-31,Non-Ferrous Sale,Bare ext,2024-10-31,Bailey Trucking,Bare ext,Non-Ferrous Sale,862,,0.93,801.66,32804.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9929.pdf
 Pro Metal Recycling,9929,3659,2024-10-24,2024-10-31,Non-Ferrous Sale,Elec motors,2024-10-31,Bailey Trucking,Elec motors,Non-Ferrous Sale,3023,,0.46,1390.58,32804.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9929.pdf
 Pro Metal Recycling,9929,3659,2024-10-24,2024-10-31,Non-Ferrous Sale,Harness wire,2024-10-31,Bailey Trucking,Harness wire,Non-Ferrous Sale,789,,3.12,2461.68,32804.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9929.pdf
-Pro Metal Recycling,9929,3659,2024-10-24,2024-10-31,Non-Ferrous Sale,Al bkg,2024-10-31,Bailey Trucking,Al bkg,Non-Ferrous Sale,1214,,0.15,182.1,32804.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9929.pdf
-Pro Metal Recycling,9929,3659,2024-10-24,2024-10-31,Non-Ferrous Sale,Al bkg,2024-10-31,Bailey Trucking,Al bkg,Non-Ferrous Sale,960,,0.15,144.0,32804.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9929.pdf
+Pro Metal Recycling,9929,3659,2024-10-24,2024-10-31,Non-Ferrous Sale,Al bkg,2024-10-31,Bailey Trucking,Al Breakage,Non-Ferrous Sale,1214,,0.15,182.1,32804.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9929.pdf
+Pro Metal Recycling,9929,3659,2024-10-24,2024-10-31,Non-Ferrous Sale,Al bkg,2024-10-31,Bailey Trucking,Al Breakage,Non-Ferrous Sale,960,,0.15,144.0,32804.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9929.pdf
 Pro Metal Recycling,9929,3659,2024-10-24,2024-10-31,Non-Ferrous Sale,Elec motors,2024-10-31,Bailey Trucking,Elec motors,Non-Ferrous Sale,2013,,0.22,442.86,32804.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9929.pdf
 Pro Metal Recycling,9929,3659,2024-10-24,2024-10-31,Non-Ferrous Sale,Transformer,2024-10-31,Bailey Trucking,Transformer,Non-Ferrous Sale,591,,0.74,437.34,32804.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9929.pdf
 Pro Metal Recycling,9929,3659,2024-10-24,2024-10-31,Non-Ferrous Sale,A/C rads,2024-10-31,Bailey Trucking,A/C rads,Non-Ferrous Sale,461,,2.11,972.71,32804.43,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-9929.pdf
@@ -1558,8 +1561,8 @@ Pro Metal Recycling,10280,3760,2024-12-12,2024-12-12,Non-Ferrous Sale,#1 Cu,2024
 Pro Metal Recycling,10280,3760,2024-12-12,2024-12-12,Non-Ferrous Sale,#3 Cu,2024-12-12,Bailey Trkg,#3 Cu,Non-Ferrous Sale,1049,,3.55,3723.95,47803.21,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10280.pdf
 Pro Metal Recycling,10280,3760,2024-12-12,2024-12-12,Non-Ferrous Sale,Semi red brass,2024-12-12,Bailey Trkg,Semi red brass,Non-Ferrous Sale,417,,3.22,1342.74,47803.21,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10280.pdf
 Pro Metal Recycling,10280,3760,2024-12-12,2024-12-12,Non-Ferrous Sale,auto batteries,2024-12-12,Bailey Trkg,auto batteries,Non-Ferrous Sale,1680,,0.27,453.6,47803.21,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10280.pdf
-Pro Metal Recycling,10280,3760,2024-12-12,2024-12-12,Non-Ferrous Sale,Al bkg,2024-12-12,Bailey Trkg,Al bkg,Non-Ferrous Sale,986,,0.15,147.9,47803.21,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10280.pdf
-Pro Metal Recycling,10280,3760,2024-12-12,2024-12-12,Non-Ferrous Sale,Al bkg,2024-12-12,Bailey Trkg,Al bkg,Non-Ferrous Sale,1007,,0.15,151.05,47803.21,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10280.pdf
+Pro Metal Recycling,10280,3760,2024-12-12,2024-12-12,Non-Ferrous Sale,Al bkg,2024-12-12,Bailey Trkg,Al Breakage,Non-Ferrous Sale,986,,0.15,147.9,47803.21,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10280.pdf
+Pro Metal Recycling,10280,3760,2024-12-12,2024-12-12,Non-Ferrous Sale,Al bkg,2024-12-12,Bailey Trkg,Al Breakage,Non-Ferrous Sale,1007,,0.15,151.05,47803.21,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10280.pdf
 Pro Metal Recycling,10280,3760,2024-12-12,2024-12-12,Non-Ferrous Sale,#1 Ins,2024-12-12,Bailey Trkg,#1 Ins,Non-Ferrous Sale,1131,,2.8,3166.8,47803.21,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10280.pdf
 Pro Metal Recycling,10280,3760,2024-12-12,2024-12-12,Non-Ferrous Sale,Harness wire,2024-12-12,Bailey Trkg,Harness wire,Non-Ferrous Sale,1125,,1.82,2047.5,47803.21,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10280.pdf
 Pro Metal Recycling,10280,3760,2024-12-12,2024-12-12,Non-Ferrous Sale,#2 Ins,2024-12-12,Bailey Trkg,#2 Ins,Non-Ferrous Sale,801,,1.55,1241.55,47803.21,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10280.pdf
@@ -1599,7 +1602,7 @@ Pro Metal Recycling,10431,3813,2025-01-02,2025-01-09,Non-Ferrous Sale,#2 Copper,
 Pro Metal Recycling,10431,3813,2025-01-02,2025-01-09,Non-Ferrous Sale,Harness wire - IH,2025-01-09,Bailey Trkg,Harness wire - IH,Non-Ferrous Sale,914,,1.75,1599.5,79591.7,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10431.pdf
 Pro Metal Recycling,10431,3813,2025-01-02,2025-01-09,Non-Ferrous Sale,Auto batteries,2025-01-09,Bailey Trkg,Auto batteries,Non-Ferrous Sale,1988,,0.28,556.64,79591.7,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10431.pdf
 Pro Metal Recycling,10431,3813,2025-01-02,2025-01-09,Non-Ferrous Sale,Ballasts,2025-01-09,Bailey Trkg,Ballasts,Non-Ferrous Sale,2412,,0.3,723.6,79591.7,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10431.pdf
-Pro Metal Recycling,10431,3813,2025-01-02,2025-01-09,Non-Ferrous Sale,Al Bkg,2025-01-09,Bailey Trkg,Al Bkg,Non-Ferrous Sale,1317,,0.15,197.55,79591.7,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10431.pdf
+Pro Metal Recycling,10431,3813,2025-01-02,2025-01-09,Non-Ferrous Sale,Al Bkg,2025-01-09,Bailey Trkg,Al Breakage,Non-Ferrous Sale,1317,,0.15,197.55,79591.7,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10431.pdf
 Pro Metal Recycling,10431,3813,2025-01-02,2025-01-09,Non-Ferrous Sale,#1 Ins Cu,2025-01-09,Bailey Trkg,#1 Ins Cu,Non-Ferrous Sale,390,,2.38,928.2,79591.7,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10431.pdf
 Pro Metal Recycling,10431,3813,2025-01-02,2025-01-09,Non-Ferrous Sale,#2 Ins - fuses for fireworks,2025-01-09,Bailey Trkg,#2 Ins - fuses for fireworks,Non-Ferrous Sale,521,,1.92,1000.32,79591.7,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10431.pdf
 Pro Metal Recycling,10431,3813,2025-01-02,2025-01-09,Non-Ferrous Sale,ACSR,2025-01-09,Bailey Trkg,Insulated Al Wire,Non-Ferrous Sale,629,,0.54,339.66,79591.7,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10431.pdf
@@ -1622,7 +1625,7 @@ Pro Metal Recycling,10529,3830,2025-01-13,2025-01-16,Non-Ferrous Sale,Al truck w
 Pro Metal Recycling,10529,3830,2025-01-13,2025-01-16,Non-Ferrous Sale,Auto rads,2025-01-17,Bailey Trkg,Auto rads,Non-Ferrous Sale,296,,2.57,760.72,32422.95,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10529.pdf
 Pro Metal Recycling,10529,3830,2025-01-13,2025-01-16,Non-Ferrous Sale,Clean AC rads,2025-01-17,Bailey Trkg,Clean AC rads,Non-Ferrous Sale,1073,,2.06,2210.38,32422.95,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10529.pdf
 Pro Metal Recycling,10529,3830,2025-01-13,2025-01-16,Non-Ferrous Sale,Dirty AC rads,2025-01-17,Bailey Trkg,Dirty AC rads,Non-Ferrous Sale,422,,1.92,810.24,32422.95,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10529.pdf
-Pro Metal Recycling,10529,3830,2025-01-13,2025-01-16,Non-Ferrous Sale,Al Bkg,2025-01-17,Bailey Trkg,Al Bkg,Non-Ferrous Sale,592,,0.15,88.8,32422.95,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10529.pdf
+Pro Metal Recycling,10529,3830,2025-01-13,2025-01-16,Non-Ferrous Sale,Al Bkg,2025-01-17,Bailey Trkg,Al Breakage,Non-Ferrous Sale,592,,0.15,88.8,32422.95,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10529.pdf
 Pro Metal Recycling,10529,3830,2025-01-13,2025-01-16,Non-Ferrous Sale,Elec motors,2025-01-17,Bailey Trkg,Elec motors,Non-Ferrous Sale,2340,,0.42,982.8,32422.95,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10529.pdf
 Pro Metal Recycling,10529,3830,2025-01-13,2025-01-16,Non-Ferrous Sale,Auto wheels,2025-01-17,Bailey Trkg,Auto wheels,Non-Ferrous Sale,433,,0.93,402.69,32422.95,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10529.pdf
 Pro Metal Recycling,10529,3830,2025-01-13,2025-01-16,Non-Ferrous Sale,Dirty brass rads,2025-01-17,Bailey Trkg,Dirty brass rads,Non-Ferrous Sale,246,,1.7,418.2,32422.95,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10529.pdf
@@ -1638,8 +1641,8 @@ Pro Metal Recycling,10864,3921,2025-02-26,2025-02-27,Non-Ferrous Sale,Sealed uni
 Pro Metal Recycling,10864,3921,2025-02-26,2025-02-27,Non-Ferrous Sale,Ptd Ext,2025-02-27,Bailey Trkg,Ptd Ext,Non-Ferrous Sale,459,,0.93,426.87,28625.53,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10864.pdf
 Pro Metal Recycling,10864,3921,2025-02-26,2025-02-27,Non-Ferrous Sale,Ptd Ext,2025-02-27,Bailey Trkg,Ptd Ext,Non-Ferrous Sale,385,,0.93,358.05,28625.53,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10864.pdf
 Pro Metal Recycling,10864,3921,2025-02-26,2025-02-27,Non-Ferrous Sale,MLC,2025-02-27,Bailey Trkg,MLC,Non-Ferrous Sale,743,,0.78,579.54,28625.53,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10864.pdf
-Pro Metal Recycling,10864,3921,2025-02-26,2025-02-27,Non-Ferrous Sale,Al Bkg,2025-02-27,Bailey Trkg,Al Bkg,Non-Ferrous Sale,1154,,0.15,173.1,28625.53,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10864.pdf
-Pro Metal Recycling,10864,3921,2025-02-26,2025-02-27,Non-Ferrous Sale,Al Bkg,2025-02-27,Bailey Trkg,Al Bkg,Non-Ferrous Sale,1323,,0.1,132.3,28625.53,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10864.pdf
+Pro Metal Recycling,10864,3921,2025-02-26,2025-02-27,Non-Ferrous Sale,Al Bkg,2025-02-27,Bailey Trkg,Al Breakage,Non-Ferrous Sale,1154,,0.15,173.1,28625.53,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10864.pdf
+Pro Metal Recycling,10864,3921,2025-02-26,2025-02-27,Non-Ferrous Sale,Al Bkg,2025-02-27,Bailey Trkg,Al Breakage,Non-Ferrous Sale,1323,,0.1,132.3,28625.53,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10864.pdf
 Pro Metal Recycling,10864,3921,2025-02-26,2025-02-27,Non-Ferrous Sale,Thermo brk,2025-02-27,Bailey Trkg,Thermo brk,Non-Ferrous Sale,542,,0.72,390.24,28625.53,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10864.pdf
 Pro Metal Recycling,10864,3921,2025-02-26,2025-02-27,Non-Ferrous Sale,car wheels,2025-02-27,Bailey Trkg,car wheels,Non-Ferrous Sale,423,,0.99,418.77,28625.53,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10864.pdf
 Pro Metal Recycling,10864,3921,2025-02-26,2025-02-27,Non-Ferrous Sale,auto batteries,2025-02-27,Bailey Trkg,auto batteries,Non-Ferrous Sale,1790,,0.28,501.2,28625.53,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10864.pdf
@@ -1698,7 +1701,7 @@ Pro Metal Recycling,10995,3958,2025-03-13,2025-03-18,Non-Ferrous Sale,Al rims,20
 Pro Metal Recycling,10995,3958,2025-03-13,2025-03-18,Non-Ferrous Sale,Al rims,2025-03-18,,Al rims,Non-Ferrous Sale,703,,1.04,731.12,29741.78,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10995.pdf
 Pro Metal Recycling,10995,3958,2025-03-13,2025-03-18,Non-Ferrous Sale,auto batteries,2025-03-18,,auto batteries,Non-Ferrous Sale,2074,,0.28,580.72,29741.78,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10995.pdf
 Pro Metal Recycling,10995,3958,2025-03-13,2025-03-18,Non-Ferrous Sale,AC rads,2025-03-18,,AC rads,Non-Ferrous Sale,399,,2.24,893.76,29741.78,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10995.pdf
-Pro Metal Recycling,10995,3958,2025-03-13,2025-03-18,Non-Ferrous Sale,Al bkg,2025-03-18,,Al bkg,Non-Ferrous Sale,875,,0.2,175.0,29741.78,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10995.pdf
+Pro Metal Recycling,10995,3958,2025-03-13,2025-03-18,Non-Ferrous Sale,Al bkg,2025-03-18,,Al Breakage,Non-Ferrous Sale,875,,0.2,175.0,29741.78,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-10995.pdf
 Pro Metal Recycling,11131,4005,2025-03-31,2025-04-03,Non-Ferrous Sale,Bare brite Cu,2025-04-03,,Bare brite Cu,Non-Ferrous Sale,1741,,4.29,7468.89,24896.59,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11131.pdf
 Pro Metal Recycling,11131,4005,2025-03-31,2025-04-03,Non-Ferrous Sale,#1 Cu,2025-04-03,,#1 Cu,Non-Ferrous Sale,1043,,4.09,4265.87,24896.59,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11131.pdf
 Pro Metal Recycling,11131,4005,2025-03-31,2025-04-03,Non-Ferrous Sale,auto batteries,2025-04-03,,auto batteries,Non-Ferrous Sale,1618,,0.28,453.04,24896.59,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11131.pdf
@@ -1835,16 +1838,16 @@ Pro Metal Recycling,11814,4215,2025-06-25,2025-07-02,Non-Ferrous Sale,Ballasts,2
 Pro Metal Recycling,11814,4215,2025-06-25,2025-07-02,Non-Ferrous Sale,AC Rads,2025-07-02,,AC Rads,Non-Ferrous Sale,810,,2.26,1830.6,77876.32,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11814.pdf
 Pro Metal Recycling,11814,4215,2025-06-25,2025-07-02,Non-Ferrous Sale,AC rads,2025-07-02,,AC rads,Non-Ferrous Sale,462,,2.26,1044.12,77876.32,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11814.pdf
 Pro Metal Recycling,11814,4215,2025-06-25,2025-07-02,Non-Ferrous Sale,Al Cast,2025-07-02,,Al Cast,Non-Ferrous Sale,664,,0.73,484.72,77876.32,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11814.pdf
-Pro Metal Recycling,11814,4215,2025-06-25,2025-07-02,Non-Ferrous Sale,Al Bkg,2025-07-02,,Al Bkg,Non-Ferrous Sale,1311,,0.15,196.65,77876.32,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11814.pdf
+Pro Metal Recycling,11814,4215,2025-06-25,2025-07-02,Non-Ferrous Sale,Al Bkg,2025-07-02,,Al Breakage,Non-Ferrous Sale,1311,,0.15,196.65,77876.32,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11814.pdf
 Pro Metal Recycling,11814,4215,2025-06-25,2025-07-02,Non-Ferrous Sale,Al wheels,2025-07-02,,Al wheels,Non-Ferrous Sale,460,,1.06,487.6,77876.32,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11814.pdf
 Pro Metal Recycling,11814,4215,2025-06-25,2025-07-02,Non-Ferrous Sale,Al wheels,2025-07-02,,Al wheels,Non-Ferrous Sale,464,,1.06,491.84,77876.32,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11814.pdf
 Pro Metal Recycling,11814,4215,2025-06-25,2025-07-02,Non-Ferrous Sale,Elec motors,2025-07-02,,Elec motors,Non-Ferrous Sale,3163,,0.39,1233.57,77876.32,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11814.pdf
 Pro Metal Recycling,11814,4215,2025-06-25,2025-07-02,Non-Ferrous Sale,Elec motors,2025-07-02,,Elec motors,Non-Ferrous Sale,1652,,0.39,644.28,77876.32,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11814.pdf
 Pro Metal Recycling,11814,4215,2025-06-25,2025-07-02,Non-Ferrous Sale,KR #2 Ins wire - 24 boxes,2025-07-02,,KR #2 Ins wire - 24 boxes,Non-Ferrous Sale,18195,,2,36390.0,77876.32,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11814.pdf
 Pro Metal Recycling,11814,4215,2025-06-25,2025-07-10,Non-Ferrous Sale,Machine wire LG?,2025-07-02,,Machine wire LG?,Non-Ferrous Sale,1420,,1.45,2059.0,77876.32,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11814.pdf
-Pro Metal Recycling,11961,4265,2025-07-16,2025-07-17,Non-Ferrous Sale,al bkg,2025-07-17,,al bkg,Non-Ferrous Sale,1006,,0.15,150.9,16647.88,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11961.pdf
-Pro Metal Recycling,11961,4265,2025-07-16,2025-07-17,Non-Ferrous Sale,al bkg,2025-07-17,,al bkg,Non-Ferrous Sale,1016,,0.15,152.4,16647.88,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11961.pdf
-Pro Metal Recycling,11961,4265,2025-07-16,2025-07-17,Non-Ferrous Sale,al bkg,2025-07-17,,al bkg,Non-Ferrous Sale,1059,,0.15,158.85,16647.88,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11961.pdf
+Pro Metal Recycling,11961,4265,2025-07-16,2025-07-17,Non-Ferrous Sale,al bkg,2025-07-17,,Al Breakage,Non-Ferrous Sale,1006,,0.15,150.9,16647.88,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11961.pdf
+Pro Metal Recycling,11961,4265,2025-07-16,2025-07-17,Non-Ferrous Sale,al bkg,2025-07-17,,Al Breakage,Non-Ferrous Sale,1016,,0.15,152.4,16647.88,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11961.pdf
+Pro Metal Recycling,11961,4265,2025-07-16,2025-07-17,Non-Ferrous Sale,al bkg,2025-07-17,,Al Breakage,Non-Ferrous Sale,1059,,0.15,158.85,16647.88,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11961.pdf
 Pro Metal Recycling,11961,4265,2025-07-16,2025-07-17,Non-Ferrous Sale,sealed units,2025-07-17,,sealed units,Non-Ferrous Sale,2853,,0.37,1055.61,16647.88,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11961.pdf
 Pro Metal Recycling,11961,4265,2025-07-16,2025-07-17,Non-Ferrous Sale,al wheels,2025-07-17,,al wheels,Non-Ferrous Sale,420,,1.06,445.2,16647.88,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11961.pdf
 Pro Metal Recycling,11961,4265,2025-07-16,2025-07-17,Non-Ferrous Sale,auto batteries,2025-07-17,,auto batteries,Non-Ferrous Sale,2065,,0.28,578.2,16647.88,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-11961.pdf
@@ -1876,8 +1879,8 @@ Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,Al Car whe
 Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,Al Car wheels,2025-08-14,Bailey Trkg,Al Car wheels,Non-Ferrous Sale,534,,1.08,576.72,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
 Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,AL WHEELS,2025-08-14,Bailey Trkg,AL WHEELS,Non-Ferrous Sale,436,,1.08,470.88,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
 Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,Old cast,2025-08-14,Bailey Trkg,Old cast,Non-Ferrous Sale,353,,0.76,268.28,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
-Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,Al bkg,2025-08-14,Bailey Trkg,Al bkg,Non-Ferrous Sale,1493,,0.18,268.74,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
-Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,Al bkg,2025-08-14,Bailey Trkg,Al bkg,Non-Ferrous Sale,893,,0.18,160.74,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
+Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,Al bkg,2025-08-14,Bailey Trkg,Al Breakage,Non-Ferrous Sale,1493,,0.18,268.74,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
+Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,Al bkg,2025-08-14,Bailey Trkg,Al Breakage,Non-Ferrous Sale,893,,0.18,160.74,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
 Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,Al Bkg - Transformer,2025-08-14,Bailey Trkg,Al Bkg - Transformer,Non-Ferrous Sale,611,,0.2,122.2,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
 Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,Range lead,2025-08-14,Bailey Trkg,Range lead,Non-Ferrous Sale,1460,,0.76,1109.6,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
 Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,steel case batteries,2025-08-14,Bailey Trkg,steel case batteries,Non-Ferrous Sale,1194,,0.24,286.56,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
@@ -1885,7 +1888,7 @@ Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,E-scrap,20
 Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,SS,2025-08-14,Bailey Trkg,SS,Non-Ferrous Sale,306,,0.48,146.88,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
 Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,316 SS,2025-08-14,Bailey Trkg,316 SS,Non-Ferrous Sale,140,,0.84,117.6,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
 Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,Clean AC rads,2025-08-14,Bailey Trkg,Clean AC rads,Non-Ferrous Sale,513,,2.13,1092.69,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
-Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,Al bkg,2025-08-14,Bailey Trkg,Al bkg,Non-Ferrous Sale,124,,0.18,22.32,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
+Pro Metal Recycling,12142,4328,2025-08-08,2025-08-14,Non-Ferrous Sale,Al bkg,2025-08-14,Bailey Trkg,Al Breakage,Non-Ferrous Sale,124,,0.18,22.32,15858.0,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12142.pdf
 Pro Metal Recycling,12317,4384,2025-08-28,2025-09-04,Non-Ferrous Sale,Cat 5 wire,2025-09-04,,Cat 5 wire,Non-Ferrous Sale,625,,1.15,718.75,50344.27,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12317.pdf
 Pro Metal Recycling,12317,4384,2025-08-28,2025-09-04,Non-Ferrous Sale,#2 Ins,2025-09-04,,#2 Ins,Non-Ferrous Sale,870,,1.15,1000.5,50344.27,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12317.pdf
 Pro Metal Recycling,12317,4384,2025-08-28,2025-09-04,Non-Ferrous Sale,#2 ins,2025-09-04,,#2 ins,Non-Ferrous Sale,828,,1.15,952.2,50344.27,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12317.pdf
@@ -1904,7 +1907,7 @@ Pro Metal Recycling,12445,4422,2025-09-15,2025-09-18,Non-Ferrous Sale,Sealed uni
 Pro Metal Recycling,12445,4422,2025-09-15,2025-09-18,Non-Ferrous Sale,Auto Batts,2025-09-18,Bailey Trkg,Auto Batts,Non-Ferrous Sale,1652,,0.29,479.08,18183.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12445.pdf
 Pro Metal Recycling,12445,4422,2025-09-15,2025-09-18,Non-Ferrous Sale,Auto Batts,2025-09-18,Bailey Trkg,Auto Batts,Non-Ferrous Sale,1950,,0.29,565.5,18183.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12445.pdf
 Pro Metal Recycling,12445,4422,2025-09-15,2025-09-18,Non-Ferrous Sale,Steelcase batteries,2025-09-18,Bailey Trkg,Steelcase batteries,Non-Ferrous Sale,1594,,0.25,398.5,18183.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12445.pdf
-Pro Metal Recycling,12445,4422,2025-09-15,2025-09-18,Non-Ferrous Sale,Al BKG,2025-09-18,Bailey Trkg,Al BKG,Non-Ferrous Sale,12630,,0.18,2273.4,18183.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12445.pdf
+Pro Metal Recycling,12445,4422,2025-09-15,2025-09-18,Non-Ferrous Sale,Al BKG,2025-09-18,Bailey Trkg,Al Breakage,Non-Ferrous Sale,12630,,0.18,2273.4,18183.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12445.pdf
 Pro Metal Recycling,12445,4422,2025-09-15,2025-09-18,Non-Ferrous Sale,Elec Motors,2025-09-18,Bailey Trkg,Elec Motors,Non-Ferrous Sale,3305,,0.44,1454.2,18183.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12445.pdf
 Pro Metal Recycling,12445,4422,2025-09-15,2025-09-18,Non-Ferrous Sale,Escrap,2025-09-18,Bailey Trkg,Escrap,Non-Ferrous Sale,894,,0.15,134.1,18183.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12445.pdf
 Pro Metal Recycling,12445,4422,2025-09-15,2025-09-18,Non-Ferrous Sale,Truck wheels,2025-09-18,Bailey Trkg,Truck wheels,Non-Ferrous Sale,506,,0.78,394.68,18183.57,0,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12445.pdf
@@ -1930,9 +1933,9 @@ Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,Open eye H
 Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,Open eye Heliax,2025-10-02,,Open eye Heliax,Non-Ferrous Sale,275,,2.24,616.0,43365.38,43365.38,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12517.pdf
 Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,#1 ins wire,2025-10-02,,#1 ins wire,Non-Ferrous Sale,668,,2.68,1790.24,43365.38,43365.38,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12517.pdf
 Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,AC Rads,2025-10-02,,AC Rads,Non-Ferrous Sale,522,,2.28,1190.16,43365.38,43365.38,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12517.pdf
-Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,Al Bkg,2025-10-02,,Al Bkg,Non-Ferrous Sale,569,,0.18,102.42,43365.38,43365.38,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12517.pdf
-Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,Al bkg,2025-10-02,,Al bkg,Non-Ferrous Sale,946,,0.18,170.28,43365.38,43365.38,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12517.pdf
-Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,Al Bkg,2025-10-02,,Al Bkg,Non-Ferrous Sale,378,,0.18,68.04,43365.38,43365.38,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12517.pdf
+Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,Al Bkg,2025-10-02,,Al Breakage,Non-Ferrous Sale,569,,0.18,102.42,43365.38,43365.38,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12517.pdf
+Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,Al bkg,2025-10-02,,Al Breakage,Non-Ferrous Sale,946,,0.18,170.28,43365.38,43365.38,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12517.pdf
+Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,Al Bkg,2025-10-02,,Al Breakage,Non-Ferrous Sale,378,,0.18,68.04,43365.38,43365.38,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12517.pdf
 Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,Elec motors,2025-10-02,,Elec motors,Non-Ferrous Sale,2441,,0.44,1074.04,43365.38,43365.38,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12517.pdf
 Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,old cast,2025-10-02,,old cast,Non-Ferrous Sale,681,,0.75,510.75,43365.38,43365.38,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12517.pdf
 Pro Metal Recycling,12517,4438,2025-09-29,2025-10-02,Non-Ferrous Sale,Al Turnings,2025-10-02,,Al Turnings,Non-Ferrous Sale,192,,0.2,38.4,43365.38,43365.38,qbo_out\qbo_pdfs\C&Y_Global_(Pro_Metal_Recycling)\INV-12517.pdf
@@ -1953,17 +1956,17 @@ Farnsworth Metal Recycling,5679,2421,2023-06-28,2023-06-16,Waste Revenue:Contrac
 Farnsworth Metal Recycling,5679,2421,2023-06-28,2023-06-16,Waste Revenue:Disposal Fees,Trash Disposal,,,Trash Disposal,Waste Revenue:Disposal Fees,-1,,22.5,-22.5,793.1,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-5679.pdf
 Farnsworth Metal Recycling,5838,2467,2023-07-17,2023-07-11,Ferrous Sale,Unprepared shearing from IISI,,,Unprepared shearing from IISI,Ferrous Sale,11860,,0.0825,978.45,719.45,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-5838.pdf
 Farnsworth Metal Recycling,5838,2467,2023-07-17,2023-07-11,Waste Revenue:Contracted Labor,Trucking Costs,,,Trucking Costs,Waste Revenue:Contracted Labor,-1,,259,-259.0,719.45,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-5838.pdf
-Farnsworth Metal Recycling,6029,2531,2023-08-09,2023-08-04,Non-Ferrous Sale,Al BKG,,,Al BKG,Non-Ferrous Sale,332,,0.14,46.48,1279.24,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6029.pdf
+Farnsworth Metal Recycling,6029,2531,2023-08-09,2023-08-04,Non-Ferrous Sale,Al BKG,,,Al Breakage,Non-Ferrous Sale,332,,0.14,46.48,1279.24,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6029.pdf
 Farnsworth Metal Recycling,6029,2531,2023-08-09,2023-08-04,Non-Ferrous Sale,Old Sheet,,,Old Sheet,Non-Ferrous Sale,2888,,0.5142001,1485.01,1279.24,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6029.pdf
 Farnsworth Metal Recycling,6029,2531,2023-08-09,2023-08-04,Waste Revenue:Disposal Fees,Trash Deduction,,,Trash Deduction,Waste Revenue:Disposal Fees,-1,,2.25,-2.25,1279.24,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6029.pdf
 Farnsworth Metal Recycling,6029,2531,2023-08-09,2023-08-04,Waste Revenue:Contracted Labor,Haul Fee,,,Haul Fee,Waste Revenue:Contracted Labor,-1,,250,-250.0,1279.24,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6029.pdf
-Farnsworth Metal Recycling,6060,2541,2023-08-14,2023-08-14,Non-Ferrous Sale,Al Bkg,,,Al Bkg,Non-Ferrous Sale,500,,0.1,50.0,626.25,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6060.pdf
+Farnsworth Metal Recycling,6060,2541,2023-08-14,2023-08-14,Non-Ferrous Sale,Al Bkg,,,Al Breakage,Non-Ferrous Sale,500,,0.1,50.0,626.25,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6060.pdf
 Farnsworth Metal Recycling,6060,2541,2023-08-14,2023-08-14,Non-Ferrous Sale,Old Sheet,,,Old Sheet,Non-Ferrous Sale,1700,,0.49,833.0,626.25,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6060.pdf
 Farnsworth Metal Recycling,6060,2541,2023-08-14,2023-08-14,Waste Revenue:Disposal Fees,Trash Disposal,,,Trash Disposal,Waste Revenue:Disposal Fees,300,,-0.0225,-6.75,626.25,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6060.pdf
 Farnsworth Metal Recycling,6060,2541,2023-08-14,2023-08-14,Waste Revenue:Contracted Labor,Hauling Fee,,,Hauling Fee,Waste Revenue:Contracted Labor,1,,-250,-250.0,626.25,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6060.pdf
-Farnsworth Metal Recycling,6099,2555,2023-08-19,2023-08-16,Non-Ferrous Sale,Old sheet from Whitaker Glass in Lebanon,,,Old sheet from Whitaker Glass in Lebanon,Non-Ferrous Sale,2780,,0.4195863,1166.45,1166.45,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6099.pdf
-Farnsworth Metal Recycling,6107,2560,2023-08-22,2023-08-18,Non-Ferrous Sale,Old sheet from Whitaker Glass Lebanon project,,,Old sheet from Whitaker Glass Lebanon project,Non-Ferrous Sale,2330,,0.3089485,719.85,719.85,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6107.pdf
-Farnsworth Metal Recycling,6208,2594,2023-08-31,2023-08-31,Non-Ferrous Sale,Old Sheet from Whitaker Glass Lebanon Project,,,Old Sheet from Whitaker Glass Lebanon Project,Non-Ferrous Sale,3180,,0.1248836,397.13,397.13,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6208.pdf
+Farnsworth Metal Recycling,6099,2555,2023-08-19,2023-08-16,Non-Ferrous Sale,Old sheet from Whitaker Glass in Lebanon,,,Old Sheet,Non-Ferrous Sale,2780,,0.4195863,1166.45,1166.45,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6099.pdf
+Farnsworth Metal Recycling,6107,2560,2023-08-22,2023-08-18,Non-Ferrous Sale,Old sheet from Whitaker Glass Lebanon project,,,Old Sheet,Non-Ferrous Sale,2330,,0.3089485,719.85,719.85,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6107.pdf
+Farnsworth Metal Recycling,6208,2594,2023-08-31,2023-08-31,Non-Ferrous Sale,Old Sheet from Whitaker Glass Lebanon Project,,,Old Sheet,Non-Ferrous Sale,3180,,0.1248836,397.13,397.13,0,qbo_out\qbo_pdfs\Farnsworth_Metal_Recycling\INV-6208.pdf
 J. Solotken & Company,6006,2526,2023-08-05,2023-08-04,Waste Revenue:30 Yard Dumpster,Western HS project 8 loads,,,Western HS project 8 loads,Waste Revenue:30 Yard Dumpster,8,,450,3600.0,2539.35,0,qbo_out\qbo_pdfs\J._Solotken_&_Company\INV-6006.pdf
 J. Solotken & Company,6006,2526,2023-08-05,2023-09-22,FE:Sheet Iron,Western HS project - shredder scrap,,,Western HS project - shredder scrap,FE:Sheet Iron,23570,,-0.045,-1060.65,2539.35,0,qbo_out\qbo_pdfs\J._Solotken_&_Company\INV-6006.pdf
 MDK ZeroLandfill,467,1041,2021-11-16,2021-11-16,NON FE:Aluminum 3003,11 skids,,,11 skids,NON FE:Aluminum 3003,43012,,1.415,60861.98,60861.98,0,qbo_out\qbo_pdfs\MDK_ZeroLandfill\INV-467.pdf
@@ -2014,20 +2017,20 @@ MDK ZeroLandfill,10769,3895,2025-02-11,2025-02-11,Non-Ferrous Sale,5052 from Fen
 "Newco Metals, Inc",1782,1278,2022-03-16,2022-03-16,Services,10 Alcoa tubs,,,10 Alcoa tubs,Services,10,,400,4000.0,7872.66,0,qbo_out\qbo_pdfs\Newco_Metal\INV-1782.pdf
 "Newco Metals, Inc",1813,1288,2022-03-22,2022-03-22,Services,7 bales,,,7 bales,Services,5102,,0.96,4897.92,4897.92,0,qbo_out\qbo_pdfs\Newco_Metal\INV-1813.pdf
 "Newco Metals, Inc",1971,1343,2022-04-06,2022-04-06,Non-Ferrous Sale,Stainless Steel Breakage,,,Al Breakage,Non-Ferrous Sale,12516,,0.24,3003.84,11753.08,0,qbo_out\qbo_pdfs\Newco_Metal\INV-1971.pdf
-"Newco Metals, Inc",1971,1343,2022-04-06,2022-04-06,Non-Ferrous Sale,304 Stainless Steel,,,304 Stainless Steel,Non-Ferrous Sale,8254,,1.06,8749.24,11753.08,0,qbo_out\qbo_pdfs\Newco_Metal\INV-1971.pdf
+"Newco Metals, Inc",1971,1343,2022-04-06,2022-04-06,Non-Ferrous Sale,304 Stainless Steel,,,Stainless,Non-Ferrous Sale,8254,,1.06,8749.24,11753.08,0,qbo_out\qbo_pdfs\Newco_Metal\INV-1971.pdf
 "Newco Metals, Inc",2093,1374,2022-04-14,2022-04-14,Ferrous Sale,17 Alcoa Tubs per PO #29507,,,17 Alcoa Tubs per PO #29507,Ferrous Sale,17,,400,6800.0,6800.0,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2093.pdf
 "Newco Metals, Inc",2049,1359,2022-04-15,2022-04-15,Non-Ferrous Sale,Painted Extrusion,,,Painted Extrusion,Non-Ferrous Sale,516,,1.24,639.84,5143.72,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2049.pdf
 "Newco Metals, Inc",2049,1359,2022-04-15,2022-04-15,Non-Ferrous Sale,316 Stainless Steel Turnings,,,316 Stainless Steel Turnings,Non-Ferrous Sale,306,,0.92,281.52,5143.72,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2049.pdf
 "Newco Metals, Inc",2049,1359,2022-04-15,2022-04-15,Non-Ferrous Sale,Painted Extrusion W/Iron ( Cast End Too),,,Painted Extrusion W/Iron ( Cast End Too),Non-Ferrous Sale,244,,1.14,278.16,5143.72,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2049.pdf
 "Newco Metals, Inc",2049,1359,2022-04-15,2022-04-15,Non-Ferrous Sale,U.B.C'S,,,U.B.C'S,Non-Ferrous Sale,3851,,0.96,3696.96,5143.72,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2049.pdf
-"Newco Metals, Inc",2049,1359,2022-04-15,2022-04-15,Non-Ferrous Sale,304 Stainless Steel,,,304 Stainless Steel,Non-Ferrous Sale,56,,1.08,60.48,5143.72,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2049.pdf
+"Newco Metals, Inc",2049,1359,2022-04-15,2022-04-15,Non-Ferrous Sale,304 Stainless Steel,,,Stainless,Non-Ferrous Sale,56,,1.08,60.48,5143.72,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2049.pdf
 "Newco Metals, Inc",2049,1359,2022-04-15,2022-04-15,Non-Ferrous Sale,304 Stainless Steel Turnings,,,304 Stainless Steel Turnings,Non-Ferrous Sale,203,,0.92,186.76,5143.72,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2049.pdf
 "Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,auto rads,,,auto rads,Non-Ferrous Sale,609,,2,1218.0,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
 "Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,10/10 ext,,,10/10 ext,Non-Ferrous Sale,567.5,,1.14,646.95,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
-"Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,Al BKG,,,Al BKG,Non-Ferrous Sale,1220,,0.23,280.6,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
+"Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,Al BKG,,,Al Breakage,Non-Ferrous Sale,1220,,0.23,280.6,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
 "Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,auto batteries,,,auto batteries,Non-Ferrous Sale,1992,,0.25,498.0,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
 "Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,NP 6063,,,NP 6063,Non-Ferrous Sale,582,,1.25,727.5,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
-"Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,UBCs,,,UBCs,Non-Ferrous Sale,5689,,0.83,4721.87,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
+"Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,UBCs,,,Alum Cans,Non-Ferrous Sale,5689,,0.83,4721.87,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
 "Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,10/10 ext,,,10/10 ext,Non-Ferrous Sale,567.5,,1.14,646.95,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
 "Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,NP 6063,,,NP 6063,Non-Ferrous Sale,812,,1.25,1015.0,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
 "Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,NP6063,,,NP6063,Non-Ferrous Sale,826,,1.25,1032.5,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
@@ -2038,15 +2041,15 @@ MDK ZeroLandfill,10769,3895,2025-02-11,2025-02-11,Non-Ferrous Sale,5052 from Fen
 "Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,NP 6063,,,NP 6063,Non-Ferrous Sale,1053,,1.25,1316.25,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
 "Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,NP 6061,,,NP 6061,Non-Ferrous Sale,1168,,1.25,1460.0,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
 "Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,old cast,,,old cast,Non-Ferrous Sale,1066,,0.6,639.6,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
-"Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,Al BKG,,,Al BKG,Non-Ferrous Sale,1220,,0.23,280.6,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
+"Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,Al BKG,,,Al Breakage,Non-Ferrous Sale,1220,,0.23,280.6,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
 "Newco Metals, Inc",2372,1464,2022-05-23,2022-05-23,Non-Ferrous Sale,NP 6063,,,NP 6063,Non-Ferrous Sale,934,,1.25,1167.5,20267.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2372.pdf
-"Newco Metals, Inc",2602,1539,2022-06-23,2022-06-23,Non-Ferrous Sale,UBCs,,,UBCs,Non-Ferrous Sale,4535,,0.74,3355.9,5401.77,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2602.pdf
+"Newco Metals, Inc",2602,1539,2022-06-23,2022-06-23,Non-Ferrous Sale,UBCs,,,Alum Cans,Non-Ferrous Sale,4535,,0.74,3355.9,5401.77,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2602.pdf
 "Newco Metals, Inc",2602,1539,2022-06-23,2022-06-23,Non-Ferrous Sale,Painted Ext,,,Painted Ext,Non-Ferrous Sale,344,,1.05,361.2,5401.77,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2602.pdf
 "Newco Metals, Inc",2602,1539,2022-06-23,2022-06-23,Non-Ferrous Sale,Thermal ext,,,Thermal ext,Non-Ferrous Sale,420,,0.42,176.4,5401.77,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2602.pdf
 "Newco Metals, Inc",2602,1539,2022-06-23,2022-06-23,Non-Ferrous Sale,pop tabs,,,pop tabs,Non-Ferrous Sale,128,,0.52,66.56,5401.77,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2602.pdf
 "Newco Metals, Inc",2602,1539,2022-06-23,2022-06-23,Non-Ferrous Sale,MLC,,,MLC,Non-Ferrous Sale,177,,0.7,123.9,5401.77,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2602.pdf
 "Newco Metals, Inc",2602,1539,2022-06-23,2022-06-23,Non-Ferrous Sale,Clean Ext,,,Clean Ext,Non-Ferrous Sale,1209,,1.09,1317.81,5401.77,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2602.pdf
-"Newco Metals, Inc",2766,1589,2022-07-15,2022-07-15,Non-Ferrous Sale,UBC's,,,UBC's,Non-Ferrous Sale,6843,,0.74,5063.82,6694.23,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2766.pdf
+"Newco Metals, Inc",2766,1589,2022-07-15,2022-07-15,Non-Ferrous Sale,UBC's,,,Alum Cans,Non-Ferrous Sale,6843,,0.74,5063.82,6694.23,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2766.pdf
 "Newco Metals, Inc",2766,1589,2022-07-15,2022-07-15,Non-Ferrous Sale,Clean Extrusion,,,Clean Extrusion,Non-Ferrous Sale,902,,0.98,883.96,6694.23,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2766.pdf
 "Newco Metals, Inc",2766,1589,2022-07-15,2022-07-15,Non-Ferrous Sale,Old Sheet,,,Old Sheet,Non-Ferrous Sale,394,,0.55,216.7,6694.23,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2766.pdf
 "Newco Metals, Inc",2766,1589,2022-07-15,2022-07-15,Non-Ferrous Sale,Old Cast,,,Old Cast,Non-Ferrous Sale,563,,0.46,258.98,6694.23,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2766.pdf
@@ -2054,11 +2057,11 @@ MDK ZeroLandfill,10769,3895,2025-02-11,2025-02-11,Non-Ferrous Sale,5052 from Fen
 "Newco Metals, Inc",2766,1589,2022-07-15,2022-07-15,Non-Ferrous Sale,Painted Ext,,,Painted Ext,Non-Ferrous Sale,142,,0.94,133.48,6694.23,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2766.pdf
 "Newco Metals, Inc",2766,1589,2022-07-15,2022-07-15,Non-Ferrous Sale,MLC,,,MLC,Non-Ferrous Sale,143,,0.59,84.37,6694.23,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2766.pdf
 "Newco Metals, Inc",2891,1636,2022-08-01,2022-08-01,Non-Ferrous Sale,Stainless Steel Dumpster,,,Stainless Steel Dumpster,Non-Ferrous Sale,15360,,0.4,6144.0,6144.0,0,qbo_out\qbo_pdfs\Newco_Metal\INV-2891.pdf
-"Newco Metals, Inc",3793,1890,2022-11-11,2022-11-11,Non-Ferrous Sale,Stainless Steel,,,Stainless Steel,Non-Ferrous Sale,11808,,0.43,5077.44,5490.72,0,qbo_out\qbo_pdfs\Newco_Metal\INV-3793.pdf
+"Newco Metals, Inc",3793,1890,2022-11-11,2022-11-11,Non-Ferrous Sale,Stainless Steel,,,Stainless,Non-Ferrous Sale,11808,,0.43,5077.44,5490.72,0,qbo_out\qbo_pdfs\Newco_Metal\INV-3793.pdf
 "Newco Metals, Inc",3793,1890,2022-11-11,2022-11-11,Non-Ferrous Sale,Stainless Breakage,,,Al Breakage,Non-Ferrous Sale,2952,,0.14,413.28,5490.72,0,qbo_out\qbo_pdfs\Newco_Metal\INV-3793.pdf
-"Newco Metals, Inc",4418,2013,2023-01-19,2023-01-19,Non-Ferrous Sale,Stainless Steel,,,Stainless Steel,Non-Ferrous Sale,12200,,0.17,2074.0,2074.0,0,qbo_out\qbo_pdfs\Newco_Metal\INV-4418.pdf
+"Newco Metals, Inc",4418,2013,2023-01-19,2023-01-19,Non-Ferrous Sale,Stainless Steel,,,Stainless,Non-Ferrous Sale,12200,,0.17,2074.0,2074.0,0,qbo_out\qbo_pdfs\Newco_Metal\INV-4418.pdf
 "Newco Metals, Inc",4851,2148,2023-03-20,2023-03-20,Non-Ferrous Sale,304 Stainless,,,304 Stainless,Non-Ferrous Sale,13554,,0.53,7183.62,7409.52,0,qbo_out\qbo_pdfs\Newco_Metal\INV-4851.pdf
-"Newco Metals, Inc",4851,2148,2023-03-20,2023-03-20,Non-Ferrous Sale,Stainless Steel Bkg,,,Stainless Steel Bkg,Non-Ferrous Sale,1506,,0.15,225.9,7409.52,0,qbo_out\qbo_pdfs\Newco_Metal\INV-4851.pdf
+"Newco Metals, Inc",4851,2148,2023-03-20,2023-03-20,Non-Ferrous Sale,Stainless Steel Bkg,,,Stainless,Non-Ferrous Sale,1506,,0.15,225.9,7409.52,0,qbo_out\qbo_pdfs\Newco_Metal\INV-4851.pdf
 "Newco Metals, Inc",5386,2321,2023-05-22,2023-05-22,Non-Ferrous Sale,SS Breakage,,,Al Breakage,Non-Ferrous Sale,7824,,0.14,1095.36,1975.56,0,qbo_out\qbo_pdfs\Newco_Metal\INV-5386.pdf
 "Newco Metals, Inc",5386,2321,2023-05-22,2023-05-22,Non-Ferrous Sale,304 SS,,,304 SS,Non-Ferrous Sale,1956,,0.45,880.2,1975.56,0,qbo_out\qbo_pdfs\Newco_Metal\INV-5386.pdf
 "Newco Metals, Inc",5806,2461,2023-07-12,2023-07-12,Non-Ferrous Sale,Mixed Stainless,,,Mixed Stainless,Non-Ferrous Sale,6740,,0.2205,1486.17,1486.17,0,qbo_out\qbo_pdfs\Newco_Metal\INV-5806.pdf
@@ -2075,7 +2078,7 @@ MDK ZeroLandfill,10769,3895,2025-02-11,2025-02-11,Non-Ferrous Sale,5052 from Fen
 "Newco Metals, Inc",8418,3212,2024-05-09,2024-05-14,Non-Ferrous Sale,Bare ext,2024-05-13,,Bare ext,Non-Ferrous Sale,1519,,0.96,1458.24,4258.58,0,qbo_out\qbo_pdfs\Newco_Metal\INV-8418.pdf
 "Newco Metals, Inc",8418,3212,2024-05-09,2024-05-14,Non-Ferrous Sale,Ptd ext,2024-05-13,,Ptd ext,Non-Ferrous Sale,684,,0.92,629.28,4258.58,0,qbo_out\qbo_pdfs\Newco_Metal\INV-8418.pdf
 "Newco Metals, Inc",8418,3212,2024-05-09,2024-05-14,Non-Ferrous Sale,MLC,2024-05-13,,MLC,Non-Ferrous Sale,287,,0.88,252.56,4258.58,0,qbo_out\qbo_pdfs\Newco_Metal\INV-8418.pdf
-"Newco Metals, Inc",8769,3347,2024-06-26,2024-06-26,Ferrous Sale,Drums and Rotors,2024-06-26,,Drums and Rotors,Ferrous Sale,58740,,0.1585,9310.29,9310.29,0,qbo_out\qbo_pdfs\Newco_Metal\INV-8769.pdf
+"Newco Metals, Inc",8769,3347,2024-06-26,2024-06-26,Ferrous Sale,Drums and Rotors,2024-06-26,,Drums & Rotors,Ferrous Sale,58740,,0.1585,9310.29,9310.29,0,qbo_out\qbo_pdfs\Newco_Metal\INV-8769.pdf
 "Newco Metals, Inc",8789,3356,2024-06-28,2024-06-28,Non-Ferrous Sale,Old Sheet Aluminum,2024-06-28,,Old Sheet Aluminum,Non-Ferrous Sale,10380,,0.73,7577.4,7577.4,0,qbo_out\qbo_pdfs\Newco_Metal\INV-8789.pdf
 "Newco Metals, Inc",8878,3374,2024-07-08,2024-07-08,Non-Ferrous Sale,Dirty car wheels,2024-07-08,P/U,Dirty car wheels,Non-Ferrous Sale,283,,0.9,254.7,4078.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-8878.pdf
 "Newco Metals, Inc",8878,3374,2024-07-08,2024-07-08,Non-Ferrous Sale,MLC,2024-07-08,P/U,MLC,Non-Ferrous Sale,573,,0.88,504.24,4078.57,0,qbo_out\qbo_pdfs\Newco_Metal\INV-8878.pdf
@@ -2111,9 +2114,9 @@ MDK ZeroLandfill,10769,3895,2025-02-11,2025-02-11,Non-Ferrous Sale,5052 from Fen
 "Newco Metals, Inc",10039,3699,2024-11-11,2024-11-11,Non-Ferrous Sale,Al Boring,2024-11-11,Newco 528-4454,Al Boring,Non-Ferrous Sale,208,,0.52,108.16,3813.19,0,qbo_out\qbo_pdfs\Newco_Metal\INV-10039.pdf
 "Newco Metals, Inc",10039,3699,2024-11-11,2024-11-11,Non-Ferrous Sale,SS Boring,2024-11-11,Newco 528-4454,SS Boring,Non-Ferrous Sale,629,,0.35,220.15,3813.19,0,qbo_out\qbo_pdfs\Newco_Metal\INV-10039.pdf
 "Newco Metals, Inc",10039,3699,2024-11-11,2024-11-11,Non-Ferrous Sale,Al turnings w/ Fe,2024-11-11,Newco 528-4454,Al turnings w/ Fe,Non-Ferrous Sale,128,,0.42,53.76,3813.19,0,qbo_out\qbo_pdfs\Newco_Metal\INV-10039.pdf
-"Newco Metals, Inc",10039,3699,2024-11-11,2024-11-11,Non-Ferrous Sale,Al Bkg,2024-11-11,Newco 528-4454,Al Bkg,Non-Ferrous Sale,294,,0.14,41.16,3813.19,0,qbo_out\qbo_pdfs\Newco_Metal\INV-10039.pdf
+"Newco Metals, Inc",10039,3699,2024-11-11,2024-11-11,Non-Ferrous Sale,Al Bkg,2024-11-11,Newco 528-4454,Al Breakage,Non-Ferrous Sale,294,,0.14,41.16,3813.19,0,qbo_out\qbo_pdfs\Newco_Metal\INV-10039.pdf
 "Newco Metals, Inc",10039,3699,2024-11-11,2024-11-11,Non-Ferrous Sale,Fe turnings,2024-11-11,Newco 528-4454,Fe turnings,Non-Ferrous Sale,864,,0.035,30.24,3813.19,0,qbo_out\qbo_pdfs\Newco_Metal\INV-10039.pdf
-"Newco Metals, Inc",10176,3733,2024-11-25,2024-11-01,Non-Ferrous Sale,old sheet and load lock bars,2024-11-01,,old sheet and load lock bars,Non-Ferrous Sale,14520,,0.6787603,9855.6,9855.6,0,qbo_out\qbo_pdfs\Newco_Metal\INV-10176.pdf
+"Newco Metals, Inc",10176,3733,2024-11-25,2024-11-01,Non-Ferrous Sale,old sheet and load lock bars,2024-11-01,,Old Sheet,Non-Ferrous Sale,14520,,0.6787603,9855.6,9855.6,0,qbo_out\qbo_pdfs\Newco_Metal\INV-10176.pdf
 "Newco Metals, Inc",10187,3738,2024-12-03,2024-12-03,Non-Ferrous Sale,Bare ext,2024-12-03,Newco Metals,Bare ext,Non-Ferrous Sale,3909,,0.91,3557.19,5331.73,0,qbo_out\qbo_pdfs\Newco_Metal\INV-10187.pdf
 "Newco Metals, Inc",10187,3738,2024-12-03,2024-12-03,Non-Ferrous Sale,Thermo break ext,2024-12-03,Newco Metals,Thermo break ext,Non-Ferrous Sale,2152,,0.61,1312.72,5331.73,0,qbo_out\qbo_pdfs\Newco_Metal\INV-10187.pdf
 "Newco Metals, Inc",10187,3738,2024-12-03,2024-12-03,Non-Ferrous Sale,Auto wheels,2024-12-03,Newco Metals,Auto wheels,Non-Ferrous Sale,537,,0.86,461.82,5331.73,0,qbo_out\qbo_pdfs\Newco_Metal\INV-10187.pdf
@@ -2148,12 +2151,12 @@ MDK ZeroLandfill,10769,3895,2025-02-11,2025-02-11,Non-Ferrous Sale,5052 from Fen
 "Newco Metals, Inc",11778,4197,2025-06-19,2025-06-19,Non-Ferrous Sale,Ptd Ext,2025-06-19,Newco,Ptd Ext,Non-Ferrous Sale,643,,1.13,726.59,5871.49,0,qbo_out\qbo_pdfs\Newco_Metal\INV-11778.pdf
 "Newco Metals, Inc",11778,4197,2025-06-19,2025-06-19,Non-Ferrous Sale,Thermal Ext,2025-06-19,Newco,Thermal Ext,Non-Ferrous Sale,476,,0.81,385.56,5871.49,0,qbo_out\qbo_pdfs\Newco_Metal\INV-11778.pdf
 "Newco Metals, Inc",11958,4263,2025-07-15,2025-07-15,Non-Ferrous Sale,Old Sheet,2025-07-15,Newco 400,Old Sheet,Non-Ferrous Sale,6120,,0.73,4467.6,4467.6,0,qbo_out\qbo_pdfs\Newco_Metal\INV-11958.pdf
-"Newco Metals, Inc",12085,4306,2025-08-01,2025-08-01,Non-Ferrous Sale,Old sheet box,2025-08-01,Newco,Old sheet box,Non-Ferrous Sale,9080,,0.72,6537.6,6537.6,0,qbo_out\qbo_pdfs\Newco_Metal\INV-12085.pdf
-"Newco Metals, Inc",12185,4350,2025-08-15,2025-08-15,Non-Ferrous Sale,Old sheet box,2025-08-15,Newco 400,Old sheet box,Non-Ferrous Sale,7420,,0.72,5342.4,5342.4,0,qbo_out\qbo_pdfs\Newco_Metal\INV-12185.pdf
+"Newco Metals, Inc",12085,4306,2025-08-01,2025-08-01,Non-Ferrous Sale,Old sheet box,2025-08-01,Newco,Old Sheet,Non-Ferrous Sale,9080,,0.72,6537.6,6537.6,0,qbo_out\qbo_pdfs\Newco_Metal\INV-12085.pdf
+"Newco Metals, Inc",12185,4350,2025-08-15,2025-08-15,Non-Ferrous Sale,Old sheet box,2025-08-15,Newco 400,Old Sheet,Non-Ferrous Sale,7420,,0.72,5342.4,5342.4,0,qbo_out\qbo_pdfs\Newco_Metal\INV-12185.pdf
 "Newco Metals, Inc",12238,4368,2025-08-21,2025-08-21,Ferrous Sale,Drums & Rotors ,2025-08-21,Newco (lease) 528-4227,Drums & Rotors ,Ferrous Sale,51520,,0.154,7934.08,7934.08,0,qbo_out\qbo_pdfs\Newco_Metal\INV-12238.pdf
-"Newco Metals, Inc",12293,4377,2025-08-26,2025-08-26,Non-Ferrous Sale,Old sheet box,2025-08-26,Newco 400,Old sheet box,Non-Ferrous Sale,7220,,0.72,5198.4,5198.4,0,qbo_out\qbo_pdfs\Newco_Metal\INV-12293.pdf
-"Newco Metals, Inc",12419,4415,2025-09-11,2025-09-11,Non-Ferrous Sale,Old sheet box,2025-09-11,Newco 400,Old sheet box,Non-Ferrous Sale,8140,,0.72,5860.8,5860.8,0,qbo_out\qbo_pdfs\Newco_Metal\INV-12419.pdf
-"Newco Metals, Inc",12601,4467,2025-10-08,2025-10-08,Non-Ferrous Sale,Old sheet box,2025-10-08,Newco 400,Old sheet box,Non-Ferrous Sale,8140,,0.72,5860.8,5860.8,5860.8,qbo_out\qbo_pdfs\Newco_Metal\INV-12601.pdf
+"Newco Metals, Inc",12293,4377,2025-08-26,2025-08-26,Non-Ferrous Sale,Old sheet box,2025-08-26,Newco 400,Old Sheet,Non-Ferrous Sale,7220,,0.72,5198.4,5198.4,0,qbo_out\qbo_pdfs\Newco_Metal\INV-12293.pdf
+"Newco Metals, Inc",12419,4415,2025-09-11,2025-09-11,Non-Ferrous Sale,Old sheet box,2025-09-11,Newco 400,Old Sheet,Non-Ferrous Sale,8140,,0.72,5860.8,5860.8,0,qbo_out\qbo_pdfs\Newco_Metal\INV-12419.pdf
+"Newco Metals, Inc",12601,4467,2025-10-08,2025-10-08,Non-Ferrous Sale,Old sheet box,2025-10-08,Newco 400,Old Sheet,Non-Ferrous Sale,8140,,0.72,5860.8,5860.8,5860.8,qbo_out\qbo_pdfs\Newco_Metal\INV-12601.pdf
 Steel Dynamics Inc.,11039,3971,2025-03-19,2025-03-19,Ferrous Sale,Busheling,2025-03-19,Caldwell #70,Busheling,Ferrous Sale,18700,,0.2098209,3923.65,3923.65,0,qbo_out\qbo_pdfs\SDI_(Steel_Dynamics)\INV-11039.pdf
 Steel Dynamics Inc.,11039,3971,2025-03-19,2025-03-19,Waste Revenue:PO/Work Order# Issued,P100015527,2025-03-19,Caldwell #70,P100015527,Waste Revenue:PO/Work Order# Issued,1,,0,0,3923.65,0,qbo_out\qbo_pdfs\SDI_(Steel_Dynamics)\INV-11039.pdf
 Steel Dynamics Inc.,11038,3970,2025-03-19,2025-03-19,Ferrous Sale,Busheling,2025-03-19,Caldwell #70,Busheling,Ferrous Sale,18820,,0.209822,3948.85,3948.85,0,qbo_out\qbo_pdfs\SDI_(Steel_Dynamics)\INV-11038.pdf

@@ -1,0 +1,75 @@
+import csv
+import io
+
+# Read the CSV text from the raw data file.
+with open('C:/Users/tbyer/BRidge-html/HTMLs/bridge-dashboard/data/scrap_prices.csv', 'r') as f:
+    content = f.read()
+
+# Prepare an output list with a consistent header.
+output_rows = []
+header = ["Category", "Side", "Item", "Description", "Price"]
+output_rows.append(header)
+
+# Variables to hold the current header (i.e. product category) for each side.
+current_left_category = None
+current_right_category = None
+in_product_section = False
+
+# Use csv.reader to parse the CSV content.
+f_io = io.StringIO(content)
+reader = csv.reader(f_io)
+
+for row in reader:
+    # Pad row to 7 columns if it is shorter.
+    if len(row) < 7:
+        row += [""] * (7 - len(row))
+    # Skip rows that are entirely empty.
+    if all(not cell.strip() for cell in row):
+        continue
+
+    # Heuristic: Look for a dual-header row.
+    if row[0].strip() and row[4].strip() and ((not row[1].strip()) or row[1].strip().upper() == "DESCRIPTION") and ((not row[5].strip()) or row[5].strip().upper() == "DESCRIPTION"):
+        current_left_category = row[0].strip()
+        current_right_category = row[4].strip()
+        in_product_section = True
+        continue
+
+    # Skip group header rows that have only one non-empty cell.
+    if row[0].strip() and not any(cell.strip() for cell in row[1:]):
+        continue
+
+    # Check if we're in a product section.
+    left_has_price = False
+    right_has_price = False
+    try:
+        float(row[2])
+        left_has_price = True
+    except:
+        pass
+    try:
+        float(row[6])
+        right_has_price = True
+    except:
+        pass
+
+    if in_product_section and (left_has_price or right_has_price or row[0].strip() or row[4].strip()):
+        # Process the left-side product.
+        if row[0].strip():
+            item = row[0].strip()
+            desc = row[1].strip()
+            price = row[2].strip()
+            output_rows.append([current_left_category, "Left", item, desc, price])
+        # Process the right-side product.
+        if row[4].strip():
+            item = row[4].strip()
+            desc = row[5].strip()
+            price = row[6].strip()
+            output_rows.append([current_right_category, "Right", item, desc, price])
+        continue
+
+# Write out the new CSV text to a file.
+with open('C:/Users/tbyer/BRidge-html/HTMLs/bridge-dashboard/data/cleaned_scrap_prices.csv', 'w', newline='') as f_out:
+    writer = csv.writer(f_out)
+    writer.writerows(output_rows)
+
+print("Cleaned CSV file has been written.")
