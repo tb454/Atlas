@@ -89,9 +89,9 @@ Mervis,Winski Brothers,Clips,7.28,258.93,,2677#0,,QBO,2023-10-03,USD
 Mervis,Winski Brothers,P&S,13.87,321.43,,2693#0,,QBO,2023-10-12,USD
 Mervis,Winski Brothers,Clips,11.36,254.46,,2696#0,,QBO,2023-10-13,USD
 Mervis,Winski Brothers,P&S,14.99,321.43,,2701#0,,QBO,2023-10-16,USD
-Mervis,Winski Brothers,HMS,21.97,209.82,,2711#0,,QBO,2023-10-17,USD
+Mervis,Winski Brothers,Unprepared HMS,21.97,209.82,,2711#0,,QBO,2023-10-17,USD
 Mervis,Winski Brothers,P&S,19.68,312.5,,2705#0,,QBO,2023-10-17,USD
-Mervis,Winski Brothers,HMS,17.73,209.82,,2713#0,,QBO,2023-10-18,USD
+Mervis,Winski Brothers,Unprepared HMS,17.73,209.82,,2713#0,,QBO,2023-10-18,USD
 Mervis,Winski Brothers,P&S 5',14.98,312.5,,2717#0,,QBO,2023-10-20,USD
 Mervis,Winski Brothers,P&S,17.12,288.95,,2730#0,,QBO,2023-10-27,USD
 Mervis,Winski Brothers,Clips,8.95,258.93,,2741#0,,QBO,2023-10-31,USD
@@ -374,7 +374,7 @@ Rochester Iron & Metal,Winski Brothers,Rebar / Concrete-Attached HMS,9.44,295.0,
 Rochester Iron & Metal,Winski Brothers,Prepared Cast (Industrial),29.28,214.29,,1031#0,,QBO,2021-11-09,USD
 Rochester Iron & Metal,Winski Brothers,Unprepared HMS,14.0,295.0,,1034#0,,QBO,2021-11-12,USD
 Rochester Iron & Metal,Winski Brothers,Mixed Electric Motors (Dirty),13.0,372.0,,1028#0,,QBO,2021-11-15,USD
-Rochester Iron & Metal,Winski Brothers,Old Sheet,3.3,1140.0,,1057#0,,QBO,2021-11-18,USD
+Rochester Iron & Metal,Winski Brothers,Old Sheet Aluminum,3.3,1140.0,,1057#0,,QBO,2021-11-18,USD
 Rochester Iron & Metal,Winski Brothers,P&S 5',22.74,424.11,,1106#0,,QBO,2021-12-13,USD
 Rochester Iron & Metal,Winski Brothers,P&S,24.87,424.11,,1111#0,,QBO,2021-12-14,USD
 Rochester Iron & Metal,Winski Brothers,P&S,11.29,424.11,,1114#0,,QBO,2021-12-15,USD
@@ -445,7 +445,7 @@ Rochester Iron & Metal,Winski Brothers,Drums & Rotors,15.16,455.36,,2021#0,,QBO,
 Rochester Iron & Metal,Winski Brothers,Busheling,11.63,316.96,,2020#0,,QBO,2023-01-23,USD
 Rochester Iron & Metal,Winski Brothers,HMS #2,27.83,205.0,,2049#0,,QBO,2023-02-02,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,13.4,343.75,,2072#0,,QBO,2023-02-17,USD
-Rochester Iron & Metal,Winski Brothers,Old Sheet,4.82,1020.0,,2087#0,,QBO,2023-02-22,USD
+Rochester Iron & Metal,Winski Brothers,Old Sheet Aluminum,4.82,1020.0,,2087#0,,QBO,2023-02-22,USD
 Rochester Iron & Metal,Winski Brothers,Busheling,8.93,343.75,,2081#0,,QBO,2023-02-22,USD
 Rochester Iron & Metal,Winski Brothers,Bolts & Nuts,19.12,294.64,,2136#0,,QBO,2023-03-15,USD
 Rochester Iron & Metal,Winski Brothers,P&S,31.23,388.39,,2140#0,,QBO,2023-03-16,USD
@@ -456,7 +456,7 @@ Rochester Iron & Metal,Winski Brothers,Old Sheet,3.45,1020.0,,2335#0,,QBO,2023-0
 Rochester Iron & Metal,Winski Brothers,Al Breakage,2.55,460.0,,2343#0,,QBO,2023-05-30,USD
 Rochester Iron & Metal,Winski Brothers,HMS,27.09,227.68,,2390#0,,QBO,2023-06-15,USD
 Rochester Iron & Metal,Winski Brothers,HMS,23.68,227.68,,2394#0,,QBO,2023-06-16,USD
-Rochester Iron & Metal,Winski Brothers,Old Sheet,3.69,980.0,,2490#0,,QBO,2023-07-27,USD
+Rochester Iron & Metal,Winski Brothers,Old Sheet Aluminum,3.69,980.0,,2490#0,,QBO,2023-07-27,USD
 Rochester Iron & Metal,Winski Brothers,HMS #2,21.17,170.0,,2501#0,,QBO,2023-07-31,USD
 Rochester Iron & Metal,Winski Brothers,HMS,22.35,245.54,,2583#0,,QBO,2023-08-28,USD
 Rochester Iron & Metal,Winski Brothers,Drums & Rotors,22.72,312.5,,2618#0,,QBO,2023-09-07,USD
@@ -468,7 +468,7 @@ Rochester Iron & Metal,Winski Brothers,Busheling,7.31,303.57,,2694#0,,QBO,2023-1
 Rochester Iron & Metal,Winski Brothers,Clips,13.88,290.18,,2707#0,,QBO,2023-10-17,USD
 Rochester Iron & Metal,Winski Brothers,Clips,17.03,294.68,,2729#0,,QBO,2023-10-27,USD
 Rochester Iron & Metal,Winski Brothers,Shred,19.19,53.57,,2761#0,,QBO,2023-11-06,USD
-Rochester Iron & Metal,Winski Brothers,Old Sheet,4.49,1000.0,,2763#0,,QBO,2023-11-07,USD
+Rochester Iron & Metal,Winski Brothers,Old Sheet Aluminum,4.49,1000.0,,2763#0,,QBO,2023-11-07,USD
 Rochester Iron & Metal,Winski Brothers,Clips,17.82,316.96,,2783#0,,QBO,2023-11-13,USD
 Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),19.97,316.96,,2808#0,,QBO,2023-11-27,USD
 Rochester Iron & Metal,Winski Brothers,Unprepared HMS (Pipe),21.81,316.96,,2807#0,,QBO,2023-11-27,USD
@@ -482,7 +482,7 @@ Rochester Iron & Metal,Winski Brothers,Clips,21.31,318.95,,2848#0,,QBO,2023-12-0
 Rochester Iron & Metal,Winski Brothers,Clips,15.98,388.39,,2857#0,,QBO,2023-12-12,USD
 Rochester Iron & Metal,Winski Brothers,Clips,19.26,388.39,,2860#0,,QBO,2023-12-13,USD
 Rochester Iron & Metal,Winski Brothers,Clips,18.21,388.39,,2862#0,,QBO,2023-12-14,USD
-Rochester Iron & Metal,Winski Brothers,Old Sheet,4.65,1000.0,,2896#0,,QBO,2024-01-04,USD
+Rochester Iron & Metal,Winski Brothers,Old Sheet Aluminum,4.65,1000.0,,2896#0,,QBO,2024-01-04,USD
 Rochester Iron & Metal,Winski Brothers,Clips,15.36,388.39,,2939#0,,QBO,2024-01-26,USD
 Rochester Iron & Metal,Winski Brothers,Clips,17.2,386.13,,2945#0,,QBO,2024-01-30,USD
 Rochester Iron & Metal,Winski Brothers,Clips,22.72,343.6,,2961#0,,QBO,2024-02-02,USD
@@ -535,7 +535,7 @@ Rochester Iron & Metal,Winski Brothers,Busheling,7.42,285.71,,3599#0,,QBO,2024-0
 Rochester Iron & Metal,Winski Brothers,Shred,14.77,210.0,,3622#0,,QBO,2024-10-08,USD
 Rochester Iron & Metal,Winski Brothers,Shred,20.105,210.0,,3625#0,,QBO,2024-10-09,USD
 Rochester Iron & Metal,Winski Brothers,Clips,12.54,272.32,,3630#0,,QBO,2024-10-10,USD
-Rochester Iron & Metal,Winski Brothers,Busheling / 20034,9.56,285.71,,3631#0,,QBO,2024-10-11,USD
+Rochester Iron & Metal,Winski Brothers,Busheling,9.56,285.71,,3631#0,,QBO,2024-10-11,USD
 Rochester Iron & Metal,Winski Brothers,Shred,14.82,210.0,,3638#0,,QBO,2024-10-16,USD
 Rochester Iron & Metal,Winski Brothers,Shred,15.43,210.0,,3641#0,,QBO,2024-10-17,USD
 Rochester Iron & Metal,Winski Brothers,Clips,12.6,275.56,,3643#0,,QBO,2024-10-18,USD
@@ -714,7 +714,7 @@ Pro Metal Recycling,Winski Brothers,Al Extrusion 6063 10/10,0.3,2700.0,,1305#0,,
 Pro Metal Recycling,Winski Brothers,Al Extrusion (Painted/Anodized),0.2255,2600.0,,1305#1,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,NON FE:Batteries - Auto,0.922,420.0,,1305#2,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,NON FE:Batteries - Auto,1.064,420.0,,1305#3,,QBO,2022-03-28,USD
-Pro Metal Recycling,Winski Brothers,turnings,0.0635,4500.0,,1305#4,,QBO,2022-03-28,USD
+Pro Metal Recycling,Winski Brothers,Turnings,0.0635,4500.0,,1305#4,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,one drum,0.44,6540.0,,1305#5,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,NON FE:Yellow Brass,1.1975,6000.0,,1305#6,,QBO,2022-03-28,USD
 Pro Metal Recycling,Winski Brothers,NON FE:Bare Brite Copper,1.2795,9000.0,,1305#7,,QBO,2022-03-28,USD
@@ -1924,10 +1924,10 @@ Farnsworth Metal Recycling,Winski Brothers,Prepared Cast,6.56,165.0,,2408#0,,QBO
 Farnsworth Metal Recycling,Winski Brothers,Prepared Cast,3.02,180.0,,2422#0,,QBO,2023-06-28,USD
 Farnsworth Metal Recycling,Winski Brothers,Prepared Cast,5.92,180.0,,2421#0,,QBO,2023-06-28,USD
 Farnsworth Metal Recycling,Winski Brothers,Unprepared shearing from IISI,5.93,165.0,,2467#0,,QBO,2023-07-17,USD
-Farnsworth Metal Recycling,Winski Brothers,Al BKG,0.166,280.0,,2531#0,,QBO,2023-08-09,USD
+Farnsworth Metal Recycling,Winski Brothers,Al Breakage,0.166,280.0,,2531#0,,QBO,2023-08-09,USD
 Farnsworth Metal Recycling,Winski Brothers,Old Sheet,1.444,1028.4,,2531#1,,QBO,2023-08-09,USD
 Farnsworth Metal Recycling,Winski Brothers,Trash Deduction,-0.0005,4500.0,,2531#2,,QBO,2023-08-09,USD
-Farnsworth Metal Recycling,Winski Brothers,Al Bkg,0.25,200.0,,2541#0,,QBO,2023-08-14,USD
+Farnsworth Metal Recycling,Winski Brothers,Al Breakage,0.25,200.0,,2541#0,,QBO,2023-08-14,USD
 Farnsworth Metal Recycling,Winski Brothers,Old Sheet,0.85,980.0,,2541#1,,QBO,2023-08-14,USD
 Farnsworth Metal Recycling,Winski Brothers,Old Sheet,1.39,839.17,,2555#0,,QBO,2023-08-19,USD
 Farnsworth Metal Recycling,Winski Brothers,Old Sheet,1.165,617.9,,2560#0,,QBO,2023-08-22,USD
@@ -1989,7 +1989,7 @@ MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,19.0725,2380.0,,3895#0,,QBO
 "Newco Metals, Inc",Winski Brothers,304 Stainless Steel Turnings,0.1015,1840.0,,1359#5,,QBO,2022-04-15,USD
 "Newco Metals, Inc",Winski Brothers,Radiators (Auto,0.3045,4000.0,,1464#0,,QBO,2022-05-23,USD
 "Newco Metals, Inc",Winski Brothers,Al Extrusion 6063 10/10,0.28375,2280.0,,1464#1,,QBO,2022-05-23,USD
-"Newco Metals, Inc",Winski Brothers,Al BKG,0.61,460.0,,1464#2,,QBO,2022-05-23,USD
+"Newco Metals, Inc",Winski Brothers,Al Breakage,0.61,460.0,,1464#2,,QBO,2022-05-23,USD
 "Newco Metals, Inc",Winski Brothers,Lead-Acid Batteries (Auto),0.996,500.0,,1464#3,,QBO,2022-05-23,USD
 "Newco Metals, Inc",Winski Brothers,Al Extrusion 6063 (New Production),0.291,2500.0,,1464#4,,QBO,2022-05-23,USD
 "Newco Metals, Inc",Winski Brothers,Alum Cans,2.8445,1660.0,,1464#5,,QBO,2022-05-23,USD
@@ -2003,7 +2003,7 @@ MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,19.0725,2380.0,,3895#0,,QBO
 "Newco Metals, Inc",Winski Brothers,Al Extrusion 6063 (New Production),0.5265,2500.0,,1464#13,,QBO,2022-05-23,USD
 "Newco Metals, Inc",Winski Brothers,Al 6061 Solids,0.584,2500.0,,1464#14,,QBO,2022-05-23,USD
 "Newco Metals, Inc",Winski Brothers,Old Cast Aluminum,0.533,1200.0,,1464#15,,QBO,2022-05-23,USD
-"Newco Metals, Inc",Winski Brothers,Al BKG,0.61,460.0,,1464#16,,QBO,2022-05-23,USD
+"Newco Metals, Inc",Winski Brothers,Al Breakage,0.61,460.0,,1464#16,,QBO,2022-05-23,USD
 "Newco Metals, Inc",Winski Brothers,Al Extrusion 6063 (New Production),0.467,2500.0,,1464#17,,QBO,2022-05-23,USD
 "Newco Metals, Inc",Winski Brothers,Alum Cans,2.2675,1480.0,,1539#0,,QBO,2022-06-23,USD
 "Newco Metals, Inc",Winski Brothers,Painted Aluminum Extrusion,0.172,2100.0,,1539#1,,QBO,2022-06-23,USD
@@ -2018,9 +2018,9 @@ MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,19.0725,2380.0,,3895#0,,QBO
 "Newco Metals, Inc",Winski Brothers,Painted Aluminum Extrusion,0.071,1880.0,,1589#5,,QBO,2022-07-15,USD
 "Newco Metals, Inc",Winski Brothers,MLC (Mixed Low Copper) Prepared,0.0715,1180.0,,1589#6,,QBO,2022-07-15,USD
 "Newco Metals, Inc",Winski Brothers,Stainless Steel Dumpster,7.68,800.0,,1636#0,,QBO,2022-08-01,USD
-"Newco Metals, Inc",Winski Brothers,Stainless Steel,5.904,860.0,,1890#0,,QBO,2022-11-11,USD
+"Newco Metals, Inc",Winski Brothers,Stainless,5.904,860.0,,1890#0,,QBO,2022-11-11,USD
 "Newco Metals, Inc",Winski Brothers,Al Breakage,1.476,280.0,,1890#1,,QBO,2022-11-11,USD
-"Newco Metals, Inc",Winski Brothers,Stainless Steel,6.1,340.0,,2013#0,,QBO,2023-01-19,USD
+"Newco Metals, Inc",Winski Brothers,Stainless,6.1,340.0,,2013#0,,QBO,2023-01-19,USD
 "Newco Metals, Inc",Winski Brothers,Stainless 304 (Prepared),6.777,1060.0,,2148#0,,QBO,2023-03-20,USD
 "Newco Metals, Inc",Winski Brothers,Stainless Steel Bkg,0.753,300.0,,2148#1,,QBO,2023-03-20,USD
 "Newco Metals, Inc",Winski Brothers,Al Breakage,3.912,280.0,,2321#0,,QBO,2023-05-22,USD
@@ -2033,14 +2033,14 @@ MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,19.0725,2380.0,,3895#0,,QBO
 "Newco Metals, Inc",Winski Brothers,Thermal Break Aluminum Extrusion,0.2295,1000.0,,3036#1,,QBO,2024-03-05,USD
 "Newco Metals, Inc",Winski Brothers,Painted Aluminum Extrusion,0.5965,1460.0,,3036#2,,QBO,2024-03-05,USD
 "Newco Metals, Inc",Winski Brothers,Al Extrusion (Bare),1.3455,1500.0,,3036#3,,QBO,2024-03-05,USD
-"Newco Metals, Inc",Winski Brothers,Old Sheet,5.19,1280.0,,3172#0,,QBO,2024-04-25,USD
+"Newco Metals, Inc",Winski Brothers,Old Sheet Aluminum,5.19,1280.0,,3172#0,,QBO,2024-04-25,USD
 "Newco Metals, Inc",Winski Brothers,Thermal Break Aluminum Extrusion,0.275,1200.0,,3212#0,,QBO,2024-05-09,USD
 "Newco Metals, Inc",Winski Brothers,Al Wheels,0.8825,1800.0,,3212#1,,QBO,2024-05-09,USD
 "Newco Metals, Inc",Winski Brothers,Al Extrusion (Bare),0.7595,1920.0,,3212#2,,QBO,2024-05-09,USD
 "Newco Metals, Inc",Winski Brothers,Painted Aluminum Extrusion,0.342,1840.0,,3212#3,,QBO,2024-05-09,USD
 "Newco Metals, Inc",Winski Brothers,MLC (Mixed Low Copper) Prepared,0.1435,1760.0,,3212#4,,QBO,2024-05-09,USD
-"Newco Metals, Inc",Winski Brothers,Drums and Rotors,29.37,317.0,,3347#0,,QBO,2024-06-26,USD
-"Newco Metals, Inc",Winski Brothers,Old Sheet,5.19,1460.0,,3356#0,,QBO,2024-06-28,USD
+"Newco Metals, Inc",Winski Brothers,Drums & Rotors,29.37,317.0,,3347#0,,QBO,2024-06-26,USD
+"Newco Metals, Inc",Winski Brothers,Old Sheet Aluminum,5.19,1460.0,,3356#0,,QBO,2024-06-28,USD
 "Newco Metals, Inc",Winski Brothers,Al Car Wheels (Dirty),0.1415,1800.0,,3374#0,,QBO,2024-07-08,USD
 "Newco Metals, Inc",Winski Brothers,MLC (Mixed Low Copper) Prepared,0.2865,1760.0,,3374#1,,QBO,2024-07-08,USD
 "Newco Metals, Inc",Winski Brothers,Thermal extrusion,0.161,1200.0,,3374#2,,QBO,2024-07-08,USD
@@ -2049,22 +2049,22 @@ MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,19.0725,2380.0,,3895#0,,QBO
 "Newco Metals, Inc",Winski Brothers,Stainless 316 (Clean,0.42,1780.0,,3374#5,,QBO,2024-07-08,USD
 "Newco Metals, Inc",Winski Brothers,Stainless (316/312 Mixed),0.7405,980.0,,3374#6,,QBO,2024-07-08,USD
 "Newco Metals, Inc",Winski Brothers,Aluminum Turnings,0.0235,920.0,,3374#7,,QBO,2024-07-08,USD
-"Newco Metals, Inc",Winski Brothers,Old Sheet,5.79,1300.0,,3505#0,,QBO,2024-08-16,USD
+"Newco Metals, Inc",Winski Brothers,Old Sheet Aluminum,5.79,1300.0,,3505#0,,QBO,2024-08-16,USD
 "Newco Metals, Inc",Winski Brothers,Thermal Break Aluminum Extrusion,0.261,1060.0,,3513#0,,QBO,2024-08-20,USD
 "Newco Metals, Inc",Winski Brothers,Wheels = clean,0.191,1700.0,,3513#1,,QBO,2024-08-20,USD
 "Newco Metals, Inc",Winski Brothers,Wheels - dirty,0.5935,1660.0,,3513#2,,QBO,2024-08-20,USD
 "Newco Metals, Inc",Winski Brothers,Painted Aluminum Extrusion,0.263,1720.0,,3513#3,,QBO,2024-08-20,USD
 "Newco Metals, Inc",Winski Brothers,Al Extrusion 6063 (Old),0.417,1760.0,,3513#4,,QBO,2024-08-20,USD
 "Newco Metals, Inc",Winski Brothers,Bare EC wire,0.781,1760.0,,3513#5,,QBO,2024-08-20,USD
-"Newco Metals, Inc",Winski Brothers,Old Sheet,5.78,1300.0,,3598#0,,QBO,2024-09-26,USD
-"Newco Metals, Inc",Winski Brothers,Old Sheet,7.19,1320.0,,3618#0,,QBO,2024-10-04,USD
+"Newco Metals, Inc",Winski Brothers,Old Sheet Aluminum,5.78,1300.0,,3598#0,,QBO,2024-09-26,USD
+"Newco Metals, Inc",Winski Brothers,Old Sheet Aluminum,7.19,1320.0,,3618#0,,QBO,2024-10-04,USD
 "Newco Metals, Inc",Winski Brothers,Al Extrusion (Bare),1.8015,1880.0,,3629#0,,QBO,2024-10-11,USD
 "Newco Metals, Inc",Winski Brothers,MLC (Mixed Low Copper) Prepared,0.631,1760.0,,3629#1,,QBO,2024-10-11,USD
 "Newco Metals, Inc",Winski Brothers,Stainless 304 (Prepared),0.1555,800.0,,3629#2,,QBO,2024-10-11,USD
 "Newco Metals, Inc",Winski Brothers,304 SST w/ Fe,0.0685,500.0,,3629#3,,QBO,2024-10-11,USD
 "Newco Metals, Inc",Winski Brothers,Thermal Break Aluminum Extrusion,0.1565,1220.0,,3629#4,,QBO,2024-10-11,USD
-"Newco Metals, Inc",Winski Brothers,Old Sheet,5.79,1510.17,,3646#0,,QBO,2024-10-18,USD
-"Newco Metals, Inc",Winski Brothers,Old Sheet,7.26,1204.39,,3681#0,,QBO,2024-11-01,USD
+"Newco Metals, Inc",Winski Brothers,Old Sheet Aluminum,5.79,1510.17,,3646#0,,QBO,2024-10-18,USD
+"Newco Metals, Inc",Winski Brothers,Old Sheet Aluminum,7.26,1204.39,,3681#0,,QBO,2024-11-01,USD
 "Newco Metals, Inc",Winski Brothers,Thermal Break Aluminum Extrusion,0.333,1220.0,,3699#0,,QBO,2024-11-11,USD
 "Newco Metals, Inc",Winski Brothers,Wheels = clean,0.1955,1800.0,,3699#1,,QBO,2024-11-11,USD
 "Newco Metals, Inc",Winski Brothers,Painted Aluminum Extrusion,0.4005,1800.0,,3699#2,,QBO,2024-11-11,USD
@@ -2075,13 +2075,13 @@ MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,19.0725,2380.0,,3895#0,,QBO
 "Newco Metals, Inc",Winski Brothers,Aluminum Turnings / Borings,0.104,1040.0,,3699#7,,QBO,2024-11-11,USD
 "Newco Metals, Inc",Winski Brothers,SS Boring,0.3145,700.0,,3699#8,,QBO,2024-11-11,USD
 "Newco Metals, Inc",Winski Brothers,Aluminum Turnings (With Fe),0.064,840.0,,3699#9,,QBO,2024-11-11,USD
-"Newco Metals, Inc",Winski Brothers,Al Bkg,0.147,280.0,,3699#10,,QBO,2024-11-11,USD
+"Newco Metals, Inc",Winski Brothers,Al Breakage,0.147,280.0,,3699#10,,QBO,2024-11-11,USD
 "Newco Metals, Inc",Winski Brothers,Fe turnings,0.432,70.0,,3699#11,,QBO,2024-11-11,USD
 "Newco Metals, Inc",Winski Brothers,Old Sheet,7.26,1357.52,,3733#0,,QBO,2024-11-25,USD
 "Newco Metals, Inc",Winski Brothers,Al Extrusion (Bare),1.9545,1820.0,,3738#0,,QBO,2024-12-03,USD
 "Newco Metals, Inc",Winski Brothers,Thermal Break Aluminum Extrusion,1.076,1220.0,,3738#1,,QBO,2024-12-03,USD
 "Newco Metals, Inc",Winski Brothers,Al Car Wheels,0.2685,1720.0,,3738#2,,QBO,2024-12-03,USD
-"Newco Metals, Inc",Winski Brothers,Old Sheet,4.88,1500.0,,3789#0,,QBO,2024-12-19,USD
+"Newco Metals, Inc",Winski Brothers,Old Sheet Aluminum,4.88,1500.0,,3789#0,,QBO,2024-12-19,USD
 "Newco Metals, Inc",Winski Brothers,Al Extrusion (Bare),0.885,2240.0,,3883#0,,QBO,2025-02-07,USD
 "Newco Metals, Inc",Winski Brothers,irony ext,0.319,1720.0,,3883#1,,QBO,2025-02-07,USD
 "Newco Metals, Inc",Winski Brothers,Painted Aluminum Extrusion,0.579,2020.0,,3883#2,,QBO,2025-02-07,USD
@@ -2090,9 +2090,9 @@ MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,19.0725,2380.0,,3895#0,,QBO
 "Newco Metals, Inc",Winski Brothers,301 SS,0.58,760.0,,3883#5,,QBO,2025-02-07,USD
 "Newco Metals, Inc",Winski Brothers,3003,0.196,2360.0,,3883#6,,QBO,2025-02-07,USD
 "Newco Metals, Inc",Winski Brothers,Aluminum Turnings,0.082,1140.0,,3883#7,,QBO,2025-02-07,USD
-"Newco Metals, Inc",Winski Brothers,Old Sheet,6.49,1560.0,,3902#0,,QBO,2025-02-13,USD
+"Newco Metals, Inc",Winski Brothers,Old Sheet Aluminum,6.49,1560.0,,3902#0,,QBO,2025-02-13,USD
 "Newco Metals, Inc",Winski Brothers,Drums & Rotors,26.04,361.6,,3903#0,,QBO,2025-02-14,USD
-"Newco Metals, Inc",Winski Brothers,Old Sheet,4.56,1560.0,,3992#0,,QBO,2025-03-26,USD
+"Newco Metals, Inc",Winski Brothers,Old Sheet Aluminum,4.56,1560.0,,3992#0,,QBO,2025-03-26,USD
 "Newco Metals, Inc",Winski Brothers,Al wheels,0.778,1960.0,,4080#0,,QBO,2025-04-30,USD
 "Newco Metals, Inc",Winski Brothers,Al Extrusion (Bare),0.767,2000.0,,4080#1,,QBO,2025-04-30,USD
 "Newco Metals, Inc",Winski Brothers,Painted Aluminum Extrusion,0.3805,1800.0,,4080#2,,QBO,2025-04-30,USD
@@ -2100,7 +2100,7 @@ MDK ZeroLandfill,Winski Brothers,Aluminum 5052 Sheet,19.0725,2380.0,,3895#0,,QBO
 "Newco Metals, Inc",Winski Brothers,Stainless (316/312 Mixed),0.3125,1720.0,,4080#4,,QBO,2025-04-30,USD
 "Newco Metals, Inc",Winski Brothers,Ti turnings,0.057,1280.0,,4080#5,,QBO,2025-04-30,USD
 "Newco Metals, Inc",Winski Brothers,Ti solids,0.0405,3000.0,,4080#6,,QBO,2025-04-30,USD
-"Newco Metals, Inc",Winski Brothers,Old Sheet,6.25,1460.0,,4085#0,,QBO,2025-05-02,USD
+"Newco Metals, Inc",Winski Brothers,Old Sheet Aluminum,6.25,1460.0,,4085#0,,QBO,2025-05-02,USD
 "Newco Metals, Inc",Winski Brothers,Old Sheet,6.16,1460.0,,4137#0,,QBO,2025-05-29,USD
 "Newco Metals, Inc",Winski Brothers,Old Sheet,5.37,1460.0,,4178#0,,QBO,2025-06-11,USD
 "Newco Metals, Inc",Winski Brothers,Al Turnings/ SS T,0.1,200.0,,4197#0,,QBO,2025-06-19,USD
