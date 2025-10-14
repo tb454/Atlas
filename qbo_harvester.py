@@ -499,11 +499,11 @@ def _wildcard_to_regex(pat: str) -> str:
     return rf"^{esc}$"
 
 def _load_csv_mapping():
-    exact_global = {}                               # source -> canon
-    exact_by_cust = collections.defaultdict(dict)   # cust -> (source -> canon)
-    patterns = []                                    # [(regex, canon, cust_or_None)]
-    ignore_exact = set()                             # set of source strings to ignore
-    ignore_patterns = []                             # [regex]
+    exact_global = {}
+    exact_by_cust = collections.defaultdict(dict)
+    patterns = []
+    ignore_exact = set()
+    ignore_patterns = []
 
     if not MAPPING_CSV_PATH.exists():
         return exact_global, exact_by_cust, patterns, ignore_exact, ignore_patterns
@@ -513,36 +513,41 @@ def _load_csv_mapping():
         for row in r:
             if not row:
                 continue
-            # Support headers: either 2-col (source,suggested) or 3-col (source,customer,suggested)
-            if row[0].strip().lower() in {"source", "raw", "#"}:
+            # header guard
+            if row[0].strip().lower().lstrip("\ufeff") in {"source", "raw", "#"}:
                 continue
 
-            src = (row[0] or "").strip()
+            raw_src = (row[0] or "").strip().lstrip("\ufeff")
             cust = (row[1] if len(row) > 2 else "").strip() if len(row) >= 3 else ""
-            # If the file is 2-col (source,suggested)
+            # 2-col fallback
             if len(row) == 2:
                 suggested = (row[1] or "").strip()
-                cust = ""  # no customer column in 2-col mode
+                cust = ""
             else:
                 suggested = (row[2] if len(row) >= 3 else "").strip()
 
-            if not src or not suggested:
+            # skip blanks
+            if not raw_src or not suggested:
                 continue
 
-            src_low = src.lower()
+            # *** CRITICAL: preclean the CSV key exactly like runtime ***
+            src_clean = _preclean_source(raw_src)  # strips "NON FE:" and trims
+            src_low = src_clean.lower()
             cust_low = cust.lower() if cust else ""
 
-            # IGNORE rows
+            # IGNORE handling
             if suggested.upper() == "IGNORE":
-                if "*" in src:
-                    ignore_patterns.append(re.compile(_wildcard_to_regex(src), re.I))
+                if "*" in raw_src:
+                    # compile wildcard against the **precleaned** pattern too
+                    ignore_patterns.append(re.compile(_wildcard_to_regex(src_clean), re.I))
                 else:
                     ignore_exact.add(src_low)
                 continue
 
-            # Normal rows: exact or wildcard
-            if "*" in src:
-                patterns.append((re.compile(_wildcard_to_regex(src), re.I), suggested, cust_low or None))
+            # normal mappings
+            if "*" in raw_src:
+                # wildcard against precleaned source
+                patterns.append((re.compile(_wildcard_to_regex(src_clean), re.I), suggested, cust_low or None))
             else:
                 if cust_low:
                     exact_by_cust[cust_low][src_low] = suggested
