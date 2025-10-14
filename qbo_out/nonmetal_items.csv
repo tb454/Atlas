@@ -1,0 +1,13 @@
+customer,description,suggested,invoice_id,invoice_number,invoice_date,qty,uom,line_amount,pdf_path
+Fryman's Recycling #1,Vinyl siding,Clean PVC Siding,2251,1426,2022-05-09,2173,,108.65,qbo_out\qbo_pdfs\Frymans_Recycling_#1\INV-2251.pdf
+Fryman's Recycling #1,Vinyl Siding,Clean PVC Siding,3849,1906,2022-11-21,2000,,151.2,qbo_out\qbo_pdfs\Frymans_Recycling_#1\INV-3849.pdf
+Fryman's Recycling #1,Vinyl Siding,Clean PVC Siding,7105,2849,2023-12-08,1,,115.3,qbo_out\qbo_pdfs\Frymans_Recycling_#1\INV-7105.pdf
+Fryman's Recycling #1,Vinyl Siding,Clean PVC Siding,9093,3463,2024-08-01,1000,,125.3,qbo_out\qbo_pdfs\Frymans_Recycling_#1\INV-9093.pdf
+Fryman's Recycling #1,Vinyl Siding,Clean PVC Siding,9925,3655,2024-10-23,1000,,82.4,qbo_out\qbo_pdfs\Frymans_Recycling_#1\INV-9925.pdf
+Fryman's Recycling #1,Vinyl siding,Clean PVC Siding,10164,3729,2024-11-23,2242,,67.26,qbo_out\qbo_pdfs\Frymans_Recycling_#1\INV-10164.pdf
+Fryman's Recycling #1,Vinyl siding,Clean PVC Siding,11817,4218,2025-05-25,1959,,58.77,qbo_out\qbo_pdfs\Frymans_Recycling_#1\INV-11817.pdf
+Fryman's Recycling #1,Vinyl siding,Clean PVC Siding,12536,4447,2025-10-02,1959,,58.77,qbo_out\qbo_pdfs\Frymans_Recycling_#1\INV-12536.pdf
+Werner & Son,Cardboard from Bolts,Cardboard (Unbaled),11100,3993,2025-04-23,1880,,65.8,qbo_out\qbo_pdfs\Werner_&_Son\INV-11100.pdf
+Werner & Son,Brock Warehouse Wood Box / Insulation,Scrap Pallets,11340,4067,2025-04-25,1,,71.0,qbo_out\qbo_pdfs\Werner_&_Son\INV-11340.pdf
+Werner & Son,Cardboard from Value Merch,Cardboard (Baled),11372,4076,2025-04-29,1540,,46.2,qbo_out\qbo_pdfs\Werner_&_Son\INV-11372.pdf
+Werner & Son,Cardboard from the Yard,Cardboard (Unbaled),11566,4128,2025-05-22,4160,,124.8,qbo_out\qbo_pdfs\Werner_&_Son\INV-11566.pdf
