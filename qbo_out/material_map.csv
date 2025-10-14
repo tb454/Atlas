@@ -1,0 +1,321 @@
+source,customer,suggested
+#3 copper,,Sheet Copper
+#3 Cu,,Sheet Copper
+#3Cu,,Sheet Copper
+Bare brite,,No. 1 Copper Wire (Barley)
+Bare brite Cu,,No. 1 Copper Wire (Barley)
+Bare bright,,No. 1 Copper Wire (Barley)
+Bare Bright,,No. 1 Copper Wire (Barley)
+Bare Bright copper,,No. 1 Copper Wire (Barley)
+Bare bright copper,,No. 1 Copper Wire (Barley)
+BB,,No. 1 Copper Wire (Barley)
+BB Cu,,No. 1 Copper Wire (Barley)
+Bare brite copper,,No. 1 Copper Wire (Barley)
+Bare brite Cu,,No. 1 Copper Wire (Barley)
+Bare brite copper,,No. 1 Copper Wire (Barley)
+Bare brite Cu,,No. 1 Copper Wire (Barley)
+Bare brite,,No. 1 Copper Wire (Barley)
+Bare Brite,,No. 1 Copper Wire (Barley)
+Bare Brite Cu,,No. 1 Copper Wire (Barley)
+Bare brite copper,,No. 1 Copper Wire (Barley)
+#1 copper,,No. 1 Copper (Berry/Candy)
+#1 Cu,,No. 1 Copper (Berry/Candy)
+#1 cU,,No. 1 Copper (Berry/Candy)
+Bare brite copper,,No. 1 Copper (Berry/Candy)
+Berry & Candy,,No. 1 Copper (Berry/Candy)
+#2 copper,,No. 2 Copper (Birch/Cliff)
+#2 Cu,,No. 2 Copper (Birch/Cliff)
+#2 cU,,No. 2 Copper (Birch/Cliff)
+Birch & Cliff,,No. 2 Copper (Birch/Cliff)
+#2 Cu tips,,No. 2 Copper (Birch/Cliff)
+CUBB,,No. 1 Copper Wire (Barley)
+CU BB,,No. 1 Copper Wire (Barley)
+Copper #1,,No. 1 Copper (Berry/Candy)
+Copper #2,,No. 2 Copper (Birch/Cliff)
+Copper #3,,Sheet Copper
+Copper turnings,,Copper Turnings (Alloy/Shop)
+Lead coated sheet copper,,Sheet Copper (Lead-Coated)
+
+A/C rads,,Al/Cu Radiators (Clean)
+AC rads,,Al/Cu Radiators (Clean)
+AC Rads,,Al/Cu Radiators (Clean)
+A/C rads  Dirty,,Al/Cu Radiators (Dirty)
+Dirty A/C rads,,Al/Cu Radiators (Dirty)
+Clean A/C rads,,Al/Cu Radiators (Clean)
+A/C Rad - C,,Al/Cu Radiators (Clean)
+A/C Rad - D,,Al/Cu Radiators (Dirty)
+A/C Rads - C,,Al/Cu Radiators (Clean)
+A/C Rads - D,,Al/Cu Radiators (Dirty)
+A/C rad ends,,Radiator Ends (Cu Breakage)
+Rad ends,,Radiator Ends (Cu Breakage)
+
+Al car wheels,,Al Car Wheels
+Al Car wheels,,Al Car Wheels
+Car wheels,,Al Car Wheels
+Auto wheels,,Al Car Wheels
+Wheels,,Al Car Wheels
+Dirty car wheels,,Al Car Wheels (Dirty)
+Car wheels - chrome,,Al Car Wheels (Chrome)
+Al truck wheels,,Al Truck Wheels
+Truck wheels,,Al Truck Wheels
+Truck rims,,Al Truck Wheels
+
+bare ext,,Al Extrusion (Bare)
+Bare Ext,,Al Extrusion (Bare)
+Bare extrusion,,Al Extrusion (Bare)
+New Bare Ext,,Al Extrusion (Bare)
+Ptd ext,,Painted Aluminum Extrusion
+Ptd Ext,,Painted Aluminum Extrusion
+Painted Ext.,,Painted Aluminum Extrusion
+Painted Ext,,Painted Aluminum Extrusion
+Painted extrusion,,Painted Aluminum Extrusion
+Ptd ect,,Painted Aluminum Extrusion
+Thermo Ex,,Thermal Break Aluminum Extrusion
+Thermal Ext,,Thermal Break Aluminum Extrusion
+Thermal ext,,Thermal Break Aluminum Extrusion
+Thermo brk,,Thermal Break Aluminum Extrusion
+Thermo Break,,Thermal Break Aluminum Extrusion
+Thermal break,,Thermal Break Aluminum Extrusion
+Thermal break ext,,Thermal Break Aluminum Extrusion
+
+AL 6061,,Al 6061 Solids
+Al 6061,,Al 6061 Solids
+6061 solids,,Al 6061 Solids
+6063 Ext,,Al Extrusion 6063 (Old)
+NP 6063,,Al Extrusion 6063 (New Production)
+NP6063,,Al Extrusion 6063 (New Production)
+NP 6061,,Al 6061 Solids
+10/10 ext,,Al Extrusion 6063 10/10
+10/10 Ext - 2 boxes,,Al Extrusion 6063 10/10
+new anodized extrusion,,Al Extrusion (Painted/Anodized)
+
+MLC,,MLC (Mixed Low Copper) Prepared
+MLC (pallet),,MLC (Mixed Low Copper) Prepared
+Al cast,,Al Cast (Clean)
+Al Cast,,Al Cast (Clean)
+Old cast alum,,Old Cast Aluminum
+Old cast aluminum,,Old Cast Aluminum
+Old cast Al,,Old Cast Aluminum
+old cast,,Old Cast Aluminum
+Aluminum old cast,,Old Cast Aluminum
+Alum bkg,,Al Breakage
+Alum Bkg,,Al Breakage
+Alum bkg`,,Al Breakage
+Al Boring,,Aluminum Turnings / Borings
+Al turnings,,Aluminum Turnings
+Al Turnings,,Aluminum Turnings
+Al turnings w/ Fe,,Aluminum Turnings (With Fe)
+
+SS,,Stainless
+Stainless,,Stainless
+304 SS,,Stainless 304 (Prepared)
+304 Stainless,,Stainless 304 (Prepared)
+Stainless 304,,Stainless 304 (Prepared)
+Stainless sheets from Brock,,Stainless Sheet Scrap
+Stainless bkg,,Stainless Breakage
+Stainless solids,,Stainless Solids
+Stainless turnings,,Stainless Steel Turnings
+SS turnings,,Stainless Steel Turnings
+SS Turnings,,Stainless Steel Turnings
+SS sheets - B,,Stainless Sheet Scrap
+316 SS,,Stainless 316 (Clean, Prepared)
+316/312 SS,,Stainless (316/312 Mixed)
+SST,,Stainless
+SST 316 turnings,,Stainless Steel Turnings
+
+Brass shell,,Brass Shells (Clean, No Chrome)
+Brass shells,,Brass Shells (Clean, No Chrome)
+Yellow Brass,,Yellow Brass (Solid, Clean)
+Brass Yellow,,Yellow Brass (Solid, Clean)
+Red Brass,,Composition / Red Brass (Ebony)
+Semi red brass,,Composition / Red Brass (Ebony)
+Plated Bus Bar,,Plated Bus Bar
+Plated buss bar,,Plated Bus Bar
+Brass tubes,,Yellow Brass (Tubing)
+
+Ballasts,,Ballasts (Magnetic/Regular)
+Ballast regular,,Ballasts (Magnetic/Regular)
+Ballast Electronic,,Ballasts (Electronic)
+Ballast electronic ballast,,Ballasts (Electronic)
+
+Elec motors,,Mixed Electric Motors (Elmo)
+Elec. Motors,,Mixed Electric Motors (Elmo)
+E Motors,,Mixed Electric Motors (Elmo)
+E-motors in box,,Mixed Electric Motors (Elmo)
+E-motors on skid,,Mixed Electric Motors (Elmo)
+Electric motors,,Mixed Electric Motors (Elmo)
+electric motors,,Mixed Electric Motors (Elmo)
+elec motors,,Mixed Electric Motors (Elmo)
+elec motor,,Mixed Electric Motors (Elmo)
+Elec Motor,,Mixed Electric Motors (Elmo)
+Motors,,Mixed Electric Motors (Elmo)
+Motors w/ gearbox,,Mixed Electric Motors (Elmo)
+Elec motors w/ SS,,Mixed Electric Motors (Elmo)
+EMotorLowGrade_CeilingFanMotors,,Electric Motors (Low Grade/Ceiling Fans)
+EMotorLarge_LessThan1000lbs,,Electric Motors (Large <1000 lb)
+
+Sealed units,,Sealed Units / Compressors (Vader)
+Sealed Units,,Sealed Units / Compressors (Vader)
+Compressor - sealed units,,Sealed Units / Compressors (Vader)
+Compressors,,Sealed Units / Compressors (Vader)
+Cast compressor,,Sealed Units / Compressors (Vader)
+Compressor from Purdue,,Sealed Units / Compressors (Vader)
+
+Transformers,,Transformers (Al/Cu)
+Large transformers,,Transformers (Copper, Large)
+Transformer,,Transformers (Al/Cu)
+Transformers (small),,Transformers (Copper, Small)
+Transformer Cu,,Transformers (Al/Cu)
+Transformer Cu small (palm size),,Transformers (Copper, Small)
+Transformer Cu medium (more than 200lbs),,Transformers (Copper, Medium)
+Transformer Cu large,,Transformers (Copper, Large)
+Aluminum BX Wire,,ICW #2 BX (Al)
+Al BX wire,,ICW #2 BX (Al)
+Fe BX wire,,ICW #2 BX (Fe, 24%)
+
+Harness wire,,ICW #2 (50% & CAT5/Tel)
+Harnesswire,,ICW #2 (50% & CAT5/Tel)
+Harness Wire,,ICW #2 (50% & CAT5/Tel)
+Harness Wire - SE,,ICW #2 (50% & CAT5/Tel)
+Harness wire - KR,,ICW #2 (50% & CAT5/Tel)
+Harness wire - IH,,ICW #2 (50% & CAT5/Tel)
+HW - KR,,ICW #2 (50% & CAT5/Tel)
+HW = KR,,ICW #2 (50% & CAT5/Tel)
+H-Wire - B,,ICW #2 (50% & CAT5/Tel)
+Cat 6 wire,,ICW #2 (50% & CAT5/Tel)
+Cat. 5/6 wire,,ICW #2 (50% & CAT5/Tel)
+Open eye Heliax,,ICW #1 (Heliax 57%, Baled)
+Open eye Heliax wire,,ICW #1 (Heliax 57%, Baled)
+Closed eye Heliax,,ICW #1 (Heliax 57%, Baled)
+Closed eye heliax wire,,ICW #1 (Heliax 57%, Baled)
+#1 Ins Cu,,ICW #1 (THHN 80%)
+#1 Insulated,,ICW #1 (THHN 80%)
+#1 insulated copper,,ICW #1 (THHN 80%)
+#1 insulated wire,,ICW #1 (THHN 80%)
+#1 Ins,,ICW #1 (THHN 80%)
+#2 Ins,,ICW #2 (50% & CAT5/Tel)
+#2 Insulated,,ICW #2 (50% & CAT5/Tel)
+#2 ins cu,,ICW #2 (50% & CAT5/Tel)
+#2 insulated copper,,ICW #2 (50% & CAT5/Tel)
+#2 insulated wire,,ICW #2 (50% & CAT5/Tel)
+#2 Ins wire,,ICW #2 (50% & CAT5/Tel)
+low recovery wire,,ICW Low Grade (Mixed Wire 40%+)
+URD wire,,Insulated Al Wire
+
+ICW Low Grade Christmas Lights,,ICW Low Grade (Christmas Lights)
+Xmas lights,,ICW Low Grade (Christmas Lights)
+X-mas/harness wire mixed,,ICW Low Grade (Mixed Wire 40%+)
+Jelly wire,,Insulated Copper Wire Scrap (Droid)
+
+Cu Bkg,,Copper Breakage
+Copper Bkg,,Copper Breakage
+Cu bkg,,Copper Breakage
+Cu BKG,,Copper Breakage
+Brass bkg,,Brass Breakage
+Brass BKG,,Brass Breakage
+Zn die cast,,Zinc Die Cast
+Zn Die Cast,,Zinc Die Cast
+Zn,,Zinc Die Cast
+
+Lead,,Scrap Lead — Soft (Racks)
+Lead sheet,,Scrap Lead — Soft (Racks)
+lead shot,,Range Lead (Indoor)
+Range lead,,Range Lead (Indoor)
+Range lead - indoor,,Range Lead (Indoor)
+Wheel weights,,Lead Wheel Weights
+
+U.B.C'S,,Alum Cans
+pop tabs,,Alum Cans
+catv,,CATV Al Wire (Bare)
+CATV,,CATV Al Wire (Bare)
+Plated buss bar,,Plated Bus Bar
+
+Sheet iron,,Shred
+Sheet Iron,,Shred
+Clean sheet,,Old Sheet Aluminum
+clean sheet,,Old Sheet Aluminum
+Old aluminum sheet,,Old Sheet Aluminum
+Old Alum Sheet,,Old Sheet Aluminum
+
+FE:Busheling,,Busheling
+Busheling from NHK #1,,Busheling
+Busheling from NHK #3 Nissan scrap,,Busheling
+Trial Load of Busheling,,Busheling
+P&S 5',,P&S 5'
+5' PNS,,P&S 5'
+"5"" PNS",,P&S 5'
+5' PNS , ,P&S 5'
+Plate and Structural,,P&S
+PNS,,P&S
+Unppd Rail,,Unprepared HMS
+Unprepared from Purdue,,Unprepared HMS
+Unprepared,,Unprepared HMS
+cast pipe,,Prepared Cast
+FE:Cast Pipe/Misc,,Prepared Cast
+Breakable Cast FE,,Prepared Cast
+drums & rotors,,Drums & Rotors
+Drums & Rotors,,Drums & Rotors
+Car Bodies,,Shred
+Car Bodies , ,Shred
+carbodies,,Shred
+autos,,Shred
+Sheet Iron (light poles as UHMS),,Unprepared HMS
+
+Al/Cu Rads clean,,Al/Cu Radiators (Clean)
+Al/Cu Rads Clean,,Al/Cu Radiators (Clean)
+Al/Cu Rad (clean),,Al/Cu Radiators (Clean)
+Al/Cu Rad (dirty),,Al/Cu Radiators (Dirty)
+
+Auto batteries,,Lead-Acid Batteries (Auto)
+Auto battery,,Lead-Acid Batteries (Auto)
+Auto Batts,,Lead-Acid Batteries (Auto)
+Auto Batteries,,Lead-Acid Batteries (Auto)
+steel case batteries,,Lead-Acid Batteries (Steel Case, Industrial)
+Steelcase battery,,Lead-Acid Batteries (Steel Case, Industrial)
+
+E-scrap,,E-Scrap (Mixed)
+Escrap,,E-Scrap (Mixed)
+E scrap,,E-Scrap (Mixed)
+Escrap boards,,E-Scrap (Boards)
+TVs,,E-Scrap (TV/Monitors)
+TV/monitors,,E-Scrap (TV/Monitors)
+mixed e-scrap,,E-Scrap (Mixed)
+shredded e-scrap,,E-Scrap (Mixed)
+
+Al/Cu rads clean,,Al/Cu Radiators (Clean)
+Al/Cu rads dirty,,Al/Cu Radiators (Dirty)
+auto rads,,Radiators (Auto, Mixed)
+Auto rads,,Radiators (Auto, Mixed)
+
+Pallets,,IGNORE
+B grade pallets,,IGNORE
+Load of Skids,,IGNORE
+Load of wood pallets,,IGNORE
+Shortage on Pallet Load,,IGNORE
+Delivered Price,,IGNORE
+Delivered to Crawfordsville,,IGNORE
+Pricing Correction,,IGNORE
+Price correction for April,,IGNORE
+Misc Services:Billing Error,,IGNORE
+adjustment to balance,,IGNORE
+Adjustment to Inv # 2142,,IGNORE
+Difference from short paid invoice #2837,,IGNORE
+179903,,IGNORE
+P100015527,,IGNORE
+P100015529,,IGNORE
+P100015530,,IGNORE
+Services,,IGNORE
+40 yd roll off,,IGNORE
+Hauling Fee,,IGNORE
+Haul Fee,,IGNORE
+Trash Disposal,,IGNORE
+Trucking Costs,,IGNORE
+General Waste,,IGNORE
+Waste Revenue:*, ,IGNORE
+Monthly Hauls*, ,IGNORE
+Per PO*, ,IGNORE
+PO#*, ,IGNORE
+AGT*, ,IGNORE
+Per Adam*, ,IGNORE
+Per Todd*, ,IGNORE
+Per Andy*, ,IGNORE

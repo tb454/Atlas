@@ -93,7 +93,7 @@ def _bridge_base_for_doc(doc_type: str | None = None):
 
 # ===== Material normalization =====
 BASE_MATERIAL_MAP = {
-    # ---- Core ferrous you started with ----
+    # ---- Core ferrous to started with ----
     "ferrous sale clips": "Clips",
     "clips": "Clips",
     "hms": "HMS",
@@ -451,6 +451,8 @@ BASE_MATERIAL_MAP = {
     "a/c reefer dirty unbaled": "A/C Radiators (Dirty, Unbaled)",
     "radiator clean, car radiator": "Car Radiators (Clean)",
     "cu bkg ac reefer end": "Copper Breakage (A/C Reefer Ends)",
+
+
 }
 # ---- Material normalization ---- 
 
@@ -472,19 +474,70 @@ KEYWORD_RULES += [
 
 CUSTOMER_OVERRIDES = {}  # {"mervis": {"ferrous sale clips":"Clips"}}
 
+import collections
+
+def _wildcard_to_regex(pat: str) -> str:
+    # simple glob: * -> .*, match full string, case-insensitive later
+    pat = pat.strip()
+    # escape regex, then bring back .* for *
+    import re as _re
+    esc = _re.escape(pat).replace(r"\*", ".*")
+    return rf"^{esc}$"
+
 def _load_csv_mapping():
-    m = {}
-    if MAPPING_CSV_PATH.exists():
-        with open(MAPPING_CSV_PATH, newline="", encoding="utf-8") as f:
-            r = csv.reader(f)
-            for row in r:
-                if not row or row[0].strip().lower() == "source":
-                    continue
-                src = row[0].strip().lower()
-                can = (row[1] if len(row) > 1 else "").strip()
-                if src and can:
-                    m[src] = can
-    return m
+    exact_global = {}                               # source -> canon
+    exact_by_cust = collections.defaultdict(dict)   # cust -> (source -> canon)
+    patterns = []                                    # [(regex, canon, cust_or_None)]
+    ignore_exact = set()                             # set of source strings to ignore
+    ignore_patterns = []                             # [regex]
+
+    if not MAPPING_CSV_PATH.exists():
+        return exact_global, exact_by_cust, patterns, ignore_exact, ignore_patterns
+
+    with open(MAPPING_CSV_PATH, newline="", encoding="utf-8") as f:
+        r = csv.reader(f)
+        for row in r:
+            if not row:
+                continue
+            # Support headers: either 2-col (source,suggested) or 3-col (source,customer,suggested)
+            if row[0].strip().lower() in {"source", "raw", "#"}:
+                continue
+
+            src = (row[0] or "").strip()
+            cust = (row[1] if len(row) > 2 else "").strip() if len(row) >= 3 else ""
+            # If the file is 2-col (source,suggested)
+            if len(row) == 2:
+                suggested = (row[1] or "").strip()
+                cust = ""  # no customer column in 2-col mode
+            else:
+                suggested = (row[2] if len(row) >= 3 else "").strip()
+
+            if not src or not suggested:
+                continue
+
+            src_low = src.lower()
+            cust_low = cust.lower() if cust else ""
+
+            # IGNORE rows
+            if suggested.upper() == "IGNORE":
+                if "*" in src:
+                    ignore_patterns.append(re.compile(_wildcard_to_regex(src), re.I))
+                else:
+                    ignore_exact.add(src_low)
+                continue
+
+            # Normal rows: exact or wildcard
+            if "*" in src:
+                patterns.append((re.compile(_wildcard_to_regex(src), re.I), suggested, cust_low or None))
+            else:
+                if cust_low:
+                    exact_by_cust[cust_low][src_low] = suggested
+                else:
+                    exact_global[src_low] = suggested
+
+    return exact_global, exact_by_cust, patterns, ignore_exact, ignore_patterns
+EXACT_GLOBAL, EXACT_BY_CUST, PATTERNS, IGNORE_EXACT, IGNORE_PATTERNS = _load_csv_mapping()
+
 EXTERNAL_MAP = _load_csv_mapping()
 
 def _log_unmapped(src, customer):
@@ -498,28 +551,65 @@ def _log_unmapped(src, customer):
     except Exception:
         pass
 
-def normalize_material(source_name: str, customer_name: str | None = None) -> str:
+def normalize_material(source_name: str, customer_name: str | None = None):
+    """
+    Returns:
+      - str canonical material name
+      - or None if the row should be ignored (mapped to IGNORE)
+    Order:
+      1) Customer-scoped exact
+      2) Global exact
+      3) Customer-scoped wildcard
+      4) Global wildcard
+      5) Keyword rules (your regex)
+      6) Fuzzy alias to exacts
+      7) log & return original
+    """
     if not source_name:
         return "Unknown"
-    s = source_name.strip().lower()
+
+    s_raw = source_name.strip()
+    s = s_raw.lower()
     cust = (customer_name or "").strip().lower()
 
-    if cust in CUSTOMER_OVERRIDES and s in CUSTOMER_OVERRIDES[cust]:
-        return CUSTOMER_OVERRIDES[cust][s]
-    if s in EXTERNAL_MAP:
-        return EXTERNAL_MAP[s]
-    if s in BASE_MATERIAL_MAP:
-        return BASE_MATERIAL_MAP[s]
-    for pat, canon in KEYWORD_RULES:
-        if pat.search(source_name):
+    # IGNORE
+    if s in IGNORE_EXACT:
+        return None
+    for rx in IGNORE_PATTERNS:
+        if rx.match(s_raw):
+            return None
+
+    # 1) customer exact → 2) global exact
+    if cust and s in EXACT_BY_CUST.get(cust, {}):
+        return EXACT_BY_CUST[cust][s]
+    if s in EXACT_GLOBAL:
+        return EXACT_GLOBAL[s]
+
+    # 3) customer wildcard → 4) global wildcard
+    for rx, canon, scope in PATTERNS:
+        if scope and scope != cust:
+            continue  # scoped to a different customer
+        if rx.match(s_raw):
             return canon
-    keys = list({*BASE_MATERIAL_MAP.keys(), *EXTERNAL_MAP.keys()})
+
+    # 5) keyword rules
+    for pat, canon in KEYWORD_RULES:
+        if pat.search(s_raw):
+            return canon
+
+    # 6) fuzzy to EXAC(T)s only (not patterns)
+    keys = set(EXACT_GLOBAL.keys())
+    if cust:
+        keys |= set(EXACT_BY_CUST.get(cust, {}).keys())
     if keys:
-        match = difflib.get_close_matches(s, keys, n=1, cutoff=0.88)
+        match = difflib.get_close_matches(s, list(keys), n=1, cutoff=0.88)
         if match:
-            return EXTERNAL_MAP.get(match[0]) or BASE_MATERIAL_MAP.get(match[0]) or source_name
+            return EXACT_BY_CUST.get(cust, {}).get(match[0]) or EXACT_GLOBAL.get(match[0]) or s_raw
+
+    # 7) log and pass through
     _log_unmapped(source_name, customer_name)
-    return source_name
+    return s_raw
+# ---- End material normalization ----
 
 # ===== OAuth helpers =====
 EXPECTED_STATE = None
@@ -774,6 +864,8 @@ def post_contract_to_bridge(session: requests.Session, row: dict, seller_name: s
         row.get("description") or row.get("item_original") or row.get("item") or "",
         row.get("customer")
     )
+    if material_canon is None:
+        return {"ok": True, "ignored": True}  # do not post
 
     payload = {
         "buyer": row["customer"],
@@ -843,6 +935,8 @@ def _row_to_bridge_contract(row: dict, seller_name: str = "Winski Brothers") -> 
         row.get("description") or row.get("item_original") or row.get("item") or "",
         row.get("customer")
     )
+    if material_canon is None:
+        return None  # do not post
 
     return {
         "buyer": row.get("customer"),
