@@ -73,7 +73,68 @@ Thermo,Pro Metal Recycling,THERMAL BREAK ALUMINUM EXTRUSION
 YB,Pro Metal Recycling,YELLOW BRASS (SOLID, CLEAN)
 YB - condenser,Pro Metal Recycling,YELLOW BRASS (SOLID, CLEAN)
 7 bales,"Newco Metals, Inc",Cans
-
+NON FE:Alum/Cu Radiators,Pro Metal Recycling,ALUMINUM/CU RADIATORS (CLEAN)
+NON FE:Thermal extrusions,Pro Metal Recycling,THERMAL BREAK ALUMINUM EXTRUSION
+ACR,Pro Metal Recycling,
+ACR,Pro Metal Recycling,
+#2 ins Cat. 5-6,Pro Metal Recycling,ICW #2 (50% & CAT5/Tel)
+316 Stainless Steel Turnings,"Newco Metals, Inc",316 Stainless Steel Turnings
+Painted Extrusion W/Iron ( Cast End Too),"Newco Metals, Inc",ALUMINUM EXTRUSION (PAINTED WITH IRON)
+304 Stainless Steel Turnings,"Newco Metals, Inc",304 Stainless Steel Turnings
+Clean Ext,"Newco Metals, Inc",ALUMINUM EXTRUSION (BARE)
+Clean Extrusion,"Newco Metals, Inc",ALUMINUM EXTRUSION (BARE)
+3003 Alum,"Newco Metals, Inc",3003 Aluminum
+Stainless Steel Dumpster,"Newco Metals, Inc",STAINLESS STEEL
+Stainless Steel Bkg,"Newco Metals, Inc",STAINLESS BREAKAGE
+Mixed Stainless,"Newco Metals, Inc",STAINLESS STEEL
+Al Wheels,"Newco Metals, Inc",ALUMINUM CAR WHEELS (CLEAN)
+Thermal extrusion,"Newco Metals, Inc",THERMAL BREAK ALUMINUM EXTRUSION
+Wheels = clean,"Newco Metals, Inc",ALUMINUM CAR WHEELS (CLEAN)
+Wheels - dirty,"Newco Metals, Inc",ALUMINUM CAR WHEELS (DIRTY)
+Bare EC wire,"Newco Metals, Inc",ALUMINUM EXTRUSION (BARE)
+304 SST w/ Fe,"Newco Metals, Inc",304 Stainless Steel w/ Fe
+Wheels = clean,"Newco Metals, Inc",ALUMINUM CAR WHEELS (CLEAN)
+SS Boring,"Newco Metals, Inc",STAINLESS STEEL TURNINGS
+Fe turnings,"Newco Metals, Inc",STEEL TURNINGS  
+irony ext,"Newco Metals, Inc",ALUMINUM EXTRUSION (PAINTED WITH IRON)
+301 SS,"Newco Metals, Inc",301 Stainless Steel
+3003,"Newco Metals, Inc",3003 Aluminum
+Al wheels,"Newco Metals, Inc",ALUMINUM CAR WHEELS (CLEAN)
+Ti turnings,"Newco Metals, Inc",Titanium Turnings
+Ti solids,"Newco Metals, Inc",Titanium Solids
+Al Turnings/ SS T,"Newco Metals, Inc",Aluminum Turnings/Stainless Steel Turnings
+SPC,"Newco Metals, Inc",SPC (Small Piece Copper)
+NON FE:Alum/Cu Radiators,Pro Metal Recycling,ALUMINUM/CU RADIATORS (CLEAN)
+NON FE:Thermal extrusions,Pro Metal Recycling,THERMAL BREAK ALUMINUM EXTRUSION
+ACR,Pro Metal Recycling,
+ACR,Pro Metal Recycling,
+#2 ins Cat. 5-6,Pro Metal Recycling,ICW #2 (50% & CAT5/Tel)
+316 Stainless Steel Turnings,"Newco Metals, Inc",316 Stainless Steel Turnings
+Painted Extrusion W/Iron ( Cast End Too),"Newco Metals, Inc",ALUMINUM EXTRUSION (PAINTED)
+304 Stainless Steel Turnings,"Newco Metals, Inc",304 Stainless Steel Turnings
+Clean Ext,"Newco Metals, Inc",ALUMINUM EXTRUSION (BARE)
+Clean Extrusion,"Newco Metals, Inc",ALUMINUM EXTRUSION (BARE)
+3003 Alum,"Newco Metals, Inc",3003 Aluminum
+Stainless Steel Dumpster,"Newco Metals, Inc",STAINLESS STEEL
+Stainless Steel Bkg,"Newco Metals, Inc",STAINLESS BREAKAGE
+Mixed Stainless,"Newco Metals, Inc",STAINLESS STEEL
+Al Wheels,"Newco Metals, Inc",ALUMINUM CAR WHEELS (CLEAN)
+Thermal extrusion,"Newco Metals, Inc",THERMAL BREAK ALUMINUM EXTRUSION
+Wheels = clean,"Newco Metals, Inc",ALUMINUM CAR WHEELS (CLEAN)
+Wheels - dirty,"Newco Metals, Inc",ALUMINUM CAR WHEELS (DIRTY)
+Bare EC wire,"Newco Metals, Inc",ALUMINUM EXTRUSION (BARE)
+304 SST w/ Fe,"Newco Metals, Inc",304 Stainless Steel w/ Fe
+Wheels = clean,"Newco Metals, Inc",ALUMINUM CAR WHEELS (CLEAN)
+SS Boring,"Newco Metals, Inc",STAINLESS STEEL TURNINGS
+Fe turnings,"Newco Metals, Inc",STEEL TURNINGS  
+irony ext,"Newco Metals, Inc",ALUMINUM EXTRUSION (PAINTED WITH IRON)    
+301 SS,"Newco Metals, Inc",301 Stainless Steel
+3003,"Newco Metals, Inc",3003 Aluminum
+Al wheels,"Newco Metals, Inc",ALUMINUM CAR WHEELS (CLEAN)
+Ti turnings,"Newco Metals, Inc",Titanium Turnings
+Ti solids,"Newco Metals, Inc",Titanium Solids
+Al Turnings/ SS T,"Newco Metals, Inc",ALuminum Turnings/Stainless Steel Turnings
+SPC,"Newco Metals, Inc",SMALL PIECE COPPER (SPC)
 
 
 A/C rads,,Al/Cu Radiators (Clean)
