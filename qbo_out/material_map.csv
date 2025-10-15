@@ -560,14 +560,12 @@ Stator,Pro Metal Recycling,Motor Stators (Copper)
 #2 KR,Pro Metal Recycling,ICW #2 (Regional KR Wire)
 Faucets,Pro Metal Recycling,Yellow Brass (Plumbing)
 Xmas lts,Pro Metal Recycling,ICW Low Grade (Christmas Lights)
-
 3003 from Fenders,MDK ZeroLandfill,Aluminum 3003 Sheet
 3003 with poly from Fenders,MDK ZeroLandfill,Aluminum 3003 Sheet (Poly-Coated)
 3003P from Fenders,MDK ZeroLandfill,Aluminum 3003 Sheet
 4017 Bare,MDK ZeroLandfill,Aluminum 4017 Sheet (Bare)
 5052 from Fenders,MDK ZeroLandfill,Aluminum 5052 Sheet
 4017 from Fenders,MDK ZeroLandfill,Aluminum 4017 Sheet
-
 304 Stainless Steel,Newco Metals, Stainless 304
 316 Stainless Steel Turnings,Newco Metals,Stainless 316 Turnings
 Painted Extrusion W/Iron ( Cast End Too),Newco Metals,Painted Aluminum Extrusion (With Fe)
@@ -596,8 +594,8 @@ Ti turnings,Newco Metals,Titanium Turnings
 Ti solids,Newco Metals,Titanium Scrap (Solids)
 Al Turnings/ SS T,Newco Metals,Aluminum Turnings / Stainless Turnings Mix
 SPC,Newco Metals,Small Piece Copper (SPC)
-NON FE:Alum/Cu Radiators,Pro Metal Recycling,
-NON FE:Thermal extrusions,Pro Metal Recycling,
+NON FE:Alum/Cu Radiators,Pro Metal Recycling,ALUMINUM/CU RADIATORS (CLEAN)
+NON FE:Thermal extrusions,Pro Metal Recycling,THERMAL BREAK ALUMINUM EXTRUSION
 ACR,Pro Metal Recycling,ACSR (Aluminum Conductor Steel Reinforced)
 ACR,Pro Metal Recycling,ACSR (Aluminum Conductor Steel Reinforced)
 NON FE:Alum/Cu Radiators,Pro Metal Recycling,ALUMINUM
@@ -608,6 +606,11 @@ NON FE:Alum/Cu Radiators,Pro Metal Recycling,ALUMINUM/CU RADIATORS (CLEAN)
 NON FE:Thermal extrusions,Pro Metal Recycling,THERMAL BREAK ALUMINUM EXTRUSION
 NON FE:Alum/Cu Radiators,Pro Metal Recycling,ALUMINUM/CU RADIATORS (CLEAN)
 NON FE:Thermal extrusions,Pro Metal Recycling,THERMAL BREAK ALUMINUM EXTRUSION
+
+
+
+
+
 two boxes,Pro Metal Recycling,IGNORE
 4 skids,Pro Metal Recycling,IGNORE
 NON FE:Window A/C units,Pro Metal Recycling,Window A/C Units
@@ -659,7 +662,6 @@ paper cores from Frito,Werner & Son,IGNORE
 Disposal Fees over 5T*,Werner & Son,IGNORE
 Per Attached,Werner & Son,IGNORE
 KA&F Compactor Haul*,Werner & Son,IGNORE
-
 Pallets,,IGNORE
 B grade pallets,,IGNORE
 Load of Skids,,IGNORE
