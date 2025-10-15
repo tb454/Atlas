@@ -36,6 +36,46 @@ Copper #3,,Sheet Copper
 Copper turnings,,Copper Turnings (Alloy/Shop)
 Lead coated sheet copper,,Sheet Copper (Lead-Coated)
 
+Machine wire - KR,Pro Metal Recycling,ICW #1 (MCM 85% HG)
+HW R,Pro Metal Recycling,ICW #1 (MCM 85% HG)
+HW W,Pro Metal Recycling,ICW #1 (MCM 85% HG)
+HW R,Pro Metal Recycling,ICW #1 (MCM 85% HG)
+HW R,Pro Metal Recycling,ICW #1 (MCM 85% HG)
+HWR,Pro Metal Recycling, ICW #1 (MCM 85% HG)
+KR #2 Ins wire - 24 boxes,Pro Metal Recycling,ICW #2 (50% & CAT5/Tel)
+Machine wire LG?,Pro Metal Recycling,ICW #1 (MCM 85% HG)
+NON FE:Alum/Cu Radiators,Pro Metal Recycling,Al/Cu Radiators (CLEAN)
+NON FE:Thermal extrusions,Pro Metal Recycling,Thermal Break Aluminum Extrusion
+Fireworks wire,Pro Metal Recycling,ICW #2 (50% & CAT5/Tel)
+Range lead and brass shells,Pro Metal Recycling,YELLOW BRASS (RANGE LEAD(CLEAN))
+Brass cont'd,Pro Metal Recycling,YELLOW BRASS (RANGE LEAD(CLEAN))
+Battery,Pro Metal Recycling,AUTO Batteries
+Antennas,Pro Metal Recycling,COPPER BKG
+Dirty rads,Pro Metal Recycling,Al/Cu Radiators (Dirty)
+SS turnings cont'd,Pro Metal Recycling,STAINLESS STEEL TURNINGS
+Unclean car wheels,Pro Metal Recycling,ALUMINUM CAR WHEELS (DIRTY)
+mixed boards,Pro Metal Recycling,LOW GRADE Boards
+Yellow brass turnings,Pro Metal Recycling,YELLOW BRASS TURNINGS
+BeCu turnings,Pro Metal Recycling,Beryllium Copper Turnings
+Al Wheels,Pro Metal Recycling,ALUMINUM CAR WHEELS (CLEAN)
+#2 Ins - fuses for fireworks,Pro Metal Recycling,ICW #2 (50% & CAT5/Tel)
+#1 Ins copper,Pro Metal Recycling,ICW #1 (THHN 80%)
+Stainless Steel Turnings,Pro Metal Recycling,STAINLESS STEEL TURNINGS
+AC Rads / Clean,Pro Metal Recycling,Al/Cu Radiators (Clean)
+dirty motors,Pro Metal Recycling,ELECTRIC Motors (Large <1000 lb)
+Al rims,Pro Metal Recycling,ALUMINUM CAR WHEELS (CLEAN)
+brass water meters,Pro Metal Recycling,BRASS BKG
+dirty truck wheels,Pro Metal Recycling,ALUMINUM TRUCK WHEELS (DIRTY)
+e-motors,Pro Metal Recycling,ELECTRIC MOTORS (SMALL)
+#1,Pro Metal Recycling,#1 Copper (Berry/Candy)
+#2,Pro Metal Recycling,#2 Copper (Birch/Cliff)
+Thermo,Pro Metal Recycling,THERMAL BREAK ALUMINUM EXTRUSION
+YB,Pro Metal Recycling,YELLOW BRASS (SOLID, CLEAN)
+YB - condenser,Pro Metal Recycling,YELLOW BRASS (SOLID, CLEAN)
+7 bales,"Newco Metals, Inc",Cans
+
+
+
 A/C rads,,Al/Cu Radiators (Clean)
 AC rads,,Al/Cu Radiators (Clean)
 AC Rads,,Al/Cu Radiators (Clean)
@@ -262,6 +302,7 @@ autos,,Shred
 Sheet Iron (light poles as UHMS),,Unprepared HMS
 Torching, ,Unprepared HMS 
 
+
 Al/Cu Rads clean,,Al/Cu Radiators (Clean)
 Al/Cu Rads Clean,,Al/Cu Radiators (Clean)
 Al/Cu Rad (clean),,Al/Cu Radiators (Clean)
@@ -302,6 +343,7 @@ Purdue project for Solotken - last load,Oscar Winski Company,Prepared Cast (Heav
 From NHK #1,Oscar Winski Company,Busheling (NHK Plant)
 
 car bodies with motors,Lewis Salvage,Shred (Autos with Motors)
+Busheling,Steel Dynamics Inc.,Busheling
 Aluminum molds,Josh Padnos,Al Cast (Clean Tooling Aluminum)
 
 dirty pipe,Rochester Iron & Metal,Unprepared HMS (Pipe)
@@ -361,37 +403,6 @@ NON FE:Electric Motors,Pro Metal Recycling,Mixed Electric Motors (Elmo)
 NON FE:Transformers,Pro Metal Recycling,Transformers (Al/Cu)
 NON FE:#2 Copper,Pro Metal Recycling,No. 2 Copper (Birch/Cliff)
 dirty auto rads,Pro Metal Recycling,Al/Cu Radiators (Dirty)
-two boxes,Pro Metal Recycling,IGNORE
-4 skids,Pro Metal Recycling,IGNORE
-NON FE:Window A/C units,Pro Metal Recycling,Window A/C Units
-2 bales,Pro Metal Recycling,IGNORE
-2 boxes,Pro Metal Recycling,IGNORE
-Hauled per Mike,Lincoln Waste Solutions,IGNORE
-Filter Cake Haul Fee,Lincoln Waste Solutions,IGNORE
-Filter Cake Disposal Fee,Lincoln Waste Solutions,IGNORE
-Disposal Fees Special Waste,Lincoln Waste Solutions,IGNORE
-Trash Deduction,Farnsworth Metal Recycling,IGNORE
-Trash Haul,Farnsworth Metal Recycling,IGNORE
-adjustment for under payment 97729-97750,Rochester Iron & Metal,IGNORE
-4 barrels on 1 skid,Pro Metal Recycling,IGNORE
-one drum,Pro Metal Recycling,IGNORE
-Hauled per Mike,Lincoln Waste Solutions,IGNORE
-Disposal Fees Special Waste,Lincoln Waste Solutions,IGNORE
-Filter Cake Haul,Lincoln Waste Solutions,IGNORE
-Filter Cake Disposal Fee,Lincoln Waste Solutions,IGNORE
-Trash Haul,Farnsworth Metal Recycling,IGNORE
-Trash Deduction,Farnsworth Metal Recycling,IGNORE
-Ferrous brokerage for Neil Taylor,Farnsworth Metal Recycling,IGNORE
-Taylor Dirt Works project,Farnsworth Metal Recycling,IGNORE
-Greenwood Project - Fox,Farnsworth Metal Recycling,IGNORE
-Hauled per Adam,Lincoln Waste Solutions,IGNORE
-10 Alcoa tubs,"Newco Metals, Inc", IGNORE
-17 Alcoa Tubs per PO #29507,"Newco Metals, Inc", IGNORE
-
-
-
-
-
 
 304 Stainless Steel,"Newco Metals, Inc", 304 Stainless
 4 drums of 301 stainless,"Newco Metals, Inc", 301 Stainless
@@ -517,7 +528,32 @@ Ti solids,Newco Metals, Inc,Titanium Scrap (Solids)
 Al Turnings/ SS T,Newco Metals, Inc,Aluminum Turnings / Stainless Turnings Mix
 SPC,Newco Metals, Inc,Prepared Cast
 
-Busheling,Steel Dynamics Inc.,Busheling
+two boxes,Pro Metal Recycling,IGNORE
+4 skids,Pro Metal Recycling,IGNORE
+NON FE:Window A/C units,Pro Metal Recycling,Window A/C Units
+2 bales,Pro Metal Recycling,IGNORE
+2 boxes,Pro Metal Recycling,IGNORE
+Hauled per Mike,Lincoln Waste Solutions,IGNORE
+Filter Cake Haul Fee,Lincoln Waste Solutions,IGNORE
+Filter Cake Disposal Fee,Lincoln Waste Solutions,IGNORE
+Disposal Fees Special Waste,Lincoln Waste Solutions,IGNORE
+Trash Deduction,Farnsworth Metal Recycling,IGNORE
+Trash Haul,Farnsworth Metal Recycling,IGNORE
+adjustment for under payment 97729-97750,Rochester Iron & Metal,IGNORE
+4 barrels on 1 skid,Pro Metal Recycling,IGNORE
+one drum,Pro Metal Recycling,IGNORE
+Hauled per Mike,Lincoln Waste Solutions,IGNORE
+Disposal Fees Special Waste,Lincoln Waste Solutions,IGNORE
+Filter Cake Haul,Lincoln Waste Solutions,IGNORE
+Filter Cake Disposal Fee,Lincoln Waste Solutions,IGNORE
+Trash Haul,Farnsworth Metal Recycling,IGNORE
+Trash Deduction,Farnsworth Metal Recycling,IGNORE
+Ferrous brokerage for Neil Taylor,Farnsworth Metal Recycling,IGNORE
+Taylor Dirt Works project,Farnsworth Metal Recycling,IGNORE
+Greenwood Project - Fox,Farnsworth Metal Recycling,IGNORE
+Hauled per Adam,Lincoln Waste Solutions,IGNORE
+10 Alcoa tubs,"Newco Metals, Inc", IGNORE
+17 Alcoa Tubs per PO #29507,"Newco Metals, Inc", IGNORE
 Freight charge,Stainless Steel Midwest,IGNORE
 October waste hauls,Lincoln Waste Solutions,IGNORE
 Filter Cake Dumpster Haul Fee,Lincoln Waste Solutions,IGNORE
