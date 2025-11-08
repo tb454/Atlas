@@ -1,0 +1,799 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+  <meta charset="UTF-8"> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+  <title>Futures Contracts Pricing</title> 
+
+</head> 
+
+<body> 
+
+  <h1>Futures Contracts Pricing</h1> 
+
+  <p>Open the browser console to view pricing outputs.</p> 
+
+ 
+
+  <script> 
+
+    // Base market prices 
+
+    const COMEX_Cu = 4.19;                    // Copper price per lb (COMEX) 
+
+    const LME_Al = 1.25;                      // Aluminum price per lb (LME) 
+
+    const LME_Lead = 2034 / 2000;             // Lead price per lb (approx. $1.017) 
+
+    const LME_Zinc = 2879 / 2000;             // Zinc price per lb (approx. $1.44) 
+
+    const LME_Ni = 15675 / 2000;              // Nickel price per lb (approx. $7.84) 
+
+ 
+
+    // ---------------------------- 
+
+    // Copper Pricing Formulas 
+
+    // ---------------------------- 
+
+    // These functions return a price based on COMEX copper multiplied by a grade-specific factor. 
+
+    function copperPrice(grade) { 
+
+      switch(grade) { 
+
+        case 'Barley':    // Cu BB 
+
+          return COMEX_Cu * 0.94; 
+
+        case '#1':        // Berry & Candy 
+
+          return COMEX_Cu * 0.91; 
+
+        case '#2':        // Birch & Cliff 
+
+          return COMEX_Cu * 0.85; 
+
+        case '#3':        // Sheet Copper 
+
+          return COMEX_Cu * 0.83; 
+
+        default: 
+
+          return null; 
+
+      } 
+
+    } 
+
+ 
+
+    // ---------------------------- 
+
+    // Aluminum Pricing Formulas 
+
+    // ---------------------------- 
+
+    // Price = LME_Al * multiplier, where the multiplier is specific to each aluminum product. 
+
+    function aluminumPrice(product) { 
+
+      switch(product) { 
+
+        case 'AL6061_NewBareExtrusion': 
+
+          return LME_Al * 0.84; 
+
+        case 'AL6061_ClipPlatePipe': 
+
+          return LME_Al * 0.78; 
+
+        case 'AL6063_Secondary': 
+
+          return LME_Al * 0.78; 
+
+        case 'AL6063_OldExtrusion': 
+
+          return LME_Al * 0.95; 
+
+        case 'AL6063_Extrusion10/10': 
+
+          return LME_Al * 0.85; 
+
+        case 'AL_PAS_Baled': 
+
+          return LME_Al * 0.82; 
+
+        case 'AL_Cast_Clean': 
+
+          return LME_Al * 0.72; 
+
+        case 'AL_RADS_CleanBaled': 
+
+          return LME_Al * 0.67; 
+
+        case 'AL_RADS_DirtyBaled': 
+
+          return LME_Al * 0.46; 
+
+        case 'AL_Sheet_CleanBaled': 
+
+          return LME_Al * 0.75; 
+
+        case 'AL_WheelAuto_Clean':  // Clean (Dirty 2¢ less) 
+
+          return LME_Al * 0.93; 
+
+        case 'AL_WheelChrome_Clean': // Clean (Dirty 2¢ less) 
+
+          return LME_Al * 0.80; 
+
+        case 'TruckWheel_Clean': 
+
+          return LME_Al * 0.72; 
+
+        case 'AL_Wire_BareCATV': 
+
+          return LME_Al * 0.43; 
+
+        case 'AL_Wire_NeopreneACSR': 
+
+          return LME_Al * 0.54; 
+
+        case 'AL_Wire_ECPrepared': 
+
+          return LME_Al * 1.03; 
+
+        case 'AL_MLC_Prepared': 
+
+          return LME_Al * 0.84; 
+
+        default: 
+
+          return null; 
+
+      } 
+
+    } 
+
+ 
+
+    // ---------------------------- 
+
+    // Brass Pricing Formulas 
+
+    // ---------------------------- 
+
+    // Brass prices are derived from COMEX copper using specific multipliers. 
+
+    function brassPrice(product) { 
+
+      switch(product) { 
+
+        case 'Brass_Hard':           // Solid Clean 
+
+          return COMEX_Cu * 0.81; 
+
+        case 'Brass_Red_Ebony': 
+
+          return COMEX_Cu * 0.77; 
+
+        case 'Brass_Red_Semi': 
+
+          return COMEX_Cu * 0.72; 
+
+        case 'Brass_Shaving_AlBronze':  // Brass Shaving (Al Bronze Shaving, C/D) 
+
+          return COMEX_Cu * 0.57; 
+
+        case 'Brass_Shaving_BrassRed':   // Brass Shaving (Brass Red Shaving, C/D) 
+
+          return COMEX_Cu * 0.61; 
+
+        case 'Brass_Shell':          // Clean, No Chrome 
+
+          return COMEX_Cu * 0.60; 
+
+        case 'Brass_Special':        // Al Bronze Solid 
+
+          return COMEX_Cu * 0.64; 
+
+        case 'Brass_YellowRegular':  // Solid Clean 
+
+          return COMEX_Cu * 0.61; 
+
+        default: 
+
+          return null; 
+
+      } 
+
+    } 
+
+ 
+
+    // ---------------------------- 
+
+    // Lead Pricing Formulas 
+
+    // ---------------------------- 
+
+    // Prices based on LME Lead. 
+
+    function leadPrice(product) { 
+
+      switch(product) { 
+
+        case 'Lead_Clean': 
+
+          return LME_Lead * 0.718;  // Approximates ~$0.73 per lb 
+
+        case 'Lead_Range': 
+
+          return LME_Lead * 0.728;  // Approximates ~$0.74 per lb 
+
+        default: 
+
+          return null; 
+
+      } 
+
+    } 
+
+ 
+
+    // ---------------------------- 
+
+    // Stainless Steel Pricing Formulas 
+
+    // ---------------------------- 
+
+    // Prices based on LME Nickel. 
+
+    function stainlessPrice(product) { 
+
+      switch(product) { 
+
+        case 'SS304': 
+
+          return LME_Ni * 0.0638;  // Approximates ~$0.50 per lb 
+
+        case 'SS316': 
+
+          return LME_Ni * 0.1174;  // Approximates ~$0.92 per lb 
+
+        default: 
+
+          return null; 
+
+      } 
+
+    } 
+
+ 
+
+    // ---------------------------- 
+
+    // E‑Scrap Pricing Formula (Generic) 
+
+    // ---------------------------- 
+
+    // Computes an E‑scrap board price based on recoverable metals. 
+
+    // Parameters: 
+
+    //   goldContent: Troy ounces of gold per lb of board 
+
+    //   goldSpot: Gold spot price in $ per troy ounce 
+
+    //   silverContent: Troy ounces of silver per lb of board 
+
+    //   silverSpot: Silver spot price in $ per troy ounce 
+
+    //   copperContent: Fraction of a lb of copper per lb of board 
+
+    //   processingFee: Deduction per lb for processing 
+
+    function eScrapPrice(goldContent, goldSpot, silverContent, silverSpot, copperContent, processingFee) { 
+
+      return (goldContent * goldSpot) + 
+
+             (silverContent * silverSpot) + 
+
+             (copperContent * COMEX_Cu) - 
+
+             processingFee; 
+
+    } 
+
+ 
+
+    // ---------------------------- 
+
+    // New: Insulated Wire Pricing Formulas 
+
+    // ---------------------------- 
+
+    // These prices are derived using LME_Al as the base. 
+
+    // Multipliers are determined by: multiplier = (listed price) / 1.25 
+
+    function insulatedWirePrice(product) { 
+
+      switch(product) { 
+
+        case 'ICW_LowGrade_ChristmasLights': 
+
+          return LME_Al * 0.528; // 1.25 * 0.528 ≈ 0.660 
+
+        case 'ICW_LowGrade_ComputerWire25': 
+
+          return LME_Al * 0.448; // ≈ 0.560 
+
+        case 'ICW_LowGrade_CuCATV': 
+
+          return LME_Al * 1.008; // ≈ 1.260 
+
+        case 'ICW_LowGrade_ExtCords35Up': 
+
+          return LME_Al * 0.92;  // ≈ 1.150 
+
+        case 'ICW_LowGrade_MixedWire40Up': 
+
+          return LME_Al * 1.08;  // ≈ 1.350 
+
+        case 'ICW1_Heliax57_OpenEyeBaled': 
+
+          return LME_Al * 1.536; // ≈ 1.920 
+
+        case 'ICW1_MCM85HG': 
+
+          return LME_Al * 2.536; // ≈ 3.170 
+
+        case 'ICW1_Romex65_NoWeatherProof': 
+
+          return LME_Al * 1.904; // ≈ 2.380 
+
+        case 'ICW1_THHN80': 
+
+          return LME_Al * 2.36;  // ≈ 2.950 
+
+        case 'ICW2_50Cat5TelWire': 
+
+          return LME_Al * 1.384; // ≈ 1.730 
+
+        case 'ICW2_HarnessWireNoFuseBoxes': 
+
+          return LME_Al * 1.408; // ≈ 1.760 
+
+        case 'ICW2_BX_Cable_AL': 
+
+          return LME_Al * 1.648; // ≈ 2.060 
+
+        case 'ICW2_BX_Cable_FE24': 
+
+          return LME_Al * 0.6;   // ≈ 0.750 
+
+        default: 
+
+          return null; 
+
+      } 
+
+    } 
+
+ 
+
+    // ---------------------------- 
+
+    // New: Misc Product Pricing Formulas 
+
+    // ---------------------------- 
+
+    // For most items here we use LME_Al as base (1.25), except for Zinc Die Cast which uses LME_Zinc. 
+
+    function miscProductPrice(product) { 
+
+      switch(product) { 
+
+        case 'Ballast_Electronic': 
+
+          return LME_Al * 0.12;  // 1.25 * 0.12 = 0.150 
+
+        case 'Ballast_Regular': 
+
+          return LME_Al * 0.216; // 1.25 * 0.216 = 0.270 
+
+        case 'BatteryAuto_PbAcid': 
+
+          return LME_Al * 0.216; // ≈ 0.270 
+
+        case 'BatterySteelCase_Industrial': 
+
+          return LME_Al * 0.192; // 1.25 * 0.192 = 0.240 
+
+        case 'Compressor_SealedUnitNoCastIron': 
+
+          return LME_Al * 0.264; // 1.25 * 0.264 = 0.330 
+
+        case 'EMotorLowGrade_CeilingFanMotors': 
+
+          return LME_Al * 0.144; // 1.25 * 0.144 = 0.180 
+
+        case 'EMotorMix_NoPumpsPowerToolsFans': 
+
+          return LME_Al * 0.344; // 1.25 * 0.344 = 0.430 
+
+        case 'EMotorLarge_LessThan1000lbs': 
+
+          return LME_Al * 0.312; // 1.25 * 0.312 = 0.390 
+
+        case 'Transformer_AluLargeOnly': 
+
+          return LME_Al * 0.176; // 1.25 * 0.176 = 0.220 
+
+        case 'TransformerCu_AlCu': 
+
+          return LME_Al * 0.28;  // 1.25 * 0.28 = 0.350 
+
+        case 'TransformerCu_SmallPalmSize': 
+
+          return LME_Al * 0.56;  // 1.25 * 0.56 = 0.700 
+
+        case 'TransformerCu_MediumOver200lbs': 
+
+          return LME_Al * 0.592; // 1.25 * 0.592 = 0.740 
+
+        case 'TransformerCu_Large': 
+
+          return LME_Al * 0.624; // 1.25 * 0.624 = 0.780 
+
+        case 'Zinc_DieCast': 
+
+          return LME_Zinc * 0.5903; // 1.44 * 0.5903 ≈ 0.850 
+
+        default: 
+
+          return null; 
+
+      } 
+
+    } 
+
+ 
+
+    // ---------------------------- 
+
+    // New: Radiator Product Pricing Formulas 
+
+    // ---------------------------- 
+
+    // These products are also derived using LME_Al as base. 
+
+    function radiatorProductPrice(product) { 
+
+      switch(product) { 
+
+        case 'ACReefer_CleanTalkBaled': 
+
+          return LME_Al * 1.608; // 1.25 * 1.608 ≈ 2.010 
+
+        case 'ACReefer_CleanUnbaled': 
+
+          return LME_Al * 1.592; // ≈ 1.990 
+
+        case 'ACReefer_DirtyTalkBaled': 
+
+          return LME_Al * 1.496; // ≈ 1.870 
+
+        case 'ACReefer_DirtyUnbaled': 
+
+          return LME_Al * 1.48;  // ≈ 1.850 
+
+        case 'Radiator_CleanCar': 
+
+          return LME_Al * 1.984; // ≈ 2.480 
+
+        case 'CuBkg_ACReeferEnd': 
+
+          return LME_Al * 1.008; // ≈ 1.260 
+
+        default: 
+
+          return null; 
+
+      } 
+
+    } 
+
+ 
+
+    // ---------------------------- 
+
+    // Material Name Arrays 
+
+    // ---------------------------- 
+
+    // 1) Copper 
+
+    const copperMaterials = [ 
+
+      "Barley",      // Cu BB 
+
+      "#1",          // Berry & Candy 
+
+      "#2",          // Birch & Cliff 
+
+      "#3"           // Sheet Copper 
+
+    ]; 
+
+ 
+
+    // 2) Aluminum 
+
+    const aluminumMaterials = [ 
+
+      "AL6061_NewBareExtrusion", 
+
+      "AL6061_ClipPlatePipe", 
+
+      "AL6063_Secondary", 
+
+      "AL6063_OldExtrusion", 
+
+      "AL6063_Extrusion10/10", 
+
+      "AL_PAS_Baled", 
+
+      "AL_Cast_Clean", 
+
+      "AL_RADS_CleanBaled", 
+
+      "AL_RADS_DirtyBaled", 
+
+      "AL_Sheet_CleanBaled", 
+
+      "AL_WheelAuto_Clean", 
+
+      "AL_WheelChrome_Clean", 
+
+      "TruckWheel_Clean", 
+
+      "AL_Wire_BareCATV", 
+
+      "AL_Wire_NeopreneACSR", 
+
+      "AL_Wire_ECPrepared", 
+
+      "AL_MLC_Prepared" 
+
+    ]; 
+
+ 
+
+    // 3) Brass 
+
+    const brassMaterials = [ 
+
+      "Brass_Hard", 
+
+      "Brass_Red_Ebony", 
+
+      "Brass_Red_Semi", 
+
+      "Brass_Shaving_AlBronze", 
+
+      "Brass_Shaving_BrassRed", 
+
+      "Brass_Shell", 
+
+      "Brass_Special", 
+
+      "Brass_YellowRegular" 
+
+    ]; 
+
+ 
+
+    // 4) Lead 
+
+    const leadMaterials = [ 
+
+      "Lead_Clean", 
+
+      "Lead_Range" 
+
+    ]; 
+
+ 
+
+    // 5) Stainless 
+
+    const stainlessMaterials = [ 
+
+      "SS304", 
+
+      "SS316" 
+
+    ]; 
+
+ 
+
+    // 6) E-Scrap (generic placeholder) 
+
+    const eScrapMaterials = [ 
+
+      "E_Scrap_Board" 
+
+    ]; 
+
+ 
+
+    // 7) Insulated Wire 
+
+    const insulatedWireMaterials = [ 
+
+      "ICW_LowGrade_ChristmasLights", 
+
+      "ICW_LowGrade_ComputerWire25", 
+
+      "ICW_LowGrade_CuCATV", 
+
+      "ICW_LowGrade_ExtCords35Up", 
+
+      "ICW_LowGrade_MixedWire40Up", 
+
+      "ICW1_Heliax57_OpenEyeBaled", 
+
+      "ICW1_MCM85HG", 
+
+      "ICW1_Romex65_NoWeatherProof", 
+
+      "ICW1_THHN80", 
+
+      "ICW2_50Cat5TelWire", 
+
+      "ICW2_HarnessWireNoFuseBoxes", 
+
+      "ICW2_BX_Cable_AL", 
+
+      "ICW2_BX_Cable_FE24" 
+
+    ]; 
+
+ 
+
+    // 8) Misc Product 
+
+    const miscProductMaterials = [ 
+
+      "Ballast_Electronic", 
+
+      "Ballast_Regular", 
+
+      "BatteryAuto_PbAcid", 
+
+      "BatterySteelCase_Industrial", 
+
+      "Compressor_SealedUnitNoCastIron", 
+
+      "EMotorLowGrade_CeilingFanMotors", 
+
+      "EMotorMix_NoPumpsPowerToolsFans", 
+
+      "EMotorLarge_LessThan1000lbs", 
+
+      "Transformer_AluLargeOnly", 
+
+      "TransformerCu_AlCu", 
+
+      "TransformerCu_SmallPalmSize", 
+
+      "TransformerCu_MediumOver200lbs", 
+
+      "TransformerCu_Large", 
+
+      "Zinc_DieCast" 
+
+    ]; 
+
+ 
+
+    // 9) Radiator Product 
+
+    const radiatorProductMaterials = [ 
+
+      "ACReefer_CleanTalkBaled", 
+
+      "ACReefer_CleanUnbaled", 
+
+      "ACReefer_DirtyTalkBaled", 
+
+      "ACReefer_DirtyUnbaled", 
+
+      "Radiator_CleanCar", 
+
+      "CuBkg_ACReeferEnd" 
+
+    ]; 
+
+ 
+
+    // ---------------------------- 
+
+    // Group all material names 
+
+    // ---------------------------- 
+
+    const materialNames = { 
+
+      copper: copperMaterials, 
+
+      aluminum: aluminumMaterials, 
+
+      brass: brassMaterials, 
+
+      lead: leadMaterials, 
+
+      stainless: stainlessMaterials, 
+
+      eScrap: eScrapMaterials, 
+
+      insulatedWire: insulatedWireMaterials, 
+
+      miscProduct: miscProductMaterials, 
+
+      radiatorProduct: radiatorProductMaterials 
+
+    }; 
+
+ 
+
+    // ---------------------------- 
+
+    // Example Usage 
+
+    // ---------------------------- 
+
+    console.log("Copper Barley Price:", copperPrice("Barley").toFixed(2)); 
+
+    console.log("AL6061 New Bare Extrusion Price:", aluminumPrice("AL6061_NewBareExtrusion").toFixed(2)); 
+
+    console.log("Brass Hard Price:", brassPrice("Brass_Hard").toFixed(2)); 
+
+    console.log("Lead Clean Price:", leadPrice("Lead_Clean").toFixed(2)); 
+
+    console.log("SS304 Price:", stainlessPrice("SS304").toFixed(2)); 
+
+    // Example for E-Scrap: 
+
+    // Assume: 0.001 troy oz gold, 0.01 troy oz silver, 0.05 lb copper per lb of board, and a processing fee of $0.10. 
+
+    console.log("E-Scrap Board Price:", eScrapPrice(0.001, 1800, 0.01, 20, 0.05, 0.10).toFixed(2)); 
+
+     
+
+    // New examples for additional categories: 
+
+    console.log("ICW Low Grade Christmas Lights Price:", insulatedWirePrice("ICW_LowGrade_ChristmasLights").toFixed(3)); 
+
+    console.log("Ballast Electronic Price:", miscProductPrice("Ballast_Electronic").toFixed(3)); 
+
+    console.log("AC Reeefer Clean Talk Baled Price:", radiatorProductPrice("ACReefer_CleanTalkBaled").toFixed(3)); 
+
+ 
+
+    console.log("All Material Names:", materialNames); 
+
+  </script> 
+
+</body> 
+
+</html> 
