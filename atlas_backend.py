@@ -272,6 +272,14 @@ def require_admin(req: Request) -> str:
         raise HTTPException(status_code=401, detail="login required")
     return str(email)
 
+def require_owner(req: Request) -> str:
+    email = req.session.get("email")
+    role = req.session.get("role")
+    owner_id = req.session.get("owner_id")
+    if not email or role != "owner" or not owner_id:
+        raise HTTPException(status_code=401, detail="owner login required")
+    return str(owner_id)
+
 
 @app.post("/api/auth/login")
 async def login(payload: Dict[str, Any], request: Request):
