@@ -182,6 +182,7 @@ create table if not exists atlas_onboarding_submissions (
   attestation_json jsonb,
   participation_json jsonb,
   billing_ack_json jsonb,
+  doc_versions_json jsonb,
 
   ip_assets_count int not null default 0,
   notes text,
@@ -377,12 +378,12 @@ async def submit_onboarding(payload: Dict[str, Any], request: Request):
         row = conn.execute(text("""
             insert into atlas_onboarding_submissions
               (owner_email, owner_name, entity_type, jurisdiction,
-               nda_json, intake_json, attestation_json, participation_json, billing_ack_json,
-               ip_assets_count, user_agent, ip_address)
+               nda_json, intake_json, attestation_json, participation_json, billing_ack_json, doc_versions_json,
+               ip_assets_count, user_agent, ip_address
             values
               (:owner_email, :owner_name, :entity_type, :jurisdiction,
-               :nda_json::jsonb, :intake_json::jsonb, :attestation_json::jsonb, :participation_json::jsonb, :billing_ack_json::jsonb,
-               :ip_assets_count, :user_agent, :ip_address)
+               :nda_json::jsonb, :intake_json::jsonb, :attestation_json::jsonb, :participation_json::jsonb, :billing_ack_json::jsonb, :doc_versions_json::jsonb,
+               :ip_assets_count, :user_agent, :ip_address
             returning id
         """), {
             "owner_email": owner_email,
@@ -394,6 +395,7 @@ async def submit_onboarding(payload: Dict[str, Any], request: Request):
             "attestation_json": json.dumps(att),
             "participation_json": json.dumps(part),
             "billing_ack_json": json.dumps(bill),
+            "doc_versions_json": json.dumps(payload.get("doc_versions") or {}),
             "ip_assets_count": ip_assets_count,
             "user_agent": ua,
             "ip_address": ip_addr

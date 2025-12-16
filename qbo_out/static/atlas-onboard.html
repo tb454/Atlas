@@ -17,6 +17,17 @@
   </style>
 </head>
 <body>
+
+<div class="mt-2 d-flex gap-2 flex-wrap px-3">
+  <a class="btn btn-outline-light btn-sm" href="/static/docs/Atlas-MIPPA-v1.pdf" target="_blank">Open Participation Agreement (PDF)</a>
+  <a class="btn btn-outline-light btn-sm" href="/static/docs/Atlas-Billing-Payout-Policy-v1.pdf" target="_blank">Open Billing Policy (PDF)</a>
+  <a class="btn btn-outline-light btn-sm" href="/static/docs/Atlas-NDA-v1.pdf" target="_blank">Open NDA (PDF)</a>
+</div>
+
+<input type="hidden" id="mippa_version" value="Atlas-MIPPA-v1">
+<input type="hidden" id="billing_policy_version" value="Atlas-Billing-Payout-Policy-v1">
+<input type="hidden" id="nda_version" value="Atlas-NDA-v1">
+
 <div class="container py-4" style="max-width: 980px;">
   <div class="d-flex justify-content-between align-items-center mb-3">
     <div>
@@ -448,6 +459,12 @@ function buildPayload(forSubmit){
     address: qs("owner_address").value.trim()
   };
 
+  const doc_versions = {
+    mippa_version: (document.getElementById("mippa_version")?.value || "Atlas-MIPPA-v1"),
+    billing_policy_version: (document.getElementById("billing_policy_version")?.value || "Atlas-Billing-Payout-Policy-v1"),
+    nda_version: (document.getElementById("nda_version")?.value || "Atlas-NDA-v1")
+  };
+
   const ndaEnabled = qs("nda_enabled").checked;
   const nda = {
     enabled: ndaEnabled,
@@ -501,7 +518,7 @@ function buildPayload(forSubmit){
     accepted: qs("billing_ack").checked
   };
 
-  return { owner, nda, intake, attestation, participation, billing_ack };
+  return { owner, nda, intake, attestation, participation, billing_ack, doc_versions };
 }
 
 function validate(payload){
