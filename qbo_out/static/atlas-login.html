@@ -46,7 +46,7 @@ async function login(){
     });
     const j = await r.json();
     if(!r.ok){ msg.innerHTML = `<div class="alert alert-danger">${j.detail||"Login failed"}</div>`; return; }
-    window.location.href = "/static/atlas-admin.html";
+    window.location.href = (j.role === "admin") ? "/static/atlas-admin.html" : "/static/atlas-owner.html";
   }catch(e){
     msg.innerHTML = `<div class="alert alert-danger">${String(e)}</div>`;
   }

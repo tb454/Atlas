@@ -77,10 +77,21 @@ async function openOnboarding(id){
       </select>
       <input id="set_notes" class="form-control form-control-sm" placeholder="notes (optional)" value="${(s.notes||"").replaceAll('"','&quot;')}"/>
       <button class="btn btn-success btn-sm" onclick="setOnboardingStatus('${id}')">Update</button>
+      <button class="btn btn-warning btn-sm" onclick="approveOnboarding('${id}')">Approve + Create Login</button>
     </div>
 
     <pre class="mono p-3 mt-3" style="background:#0d1522;border:1px solid #2a3a52;border-radius:8px;max-height:380px;overflow:auto">${JSON.stringify(s, null, 2)}</pre>
   `;
+}
+
+async function approveOnboarding(id){
+  if(!confirm("Approve this onboarding and create Owner + Assets + Owner login?")) return;
+  const j = await api(`/api/admin/onboarding/${id}/approve`, { method:"POST" });
+  alert(
+    `OWNER LOGIN CREATED\n\nEmail: ${j.user_email}\nTemp Password: ${j.temp_password}\n\n(You should copy this now.)`
+  );
+  await renderOnboarding();
+  await openOnboarding(id);
 }
 
 async function setOnboardingStatus(id){

@@ -283,7 +283,7 @@ async def login(payload: Dict[str, Any], request: Request):
     eng = get_engine()
     with eng.begin() as conn:
         r = conn.execute(
-            text("select email, password_hash, role from atlas_users where email=:e"),
+            text("select email, password_hash, role, owner_id from atlas_users where email=:e"),
             {"e": email},
         ).fetchone()
 
@@ -294,7 +294,8 @@ async def login(payload: Dict[str, Any], request: Request):
 
     request.session["email"] = r.email
     request.session["role"] = r.role
-    return {"ok": True, "email": r.email, "role": r.role}
+    request.session["owner_id"] = str(r.owner_id) if r.owner_id else None
+    return {"ok": True, "email": r.email, "role": r.role, "owner_id": request.session["owner_id"]}
 
 @app.post("/api/auth/logout")
 async def logout(request: Request):
@@ -303,8 +304,175 @@ async def logout(request: Request):
 
 @app.get("/api/auth/me")
 async def me(request: Request):
-    return {"email": request.session.get("email"), "role": request.session.get("role")}
+    return {
+        "email": request.session.get("email"),
+        "role": request.session.get("role"),
+        "owner_id": request.session.get("owner_id"),
+    }
 
+@app.get("/api/owner/me")
+async def owner_me(request: Request):
+    owner_id = require_owner(request)
+    eng = get_engine()
+    with eng.begin() as conn:
+        o = conn.execute(text("""
+          select id, created_at, legal_name, entity_type, jurisdiction, address, email, phone
+          from ip_owners
+          where id = :id::uuid
+        """), {"id": owner_id}).fetchone()
+    if not o:
+        raise HTTPException(status_code=404, detail="owner record not found")
+    return {"ok": True, "owner": dict(o._mapping)}
+
+@app.get("/api/owner/assets")
+async def owner_assets(request: Request, limit: int = Query(200, ge=1, le=500)):
+    owner_id = require_owner(request)
+    eng = get_engine()
+    with eng.begin() as conn:
+        rows = conn.execute(text("""
+          select id, created_at, title, asset_type, jurisdictions, reg_no, status, priority_date,
+                 inventors, current_owner_entity, encumbrances, description, targets, active
+          from ip_assets
+          where owner_id = :oid::uuid
+          order by created_at desc
+          limit :limit
+        """), {"oid": owner_id, "limit": limit}).fetchall()
+    return {"ok": True, "items": [dict(r._mapping) for r in rows]}
+
+@app.get("/api/owner/onboarding")
+async def owner_onboarding(request: Request):
+    owner_id = require_owner(request)
+    eng = get_engine()
+    with eng.begin() as conn:
+        r = conn.execute(text("""
+          select id, created_at, status, notes, owner_email, owner_name,
+                 nda_json, intake_json, attestation_json, participation_json, billing_ack_json, doc_versions_json
+          from atlas_onboarding_submissions
+          where approved_owner_id = :oid::uuid
+          order by created_at desc
+          limit 1
+        """), {"oid": owner_id}).fetchone()
+    if not r:
+        return {"ok": True, "submission": None}
+    return {"ok": True, "submission": dict(r._mapping)}
+
+def _rand_password(n: int = 14) -> str:
+    alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789!@#$%_-"
+    return "".join(secrets.choice(alphabet) for _ in range(n))
+
+@app.post("/api/admin/onboarding/{onboarding_id}/approve")
+async def approve_onboarding(onboarding_id: str, request: Request):
+    actor = require_admin(request)
+    eng = get_engine()
+
+    temp_password = _rand_password()
+    pw_hash = bcrypt.hashpw(temp_password.encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
+
+    with eng.begin() as conn:
+        sub = conn.execute(text("""
+          select id, status, owner_email, owner_name, entity_type, jurisdiction,
+                 owner_json, intake_json, doc_versions_json
+          from atlas_onboarding_submissions
+          where id = :id::uuid
+        """), {"id": onboarding_id}).fetchone()
+
+        if not sub:
+            raise HTTPException(status_code=404, detail="Not found")
+
+        if sub.status not in ("submitted", "needs_more"):
+            raise HTTPException(status_code=400, detail=f"Cannot approve from status={sub.status}")
+
+        owner_json = sub.owner_json or {}
+        intake_json = sub.intake_json or {}
+        ip_assets = (intake_json.get("ip_assets") or [])
+
+        # Create ip_owners
+        owner_row = conn.execute(text("""
+          insert into ip_owners (legal_name, entity_type, jurisdiction, address, email, phone)
+          values (:legal_name, :entity_type, :jurisdiction, :address, :email, :phone)
+          returning id
+        """), {
+            "legal_name": (owner_json.get("legal_name") or sub.owner_name or "").strip(),
+            "entity_type": (owner_json.get("entity_type") or sub.entity_type or "").strip(),
+            "jurisdiction": (owner_json.get("jurisdiction") or sub.jurisdiction or "").strip(),
+            "address": (owner_json.get("address") or "").strip(),
+            "email": (owner_json.get("email") or sub.owner_email or "").strip(),
+            "phone": (owner_json.get("phone") or "").strip(),
+        }).fetchone()
+        owner_id = str(owner_row[0])
+
+        # Create owner user login (email must be unique)
+        email = (owner_json.get("email") or sub.owner_email or "").lower().strip()
+        if not email:
+            raise HTTPException(status_code=400, detail="Owner email missing; cannot create login")
+
+        # If a user already exists with that email, fail (keeps you safe)
+        existing = conn.execute(text("select id from atlas_users where email=:e"), {"e": email}).fetchone()
+        if existing:
+            raise HTTPException(status_code=400, detail="User already exists for this email")
+
+        user_row = conn.execute(text("""
+          insert into atlas_users (email, password_hash, role, owner_id)
+          values (:email, :pw, 'owner', :owner_id::uuid)
+          returning id
+        """), {"email": email, "pw": pw_hash, "owner_id": owner_id}).fetchone()
+        user_id = str(user_row[0])
+
+        # Create ip_assets
+        for a in ip_assets:
+            title = str(a.get("title","")).strip()
+            desc = str(a.get("description","")).strip()
+            if not title or not desc:
+                continue
+            conn.execute(text("""
+              insert into ip_assets
+                (owner_id, title, asset_type, jurisdictions, reg_no, status, priority_date,
+                 inventors, current_owner_entity, encumbrances, description, targets)
+              values
+                (:owner_id::uuid, :title, :asset_type, :jurisdictions, :reg_no, :status, nullif(:priority_date,'')::date,
+                 :inventors, :current_owner_entity, :encumbrances, :description, :targets)
+            """), {
+                "owner_id": owner_id,
+                "title": title,
+                "asset_type": str(a.get("asset_type","")).strip(),
+                "jurisdictions": str(a.get("jurisdictions","")).strip(),
+                "reg_no": str(a.get("reg_no","")).strip(),
+                "status": str(a.get("status","")).strip(),
+                "priority_date": str(a.get("priority_date","")).strip(),
+                "inventors": str(a.get("inventors","")).strip(),
+                "current_owner_entity": str(a.get("current_owner_entity","")).strip(),
+                "encumbrances": str(a.get("encumbrances","")).strip(),
+                "description": desc,
+                "targets": str(a.get("targets","")).strip(),
+            })
+
+        # Mark submission approved + link records
+        conn.execute(text("""
+          update atlas_onboarding_submissions
+          set status='approved',
+              approved_owner_id = :oid::uuid,
+              approved_user_id = :uid::uuid,
+              approved_at = now()
+          where id = :sid::uuid
+        """), {"oid": owner_id, "uid": user_id, "sid": onboarding_id})
+
+        # audit log
+        conn.execute(text("""
+          insert into vault_access_logs (object_id, actor_email, action, ip_address, user_agent)
+          values (null, :actor, 'approve_onboarding', :ip, :ua)
+        """), {
+            "actor": actor,
+            "ip": client_ip(request),
+            "ua": request.headers.get("user-agent",""),
+        })
+
+    return {
+        "ok": True,
+        "onboarding_id": onboarding_id,
+        "owner_id": owner_id,
+        "user_email": email,
+        "temp_password": temp_password
+    }
 
 # ----------------------------
 # Pages
@@ -379,11 +547,11 @@ async def submit_onboarding(payload: Dict[str, Any], request: Request):
             insert into atlas_onboarding_submissions
               (owner_email, owner_name, entity_type, jurisdiction,
                nda_json, intake_json, attestation_json, participation_json, billing_ack_json, doc_versions_json,
-               ip_assets_count, user_agent, ip_address
+               ip_assets_count, user_agent, ip_address)
             values
               (:owner_email, :owner_name, :entity_type, :jurisdiction,
                :nda_json::jsonb, :intake_json::jsonb, :attestation_json::jsonb, :participation_json::jsonb, :billing_ack_json::jsonb, :doc_versions_json::jsonb,
-               :ip_assets_count, :user_agent, :ip_address
+               :ip_assets_count, :user_agent, :ip_address)
             returning id
         """), {
             "owner_email": owner_email,
