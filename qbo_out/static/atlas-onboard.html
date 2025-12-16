@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Atlas IP Onboarding</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background:#0b0f14; color:#e9eef5; }
+    .card { background:#111826; border:1px solid #243245; }
+    .muted { color:#9fb1c6; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    input, select, textarea { background:#0d1522 !important; color:#e9eef5 !important; border:1px solid #2a3a52 !important; }
+    .btn-primary { font-weight:700; }
+    .step { display:none; }
+    .step.active { display:block; }
+  </style>
+</head>
+<body>
+<div class="container py-4" style="max-width: 980px;">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <div>
+      <h2 class="mb-0">Atlas IP Onboarding</h2>
+      <div class="muted">Self-serve intake • NDA (optional) • Verification-ready submission</div>
+    </div>
+    <div class="mono muted" id="saveStatus">Draft: saved locally</div>
+  </div>
+
+  <div class="card p-3 mb-3">
+    <div class="d-flex gap-2 flex-wrap">
+      <button class="btn btn-outline-light btn-sm" onclick="go(1)">1) Owner</button>
+      <button class="btn btn-outline-light btn-sm" onclick="go(2)">2) NDA</button>
+      <button class="btn btn-outline-light btn-sm" onclick="go(3)">3) IP Intake</button>
+      <button class="btn btn-outline-light btn-sm" onclick="go(4)">4) Attestation</button>
+      <button class="btn btn-outline-light btn-sm" onclick="go(5)">5) Agreement + Billing</button>
+      <button class="btn btn-outline-success btn-sm" onclick="go(6)">6) Review + Submit</button>
+    </div>
+  </div>
+
+  <!-- STEP 1 -->
+  <div class="card p-4 step active" id="step1">
+    <h4>1) Owner / Entity Information</h4>
+    <div class="row g-3 mt-1">
+      <div class="col-md-6">
+        <label class="form-label">Owner Legal Name *</label>
+        <input class="form-control" id="owner_legal_name" placeholder="Acme IP LLC" />
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">Entity Type</label>
+        <select class="form-select" id="owner_entity_type">
+          <option value="">Select</option>
+          <option>Individual</option>
+          <option>LLC</option>
+          <option>Corporation</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">Jurisdiction</label>
+        <input class="form-control" id="owner_jurisdiction" placeholder="Indiana, USA" />
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Email *</label>
+        <input class="form-control" id="owner_email" placeholder="name@company.com" />
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Phone</label>
+        <input class="form-control" id="owner_phone" placeholder="+1..." />
+      </div>
+      <div class="col-12">
+        <label class="form-label">Address</label>
+        <input class="form-control" id="owner_address" placeholder="Street, City, Region, Postal" />
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-end mt-4">
+      <button class="btn btn-primary" onclick="go(2)">Next → NDA</button>
+    </div>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="card p-4 step" id="step2">
+    <h4>2) Mutual NDA (Optional)</h4>
+    <p class="muted mb-2">If you want NDA coverage before sharing sensitive details, accept and sign below. If not, you can skip.</p>
+
+    <div class="form-check mb-3">
+      <input class="form-check-input" type="checkbox" id="nda_enabled">
+      <label class="form-check-label" for="nda_enabled">Enable NDA for this onboarding</label>
+    </div>
+
+    <div id="nda_block" style="display:none;">
+      <div class="row g-3">
+        <div class="col-md-4">
+          <label class="form-label">Effective Date</label>
+          <input class="form-control" id="nda_date" placeholder="YYYY-MM-DD">
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Counterparty Legal Name</label>
+          <input class="form-control" id="nda_counterparty_name">
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Counterparty Entity Type</label>
+          <select class="form-select" id="nda_counterparty_type">
+            <option value="">Select</option>
+            <option>Individual</option>
+            <option>LLC</option>
+            <option>Corporation</option>
+          </select>
+        </div>
+
+        <div class="col-12">
+          <label class="form-label">Optional Clauses</label>
+          <div class="d-flex gap-4 flex-wrap">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="nda_non_solicit">
+              <label class="form-check-label" for="nda_non_solicit">Include Non-Solicitation</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="nda_residuals">
+              <label class="form-check-label" for="nda_residuals">Include Residual Knowledge</label>
+            </div>
+          </div>
+          <div class="muted mt-1">NDA text is standard Atlas v1.0; your signature indicates acceptance of the full agreement.</div>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Signer Name (typed)</label>
+          <input class="form-control" id="nda_signer_name" placeholder="John Doe">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Signer Title</label>
+          <input class="form-control" id="nda_signer_title" placeholder="Founder / Member / CEO">
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="nda_accept">
+            <label class="form-check-label" for="nda_accept">I accept the Mutual NDA terms.</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between mt-4">
+      <button class="btn btn-outline-light" onclick="go(1)">← Back</button>
+      <button class="btn btn-primary" onclick="go(3)">Next → IP Intake</button>
+    </div>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="card p-4 step" id="step3">
+    <div class="d-flex justify-content-between align-items-center">
+      <h4 class="mb-0">3) IP Intake (Exhibit B)</h4>
+      <button class="btn btn-outline-success btn-sm" onclick="addAsset()">+ Add IP Asset</button>
+    </div>
+    <p class="muted mt-2">Add at least one IP Asset. You can include patents, software, hardware, trademarks, trade secrets.</p>
+
+    <div id="assets"></div>
+
+    <div class="mt-3">
+      <label class="form-label">Supporting Files / Links (folder or URLs)</label>
+      <textarea class="form-control" id="support_links" rows="2" placeholder="Paste a Drive/Dropbox link, repo URL, demo link, etc."></textarea>
+    </div>
+
+    <div class="d-flex justify-content-between mt-4">
+      <button class="btn btn-outline-light" onclick="go(2)">← Back</button>
+      <button class="btn btn-primary" onclick="go(4)">Next → Attestation</button>
+    </div>
+  </div>
+
+  <!-- STEP 4 -->
+  <div class="card p-4 step" id="step4">
+    <h4>4) Owner Attestation + Authorization</h4>
+    <p class="muted">This is your signed confirmation that you own/control the IP and authorize Atlas to verify, package, and proceed (not legal advice).</p>
+
+    <div class="row g-3">
+      <div class="col-md-4">
+        <label class="form-label">Attestation Date</label>
+        <input class="form-control" id="att_date" placeholder="YYYY-MM-DD">
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Signer Name *</label>
+        <input class="form-control" id="att_signer_name" placeholder="John Doe">
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Signer Title</label>
+        <input class="form-control" id="att_signer_title" placeholder="Member / CEO / Inventor">
+      </div>
+
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="att_confirm_ownership">
+          <label class="form-check-label" for="att_confirm_ownership">I certify I own/control the IP listed and have authority to license it.</label>
+        </div>
+        <div class="form-check mt-2">
+          <input class="form-check-input" type="checkbox" id="att_confirm_accuracy">
+          <label class="form-check-label" for="att_confirm_accuracy">Information provided is accurate to the best of my knowledge and I will notify Atlas of material changes.</label>
+        </div>
+        <div class="form-check mt-2">
+          <input class="form-check-input" type="checkbox" id="att_ack_no_legal">
+          <label class="form-check-label" for="att_ack_no_legal">I understand Atlas is not a law firm and is not providing legal/tax advice.</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between mt-4">
+      <button class="btn btn-outline-light" onclick="go(3)">← Back</button>
+      <button class="btn btn-primary" onclick="go(5)">Next → Agreement + Billing</button>
+    </div>
+  </div>
+
+  <!-- STEP 5 -->
+  <div class="card p-4 step" id="step5">
+    <h4>5) Participation Agreement + Billing Acknowledgment</h4>
+    <div class="row g-3">
+      <div class="col-md-4">
+        <label class="form-label">Agreement Effective Date</label>
+        <input class="form-control" id="pa_date" placeholder="YYYY-MM-DD">
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Atlas Fee</label>
+        <input class="form-control" value="20% of Gross Receipts (default)" disabled>
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Payout Timing</label>
+        <input class="form-control" value="Monthly (within 15 days after month-end)" disabled>
+      </div>
+
+      <div class="col-12 mt-2">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="pa_accept">
+          <label class="form-check-label" for="pa_accept">I agree to the Atlas Master IP Participation Agreement (Exclusive) and Exhibits as provided.</label>
+        </div>
+        <div class="form-check mt-2">
+          <input class="form-check-input" type="checkbox" id="billing_ack">
+          <label class="form-check-label" for="billing_ack">I acknowledge the Atlas Billing & Payout Policy (v1.0).</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between mt-4">
+      <button class="btn btn-outline-light" onclick="go(4)">← Back</button>
+      <button class="btn btn-primary" onclick="go(6)">Next → Review + Submit</button>
+    </div>
+  </div>
+
+  <!-- STEP 6 -->
+  <div class="card p-4 step" id="step6">
+    <h4>6) Review + Submit</h4>
+    <p class="muted">Submitting will create an onboarding record in Atlas and return an Onboarding ID.</p>
+
+    <pre class="mono p-3" style="background:#0d1522;border:1px solid #2a3a52;border-radius:8px;max-height:260px;overflow:auto" id="review"></pre>
+
+    <div class="alert alert-warning mt-3">
+      Make sure you added at least one IP Asset and accepted the required checkboxes.
+    </div>
+
+    <div class="d-flex justify-content-between mt-3">
+      <button class="btn btn-outline-light" onclick="go(5)">← Back</button>
+      <button class="btn btn-success" onclick="submitAll()">Submit Onboarding</button>
+    </div>
+
+    <div class="mt-3" id="result"></div>
+  </div>
+
+</div>
+
+<script>
+const LS_KEY = "atlas_onboard_draft_v1";
+let currentStep = 1;
+
+function qs(id){ return document.getElementById(id); }
+
+function saveDraft(){
+  const payload = buildPayload(false);
+  localStorage.setItem(LS_KEY, JSON.stringify(payload));
+  qs("saveStatus").textContent = "Draft: saved locally";
+}
+
+function loadDraft(){
+  const raw = localStorage.getItem(LS_KEY);
+  if(!raw) return;
+  try{
+    const d = JSON.parse(raw);
+    // owner
+    qs("owner_legal_name").value = d.owner?.legal_name || "";
+    qs("owner_entity_type").value = d.owner?.entity_type || "";
+    qs("owner_jurisdiction").value = d.owner?.jurisdiction || "";
+    qs("owner_email").value = d.owner?.email || "";
+    qs("owner_phone").value = d.owner?.phone || "";
+    qs("owner_address").value = d.owner?.address || "";
+
+    // nda
+    qs("nda_enabled").checked = !!d.nda?.enabled;
+    toggleNda();
+    qs("nda_date").value = d.nda?.effective_date || "";
+    qs("nda_counterparty_name").value = d.nda?.counterparty_name || "";
+    qs("nda_counterparty_type").value = d.nda?.counterparty_type || "";
+    qs("nda_non_solicit").checked = !!d.nda?.non_solicit;
+    qs("nda_residuals").checked = !!d.nda?.residuals;
+    qs("nda_signer_name").value = d.nda?.signer_name || "";
+    qs("nda_signer_title").value = d.nda?.signer_title || "";
+    qs("nda_accept").checked = !!d.nda?.accepted;
+
+    // assets
+    const assets = d.intake?.ip_assets || [];
+    qs("assets").innerHTML = "";
+    assets.forEach(a => addAsset(a));
+    if(assets.length === 0) addAsset();
+
+    qs("support_links").value = d.intake?.support_links || "";
+
+    // attestation
+    qs("att_date").value = d.attestation?.date || "";
+    qs("att_signer_name").value = d.attestation?.signer_name || "";
+    qs("att_signer_title").value = d.attestation?.signer_title || "";
+    qs("att_confirm_ownership").checked = !!d.attestation?.confirm_ownership;
+    qs("att_confirm_accuracy").checked = !!d.attestation?.confirm_accuracy;
+    qs("att_ack_no_legal").checked = !!d.attestation?.ack_no_legal;
+
+    // participation/billing
+    qs("pa_date").value = d.participation?.effective_date || "";
+    qs("pa_accept").checked = !!d.participation?.accepted;
+    qs("billing_ack").checked = !!d.billing_ack?.accepted;
+
+  }catch(e){}
+}
+
+function toggleNda(){
+  qs("nda_block").style.display = qs("nda_enabled").checked ? "block" : "none";
+  saveDraft();
+}
+
+qs("nda_enabled").addEventListener("change", toggleNda);
+
+// Add/remove assets
+let assetIdx = 0;
+function addAsset(prefill={}){
+  assetIdx++;
+  const id = "asset_" + assetIdx;
+
+  const card = document.createElement("div");
+  card.className = "card p-3 mb-3";
+  card.dataset.assetId = id;
+  card.innerHTML = `
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <div class="fw-bold">IP Asset</div>
+      <button class="btn btn-outline-danger btn-sm" onclick="removeAsset('${id}')">Remove</button>
+    </div>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <label class="form-label">Asset Title *</label>
+        <input class="form-control" data-k="title" value="${escapeHtml(prefill.title||"")}">
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">Asset Type</label>
+        <select class="form-select" data-k="asset_type">
+          ${opt(prefill.asset_type)}
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">Jurisdiction(s)</label>
+        <input class="form-control" data-k="jurisdictions" value="${escapeHtml(prefill.jurisdictions||"")}">
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Registration/Application No.</label>
+        <input class="form-control" data-k="reg_no" value="${escapeHtml(prefill.reg_no||"")}">
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Status</label>
+        <input class="form-control" data-k="status" value="${escapeHtml(prefill.status||"")}">
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Priority Date</label>
+        <input class="form-control" data-k="priority_date" value="${escapeHtml(prefill.priority_date||"")}">
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Inventor(s)/Author(s)</label>
+        <input class="form-control" data-k="inventors" value="${escapeHtml(prefill.inventors||"")}">
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Current Owner Entity</label>
+        <input class="form-control" data-k="current_owner_entity" value="${escapeHtml(prefill.current_owner_entity||"")}">
+      </div>
+      <div class="col-12">
+        <label class="form-label">Encumbrances / Prior Licenses (yes/no + describe)</label>
+        <input class="form-control" data-k="encumbrances" value="${escapeHtml(prefill.encumbrances||"")}">
+      </div>
+      <div class="col-12">
+        <label class="form-label">Plain-English Description *</label>
+        <textarea class="form-control" data-k="description" rows="2">${escapeHtml(prefill.description||"")}</textarea>
+      </div>
+      <div class="col-12">
+        <label class="form-label">Known competitors / target licensees (optional)</label>
+        <textarea class="form-control" data-k="targets" rows="2">${escapeHtml(prefill.targets||"")}</textarea>
+      </div>
+    </div>
+  `;
+  qs("assets").appendChild(card);
+  card.querySelectorAll("input,select,textarea").forEach(el => {
+    el.addEventListener("input", saveDraft);
+    el.addEventListener("change", saveDraft);
+  });
+  saveDraft();
+}
+
+function opt(sel){
+  const types = ["patent","software","hardware","trademark","trade_secret","copyright"];
+  const pretty = {
+    patent:"Patent", software:"Software", hardware:"Hardware",
+    trademark:"Trademark", trade_secret:"Trade Secret", copyright:"Copyright"
+  };
+  return ['<option value="">Select</option>'].concat(types.map(t => {
+    const s = (sel||"").toLowerCase() === t ? "selected" : "";
+    return `<option ${s} value="${t}">${pretty[t]}</option>`;
+  })).join("");
+}
+
+function removeAsset(assetId){
+  const nodes = [...document.querySelectorAll("[data-asset-id]")];
+  nodes.forEach(n => {
+    if(n.dataset.assetId === assetId) n.remove();
+  });
+  saveDraft();
+}
+
+function escapeHtml(str){
+  return (str||"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;");
+}
+
+function go(n){
+  currentStep = n;
+  document.querySelectorAll(".step").forEach(s => s.classList.remove("active"));
+  qs("step"+n).classList.add("active");
+  if(n === 6){
+    const payload = buildPayload(false);
+    qs("review").textContent = JSON.stringify(payload, null, 2);
+  }
+  saveDraft();
+}
+
+function buildPayload(forSubmit){
+  const owner = {
+    legal_name: qs("owner_legal_name").value.trim(),
+    entity_type: qs("owner_entity_type").value.trim(),
+    jurisdiction: qs("owner_jurisdiction").value.trim(),
+    email: qs("owner_email").value.trim(),
+    phone: qs("owner_phone").value.trim(),
+    address: qs("owner_address").value.trim()
+  };
+
+  const ndaEnabled = qs("nda_enabled").checked;
+  const nda = {
+    enabled: ndaEnabled,
+    effective_date: qs("nda_date").value.trim(),
+    counterparty_name: qs("nda_counterparty_name").value.trim(),
+    counterparty_type: qs("nda_counterparty_type").value.trim(),
+    non_solicit: qs("nda_non_solicit").checked,
+    residuals: qs("nda_residuals").checked,
+    signer_name: qs("nda_signer_name").value.trim(),
+    signer_title: qs("nda_signer_title").value.trim(),
+    accepted: ndaEnabled ? qs("nda_accept").checked : false
+  };
+
+  const ip_assets = [...document.querySelectorAll("#assets .card")].map(card => {
+    const get = (k) => (card.querySelector(`[data-k="${k}"]`)?.value || "").trim();
+    return {
+      title: get("title"),
+      asset_type: get("asset_type"),
+      jurisdictions: get("jurisdictions"),
+      reg_no: get("reg_no"),
+      status: get("status"),
+      priority_date: get("priority_date"),
+      inventors: get("inventors"),
+      current_owner_entity: get("current_owner_entity"),
+      encumbrances: get("encumbrances"),
+      description: get("description"),
+      targets: get("targets")
+    };
+  });
+
+  const intake = {
+    ip_assets,
+    support_links: qs("support_links").value.trim()
+  };
+
+  const attestation = {
+    date: qs("att_date").value.trim(),
+    signer_name: qs("att_signer_name").value.trim(),
+    signer_title: qs("att_signer_title").value.trim(),
+    confirm_ownership: qs("att_confirm_ownership").checked,
+    confirm_accuracy: qs("att_confirm_accuracy").checked,
+    ack_no_legal: qs("att_ack_no_legal").checked
+  };
+
+  const participation = {
+    effective_date: qs("pa_date").value.trim(),
+    accepted: qs("pa_accept").checked
+  };
+
+  const billing_ack = {
+    accepted: qs("billing_ack").checked
+  };
+
+  return { owner, nda, intake, attestation, participation, billing_ack };
+}
+
+function validate(payload){
+  const errs = [];
+  if(!payload.owner.legal_name) errs.push("Owner legal name is required.");
+  if(!payload.owner.email) errs.push("Owner email is required.");
+  if(!payload.intake.ip_assets || payload.intake.ip_assets.length < 1) errs.push("Add at least one IP asset.");
+  const anyValidAsset = payload.intake.ip_assets.some(a => a.title && a.description);
+  if(!anyValidAsset) errs.push("Each IP asset should include at least a title + description.");
+
+  if(payload.nda.enabled && !payload.nda.accepted) errs.push("If NDA is enabled, you must accept it (checkbox).");
+
+  if(!payload.attestation.signer_name) errs.push("Attestation signer name is required.");
+  if(!payload.attestation.confirm_ownership || !payload.attestation.confirm_accuracy || !payload.attestation.ack_no_legal)
+    errs.push("All attestation checkboxes must be checked.");
+
+  if(!payload.participation.accepted) errs.push("You must accept the Participation Agreement.");
+  if(!payload.billing_ack.accepted) errs.push("You must acknowledge the Billing & Payout Policy.");
+
+  return errs;
+}
+
+async function submitAll(){
+  const payload = buildPayload(true);
+  const errs = validate(payload);
+  const result = qs("result");
+  result.innerHTML = "";
+
+  if(errs.length){
+    result.innerHTML = `<div class="alert alert-danger"><b>Fix these first:</b><ul>${errs.map(e=>`<li>${e}</li>`).join("")}</ul></div>`;
+    return;
+  }
+
+  qs("saveStatus").textContent = "Submitting...";
+  try{
+    const r = await fetch("/api/atlas/onboarding", {
+      method:"POST",
+      headers:{ "Content-Type":"application/json" },
+      body: JSON.stringify(payload)
+    });
+    const j = await r.json();
+    if(!r.ok){
+      result.innerHTML = `<div class="alert alert-danger"><b>Submit failed:</b> ${escapeHtml(j.detail || "Unknown error")}</div>`;
+      qs("saveStatus").textContent = "Draft: saved locally";
+      return;
+    }
+    localStorage.removeItem(LS_KEY);
+    result.innerHTML = `<div class="alert alert-success">
+      <b>Submitted.</b> Your Atlas Onboarding ID is <span class="mono">${j.onboarding_id}</span>.
+      <div class="muted mt-2">We’ll review verification items and follow up if anything is missing.</div>
+    </div>`;
+    qs("saveStatus").textContent = "Submitted";
+  }catch(e){
+    result.innerHTML = `<div class="alert alert-danger"><b>Submit failed:</b> ${escapeHtml(String(e))}</div>`;
+    qs("saveStatus").textContent = "Draft: saved locally";
+  }
+}
+
+document.querySelectorAll("input,select,textarea").forEach(el=>{
+  el.addEventListener("input", saveDraft);
+  el.addEventListener("change", saveDraft);
+});
+
+loadDraft();
+if(document.querySelectorAll("#assets .card").length === 0) addAsset();
+</script>
+</body>
+</html>
