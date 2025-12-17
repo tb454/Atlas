@@ -11,13 +11,14 @@ async function logout(){
 }
 
 function showTab(name){
-  ["onboarding","vault","owners","assets"].forEach(t=>{
+  ["onboarding","vault","owners","assets","docs"].forEach(t=>{
     document.getElementById("tab_"+t).style.display = (t===name) ? "block" : "none";
   });
   if(name==="onboarding") renderOnboarding();
   if(name==="vault") renderVault();
   if(name==="owners") renderOwners();
   if(name==="assets") renderAssets();
+  if(name==="docs") renderDocs();
 }
 
 async function renderOnboarding(){
@@ -309,3 +310,45 @@ async function refreshAssets(){
   }
   showTab("onboarding");
 })();
+
+async function renderDocs(){
+  const el = document.getElementById("tab_docs");
+  el.innerHTML = `
+    <h4>Documents</h4>
+    <div class="muted mb-3">Executed PDFs generated on approval (stored in Atlas).</div>
+    <div class="row g-2 mb-3">
+      <div class="col-md-6">
+        <input id="docs_owner_id" class="form-control form-control-sm" placeholder="Filter by owner_id (optional)">
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-outline-light btn-sm w-100" onclick="refreshDocs()">Refresh</button>
+      </div>
+    </div>
+    <div id="docs_table"></div>
+  `;
+  await refreshDocs();
+}
+
+async function refreshDocs(){
+  const ownerId = (document.getElementById("docs_owner_id")?.value || "").trim();
+  const q = ownerId ? `?owner_id=${encodeURIComponent(ownerId)}&limit=200` : `?limit=200`;
+  const data = await api(`/api/admin/docs${q}`);
+  const rows = data.items || [];
+  document.getElementById("docs_table").innerHTML = rows.length ? `
+    <table class="table table-dark table-sm">
+      <thead><tr>
+        <th>Date</th><th>Owner</th><th>Email</th><th>Type</th><th>Version</th><th></th>
+      </tr></thead>
+      <tbody>${rows.map(r=>`
+        <tr>
+          <td>${new Date(r.created_at).toLocaleString()}</td>
+          <td>${r.owner_name||""}</td>
+          <td>${r.owner_email||""}</td>
+          <td>${r.doc_type}</td>
+          <td class="mono">${r.doc_version||""}</td>
+          <td><a class="btn btn-outline-light btn-sm" href="/api/admin/docs/${r.id}/download">Download</a></td>
+        </tr>
+      `).join("")}</tbody>
+    </table>
+  ` : `<div class="muted">No documents yet.</div>`;
+}

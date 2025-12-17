@@ -13,6 +13,10 @@ from starlette.middleware.trustedhost import TrustedHostMiddleware
 from starlette.middleware.cors import CORSMiddleware
 from sqlalchemy import create_engine, text
 from sqlalchemy.engine import Engine
+from reportlab.pdfgen import canvas
+from reportlab.lib.pagesizes import letter
+from reportlab.lib.units import inch
+from reportlab.lib import colors
 
 
 # ----------------------------
@@ -46,6 +50,9 @@ def client_ip(request: Request) -> str | None:
 
 VAULT_DIR = pathlib.Path(_env("ATLAS_VAULT_DIR", "./vault_storage")).resolve()
 VAULT_DIR.mkdir(parents=True, exist_ok=True)
+
+DOCS_DIR = (VAULT_DIR / "docs").resolve()
+DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
 ADMIN_EMAIL = _env("ATLAS_ADMIN_EMAIL", "admin@atlas.local").lower().strip()
 ADMIN_PASSWORD = _env("ATLAS_ADMIN_PASSWORD", "ChangeMeNow123!")
@@ -108,6 +115,16 @@ create table if not exists ip_owners (
   email text,
   phone text
 );
+
+alter table if exists atlas_users
+  add column if not exists owner_id uuid;
+
+alter table if exists atlas_users
+  add constraint if not exists fk_atlas_users_owner_id
+  foreign key (owner_id) references ip_owners(id) on delete set null;
+
+create index if not exists idx_atlas_users_owner_id on atlas_users(owner_id);
+
 
 create table if not exists ip_assets (
   id uuid primary key default gen_random_uuid(),
@@ -173,9 +190,11 @@ create table if not exists atlas_onboarding_submissions (
   status text not null default 'submitted',
 
   owner_email text,
-  owner_name text,
+  owner_name text,  
   entity_type text,
   jurisdiction text,
+
+  owner_json jsonb,
 
   nda_json jsonb,
   intake_json jsonb,
@@ -190,6 +209,15 @@ create table if not exists atlas_onboarding_submissions (
   user_agent text,
   ip_address text
 );
+
+alter table if exists atlas_onboarding_submissions
+  add column if not exists approved_owner_id uuid references ip_owners(id) on delete set null;
+
+alter table if exists atlas_onboarding_submissions
+  add column if not exists approved_user_id uuid references atlas_users(id) on delete set null;
+
+alter table if exists atlas_onboarding_submissions
+  add column if not exists approved_at timestamptz;
 
 create index if not exists idx_atlas_onboarding_created_at on atlas_onboarding_submissions (created_at desc);
 create index if not exists idx_atlas_onboarding_owner_email on atlas_onboarding_submissions (owner_email);
@@ -225,6 +253,22 @@ create table if not exists vault_objects (
 
 create index if not exists idx_vault_objects_created on vault_objects(created_at desc);
 create index if not exists idx_vault_objects_source on vault_objects(source_key);
+
+create table if not exists atlas_documents (
+  id uuid primary key default gen_random_uuid(),
+  created_at timestamptz not null default now(),
+  owner_id uuid references ip_owners(id) on delete cascade,
+  onboarding_id uuid references atlas_onboarding_submissions(id) on delete set null,
+
+  doc_type text not null, -- nda / attestation / mippa_ack / billing_ack / zip_pack
+  doc_version text,
+  filename text not null,
+  sha256 text not null,
+  stored_path text not null
+);
+
+create index if not exists idx_atlas_documents_owner on atlas_documents(owner_id);
+create index if not exists idx_atlas_documents_created on atlas_documents(created_at desc);
 
 create table if not exists vault_access_logs (
   id uuid primary key default gen_random_uuid(),
@@ -379,7 +423,8 @@ async def approve_onboarding(onboarding_id: str, request: Request):
     with eng.begin() as conn:
         sub = conn.execute(text("""
           select id, status, owner_email, owner_name, entity_type, jurisdiction,
-                 owner_json, intake_json, doc_versions_json
+            owner_json, intake_json, doc_versions_json,
+            nda_json, attestation_json, participation_json, billing_ack_json
           from atlas_onboarding_submissions
           where id = :id::uuid
         """), {"id": onboarding_id}).fetchone()
@@ -392,6 +437,11 @@ async def approve_onboarding(onboarding_id: str, request: Request):
 
         owner_json = sub.owner_json or {}
         intake_json = sub.intake_json or {}
+        doc_versions = sub.doc_versions_json or {}
+        nda_json = sub.nda_json or {}
+        att_json = sub.attestation_json or {}
+        part_json = sub.participation_json or {}
+        bill_json = sub.billing_ack_json or {}
         ip_assets = (intake_json.get("ip_assets") or [])
 
         # Create ip_owners
@@ -463,6 +513,134 @@ async def approve_onboarding(onboarding_id: str, request: Request):
               approved_at = now()
           where id = :sid::uuid
         """), {"oid": owner_id, "uid": user_id, "sid": onboarding_id})
+
+        # Generate executed PDFs + store in atlas_documents
+       
+        owner_name_exec = (owner_json.get("legal_name") or sub.owner_name or "").strip()
+        owner_email_exec = (owner_json.get("email") or sub.owner_email or "").strip()
+        signer_name = (att_json.get("signer_name") or "").strip()
+        signer_title = (att_json.get("signer_title") or "").strip()
+        att_date = (att_json.get("date") or "").strip()
+
+        # doc versions (from onboarding page hidden fields)
+        mippa_ver = str(doc_versions.get("mippa_version") or "Atlas-MIPPA-v1")
+        billing_ver = str(doc_versions.get("billing_policy_version") or "Atlas-Billing-Payout-Policy-v1")
+        nda_ver = str(doc_versions.get("nda_version") or "Atlas-NDA-v1")
+
+        # 1) NDA executed cert (only if enabled)
+        if bool(nda_json.get("enabled")):
+            nda_out = DOCS_DIR / f"nda_exec_{onboarding_id}_{_safe_filename(owner_email_exec)}.pdf"
+            _write_exec_pdf(
+                out_path=nda_out,
+                title="Executed NDA Acknowledgment",
+                subtitle="Atlas Mutual NDA • executed record",
+                fields=[
+                    ("Owner / Counterparty", owner_name_exec),
+                    ("Email", owner_email_exec),
+                    ("Effective Date", str(nda_json.get("effective_date") or "")),
+                    ("Counterparty Name", str(nda_json.get("counterparty_name") or "")),
+                    ("Counterparty Type", str(nda_json.get("counterparty_type") or "")),
+                    ("Signer Name (typed)", str(nda_json.get("signer_name") or "")),
+                    ("Signer Title", str(nda_json.get("signer_title") or "")),
+                    ("Non-Solicit Included", "YES" if nda_json.get("non_solicit") else "NO"),
+                    ("Residuals Included", "YES" if nda_json.get("residuals") else "NO"),
+                    ("Doc Version", nda_ver),
+                ],
+            )
+            nda_sha = sha256_file(nda_out)
+            _store_document_row(
+                conn=conn,
+                owner_id=owner_id,
+                onboarding_id=onboarding_id,
+                doc_type="nda",
+                doc_version=nda_ver,
+                filename=nda_out.name,
+                stored_path=nda_out,
+                sha256=nda_sha,
+            )
+
+        # 2) Attestation executed cert
+        att_out = DOCS_DIR / f"attestation_exec_{onboarding_id}_{_safe_filename(owner_email_exec)}.pdf"
+        _write_exec_pdf(
+            out_path=att_out,
+            title="Executed Owner Attestation",
+            subtitle="IP Owner Attestation & Authorization • executed record",
+            fields=[
+                ("Owner Legal Name", owner_name_exec),
+                ("Owner Email", owner_email_exec),
+                ("Signer Name (typed)", signer_name),
+                ("Signer Title", signer_title),
+                ("Attestation Date", att_date),
+                ("Confirm Ownership", "YES" if att_json.get("confirm_ownership") else "NO"),
+                ("Confirm Accuracy", "YES" if att_json.get("confirm_accuracy") else "NO"),
+                ("Ack No Legal/Tax Advice", "YES" if att_json.get("ack_no_legal") else "NO"),
+                ("Doc Version", "Atlas-IP-Owner-Attestation-v1"),
+            ],
+        )
+        att_sha = sha256_file(att_out)
+        _store_document_row(
+            conn=conn,
+            owner_id=owner_id,
+            onboarding_id=onboarding_id,
+            doc_type="attestation",
+            doc_version="Atlas-IP-Owner-Attestation-v1",
+            filename=att_out.name,
+            stored_path=att_out,
+            sha256=att_sha,
+        )
+
+        # 3) Participation Agreement acceptance cert
+        pa_out = DOCS_DIR / f"mippa_ack_{onboarding_id}_{_safe_filename(owner_email_exec)}.pdf"
+        _write_exec_pdf(
+            out_path=pa_out,
+            title="Participation Agreement Acceptance",
+            subtitle="Atlas Master IP Participation Agreement • acceptance record",
+            fields=[
+                ("Owner Legal Name", owner_name_exec),
+                ("Owner Email", owner_email_exec),
+                ("Agreement Effective Date", str(part_json.get("effective_date") or "")),
+                ("Accepted", "YES" if part_json.get("accepted") else "NO"),
+                ("Fee", "20% of Gross Receipts (default)"),
+                ("Doc Version", mippa_ver),
+            ],
+        )
+        pa_sha = sha256_file(pa_out)
+        _store_document_row(
+            conn=conn,
+            owner_id=owner_id,
+            onboarding_id=onboarding_id,
+            doc_type="mippa_ack",
+            doc_version=mippa_ver,
+            filename=pa_out.name,
+            stored_path=pa_out,
+            sha256=pa_sha,
+        )
+
+        # 4) Billing Policy acceptance cert
+        bp_out = DOCS_DIR / f"billing_ack_{onboarding_id}_{_safe_filename(owner_email_exec)}.pdf"
+        _write_exec_pdf(
+            out_path=bp_out,
+            title="Billing & Payout Policy Acknowledgment",
+            subtitle="Atlas Billing & Payout Policy • acceptance record",
+            fields=[
+                ("Owner Legal Name", owner_name_exec),
+                ("Owner Email", owner_email_exec),
+                ("Accepted", "YES" if bill_json.get("accepted") else "NO"),
+                ("Doc Version", billing_ver),
+            ],
+        )
+        bp_sha = sha256_file(bp_out)
+        _store_document_row(
+            conn=conn,
+            owner_id=owner_id,
+            onboarding_id=onboarding_id,
+            doc_type="billing_ack",
+            doc_version=billing_ver,
+            filename=bp_out.name,
+            stored_path=bp_out,
+            sha256=bp_sha,
+        )
+
 
         # audit log
         conn.execute(text("""
@@ -554,18 +732,21 @@ async def submit_onboarding(payload: Dict[str, Any], request: Request):
         row = conn.execute(text("""
             insert into atlas_onboarding_submissions
               (owner_email, owner_name, entity_type, jurisdiction,
-               nda_json, intake_json, attestation_json, participation_json, billing_ack_json, doc_versions_json,
-               ip_assets_count, user_agent, ip_address)
+              owner_json,
+              nda_json, intake_json, attestation_json, participation_json, billing_ack_json, doc_versions_json,
+              ip_assets_count, user_agent, ip_address)
             values
               (:owner_email, :owner_name, :entity_type, :jurisdiction,
-               :nda_json::jsonb, :intake_json::jsonb, :attestation_json::jsonb, :participation_json::jsonb, :billing_ack_json::jsonb, :doc_versions_json::jsonb,
-               :ip_assets_count, :user_agent, :ip_address)
+              :owner_json::jsonb,
+              :nda_json::jsonb, :intake_json::jsonb, :attestation_json::jsonb, :participation_json::jsonb, :billing_ack_json::jsonb, :doc_versions_json::jsonb,
+              :ip_assets_count, :user_agent, :ip_address)
             returning id
         """), {
             "owner_email": owner_email,
             "owner_name": owner_name,
             "entity_type": entity_type,
             "jurisdiction": jurisdiction,
+            "owner_json": json.dumps(owner),
             "nda_json": json.dumps(nda),
             "intake_json": json.dumps(intake),
             "attestation_json": json.dumps(att),
@@ -663,6 +844,80 @@ async def set_onboarding_status(onboarding_id: str, payload: Dict[str, Any], req
 # ----------------------------
 # Vault: ingest + list + download (admin)
 # ----------------------------
+
+def _safe_filename(name: str) -> str:
+    keep = "._-"
+    return "".join(c for c in name if c.isalnum() or c in keep)[:180] or "doc"
+
+def _write_exec_pdf(
+    *,
+    out_path: pathlib.Path,
+    title: str,
+    subtitle: str,
+    fields: list[tuple[str, str]],
+):
+    c = canvas.Canvas(str(out_path), pagesize=letter)
+    w, h = letter
+
+    # header bar
+    c.setFillColor(colors.HexColor("#0b0f14"))
+    c.rect(0, h-0.9*inch, w, 0.9*inch, fill=1, stroke=0)
+    c.setFillColor(colors.white)
+    c.setFont("Helvetica-Bold", 16)
+    c.drawString(0.75*inch, h-0.55*inch, title)
+    c.setFont("Helvetica", 10)
+    c.setFillColor(colors.HexColor("#c7d2e0"))
+    c.drawString(0.75*inch, h-0.78*inch, subtitle)
+
+    # body
+    y = h - 1.3*inch
+    c.setFillColor(colors.black)
+    c.setFont("Helvetica", 10)
+
+    for label, value in fields:
+        if y < 1.0*inch:
+            c.showPage()
+            y = h - 1.0*inch
+            c.setFont("Helvetica", 10)
+        c.setFillColor(colors.HexColor("#111826"))
+        c.setFont("Helvetica-Bold", 10)
+        c.drawString(0.75*inch, y, f"{label}:")
+        c.setFillColor(colors.black)
+        c.setFont("Helvetica", 10)
+        c.drawString(2.3*inch, y, value or "")
+        y -= 0.28*inch
+
+    # footer
+    c.setFont("Helvetica", 9)
+    c.setFillColor(colors.HexColor("#6b7a90"))
+    c.drawRightString(w-0.75*inch, 0.5*inch, f"Generated by Atlas • {utcnow().isoformat()}")
+    c.save()
+
+def _store_document_row(
+    *,
+    conn,
+    owner_id: str,
+    onboarding_id: str | None,
+    doc_type: str,
+    doc_version: str,
+    filename: str,
+    stored_path: pathlib.Path,
+    sha256: str,
+):
+    conn.execute(text("""
+        insert into atlas_documents
+          (owner_id, onboarding_id, doc_type, doc_version, filename, sha256, stored_path)
+        values
+          (:owner_id::uuid, :onboarding_id::uuid, :doc_type, :doc_version, :filename, :sha256, :stored_path)
+    """), {
+        "owner_id": owner_id,
+        "onboarding_id": onboarding_id,
+        "doc_type": doc_type,
+        "doc_version": doc_version,
+        "filename": filename,
+        "sha256": sha256,
+        "stored_path": str(stored_path),
+    })
 
 def sha256_file(path: pathlib.Path) -> str:
     h = hashlib.sha256()
@@ -889,6 +1144,84 @@ async def list_assets(request: Request, limit: int = Query(50, ge=1, le=200)):
           limit :limit
         """), {"limit": limit}).fetchall()
     return {"ok": True, "items": [dict(r._mapping) for r in rows]}
+
+# ----------------------------
+# Documents: Owner + Admin
+# ----------------------------
+
+@app.get("/api/owner/docs")
+async def owner_docs(request: Request, limit: int = Query(200, ge=1, le=500)):
+    owner_id = require_owner(request)
+    eng = get_engine()
+    with eng.begin() as conn:
+        rows = conn.execute(text("""
+          select id, created_at, doc_type, doc_version, filename, sha256
+          from atlas_documents
+          where owner_id = :oid::uuid
+          order by created_at desc
+          limit :limit
+        """), {"oid": owner_id, "limit": limit}).fetchall()
+    return {"ok": True, "items": [dict(r._mapping) for r in rows]}
+
+@app.get("/api/owner/docs/{doc_id}/download")
+async def owner_doc_download(doc_id: str, request: Request):
+    owner_id = require_owner(request)
+    eng = get_engine()
+    with eng.begin() as conn:
+        r = conn.execute(text("""
+          select id, owner_id, filename, stored_path
+          from atlas_documents
+          where id = :id::uuid
+        """), {"id": doc_id}).fetchone()
+    if not r or str(r.owner_id) != str(owner_id):
+        raise HTTPException(status_code=404, detail="Not found")
+    path = pathlib.Path(r.stored_path)
+    if not path.exists():
+        raise HTTPException(status_code=500, detail="Stored file missing on server")
+    return FileResponse(str(path), media_type="application/pdf", filename=r.filename)
+
+@app.get("/api/admin/docs")
+async def admin_docs(request: Request, owner_id: str = Query(""), limit: int = Query(200, ge=1, le=500)):
+    require_admin(request)
+    eng = get_engine()
+    with eng.begin() as conn:
+        if owner_id.strip():
+            rows = conn.execute(text("""
+              select d.id, d.created_at, d.doc_type, d.doc_version, d.filename, d.sha256,
+                     o.legal_name as owner_name, o.email as owner_email
+              from atlas_documents d
+              left join ip_owners o on o.id = d.owner_id
+              where d.owner_id = :oid::uuid
+              order by d.created_at desc
+              limit :limit
+            """), {"oid": owner_id, "limit": limit}).fetchall()
+        else:
+            rows = conn.execute(text("""
+              select d.id, d.created_at, d.doc_type, d.doc_version, d.filename, d.sha256,
+                     o.legal_name as owner_name, o.email as owner_email
+              from atlas_documents d
+              left join ip_owners o on o.id = d.owner_id
+              order by d.created_at desc
+              limit :limit
+            """), {"limit": limit}).fetchall()
+    return {"ok": True, "items": [dict(r._mapping) for r in rows]}
+
+@app.get("/api/admin/docs/{doc_id}/download")
+async def admin_doc_download(doc_id: str, request: Request):
+    require_admin(request)
+    eng = get_engine()
+    with eng.begin() as conn:
+        r = conn.execute(text("""
+          select id, filename, stored_path
+          from atlas_documents
+          where id = :id::uuid
+        """), {"id": doc_id}).fetchone()
+    if not r:
+        raise HTTPException(status_code=404, detail="Not found")
+    path = pathlib.Path(r.stored_path)
+    if not path.exists():
+        raise HTTPException(status_code=500, detail="Stored file missing on server")
+    return FileResponse(str(path), media_type="application/pdf", filename=r.filename)
 
 @app.get("/health")
 async def health():
